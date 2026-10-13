@@ -192,7 +192,18 @@ def read_xlsx(data):
                                 value = v.text
                         cells[index - 1] = value
                     if cells:
-                        rows.append([cells.get(i, "") for i in range(max(cells) + 1)])
+                        try:
+                            source_row = int(row.get("r", len(rows) + 1))
+                        except ValueError:
+                            source_row = len(rows) + 1
+                        if not 1 <= source_row <= 50000:
+                            continue
+                        # Preserve blank worksheet rows so references point to
+                        # actual Excel row numbers, not compressed row offsets.
+                        while len(rows) < source_row - 1:
+                            rows.append([])
+                        if len(rows) == source_row - 1:
+                            rows.append([cells.get(i, "") for i in range(max(cells) + 1)])
                     if len(rows) >= 50000:
                         break
                 result.append((sh.get("name") or "Sheet", rows))
@@ -207,7 +218,7 @@ FIELDS = {
     "amount": [r"(?i)(award(ed)?|contract|total)\s+(amount|value|sum|price)",
                r"(?i)(amount|value|price|cost)\s+(awarded|of\s+contract)",
                r"(?i)contract\s+sum", r"(?i)^(amount|value)\s*(\(\$\))?$"],
-    "agency": [r"(?i)(procuring|purchasing|awarding)\s+(entity|agency|department|ministry)",
+    "agency": [r"(?i)(procuring|procurement|purchasing|awarding)\s+(entity|agency|department|ministry)",
                r"(?i)^(ministry|department|agency|public\s+body|entity)$"],
     "description": [r"(?i)^(project|description|contract\s+description|name\s+of\s+project|goods/works/services|procurement\s+description|contract\s+title|tender\s+title)(\s+.*)?$"],
     "date": [r"(?i)^(date\s+of\s+award|award\s+date|date\s+awarded)$"],
