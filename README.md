@@ -11,6 +11,7 @@ A **source-backed, internal-first procurement intelligence workspace** for Pears
 - Import public award records as JSON; reject invalid XLSX responses and quarantine unknown layouts.
 - Compare the Project Awards totals against the official **Awarded Contracts Summary** for each reporting month that has a summary link. Previously verified reconciliations may be reused only when the source-record signature is unchanged; cached periods are explicitly flagged.
 - Explore source records in a read-only dashboard with searches, filters, top suppliers, agencies, agency group totals and CSV exports.
+- Review the source-backed **Opportunity Radar** with published Bonfire references, dates, buyer names, and explainable matches to PLV businesses. This is a **dated capture**, not real-time guaranteed tender availability.
 - Run automated Python tests and dashboard JavaScript checks.
 - Attempt broader historical imports each **Monday**, with audit artifacts saved even if an import fails.
 
@@ -23,6 +24,17 @@ All official records are preserved in `data/public/awards.json`. A separate `qua
 The July 2026 Project Awards workbook yielded **170 award records** and **129 normalized supplier names** across **22 agency codes**. The project-row nominal total (**29,402,595.24**) matches the government's July awarded-contract summary within floating-point tolerance. This is **reported award value, not cash paid**, and some original contract titles contain "Duplicate". Preserve those source rows until the underlying tender and award references are reviewed.
 
 [Source July Project Awards](https://mofvendors.gov.bs/wp-content/uploads/2026/09/BAHAMAS-PUBLIC-PROCUREMENT-PROJECT-AWARDS-REPORT-JULY-1-31-2026.xlsx) · [Source July Summary](https://mofvendors.gov.bs/wp-content/uploads/2026/09/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-JULY-1-31-2026.xlsx)
+
+## Opportunity Radar without Cloudflare tokens
+
+The October 13 Bonfire browser-observed listing snapshot is preserved in `data/sources/bonfire-2026-10-13.json`. It contains official tender URLs, titles, agencies and deadlines only. The `scripts/radar.mjs` normalization tool rejects non-Bonfire URLs, invalid deadlines and repeated IDs; its keyword-based PLV matches are documented research leads, not bid eligibility opinions.
+
+```bash
+node --test tests/radar.test.mjs
+node scripts/radar.mjs data/sources/bonfire-2026-10-13.json data/public/opportunities.json
+```
+
+The checked-in normalized snapshot is displayed on the Opportunity Radar screen, together with the source date, expiry state and official Bonfire links. **The date must advance only when a new official listing scan has actually occurred.** Do not reuse an old snapshot and claim to have checked today.
 
 ## Deploy to Cloudflare Pages
 

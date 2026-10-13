@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'dashboard/**'
+      - 'scripts/radar.mjs'
+      - 'tests/radar.test.mjs'
       - 'functions/**'
       - 'server/**'
       - 'scripts/build-site.mjs'
@@ -35,6 +37,8 @@ jobs:
         run: |
           node --check dashboard/app.js
           node --check dashboard/private.js
+          node --check dashboard/radar.js
+          node --check scripts/radar.mjs
           node --check server/access-auth.js
           node --check functions/api/private/_middleware.js
           node --check functions/api/private/session.js
@@ -43,7 +47,7 @@ jobs:
       - name: Validate D1 provisioner syntax (no credentials)
         run: python -m py_compile scripts/provision-cloudflare.py
       - name: Unit and static build tests
-        run: node --test tests/build-site.test.mjs tests/private-security.test.mjs
+        run: node --test tests/build-site.test.mjs tests/private-security.test.mjs tests/radar.test.mjs
       - name: Compile actual Cloudflare Pages Functions
         run: npx --yes wrangler@4 pages functions build functions --outdir=.tmp/functions-bundle --compatibility-date=2026-10-12
       - name: Check committed dataset integrity
