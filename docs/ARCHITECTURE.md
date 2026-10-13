@@ -22,10 +22,10 @@ Spending overview; contract award explorer; supplier profiles; agency profiles; 
 Assess actual supplier demand, data availability/licensing, pricing, confidentiality and uptime before launching publicly.
 
 ## Run and test
-\`\`\`bash
+```bash
 python -m unittest discover -s tests -v
 python scripts/procurement.py --output data/public --max-pages 45 --max-reports 40
-\`\`\`
+```
 GitHub Actions runs tests and ingestion every Monday, and stores an ingestion audit artifact even when imports fail. An unsuccessful run does not overwrite committed awards.
 
 ## Data interpretation
