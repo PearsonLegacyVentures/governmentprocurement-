@@ -1,0 +1,60 @@
+name: Refresh public Bahamas Bonfire opportunities
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 12 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: bonfire-live-public-snapshot
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install public browser capture dependency
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install chromium
+      - name: Capture current official open opportunities
+        run: node scripts/sync-bonfire.mjs data/sources/bonfire-latest.json
+      - name: Verify schema, links, deadlines and venture matches
+        run: |
+          node --test tests/radar.test.mjs
+          node scripts/radar.mjs data/sources/bonfire-latest.json data/public/opportunities.json
+          node --input-type=module - <<'JS'
+          import {readFileSync} from "node:fs";
+          const d=JSON.parse(readFileSync("data/public/opportunities.json","utf8"));
+          const age=Date.now()-Date.parse(d.metadata.captured_at);
+          if(!(age>=0&&age<12*60*60*1000))throw Error("Refusing to publish stale capture.");
+          if(d.opportunities.length<1)throw Error("No verified Bonfire opportunities found.");
+          const ids=new Set(d.opportunities.map(x=>x.id));
+          if(ids.size!==d.opportunities.length)throw Error("Duplicate official tender references");
+          console.log("Verified new snapshot:",d.opportunities.length,"entries.");
+          JS
+      - name: Commit source snapshot and normalized radar
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/sources/bonfire-latest.json data/public/opportunities.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: refresh verified Bonfire open opportunities'
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi
+      - name: Retain capture audit for troubleshooting
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bonfire-public-snapshot-audit
+          path: |
+            data/sources/bonfire-latest.json
+            data/public/opportunities.json
+          if-no-files-found: warn
+          retention-days: 14
