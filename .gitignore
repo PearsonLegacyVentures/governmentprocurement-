@@ -5,3 +5,7 @@ __pycache__/
 .env.*
 data/raw/
 .tmp/
+dist/
+.dev.vars
+.dev.vars.*
+.wrangler/

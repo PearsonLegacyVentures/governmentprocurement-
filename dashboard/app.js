@@ -65,11 +65,11 @@ $("#agency-filter").addEventListener("change",e=>{state.agency=e.target.value;re
 $("#period-filter").addEventListener("change",e=>{state.period=e.target.value;render()});
 $("#export").addEventListener("click",exportCsv);
 (async()=>{try{const [awards,status,manifest,reconciliation,quality,analytics]=await Promise.all([
-fetch("../data/public/awards.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("No verified award dataset has been imported yet.");return r.json()}),
-fetch("../data/public/import_status.json",{cache:"no-store"}).then(r=>r.ok?r.json():null),
-fetch("../data/public/source_manifest.json",{cache:"no-store"}).then(r=>r.ok?r.json():null),
-fetch("../data/public/reconciliation.json",{cache:"no-store"}).then(r=>r.ok?r.json():null),
-fetch("../data/public/quality_report.json",{cache:"no-store"}).then(r=>r.ok?r.json():null),
-fetch("../data/public/analytics.json",{cache:"no-store"}).then(r=>r.ok?r.json():null)
+fetch("/data/public/awards.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("No verified award dataset has been imported yet.");return r.json()}),
+fetch("/data/public/import_status.json",{cache:"no-store"}).then(r=>r.ok?r.json():null),
+fetch("/data/public/source_manifest.json",{cache:"no-store"}).then(r=>r.ok?r.json():null),
+fetch("/data/public/reconciliation.json",{cache:"no-store"}).then(r=>r.ok?r.json():null),
+fetch("/data/public/quality_report.json",{cache:"no-store"}).then(r=>r.ok?r.json():null),
+fetch("/data/public/analytics.json",{cache:"no-store"}).then(r=>r.ok?r.json():null)
 ]);state.awards=Array.isArray(awards.awards)?awards.awards:[];state.status=status;state.manifest=manifest;state.reconciliation=reconciliation;state.quality=quality;state.analytics=analytics;if(!quality){state.qualityMode="all";$("#quality-filter").value="all";state.error="Quality audit unavailable. All source rows are shown without validated ranking eligibility."}$("#last-updated").textContent=awards.meta&&awards.meta.generated_at?new Date(awards.meta.generated_at).toLocaleDateString("en-BS"):"Unknown";repopulate()}catch(err){state.error=err.message+" Run the ingestion workflow first; no placeholder figures are shown.";$("#last-updated").textContent="Not imported"}render()})();
 })();
