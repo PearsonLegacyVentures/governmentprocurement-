@@ -29,6 +29,19 @@ def prefix(text):
     words = [x for x in re.findall(r"[a-z]+", text.lower()) if x not in STOP]
     return " ".join(words[:5]) if len(words) >= 3 else None
 
+def quality_of(record, summary_checks):
+    """Classification for financial comparison, not a judgment on awards."""
+    if not record.get("award_date_iso"):
+        return "undated"
+    check = summary_checks.get(record.get("report_period")) or {}
+    return {
+        "totals_match": "reconciled",
+        "totals_mismatch": "summary_mismatch",
+        "summary_layout_unmapped": "summary_unmapped",
+        "summary_unavailable": "summary_unavailable",
+        "missing_official_summary_link": "no_summary",
+    }.get(check.get("status"), "no_summary")
+
 def aggregate(rows):
     suppliers = defaultdict(lambda: {"rows":0,"value":Decimal(0),"periods":set(),"agencies":set(),"names":set()})
     agencies = defaultdict(lambda: {"rows":0,"value":Decimal(0),"periods":set(),"names":set()})
@@ -92,9 +105,38 @@ def main():
     options = p.parse_args()
     f = options.output / "awards.json"
     rows = json.loads(f.read_text())["awards"]
-    result = aggregate(rows)
+    checks_file = options.output / "reconciliation.json"
+    checks = json.loads(checks_file.read_text()).get("checks", []) if checks_file.exists() else []
+    by_period = {c["period"]: c for c in checks if c.get("period")}
+    flags = {r["id"]: quality_of(r, by_period) for r in rows}
+    from collections import Counter
+    counts = dict(Counter(flags.values()))
+    # Supplier rankings use only fully reconciled, dated records.
+    # All other official records remain available in the raw award explorer.
+    eligible = [r for r in rows if flags[r["id"]] == "reconciled"]
+    result = aggregate(eligible)
+    result["source_record_count"] = len(rows)
+    result["ranked_record_count"] = len(eligible)
+    result["excluded_from_rankings"] = len(rows) - len(eligible)
+    result["quality_counts"] = counts
+    result["quality_method"] = "Only records with a parsed award date AND matching official period summary appear in comparative financial rankings."
+    result["disclosures"].append("Historical supplier and agency rankings exclude undated or unreconciled source rows by default.")
     (options.output / "analytics.json").write_text(json.dumps(result, indent=2, ensure_ascii=False)+"\n")
-    print("ANALYTICS_SOURCE_ROWS", result["total_source_rows"], "REPEAT_CANDIDATES", len(result["repeat_title_prefix_candidates"]))
+    quality_report = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "source_record_count": len(rows),
+        "ranked_record_count": len(eligible),
+        "quality_counts": counts,
+        "quality_by_record_id": flags,
+        "summary_checks": {k: c.get("status") for k,c in by_period.items()},
+        "quality_method": result["quality_method"],
+        "cautions": ["Source-backed does not mean summary-reconciled.",
+                     "A missing award date can reflect a historical format, not an invalid award.",
+                     "No contract-award figure is confirmed as government cash disbursed."]
+    }
+    (options.output / "quality_report.json").write_text(json.dumps(quality_report, indent=2, ensure_ascii=False)+"\n")
+    print("ANALYTICS_SOURCE_ROWS", len(rows), "RANKED_ROWS", len(eligible),
+          "QUALITY_COUNTS", counts, "REPEAT_CANDIDATES", len(result["repeat_title_prefix_candidates"]))
 
 if __name__ == "__main__":
     main()
