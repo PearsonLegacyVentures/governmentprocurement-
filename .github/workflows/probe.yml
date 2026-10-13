@@ -42,4 +42,18 @@ jobs:
                       print('SUMMARY_PREVIEW_ROW',i,[str(x)[:80] for x in row[:15]])
           except Exception as exc:
               print('SUMMARY_PROBE_FAILED',type(exc).__name__,str(exc))
+          other=[
+              ('2025-03','https://mofvendors.gov.bs/wp-content/uploads/2025/05/Bahamas-Public-Procurement-Awarded-Contracts-Summary-Report-March-1-31-2025.xlsx'),
+              ('2025-06','https://mofvendors.gov.bs/wp-content/uploads/2025/08/Bahamas-Public-Procurement-Awarded-Contract-Summary-Report-June-1-30-2025.xlsx'),
+              ('2026-01','https://mofvendors.gov.bs/wp-content/uploads/2026/03/Bahamas-Public-Procurement-Awarded-Contracts-Summary-Report-January-1-31-2026.xlsx')
+          ]
+          for period,url in other:
+              try:
+                  binary=fetch(url,retries=0)
+                  for sheet, rows in read_xlsx(binary):
+                      print('ALT_SUMMARY',period,'sheet',sheet,'rows',len(rows))
+                      for i,row in enumerate(rows[:12],1):
+                          print('ALT_ROW',period,i,[str(x)[:85] for x in row[:16]])
+              except Exception as exc:
+                  print('ALT_FAILED',period,type(exc).__name__,str(exc))
           PY
