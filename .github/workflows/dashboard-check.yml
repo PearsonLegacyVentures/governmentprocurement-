@@ -1,0 +1,39 @@
+name: Validate procurement dashboard and public award data
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'dashboard/**'
+      - '.github/workflows/dashboard-check.yml'
+  pull_request:
+    paths:
+      - 'dashboard/**'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check browser JavaScript syntax
+        run: node --check dashboard/app.js
+      - name: Check committed dataset integrity
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          f=Path('data/public/awards.json')
+          if not f.exists():
+              print('No data imported yet; empty-state dashboard is supported')
+          else:
+              d=json.loads(f.read_text())
+              awards=d['awards']
+              assert len(awards)>0
+              ids=[a['id'] for a in awards]
+              assert len(ids)==len(set(ids)),'Duplicate row identifiers'
+              for a in awards:
+                  assert a['supplier_raw'] and a['source_file'] and a['source_sha256'] and a['sheet'] and a['row']
+              print('Verified source-backed rows:',len(awards))
+          PY
