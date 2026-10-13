@@ -14,6 +14,10 @@ A **source-backed, internal-first procurement intelligence workspace** for Pears
 - Run automated Python tests and dashboard JavaScript checks.
 - Attempt broader historical imports each **Monday**, with audit artifacts saved even if an import fails.
 
+### Historical dataset and quality filters
+
+All official records are preserved in `data/public/awards.json`. A separate `quality_report.json` records the eligibility of each row for comparative financial rankings. The dashboard defaults to **Reconciled only**, with a filter to inspect all source rows, missing dates or mismatched summaries. The `analytics.json` ranking file uses the same quality gate. This distinction is essential for large undated legacy reports and files whose totals differ from the government's monthly summary.
+
 ### First validated dataset
 
 The July 2026 Project Awards workbook yielded **170 award records** and **129 normalized supplier names** across **22 agency codes**. The project-row nominal total (**29,402,595.24**) matches the government's July awarded-contract summary within floating-point tolerance. This is **reported award value, not cash paid**, and some original contract titles contain "Duplicate". Preserve those source rows until the underlying tender and award references are reviewed.

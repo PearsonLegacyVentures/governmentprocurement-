@@ -2,6 +2,7 @@
 
 - **No invented data:** every contract value and supplier must have an official source workbook URL, hash, worksheet and row.
 - **Raw and normalized are different:** raw supplier names remain unchanged. Normalized names are candidates, not automatically verified legal-entity matches.
+- **Ranking eligibility:** monetary comparisons default to dated award records whose reporting-period project total matches the official summary. Unreconciled/undated official rows remain searchable but excluded from rankings.
 - **Measure coverage:** dates, missing notice months, inaccessible files and unmapped worksheets must be shown in the interface.
 - **Do not imply wrongdoing:** repeated awards do not establish favoritism, wrongdoing or profitability.
 - **Privacy:** this GitHub repo is PUBLIC. Do not commit passwords, private bids, supplier quotes, contact records or PLV strategy notes. Production internal portal must require authentication and separate private storage.

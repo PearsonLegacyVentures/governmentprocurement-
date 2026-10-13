@@ -21,10 +21,15 @@
 <div id="alert" class="alert" hidden></div>
 <div id="metrics" class="metrics"></div>
 <div class="controls"><label class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="Search suppliers, contracts, departments…" autocomplete="off"></label>
+<label class="sr-only" for="quality-filter">Evidence quality</label><select id="quality-filter" aria-label="Evidence quality">
+<option value="reconciled">Reconciled only</option><option value="all">All source records</option>
+<option value="undated">Undated / review</option><option value="summary_mismatch">Summary mismatch</option>
+<option value="summary_unmapped">Summary not parsed</option><option value="no_summary">No summary</option>
+</select>
 <label class="sr-only" for="agency-filter">Agency</label><select id="agency-filter"><option value="all">All agencies</option></select>
 <label class="sr-only" for="period-filter">Reporting period</label><select id="period-filter"><option value="all">All periods</option></select>
 <button id="export" class="export-btn">↓ Export filtered CSV</button></div>
 <div id="main-view"></div>
-<footer><span>PEARSON LEGACY VENTURES · PROCUREMENT INTELLIGENCE</span><span>Unreconciled official award rows · Not a government website</span></footer>
+<footer><span>PEARSON LEGACY VENTURES · PROCUREMENT INTELLIGENCE</span><span>Raw source records preserved · Default rankings require reconciliation</span></footer>
 </div></main></div>
 </body></html>
