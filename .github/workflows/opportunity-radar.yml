@@ -1,0 +1,50 @@
+name: Publish source-verified Opportunity Radar
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/radar.mjs'
+      - 'tests/radar.test.mjs'
+      - 'data/sources/bonfire-*.json'
+      - '.github/workflows/opportunity-radar.yml'
+permissions:
+  contents: write
+concurrency:
+  group: procurement-opportunity-radar
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate source and matching logic
+        run: |
+          node --check scripts/radar.mjs
+          node --test tests/radar.test.mjs
+      - name: Publish normalized public snapshot
+        run: |
+          node scripts/radar.mjs data/sources/bonfire-2026-10-13.json data/public/opportunities.json
+          node --input-type=module - <<'JS'
+          import {readFileSync} from "node:fs";
+          const data=JSON.parse(readFileSync("data/public/opportunities.json","utf8"));
+          if(data.opportunities.length!==26||new Set(data.opportunities.map(x=>x.id)).size!==26)throw Error("Source snapshot has changed unexpectedly.");
+          if(data.metadata.checked_date!=="2026-10-13")throw Error("Unexpected source capture date");
+          console.log("Published official tender records:",data.opportunities.length);
+          console.log("Observed potential PLV leads:",data.opportunities.filter(x=>x.matches.length).length);
+          JS
+      - name: Commit public radar dataset
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/public/opportunities.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: publish 2026-10-13 Bonfire open opportunities snapshot'
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi
