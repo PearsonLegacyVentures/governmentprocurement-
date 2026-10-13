@@ -23,7 +23,7 @@ export function parseDeadline(text){
   const utc=new Date(Date.UTC(year,month-1,day,hour+(zone.toUpperCase()==="EDT"?4:5),minute));
   if(utc.getUTCFullYear()<2020||month<1||minute>59||
     new Date(Date.UTC(year,month-1,day)).getUTCDate()!==day)return null;
-  return {deadline_date_local:dayString,deadline_time_local:String(hour).padStart(2,"0")+":"+String(minute),timezone:zone.toUpperCase(),deadline_utc:utc.toISOString()};
+  return {deadline_date_local:dayString,deadline_time_local:String(hour).padStart(2,"0")+":"+String(minute).padStart(2,"0"),timezone:zone.toUpperCase(),deadline_utc:utc.toISOString()};
 }
 
 const RULES=[
