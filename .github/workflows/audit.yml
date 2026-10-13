@@ -1,0 +1,45 @@
+name: Audit historical source overlap
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/audit.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Profile overlap and historical date coverage
+        run: |
+          python - <<'PY'
+          from collections import defaultdict,Counter
+          from decimal import Decimal
+          from pathlib import Path
+          import json,re
+          data=json.loads(Path("data/public/awards.json").read_text())["awards"]
+          by_file=defaultdict(list)
+          by_period=defaultdict(list)
+          for row in data:
+              by_file[row["source_file"]].append(row)
+              by_period[row.get("report_period")].append(row)
+          print("AWARD_ROWS",len(data),"FILES",len(by_file))
+          for file,rows in sorted(by_file.items(),key=lambda kv:kv[0]):
+              dates=Counter((x.get("award_date_iso") or "unknown")[:7] for x in rows)
+              print("SOURCE",file.split("/")[-1],"period",rows[0].get("report_period"),"rows",len(rows),"months",dates.most_common(9),"nominal",str(sum((Decimal(x["amount"]) for x in rows),Decimal(0))))
+          for period,rows in sorted(by_period.items(),key=lambda kv:str(kv[0])):
+              print("PERIOD",period,"rows",len(rows),"files",len(set(x["source_file"] for x in rows)),"nominal",str(sum((Decimal(x["amount"]) for x in rows),Decimal(0))))
+          def key(x):
+              return (x.get("supplier_key"),x.get("agency_key"),re.sub(r"\W+"," ",(x.get("description") or "").lower()).strip(),round(float(x.get("amount") or 0),2),x.get("award_date_iso"))
+          fingerprints=defaultdict(lambda:defaultdict(list))
+          for x in data:
+              fingerprints[key(x)][x["source_file"]].append(x)
+          overlap=[p for p in fingerprints.values() if len(p)>1]
+          print("CROSS_FILE_IDENTICAL_SIGNATURES",len(overlap),"REDUNDANT_ROWS_MIN",sum(sum(len(xs) for xs in p.values())-max(len(xs) for xs in p.values()) for p in overlap))
+          for group in sorted(overlap,key=lambda x:sum(map(len,x.values())),reverse=True)[:15]:
+              allrows=[x for r in group.values() for x in r]
+              print("EXAMPLE",allrows[0]["description"][:75],"value",allrows[0]["amount"],"files",[(r[0]["source_file"].split("/")[-1],len(r)) for r in group.values()])
+          PY
