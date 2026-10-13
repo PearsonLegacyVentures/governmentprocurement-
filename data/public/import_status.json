@@ -1,7 +1,7 @@
 {
-  "award_count": 170,
-  "coverage": "2026-07 initial bootstrap",
-  "generated_at": "2026-10-13T01:27:48.356168+00:00",
-  "parsed_reports_this_run": 1,
+  "award_count": 2444,
+  "discovered_reports": 57,
+  "generated_at": "2026-10-13T01:31:31.857041+00:00",
+  "parsed_reports_this_run": 19,
   "state": "partial_verified"
 }
