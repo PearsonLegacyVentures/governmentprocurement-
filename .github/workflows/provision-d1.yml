@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/provision-d1.yml'
+      - 'scripts/provision-cloudflare.py'
 permissions:
   contents: read
 concurrency:
