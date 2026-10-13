@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T04:15:19.767408+00:00",
+  "generated_at": "2026-10-13T04:31:08.735030+00:00",
   "total_source_rows": 2483,
   "distinct_supplier_keys": 1243,
   "distinct_agency_codes": 50,
@@ -2790,13 +2790,10 @@
     "reconciled": 2483,
     "summary_mismatch": 102,
     "undated": 2296,
-    "summary_unavailable": 646,
-    "summary_unmapped": 962
+    "summary_unmapped": 1608
   },
   "cached_summary_periods": [
-    "2025-04",
-    "2025-11",
-    "2026-03"
+    "2025-12"
   ],
   "quality_method": "Only records with a parsed award date AND matching official period summary appear in comparative financial rankings."
 }
