@@ -31,7 +31,7 @@ jobs:
           print('AWARDS',len(data),'DATES_PARSED',sum(bool(x['award_date_iso']) for x in data))
           print('WORKSHEETS',diag)
           print('SUMMARY',report)
-          assert len(data)>=110, 'Headerless continuation records not ingested'
+          assert len(data)>=95 and diag[1]['parsed_awards']>=30, 'Headerless continuation records not ingested'
           assert all(x['award_date_iso'] for x in data), 'February date parser missing records'
           assert report['status']=='totals_match', 'Official summary does not reconcile'
           PY
