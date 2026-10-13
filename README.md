@@ -24,6 +24,10 @@ The July 2026 Project Awards workbook yielded **170 award records** and **129 no
 
 [Source July Project Awards](https://mofvendors.gov.bs/wp-content/uploads/2026/09/BAHAMAS-PUBLIC-PROCUREMENT-PROJECT-AWARDS-REPORT-JULY-1-31-2026.xlsx) · [Source July Summary](https://mofvendors.gov.bs/wp-content/uploads/2026/09/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-JULY-1-31-2026.xlsx)
 
+## Deploy to Cloudflare Pages
+
+Use build command `node scripts/build-site.mjs`, output directory `dist`, root directory blank, and production branch `main`. See [Cloudflare private deployment and D1/Access setup](docs/CLOUDFLARE_DEPLOY.md). **Do not enter bid strategies or real contact details until the private API session check succeeds.**
+
 ## View the working dashboard locally
 
 From the repository root:

@@ -41,3 +41,5 @@
 .private-error{color:#ffb49e;border:1px solid #a6544d;padding:12px;border-radius:8px}
 @media(max-width:1000px){.private-stats{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:650px){.private-banner{flex-direction:column;align-items:start}.private-form{grid-template-columns:1fr}.private-field.wide,.private-form-actions{grid-column:span 1}.private-side-label{display:none}}
+
+[hidden]{display:none!important}

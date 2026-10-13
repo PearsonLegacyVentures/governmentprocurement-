@@ -73,7 +73,7 @@ function bidForm(item){
 }
 function contactForm(item){
   const r=item||{};
-  const fields=label("contact_name","Contact person",r.contact_name,"text",true)+
+  const fields=label("contact_name","Contact person (if known)",r.contact_name)+
     label("organization","Organization / company",r.organization)+
     label("role","Position / responsibility",r.role)+
     select("kind","Relationship type",["agency","supplier","prime","consultant","other"],r.kind||"other")+
@@ -128,7 +128,7 @@ function bidList(){
 }
 function contactsList(){
   if(!state.records.contacts.length)return '<div class="empty">No contacts yet. Build your list of agencies, prime contractors, suppliers and decision-makers.</div>';
-  return state.records.contacts.map(r=>card('<div class="private-item-top"><strong>'+esc(r.contact_name)+'</strong><span class="pill">'+esc(r.relationship_status)+'</span></div>'+
+  return state.records.contacts.map(r=>card('<div class="private-item-top"><strong>'+esc(r.contact_name||r.organization)+'</strong><span class="pill">'+esc(r.relationship_status)+'</span></div>'+
     '<div class="private-item-meta">'+esc(r.organization)+' · '+esc(r.role)+' · '+esc(r.kind)+'</div>'+
     (r.email?'<p>Email: <a href="mailto:'+esc(r.email)+'">'+esc(r.email)+'</a></p>':"")+
     (r.phone?'<p>Phone: '+esc(r.phone)+'</p>':"")+

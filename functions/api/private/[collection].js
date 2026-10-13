@@ -6,7 +6,7 @@
 import {json} from "../../../server/access-auth.js";
 const models={
   contacts:{
-    table:"contacts",required:["contact_name"],
+    table:"contacts",required:[],
     max:{contact_name:160,organization:160,role:120,kind:30,email:254,
       phone:80,website:500,relationship_status:40,notes:4000,
       next_step:2000,last_contacted_on:10},
@@ -55,6 +55,7 @@ function cleanBody(body,model,create){
     clean[field]=["related_contact_id","opportunity_id"].includes(field)?value||null:value;
   }
   if(create){
+    if(model.table==="contacts"&&!clean.contact_name&&!clean.organization)throw Error("Contact name or organization is required");
     for(const [key,val] of Object.entries(model.defaults)){
       if(!clean[key])clean[key]=val;
     }

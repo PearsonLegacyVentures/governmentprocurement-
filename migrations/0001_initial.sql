@@ -2,7 +2,7 @@
 PRAGMA foreign_keys = ON;
 CREATE TABLE IF NOT EXISTS contacts (
   id TEXT PRIMARY KEY,
-  contact_name TEXT NOT NULL,
+  contact_name TEXT NOT NULL DEFAULT '',
   organization TEXT NOT NULL DEFAULT '',
   role TEXT NOT NULL DEFAULT '',
   kind TEXT NOT NULL DEFAULT 'other' CHECK(kind IN ('agency','supplier','prime','consultant','other')),
