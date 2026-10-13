@@ -44,3 +44,44 @@
 
 [hidden]{display:none!important}
 
+
+
+/* Public Opportunity Radar (official source snapshot, no private fields) */
+.radar-capture{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:17px 20px;margin-bottom:16px;border:1px solid #2b5b83;border-radius:12px;background:#112d47}
+.radar-capture strong{font-size:13px;color:#9be6dc}.radar-capture p{margin:5px 0 0;font-size:11px;color:#a8bdd6;max-width:790px}
+.radar-capture.radar-warning{background:#47331d;border-color:#916c39}.radar-capture.radar-warning strong{color:#ffdaaa}
+.radar-capture a{color:#b8d9ff;font-size:12px;white-space:nowrap}
+.radar-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:19px}
+.radar-stat{padding:20px 17px;background:linear-gradient(140deg,#15233f,#101b31);border:1px solid #2a3b59;border-radius:12px}
+.radar-stat small{font-size:11px;color:#a2b6d0;display:block}.radar-stat strong{font-size:24px;font-weight:750;display:block;margin:7px 0}.radar-stat span{font-size:10px;color:#8194b5}
+.radar-controls{border:1px solid #283a59;border-radius:12px;background:#101b31;padding:16px;display:flex;gap:11px;align-items:end;flex-wrap:wrap;margin-bottom:23px}
+.radar-controls label{font-size:10px;color:#9eb3d4;display:flex;flex-direction:column;gap:6px;font-weight:650}
+.radar-controls select,.radar-controls input[type="search"]{border:1px solid #304464;border-radius:8px;padding:10px 11px;background:#0a1528;color:#f0f5ff;font-size:12px;min-height:42px;max-width:250px}
+.radar-controls label.radar-search{flex:1}.radar-controls input[type="search"]{width:100%;max-width:none;min-width:160px}
+.radar-controls .radar-check{display:flex;flex-direction:row;align-items:center;gap:8px;padding-bottom:11px}
+.radar-section-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:13px;gap:15px}
+.radar-section-heading h2{font-size:17px;letter-spacing:-.015em;margin:0}.radar-section-heading h2 span{font-size:12px;color:#a3c9ff;margin-left:7px}
+.radar-section-heading small{color:#8b9fbc;font-size:11px}.radar-list{display:grid;gap:12px}
+.radar-record{border-radius:14px;background:linear-gradient(120deg,#172640,#111c31);border:1px solid #2b3d5c;padding:20px 22px}
+.radar-record-top{display:flex;gap:10px;justify-content:space-between;align-items:center}
+.radar-category{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#a3b9da}
+.radar-status{border:1px solid #28715f;color:#88e6cc;padding:4px 9px;border-radius:50px;background:#12453744;font-size:10px;white-space:nowrap}
+.radar-status.expired{color:#c5a7a7;border-color:#75504f;background:#512c2b3a}
+.radar-record h3{font-size:18px;line-height:1.4;letter-spacing:-.02em;margin:10px 0}
+.radar-record h3 a{text-decoration:none;color:#f0f5ff}.radar-record h3 a:hover{color:#8dbaff}
+.radar-meta{display:flex;flex-wrap:wrap;gap:17px;color:#8fa9cc;font-size:11px;margin-bottom:16px}
+.radar-match{border-left:3px solid #6191e2;background:#122a485b;padding:10px 14px;margin-top:8px;border-radius:0 7px 7px 0}
+.radar-match.direct{border-left-color:#54ceae}.radar-match.partner{border-left-color:#72a3ff}.radar-match.watch{border-left-color:#cfad67}
+.radar-match-top{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.radar-match strong{font-size:12px}.radar-match-top span{font-size:10px;color:#a1c1e3}
+.radar-match p{font-size:11px;margin:4px 0 0;color:#a9bad4}
+.radar-no-match{color:#899ab7;font-size:11px;margin:9px 0}
+.radar-actionline{display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid #2b3c57;margin-top:16px;padding-top:14px}
+.radar-actionline span{font-size:11px;color:#829bbd}
+.radar-actionline a{color:#b4d2fc;text-decoration:none;font-size:12px;font-weight:700;white-space:nowrap}
+.radar-actionline a:hover{text-decoration:underline}
+.radar-footnote{color:#91a5c4;font-size:11px;line-height:1.65;margin-top:16px}
+@media(max-width:1100px){.radar-overview{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.radar-capture,.radar-actionline,.radar-section-heading{flex-direction:column;align-items:start}
+ .radar-overview{gap:8px}.radar-stat{padding:13px}.radar-record{padding:16px}.radar-record h3{font-size:16px}
+ .radar-controls select,.radar-controls input[type="search"]{max-width:100%}.radar-controls label{flex:1;min-width:150px}}
