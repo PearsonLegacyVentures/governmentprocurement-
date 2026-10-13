@@ -1,6 +1,10 @@
 name: Provision private Cloudflare D1
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/provision-d1.yml'
 permissions:
   contents: read
 concurrency:
@@ -8,6 +12,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   provision:
+    if: github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'ops: run one-time Cloudflare D1 provisioning'
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
