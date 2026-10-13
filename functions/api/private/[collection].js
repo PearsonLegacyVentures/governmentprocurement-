@@ -3,7 +3,7 @@
  * Private CRUD for Cloudflare D1, guarded by directory _middleware.
  * Records are soft-archived; source data is never written to this database.
  */
-import {json} from "../../_lib/access-auth.js";
+import {json} from "../../../server/access-auth.js";
 const models={
   contacts:{
     table:"contacts",required:["contact_name"],

@@ -1,4 +1,4 @@
-import {json} from "../../_lib/access-auth.js";
+import {json} from "../../../server/access-auth.js";
 export async function onRequestGet(context){
   try{
     const tables=await context.env.PRIVATE_DB.prepare(
