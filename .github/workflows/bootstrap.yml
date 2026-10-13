@@ -1,0 +1,65 @@
+name: Bootstrap July 2026 verified award dataset
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/bootstrap.yml'
+permissions:
+  contents: write
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Import and audit July 2026
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from decimal import Decimal
+          from datetime import datetime,timezone
+          from scripts.procurement import fetch,extract_awards,write_json
+          u='https://mofvendors.gov.bs/wp-content/uploads/2026/09/BAHAMAS-PUBLIC-PROCUREMENT-PROJECT-AWARDS-REPORT-JULY-1-31-2026.xlsx'
+          notice='https://mofvendors.gov.bs/public-notice-procurement-department-september-2026/'
+          report={'url':u,'notice_url':notice,'period':'2026-07','report_type':'project_awards'}
+          import hashlib
+          binary=fetch(u,retries=1)
+          rows,diags=extract_awards(binary,report)
+          if len(rows)<100 or any(not x.get('supplier_raw') or x.get('amount') is None for x in rows):
+              raise RuntimeError('Validation failure: too few or malformed award records')
+          out=Path('data/public')
+          out.mkdir(parents=True,exist_ok=True)
+          old=out/'awards.json'
+          by_id={x['id']:x for x in rows}
+          if old.exists():
+              for x in json.loads(old.read_text()).get('awards',[]):
+                  if x.get('id') and x['id'] not in by_id:
+                      by_id[x['id']]=x
+          rows=list(by_id.values())
+          rows.sort(key=lambda x:(x.get('report_period') or '',x['supplier_key']),reverse=True)
+          stamp=datetime.now(timezone.utc).isoformat()
+          write_json(old,{'meta':{'generated_at':stamp,'award_count':len(rows),'currency':'unspecified','quality_notice':'Incomplete historical coverage; all rows source-backed'},'awards':rows})
+          write_json(out/'source_manifest.json',{'generated_at':stamp,'discovered':1,'source':'official_workbook','reports':[{
+              **report,'status':'parsed','rows_imported':len(rows),'sha256':hashlib.sha256(binary).hexdigest(),'sheet_diagnostics':diags}]})
+          write_json(out/'import_status.json',{'generated_at':stamp,'state':'partial_verified','award_count':len(rows),'parsed_reports_this_run':1,'coverage':'2026-07 initial bootstrap'})
+          print('OFFICIAL_AWARDS_IMPORTED',len(rows))
+          print('SUM_NOMINAL_UNSPECIFIED_CURRENCY',sum((Decimal(x['amount']) for x in rows),Decimal(0)))
+          print('SOURCE_FILE_SHA256',hashlib.sha256(binary).hexdigest())
+          PY
+      - name: Commit public award data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/public/
+          git diff --cached --quiet || (git commit -m 'data: bootstrap July 2026 official contract awards' && git push)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: july-2026-award-audit
+          path: data/public/
+          retention-days: 30
