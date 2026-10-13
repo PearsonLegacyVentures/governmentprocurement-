@@ -54,7 +54,7 @@
         "road traffic department",
         "royal bahamas defence force"
       ],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "period": "2024-01",
@@ -62,11 +62,61 @@
       "status": "missing_official_summary_link"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/wp-content/uploads/2024/07/Public-Procurement-Awarded-Contracts-Summary-Report-March-2024-to-May-2024.xlsx: <urlopen error timed out>",
+      "audit": [
+        {
+          "sheet": "Sheet1",
+          "status": "total_column_not_detected",
+          "summary_rows_found": 0
+        }
+      ],
+      "difference": null,
+      "matched_agency_codes_by_amount": [],
+      "official_summary_rows": 0,
       "official_summary_url": "https://mofvendors.gov.bs/wp-content/uploads/2024/07/Public-Procurement-Awarded-Contracts-Summary-Report-March-2024-to-May-2024.xlsx",
       "period": "2024-03..2024-05",
+      "project_award_rows": 528,
       "project_signature": "0cfe09489d2ac0c8be22b14ff0ee49274b6bcdc240a4012a984aa6d15c201479",
-      "status": "summary_unavailable"
+      "project_total_nominal": null,
+      "reported_total_row": null,
+      "source_sha256": "ae2e516142177b485318f1de08785bb75e37de17ddcf42de29f4494246f79801",
+      "status": "summary_layout_unmapped",
+      "summary_total_nominal": null,
+      "unmapped_agency_codes": [
+        "bahamas agricultural and industrial corporation",
+        "bahamas agriculture and marine science institue",
+        "bahamas department of correctional services",
+        "bahamas public parks and public beaches",
+        "bahamas technical and vocational institute",
+        "central processing unit",
+        "customs department",
+        "department of agriculture",
+        "department of education",
+        "department of environmental health services",
+        "department of housing",
+        "department of immigration",
+        "department of inland revenue",
+        "department of local government",
+        "department of marine resources",
+        "department of public works",
+        "department of transformation and digitization",
+        "idb project executing unit moea",
+        "idb project executing unit moh",
+        "ministry of agriculture marine resources and fam isl affairs",
+        "ministry of agriculture marine resources and family is affairs",
+        "ministry of agriculture marine resources and family isl affairs",
+        "ministry of finance",
+        "ministry of foreign affairs",
+        "ministry of grand bahama",
+        "ministry of health and wellness",
+        "ministry of labor and immigration",
+        "ministry of social services and urban development",
+        "ministry of youth sport and culture",
+        "national sports authority",
+        "office of the prime minister",
+        "road traffic department",
+        "royal bahamas police force"
+      ],
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -108,7 +158,7 @@
         "post office department",
         "road traffic department"
       ],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -149,7 +199,7 @@
         "road traffic department",
         "royal bahamas police force"
       ],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -191,128 +241,379 @@
         "office of the prime minister",
         "royal bahamas police force"
       ],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
         {
-          "header_row": 1,
+          "header_row": 2,
           "sheet": "December Summary 2024",
           "status": "parsed",
           "summary_rows_found": 17,
           "total_column_index": 1
         }
       ],
-      "difference": "9.9803E-9",
+      "difference": "192975747.5800000499803",
       "matched_agency_codes_by_amount": [
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "antiquities monuments and museum corporation",
+          "raw_agency_code": "ammc",
           "reviewed": false,
           "source_agency_name": "Antiquities, Monuments and Museum Corporation."
         },
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "bahamas agricultural and industrial corporation",
+          "raw_agency_code": "baic",
           "reviewed": false,
           "source_agency_name": "Bahamas Agricultural & Industrial Corporation"
         },
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "bahamas agricultural health and food safety authority",
+          "raw_agency_code": "bahfsa",
           "reviewed": false,
           "source_agency_name": "Bahamas Agricultural Health and Food Safety Authority"
         },
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "bahamas agriculture and marine science institue",
+          "raw_agency_code": "bamsi",
           "reviewed": false,
           "source_agency_name": "Bahamas Agriculture and Marine Science Institue"
         },
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "central processing unit",
+          "raw_agency_code": "cpu",
           "reviewed": false,
           "source_agency_name": "Central Processing Unit"
         },
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "department of local government",
+          "raw_agency_code": "dolg",
           "reviewed": false,
           "source_agency_name": "Department of Local Government"
         },
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "department of marine resources",
+          "raw_agency_code": "domr",
           "reviewed": false,
           "source_agency_name": "Department of Marine Resources"
         },
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "department of transformation and digitization",
+          "raw_agency_code": "dtad",
           "reviewed": false,
           "source_agency_name": "Department of Transformation & Digitization"
         },
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "ministry of finance",
+          "raw_agency_code": "mof",
           "reviewed": false,
           "source_agency_name": "Ministry of Finance"
         },
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "ministry of grand bahama",
+          "raw_agency_code": "mogb",
           "reviewed": false,
           "source_agency_name": "Ministry of Grand Bahama"
         },
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "ministry of health and wellness",
+          "raw_agency_code": "mohw",
           "reviewed": false,
           "source_agency_name": "Ministry of Health & Wellness"
         },
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "ministry of youth sport and culture",
+          "raw_agency_code": "mysc",
           "reviewed": false,
           "source_agency_name": "Ministry of Youth, Sport & Culture"
         },
         {
           "match_type": "unique_equal_award_total",
-          "raw_agency_code": "road traffic department",
+          "raw_agency_code": "rtd",
           "reviewed": false,
           "source_agency_name": "Road Traffic Department"
         }
       ],
       "official_summary_rows": 17,
-      "official_summary_url": "https://mofvendors.gov.bs/wp-content/uploads/2025/02/Public-Procurement-Awarded-Contracts-Summary-Report-December-1-31-2024.xlsx",
+      "official_summary_url": "https://mofvendors.gov.bs/wp-content/uploads/2025/03/Bahamas-Public-Procurement-Awarded-Contracts-Summary-Report-December-1-31-2024.xlsx",
       "period": "2024-12",
-      "project_award_rows": 102,
-      "project_signature": "1a6a8aba193cdcfefcbc376809925026bb1a7407527a46cc9c6e107b03abac7b",
-      "project_total_nominal": "192975747.5800000099713",
+      "project_award_rows": 103,
+      "project_signature": "1ae1bf942d79179b5378ae702d9b8f95aca9d99597bb44f403866f4ba9a034c2",
+      "project_total_nominal": "385951495.1600000499713",
       "reported_total_row": "192975747.58000001",
-      "source_sha256": "8afa065cdb551594cfb5cf551953adadae44b4899d0e5ee8ac10aa50f84622d7",
-      "status": "totals_match",
+      "source_sha256": "64b76c8f5b9d764ec595ffcaca08df5fb56cdc6c1a454277d3253676af3b5fee",
+      "status": "totals_mismatch",
       "summary_total_nominal": "192975747.579999999991",
       "unmapped_agency_codes": [
-        "department of education",
-        "department of environmental health services",
-        "department of public works",
-        "ministry of agriculture marine resources and family isl affairs"
+        "dehs",
+        "doe",
+        "dopw",
+        "moa",
+        "not-listed"
       ],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
+      "audit": [
+        {
+          "header_row": 2,
+          "sheet": "January 2025 Summary",
+          "status": "parsed",
+          "summary_rows_found": 17,
+          "total_column_index": 1
+        }
+      ],
+      "difference": "3.70E-11",
+      "matched_agency_codes_by_amount": [
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "ago",
+          "reviewed": false,
+          "source_agency_name": "Attorney General Office"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "baic",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Agricultural & Industrial Corporation"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "bamsi",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Agriculture and Marine Science Institue"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "bdocs",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Department of Correction Services"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "bmc",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Mortgage Corporation"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "cpu",
+          "reviewed": false,
+          "source_agency_name": "Central Processing Unit"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "doe",
+          "reviewed": false,
+          "source_agency_name": "Department of Education"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dehs",
+          "reviewed": false,
+          "source_agency_name": "Department of Environmental Health Services"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "doi",
+          "reviewed": false,
+          "source_agency_name": "Department of Immigration"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "domr",
+          "reviewed": false,
+          "source_agency_name": "Department of Marine Resources"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dopw",
+          "reviewed": false,
+          "source_agency_name": "Department of Public Works"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dtad",
+          "reviewed": false,
+          "source_agency_name": "Department of Transformation & Digitization"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "jd",
+          "reviewed": false,
+          "source_agency_name": "Judicial Department"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "moa",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Agriculture, Marine Resources & Family Island Affairs"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mof",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Finance"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mogb",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Grand Bahama"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mohw",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Health & Wellness"
+        }
+      ],
+      "official_summary_rows": 17,
+      "official_summary_url": "https://mofvendors.gov.bs/wp-content/uploads/2025/03/Bahamas-Public-Procurement-Awarded-Contracts-Summary-Report-January-1-31-2025.xlsx",
       "period": "2025-01",
+      "project_award_rows": 93,
       "project_signature": "32ea2470b85aa50fd87fd15a229a2ac1beaf7bf11e6ac9c1d192b97d165a7d70",
-      "status": "missing_official_summary_link"
+      "project_total_nominal": "2583593.6999999999910",
+      "reported_total_row": "2583593.7000000002",
+      "source_sha256": "9c7f73303f5e110a6c6355fddd4f4e41c6dd0fdbe3937ae7a2e47714f83ef169",
+      "status": "totals_match",
+      "summary_total_nominal": "2583593.699999999954",
+      "unmapped_agency_codes": [],
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/wp-content/uploads/2025/04/Bahamas-Public-Procurement-Awarded-Contracts-Summary-Report-February-1-28-2025.xlsx: <urlopen error timed out>",
+      "audit": [
+        {
+          "header_row": 2,
+          "sheet": " February Summary 2025",
+          "status": "parsed",
+          "summary_rows_found": 18,
+          "total_column_index": 1
+        }
+      ],
+      "difference": "-3.111E-10",
+      "matched_agency_codes_by_amount": [
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "bahfsa",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Agriculture Health Food Safety Authority"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "bdocs",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Department of Correction Services"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "bcd",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Department of Customs"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "cpu",
+          "reviewed": false,
+          "source_agency_name": "Central Processing Unit"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "doe",
+          "reviewed": false,
+          "source_agency_name": "Department of Education"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dehs",
+          "reviewed": false,
+          "source_agency_name": "Department of Environmental Health Services"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dolg",
+          "reviewed": false,
+          "source_agency_name": "Department of Local Government"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dopo",
+          "reviewed": false,
+          "source_agency_name": "Department of Post Office"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dopw",
+          "reviewed": false,
+          "source_agency_name": "Department of Public Works"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "moa",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Agriculture, Marine Resources & Family Island Affairs"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "moea",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Econmic Affairs"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mof",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Finance"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mofa",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Foreign Affairs"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mogb",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Grand Bahama"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mohw",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Health & Wellness"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mohrua",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Housing & Urban Renewal"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "rbpf",
+          "reviewed": false,
+          "source_agency_name": "Royal Bahamas Police Force"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "rtd",
+          "reviewed": false,
+          "source_agency_name": "Road Traffic Department"
+        }
+      ],
+      "official_summary_rows": 18,
       "official_summary_url": "https://mofvendors.gov.bs/wp-content/uploads/2025/04/Bahamas-Public-Procurement-Awarded-Contracts-Summary-Report-February-1-28-2025.xlsx",
       "period": "2025-02",
+      "project_award_rows": 131,
       "project_signature": "c8ab3a28280fa9babbecd0a17daedfcbd08d6ec1c8e876227579e01a3a006adf",
-      "status": "summary_unavailable"
+      "project_total_nominal": "14823438.0200000000129",
+      "reported_total_row": "14823438.02",
+      "source_sha256": "78166c6a736c80664dd7f89c5e07de1fd199cee3c34188a52903b24af66df12e",
+      "status": "totals_match",
+      "summary_total_nominal": "14823438.020000000324",
+      "unmapped_agency_codes": [],
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -452,7 +753,7 @@
       "status": "totals_match",
       "summary_total_nominal": "15244613.48999999949",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -586,7 +887,7 @@
       "status": "totals_match",
       "summary_total_nominal": "8426665.24000000004",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -598,6 +899,7 @@
           "total_column_index": 6
         }
       ],
+      "cached_from_verification": "2026-10-13T02:24:35.684149+00:00",
       "difference": "8.6E-11",
       "matched_agency_codes_by_amount": [
         {
@@ -675,7 +977,7 @@
       "project_total_nominal": "19564759.000000000055",
       "reported_total_row": "19564758.999999996",
       "source_sha256": "a26fd6b99053c02dda5806da4285343a63067b55ee50189c151b791003dc6b70",
-      "status": "totals_match",
+      "status": "totals_match_cached",
       "summary_total_nominal": "19564758.999999999969",
       "unmapped_agency_codes": [
         "dehs",
@@ -816,7 +1118,7 @@
       "status": "totals_match",
       "summary_total_nominal": "3147785.71",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -961,7 +1263,7 @@
       "status": "totals_match",
       "summary_total_nominal": "12023178.82999999975",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -1092,14 +1394,153 @@
         "rbdf",
         "rbpf"
       ],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/wp-content/uploads/2025/11/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-SEPTEMBER-1-30-2025.xlsx: <urlopen error timed out>",
+      "audit": [
+        {
+          "header_row": 2,
+          "sheet": "September Summary Report",
+          "status": "parsed",
+          "summary_rows_found": 20,
+          "total_column_index": 6
+        }
+      ],
+      "difference": "8E-12",
+      "matched_agency_codes_by_amount": [
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "baic",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Agricultural & Industrial Corporation"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "bamsi",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Agriculture and Marine Science Institue"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "btvi",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Technical & Vocational Institute"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "cpu",
+          "reviewed": false,
+          "source_agency_name": "Central Processing Unit"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "doag",
+          "reviewed": false,
+          "source_agency_name": "Department of Agriculture"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "domr",
+          "reviewed": false,
+          "source_agency_name": "Department of Marine Resources"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dtad",
+          "reviewed": false,
+          "source_agency_name": "Department of Transformation & Digitization"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "doe",
+          "reviewed": false,
+          "source_agency_name": "Department of Education"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dehs",
+          "reviewed": false,
+          "source_agency_name": "Department of Environmental Health Services"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dopw",
+          "reviewed": false,
+          "source_agency_name": "Department of Public Works"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "jd",
+          "reviewed": false,
+          "source_agency_name": "Judicial Department"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "moa",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Agriculture, Marine Resources & Family Island Affairs"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "moenr",
+          "reviewed": false,
+          "source_agency_name": "Ministry of the Environment & Natural Resources"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mof",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Finance"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mohw",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Health & Wellness"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "moysc",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Youth , Sports & Culture"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mogb",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Grand Bahama"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "opm",
+          "reviewed": false,
+          "source_agency_name": "Office of The Prime Minister"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dop",
+          "reviewed": false,
+          "source_agency_name": "Port Department"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "rbpf",
+          "reviewed": false,
+          "source_agency_name": "Royal Bahamas Police Force"
+        }
+      ],
+      "official_summary_rows": 20,
       "official_summary_url": "https://mofvendors.gov.bs/wp-content/uploads/2025/11/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-SEPTEMBER-1-30-2025.xlsx",
       "period": "2025-09",
+      "project_award_rows": 176,
       "project_signature": "2c7f4a44dfe24c43e22fd368a58954cd435c2befb3d4ecf12a70d5cf71ab4513",
-      "status": "summary_unavailable"
+      "project_total_nominal": "9252999.269999999998",
+      "reported_total_row": "9252999.2699999996",
+      "source_sha256": "b01d198ed7feba2389fd680c570f2f8daac1f265527954c4272a54279c5b5f49",
+      "status": "totals_match",
+      "summary_total_nominal": "9252999.269999999990",
+      "unmapped_agency_codes": [],
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -1262,7 +1703,7 @@
       "status": "totals_match",
       "summary_total_nominal": "8398290.55",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -1390,7 +1831,7 @@
       "status": "totals_match",
       "summary_total_nominal": "7690079.780000000134",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -1536,7 +1977,7 @@
       "status": "totals_match",
       "summary_total_nominal": "9861745.3199999999796",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -1610,7 +2051,7 @@
       "status": "totals_match",
       "summary_total_nominal": "6492856.31",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "error": "Fetch failed https://mofvendors.gov.bs/wp-content/uploads/2026/04/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-FEBRUARY-1-28-2026-1.xlsx: <urlopen error timed out>",
@@ -1775,7 +2216,7 @@
       "status": "totals_match",
       "summary_total_nominal": "9530616.069999999999",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -1930,7 +2371,7 @@
         "cpu",
         "doe"
       ],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -2040,14 +2481,117 @@
       "status": "totals_match",
       "summary_total_nominal": "10997665.59000000003",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/wp-content/uploads/2026/08/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-JUNE-1-30-2026.xlsx: <urlopen error timed out>",
+      "audit": [
+        {
+          "header_row": 2,
+          "sheet": "June Summary 2026",
+          "status": "parsed",
+          "summary_rows_found": 14,
+          "total_column_index": 1
+        }
+      ],
+      "difference": "-2E-12",
+      "matched_agency_codes_by_amount": [
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "oag",
+          "reviewed": false,
+          "source_agency_name": "Attorney's General Office"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "ammc",
+          "reviewed": false,
+          "source_agency_name": "Antiquities, Monuments and Museum Corporation"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "baic",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Agricultural & Industrial Corporation"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "doe",
+          "reviewed": false,
+          "source_agency_name": "Department of Education"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dehs",
+          "reviewed": false,
+          "source_agency_name": "Department of Environmental Health Services"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dolg",
+          "reviewed": false,
+          "source_agency_name": "Department of Local Government"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "domr",
+          "reviewed": false,
+          "source_agency_name": "Department of Marine Resources"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dopw",
+          "reviewed": false,
+          "source_agency_name": "Department of Public Works"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dogp",
+          "reviewed": false,
+          "source_agency_name": "Government Printing Department"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "jd",
+          "reviewed": false,
+          "source_agency_name": "Judicial Department"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "moa",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Agriculture, Marine Resources & Family Island Affairs"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mof",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Finance"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mogb",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Grand Bahama"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "rtd",
+          "reviewed": false,
+          "source_agency_name": "Road Traffic Department"
+        }
+      ],
+      "official_summary_rows": 14,
       "official_summary_url": "https://mofvendors.gov.bs/wp-content/uploads/2026/08/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-JUNE-1-30-2026.xlsx",
       "period": "2026-06",
+      "project_award_rows": 99,
       "project_signature": "bcb89b875e1e43fd0062dc7136c21a71b22491b2c53dcb60db5b9419ca1cd76a",
-      "status": "summary_unavailable"
+      "project_total_nominal": "6079352.330000000002",
+      "reported_total_row": "6079352.3300000001",
+      "source_sha256": "2324a267e93bbb54bcd7d0b93224da1ed7ed8a1899c1825ea9504477fd2d7c4f",
+      "status": "totals_match",
+      "summary_total_nominal": "6079352.330000000004",
+      "unmapped_agency_codes": [],
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     },
     {
       "audit": [
@@ -2205,9 +2749,9 @@
       "status": "totals_match",
       "summary_total_nominal": "29402595.239999998984",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T02:24:35.684149+00:00"
+      "verified_at": "2026-10-13T02:41:42.580422+00:00"
     }
   ],
-  "generated_at": "2026-10-13T02:27:03.023537+00:00",
+  "generated_at": "2026-10-13T02:44:54.653227+00:00",
   "method": "Compare extracted source-row totals against the official agency summary for the same reporting period; do not infer payment or currency."
 }
