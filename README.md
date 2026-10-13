@@ -24,25 +24,25 @@ The July 2026 Project Awards workbook yielded **170 award records** and **129 no
 
 From the repository root:
 
-\`\`\`bash
+```bash
 python -m http.server 8000
-\`\`\`
+```
 
 Open **http://localhost:8000/dashboard/** in a browser.
 
-The dashboard consumes the checked-in files under \`data/public/\`. It is **not authenticated** and is not suitable for confidential notes; those belong in a later private product.
+The dashboard consumes the checked-in files under `data/public/`. It is **not authenticated** and is not suitable for confidential notes; those belong in a later private product.
 
 ## Run the data pipeline
 
-\`\`\`bash
+```bash
 python -m unittest discover -s tests -v
 python scripts/procurement.py --output data/public --max-pages 45 --max-reports 40
 python scripts/reconcile.py --output data/public
-\`\`\`
+```
 
-The \`Import Bahamas award reports\` workflow is scheduled weekly and can be dispatched manually from GitHub Actions. The \`Bootstrap July 2026\` workflow is a separate, quick, proven single-report recovery path.
+The `Import Bahamas award reports` workflow is scheduled weekly and can be dispatched manually from GitHub Actions. The `Bootstrap July 2026` workflow is a separate, quick, proven single-report recovery path.
 
-**Data contracts:** \`awards.json\`, \`source_manifest.json\`, \`import_status.json\`, \`reconciliation.json\`.
+**Data contracts:** `awards.json`, `source_manifest.json`, `import_status.json`, `reconciliation.json`.
 
 ## Development roadmap
 
