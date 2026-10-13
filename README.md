@@ -9,7 +9,7 @@ A **source-backed, internal-first procurement intelligence workspace** for Pears
 - Download official Ministry of Finance **Project Awards** Excel workbooks using network-connected GitHub Actions.
 - Extract awarded vendor names, agency codes, award values, project types, dates and descriptions with verifiable source URLs, original row positions and file SHA-256 checksums.
 - Import public award records as JSON; reject invalid XLSX responses and quarantine unknown layouts.
-- Compare the Project Awards totals against the official **Awarded Contracts Summary** for each reporting month that has a summary link.
+- Compare the Project Awards totals against the official **Awarded Contracts Summary** for each reporting month that has a summary link. Previously verified reconciliations may be reused only when the source-record signature is unchanged; cached periods are explicitly flagged.
 - Explore source records in a read-only dashboard with searches, filters, top suppliers, agencies, agency group totals and CSV exports.
 - Run automated Python tests and dashboard JavaScript checks.
 - Attempt broader historical imports each **Monday**, with audit artifacts saved even if an import fails.
@@ -40,13 +40,14 @@ The dashboard consumes the checked-in files under `data/public/`. It is **not au
 
 ```bash
 python -m unittest discover -s tests -v
-python scripts/procurement.py --output data/public --max-pages 45 --max-reports 40
+python scripts/procurement.py --output data/public --max-pages 80 --max-reports 100
 python scripts/reconcile.py --output data/public
+python scripts/analytics.py --output data/public
 ```
 
 The `Import Bahamas award reports` workflow is scheduled weekly and can be dispatched manually from GitHub Actions. The `Bootstrap July 2026` workflow is a separate, quick, proven single-report recovery path.
 
-**Data contracts:** `awards.json`, `source_manifest.json`, `import_status.json`, `reconciliation.json`.
+**Data contracts:** `awards.json`, `source_manifest.json`, `import_status.json`, `reconciliation.json`, `analytics.json`, `quality_report.json`.
 
 ## Development roadmap
 

@@ -36,6 +36,7 @@ def quality_of(record, summary_checks):
     check = summary_checks.get(record.get("report_period")) or {}
     return {
         "totals_match": "reconciled",
+        "totals_match_cached": "reconciled",
         "totals_mismatch": "summary_mismatch",
         "summary_layout_unmapped": "summary_unmapped",
         "summary_unavailable": "summary_unavailable",
@@ -119,8 +120,12 @@ def main():
     result["ranked_record_count"] = len(eligible)
     result["excluded_from_rankings"] = len(rows) - len(eligible)
     result["quality_counts"] = counts
+    result["cached_summary_periods"] = [
+        k for k, check in by_period.items() if check.get("status") == "totals_match_cached"
+    ]
     result["quality_method"] = "Only records with a parsed award date AND matching official period summary appear in comparative financial rankings."
     result["disclosures"].append("Historical supplier and agency rankings exclude undated or unreconciled source rows by default.")
+    result["disclosures"].append("Previously reconciled rows may be included only when their source-record signature remains unchanged; cached periods are disclosed.")
     (options.output / "analytics.json").write_text(json.dumps(result, indent=2, ensure_ascii=False)+"\n")
     quality_report = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -129,6 +134,7 @@ def main():
         "quality_counts": counts,
         "quality_by_record_id": flags,
         "summary_checks": {k: c.get("status") for k,c in by_period.items()},
+        "cached_summary_periods": result["cached_summary_periods"],
         "quality_method": result["quality_method"],
         "cautions": ["Source-backed does not mean summary-reconciled.",
                      "A missing award date can reflect a historical format, not an invalid award.",

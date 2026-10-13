@@ -368,6 +368,29 @@ def run(argv=None):
     parser.add_argument("--discovery-only", action="store_true")
     args = parser.parse_args(argv)
     reports, issues = discover(max_pages=args.max_pages)
+    # The public site can time out on previously accessible notice pages.
+    # Preserve official URLs already discovered in earlier successful runs.
+    newly_discovered = len(reports)
+    manifest_path = args.output / "source_manifest.json"
+    previous_manifest = {}
+    if manifest_path.exists():
+        try:
+            previous_manifest = json.loads(manifest_path.read_text())
+        except (OSError, ValueError):
+            previous_manifest = {}
+    known_urls = {r["url"] for r in reports}
+    carried_links = 0
+    for previous in (previous_manifest.get("reports", []) +
+                     previous_manifest.get("superseded_variants", [])):
+        url = previous.get("url", "")
+        if url in known_urls or urlparse(url).hostname != "mofvendors.gov.bs":
+            continue
+        if previous.get("report_type") not in ("project_awards", "summary") or not url.lower().endswith(".xlsx"):
+            continue
+        reports.append({key: previous.get(key) for key in
+                        ("url", "notice_url", "period", "report_type")})
+        known_urls.add(url)
+        carried_links += 1
     # Government may upload the same reporting period more than once.
     # Select only the most recently uploaded variant as the canonical source.
     # Every superseded URL is preserved in the manifest for audit.
@@ -393,6 +416,8 @@ def run(argv=None):
     stamp = datetime.now(timezone.utc).isoformat()
     manifest = {"generated_at": stamp, "source": BASE, "discovered": len(reports),
                 "reports": [], "superseded_variants": superseded_entries,
+                "newly_discovered_links": newly_discovered,
+                "carried_forward_official_links": carried_links,
                 "discovery_issues": issues[:150]}
     imported = []
     success = 0

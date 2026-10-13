@@ -10,6 +10,7 @@ from decimal import Decimal
 import hashlib
 import json
 from pathlib import Path
+import re
 from procurement import fetch, read_xlsx, parse_amount, normalize_name, write_json
 
 KNOWN_SUMMARIES = {
@@ -85,6 +86,25 @@ def reconcile(award_rows, summary_rows):
             "status": "totals_match" if abs(difference) <= Decimal("0.05") else "totals_mismatch",
             "matched_agency_codes_by_amount": mappings, "unmapped_agency_codes": sorted(set(by_code) - used_codes)}
 
+def project_signature(records):
+    """Hash individual records as well as amounts before trusting a cached match."""
+    values = sorted(
+        (str(r.get("id", "")), str(r.get("amount", "")),
+         str(r.get("source_sha256", "")))
+        for r in records
+    )
+    return hashlib.sha256(json.dumps(values, separators=(",", ":")).encode()).hexdigest()
+
+def cached_match(previous, signature):
+    if not previous or previous.get("status") not in ("totals_match", "totals_match_cached"):
+        return None
+    if previous.get("project_signature") != signature:
+        return None
+    result = dict(previous)
+    result["status"] = "totals_match_cached"
+    result["cached_from_verification"] = previous.get("verified_at") or previous.get("cached_from_verification")
+    return result
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--output", type=Path, default=Path("data/public"))
@@ -96,34 +116,63 @@ def main():
     award_rows = json.loads(awards_path.read_text()).get("awards", [])
     manifest_path = output / "source_manifest.json"
     manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
-    summary_links = dict(KNOWN_SUMMARIES)
+    older_path = output / "reconciliation.json"
+    older = json.loads(older_path.read_text()) if older_path.exists() else {}
+    prior = {c["period"]: c for c in older.get("checks", []) if c.get("period")}
+    summary_links = {period: [url] for period, url in KNOWN_SUMMARIES.items()}
     for report in manifest.get("reports", []):
         if report.get("report_type") == "summary" and report.get("period") and report.get("url"):
-            summary_links[report["period"]] = report["url"]
+            summary_links.setdefault(report["period"], []).append(report["url"])
+    # Prefer newer official upload versions, fall back to alternatives if offline.
+    def version_key(url):
+        m = re.search(r"/uploads/(20\\d{2})/(\\d{2})/", url)
+        return (int(m.group(1)), int(m.group(2)), url) if m else (0, 0, url)
+    for period in summary_links:
+        summary_links[period] = sorted(set(summary_links[period]),
+                                       key=version_key, reverse=True)
     periods = sorted({r.get("report_period") for r in award_rows if r.get("report_period")})
+    grouped = {p: [r for r in award_rows if r.get("report_period") == p] for p in periods}
     checks = []
+    verified_at = datetime.now(timezone.utc).isoformat()
     for period in periods:
-        url = summary_links.get(period)
-        if not url:
-            checks.append({"period": period, "status": "missing_official_summary_link"})
-            continue
-        try:
-            blob = fetch(url, retries=0)
-            values, grand, audit = parse_summary(blob)
-            checked = reconcile([r for r in award_rows if r.get("report_period") == period], values)
-            checked.update({"period": period, "official_summary_url": url,
-                            "source_sha256": hashlib.sha256(blob).hexdigest(),
-                            "reported_total_row": str(grand) if grand is not None else None,
-                            "audit": audit})
-            checks.append(checked)
-        except (RuntimeError, ValueError) as exc:
-            checks.append({"period": period, "official_summary_url": url,
-                           "status": "summary_unavailable", "error": str(exc)[:300]})
+        records = grouped[period]
+        signature = project_signature(records)
+        candidates = summary_links.get(period, [])
+        last_issue = None
+        checked = None
+        for url in candidates:
+            try:
+                blob = fetch(url, retries=0)
+                values, grand, audit = parse_summary(blob)
+                candidate = reconcile(records, values)
+                candidate.update({"period": period, "official_summary_url": url,
+                    "source_sha256": hashlib.sha256(blob).hexdigest(),
+                    "reported_total_row": str(grand) if grand is not None else None,
+                    "audit": audit, "project_signature": signature,
+                    "verified_at": verified_at})
+                if candidate["status"] == "summary_layout_unmapped":
+                    last_issue = candidate
+                    continue
+                checked = candidate
+                break
+            except (RuntimeError, ValueError) as exc:
+                last_issue = {"period": period, "official_summary_url": url,
+                              "status": "summary_unavailable", "error": str(exc)[:300]}
+        if checked is None:
+            cached = cached_match(prior.get(period), signature)
+            if cached:
+                checked = cached
+            elif last_issue is not None:
+                checked = {**last_issue, "project_signature": signature}
+            else:
+                checked = {"period": period, "status": "missing_official_summary_link",
+                           "project_signature": signature}
+        checks.append(checked)
     write_json(output / "reconciliation.json", {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "checks": checks,
         "method": "Compare extracted source-row totals against the official agency summary for the same reporting period; do not infer payment or currency.",
-        "caution": "Equal-value agency-code matches require independent identity verification.",
+        "caution": "Equal-value agency-code matches require independent identity verification. Cached matches apply only when row IDs, source hashes and values remain unchanged.",
     })
     for entry in checks:
         print(entry.get("period"), entry.get("status"), entry.get("project_total_nominal"),
