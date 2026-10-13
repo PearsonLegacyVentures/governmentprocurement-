@@ -38,7 +38,7 @@ def fetch(url, max_bytes=16_000_000, retries=1):
     for attempt in range(retries + 1):
         try:
             req = Request(url, headers={"User-Agent": AGENT, "Accept": "*/*"})
-            with urlopen(req, timeout=23) as resp:
+            with urlopen(req, timeout=14) as resp:
                 if urlparse(resp.geturl()).hostname != "mofvendors.gov.bs":
                     raise ValueError("Off-domain redirect")
                 data = resp.read(max_bytes + 1)
@@ -308,25 +308,34 @@ def run(argv=None):
                 "reports": [], "discovery_issues": issues[:150]}
     imported = []
     success = 0
-    for report in reports[:args.max_reports]:
+    def process_report(report):
         entry = dict(report)
         if report["report_type"] != "project_awards" or args.discovery_only:
             entry["status"] = "discovered"
-        else:
-            try:
-                content = fetch(report["url"])
-                entry["bytes"] = len(content)
-                entry["sha256"] = hashlib.sha256(content).hexdigest()
-                records, diagnostic = extract_awards(content, report)
-                entry["sheet_diagnostics"] = diagnostic
-                entry["status"] = "parsed" if records else "unmapped"
-                entry["records"] = len(records)
-                imported.extend(records)
-                success += bool(records)
-            except (RuntimeError, ValueError) as exc:
-                entry["status"] = "failed"
-                entry["error"] = str(exc)[:320]
-        manifest["reports"].append(entry)
+            return entry, []
+        try:
+            content = fetch(report["url"])
+            entry["bytes"] = len(content)
+            entry["sha256"] = hashlib.sha256(content).hexdigest()
+            records, diagnostic = extract_awards(content, report)
+            entry["sheet_diagnostics"] = diagnostic
+            entry["status"] = "parsed" if records else "unmapped"
+            entry["records"] = len(records)
+            return entry, records
+        except (RuntimeError, ValueError) as exc:
+            entry["status"] = "failed"
+            entry["error"] = str(exc)[:320]
+            return entry, []
+
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        futures = [pool.submit(process_report, report)
+                   for report in reports[:args.max_reports]]
+        for future in as_completed(futures):
+            entry, records = future.result()
+            manifest["reports"].append(entry)
+            imported.extend(records)
+            success += bool(records)
+    manifest["reports"].sort(key=lambda x: (x.get("period") or "", x["report_type"]), reverse=True)
     write_json(args.output / "source_manifest.json", manifest)
     if args.discovery_only:
         print(f"Discovered {len(reports)} official spreadsheets")
