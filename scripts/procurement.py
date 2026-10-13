@@ -253,11 +253,22 @@ def parse_amount(value):
         return None
 
 def excel_date(value):
-    """Interpret Excel serials as dates while retaining source raw values."""
+    """Interpret Excel serials and day-first public report date strings."""
     if isinstance(value, Decimal) and 20000 <= value <= 90000:
         return (datetime(1899, 12, 30) + timedelta(days=float(value))).date().isoformat()
-    if isinstance(value, str) and re.match(r"^20\d{2}-\d{2}-\d{2}", value.strip()):
-        return value.strip()[:10]
+    if isinstance(value, str):
+        raw = value.strip()
+        if re.match(r"^20\d{2}-\d{2}-\d{2}", raw):
+            try:
+                return datetime.fromisoformat(raw[:10]).date().isoformat()
+            except ValueError:
+                return None
+        # Bahamas reports include e.g. 25/02/2026 12:00, so day-first.
+        for pattern in ("%d/%m/%Y %H:%M", "%d/%m/%Y", "%d-%m-%Y %H:%M", "%d-%m-%Y"):
+            try:
+                return datetime.strptime(raw, pattern).date().isoformat()
+            except ValueError:
+                pass
     return None
 
 def extract_awards(data, report):
@@ -266,6 +277,32 @@ def extract_awards(data, report):
     sha = hashlib.sha256(data).hexdigest()
     for sheet_name, rows in read_xlsx(data):
         header, fields = detect_header(rows)
+        inferred = False
+        if header is None:
+            # Official February 2026 Table 2 continues without a header,
+            # with an extra empty column B. Infer only with strong signals.
+            candidates = [row for row in rows[:8] if len(row) >= 9]
+            for type_col in (2, 3, 4):
+                if len(candidates) < 2:
+                    continue
+                verified = sum(
+                    1 for row in candidates
+                    if str(row[type_col]).strip().upper() in
+                    {"RFQ", "RFP", "ITT", "DA", "SB", "SS", "RFB", "OTHER"}
+                    and type_col + 4 < len(row)
+                    and parse_amount(row[type_col + 4]) is not None
+                    and str(row[type_col + 1]).strip()
+                    and str(row[0]).strip()
+                )
+                if verified >= 2 and verified >= (len(candidates) + 1) // 2:
+                    fields = {"description": 0, "agency": type_col - 1,
+                              "project_type": type_col,
+                              "supplier": type_col + 1,
+                              "amount": type_col + 4,
+                              "date": type_col + 5}
+                    header = -1
+                    inferred = True
+                    break
         if header is None:
             diagnostics.append({"sheet": sheet_name, "status": "unrecognized_columns",
                                 "detected_fields": fields,
@@ -301,7 +338,9 @@ def extract_awards(data, report):
                 "sheet": sheet_name, "row": number,
                 "evidence": "official_project_awards_workbook"})
             extracted += 1
-        diagnostics.append({"sheet": sheet_name, "header_row": header + 1,
+        diagnostics.append({"sheet": sheet_name,
+                            "header_row": None if inferred else header + 1,
+                            "status": "inferred_continuation_sheet" if inferred else "parsed",
                             "detected_fields": fields, "parsed_awards": extracted})
     return records, diagnostics
 
