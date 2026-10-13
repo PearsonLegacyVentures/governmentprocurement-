@@ -1,72 +1,80 @@
 {
-  "discovered": 47,
+  "discovered": 44,
   "discovery_issues": [
     {
       "error": "Fetch failed https://mofvendors.gov.bs/wp-sitemap-posts-post-3.xml: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/wp-sitemap-posts-post-3.xml"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-october-2026/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-october-2026/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-december-2026/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-december-2026/"
     },
     {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-november-2026/: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-november-2026/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-december-2026/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-december-2026/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-march-2025/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-march-2025/"
     },
     {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-january-2025/: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-january-2025/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-january-2024/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-january-2024/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-october-2026/: <urlopen error timed out>",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-october-2026/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-march-2025/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-march-2025/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-march-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-march-2024/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-september-2024/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-september-2024/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-july-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-july-2024/"
     },
     {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-may-2024/: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-may-2024/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-july-2026/: <urlopen error timed out>",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-july-2026/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-october-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-october-2024/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-may-2026/: <urlopen error timed out>",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-may-2026/"
-    },
-    {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-june-2024/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-june-2024/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-september-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-september-2024/"
     },
     {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-february-2024/: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-february-2024/"
     },
     {
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-june-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-june-2024/"
+    },
+    {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-august-2024/: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-august-2024/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-october-2024/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-october-2024/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-october-2025/: <urlopen error timed out>",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-october-2025/"
     },
     {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-december-2024/: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-december-2024/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-november-2024/: <urlopen error timed out>",
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-november-2025/: <urlopen error timed out>",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-november-2025/"
+    },
+    {
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-january-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-january-2024/"
+    },
+    {
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-november-2024/: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-november-2024/"
     },
     {
@@ -74,19 +82,23 @@
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-april-2024/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-july-2024/: <urlopen error timed out>",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-july-2024/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-7/: <urlopen error timed out>",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-7/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-march-2024/: <urlopen error timed out>",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-march-2024/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-9/: <urlopen error timed out>",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-9/"
     },
     {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department/: <urlopen error timed out>",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department/"
+    },
+    {
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-4/: <urlopen error timed out>",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-4/"
     }
   ],
-  "generated_at": "2026-10-13T01:46:09.409388+00:00",
+  "generated_at": "2026-10-13T02:14:31.751298+00:00",
   "reports": [
     {
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-september-2026/",
@@ -116,7 +128,8 @@
           },
           "header_row": 2,
           "parsed_awards": 170,
-          "sheet": "July Report 2026"
+          "sheet": "July Report 2026",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
@@ -148,11 +161,27 @@
           },
           "header_row": 2,
           "parsed_awards": 99,
-          "sheet": "June 2026 Report"
+          "sheet": "June 2026 Report",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2026/08/BAHAMAS-PUBLIC-PROCUREMENT-PROJECT-AWARDS-REPORT-JUNE-1-30-2026.xlsx"
+    },
+    {
+      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-july-2026/",
+      "period": "2026-05",
+      "report_type": "summary",
+      "status": "discovered",
+      "url": "https://mofvendors.gov.bs/wp-content/uploads/2026/07/Bahamas-Public-Procurement-Awarded-Contracts-Summary-Report-May-1-31-2026.xlsx"
+    },
+    {
+      "error": "Fetch failed https://mofvendors.gov.bs/wp-content/uploads/2026/07/Bahamas-Public-Procurement-Project-Awards-Report-May-1-31-2026.xlsx: <urlopen error timed out>",
+      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-july-2026/",
+      "period": "2026-05",
+      "report_type": "project_awards",
+      "status": "failed",
+      "url": "https://mofvendors.gov.bs/wp-content/uploads/2026/07/Bahamas-Public-Procurement-Project-Awards-Report-May-1-31-2026.xlsx"
     },
     {
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-june-2026/",
@@ -180,11 +209,45 @@
           },
           "header_row": 2,
           "parsed_awards": 165,
-          "sheet": "April 2026 Report"
+          "sheet": "April 2026 Report",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2026/06/BAHAMAS-PUBLIC-PROCUREMENT-PROJECT-AWARDS-REPORT-APRIL-1-30-2026.xlsx"
+    },
+    {
+      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-may-2026/",
+      "period": "2026-03",
+      "report_type": "summary",
+      "status": "discovered",
+      "url": "https://mofvendors.gov.bs/wp-content/uploads/2026/05/Bahamas-Public-Procurement-Awarded-Contracts-Summary-Report-March-1-31-2026.xlsx"
+    },
+    {
+      "bytes": 23462,
+      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-may-2026/",
+      "period": "2026-03",
+      "records": 111,
+      "report_type": "project_awards",
+      "sha256": "3e78d2d924934c715f46995774a2dd241c229d593867b9e88cab2f757cddb3e4",
+      "sheet_diagnostics": [
+        {
+          "detected_fields": {
+            "agency": 1,
+            "amount": 6,
+            "date": 7,
+            "description": 0,
+            "project_type": 2,
+            "supplier": 3
+          },
+          "header_row": 2,
+          "parsed_awards": 111,
+          "sheet": "March Report 2026",
+          "status": "parsed"
+        }
+      ],
+      "status": "parsed",
+      "url": "https://mofvendors.gov.bs/wp-content/uploads/2026/05/Bahamas-Public-Procurement-Project-Awards-Report-March-1-31-2026.xlsx"
     },
     {
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-april-2026/",
@@ -197,12 +260,13 @@
       "bytes": 18253,
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-april-2026/",
       "period": "2026-02",
-      "records": 67,
+      "records": 99,
       "report_type": "project_awards",
       "sha256": "06519e6950f190efe44674b86d1c7a4feffb039618d8c4459db98c8255078702",
       "sheet_diagnostics": [
         {
           "detected_fields": {
+            "agency": 1,
             "amount": 6,
             "date": 7,
             "description": 0,
@@ -211,149 +275,22 @@
           },
           "header_row": 2,
           "parsed_awards": 67,
-          "sheet": "Table 1"
+          "sheet": "Table 1",
+          "status": "parsed"
         },
         {
           "detected_fields": {
-            "description": 2,
-            "project_type": 2
+            "agency": 2,
+            "amount": 7,
+            "date": 8,
+            "description": 0,
+            "project_type": 3,
+            "supplier": 4
           },
-          "preview": [
-            [
-              "Sir Durward Knowles Nat'l Jr Sailing Champs 2026  - Generators",
-              "",
-              "DOLG",
-              "RFQ",
-              "Nairns Construction and Electrical",
-              "Seton st. Chippingham",
-              "Nassau, Bahamas",
-              "32478.93",
-              "25/02/2026 12:00"
-            ],
-            [
-              "Sir Durward Knowles Nat'l Jr Sailing Champs 2026  -  Equipment & Personnel",
-              "",
-              "DOLG",
-              "RFQ",
-              "Bahamas National Sailing School",
-              "#18 Parliament Street",
-              "Nassau, Bahamas",
-              "30700",
-              "25/02/2026 12:00"
-            ],
-            [
-              "Sir Durward Knowles Nat'l Jr Sailing Champs 2026  - Production",
-              "",
-              "DOLG",
-              "RFQ",
-              "ISLAND ADVISORS",
-              "112 Mount Royal Ave",
-              "Nassau, Bahamas",
-              "32292",
-              "25/02/2026 12:00"
-            ],
-            [
-              "Sir Durward Knowles Nat'l Jr Sailing Champs 2026  - Tent Rental",
-              "",
-              "DOLG",
-              "RFQ",
-              "Events Management Bahamas",
-              "Harper Street",
-              "Nassau, Bahamas",
-              "21582",
-              "25/02/2026 12:00"
-            ],
-            [
-              "Sir Durward Knowles Nat'l Jr Sailing Champs 2026  - Food ( Opening Ceremony)",
-              "",
-              "DOLG",
-              "RFQ",
-              "Sunny haven gourmet restaurant",
-              "Claire rd",
-              "Nassau, Bahamas",
-              "7288.5",
-              "25/02/2026 12:00"
-            ],
-            [
-              "Sir Durward Knowles Nat'l Jr Sailing Champs 2026  - Dri Fit Long Sleeve Shirt",
-              "",
-              "DOLG",
-              "RFQ",
-              "Untakeable",
-              "Spencer Court",
-              "Nassau, Bahamas",
-              "6600",
-              "25/02/2026 12:00"
-            ],
-            [
-              "Sir Durward Knowles Nat'l Jr Sailing Champs 2026  - Food Service (Friday)",
-              "",
-              "DOLG",
-              "RFQ",
-              "Sunny haven gourmet restaurant",
-              "Claire rd",
-              "Nassau, Bahamas",
-              "7288.5",
-              "25/02/2026 12:00"
-            ],
-            [
-              "Sir Durward Knowles Nat'l Jr Sailing Champs 2026  - Food  (Closing Ceremony)",
-              "",
-              "DOLG",
-              "RFQ",
-              "Forks and Knives Events and Catering",
-              "#3 Atlantic Drive",
-              "Nassau, Bahamas",
-              "5582",
-              "25/02/2026 12:00"
-            ],
-            [
-              "Sir Durward Knowles Nat'l Jr Sailing Champs 2026  - Paraphernalia",
-              "",
-              "DOLG",
-              "RFQ",
-              "Willow Events Bahamas",
-              "15 Apple Way",
-              "Nassau, Bahamas",
-              "16665",
-              "25/02/2026 12:00"
-            ],
-            [
-              "Sir Durward Knowles Nat'l Jr Sailing Champs 2026  - Kids Hospitality Rental",
-              "",
-              "DOLG",
-              "RFQ",
-              "Events Management Bahamas",
-              "Harper Street",
-              "Nassau, Bahamas",
-              "17325",
-              "25/02/2026 12:00"
-            ],
-            [
-              "Sir Durward Knowles Nat'l Jr Sailing Champs 2026 - VIP Tent",
-              "",
-              "DOLG",
-              "RFQ",
-              "Events Management Bahamas",
-              "Harper Street",
-              "Nassau, Bahamas",
-              "15998",
-              "25/02/2026 12:00"
-            ],
-            [
-              "Sir Durward Knowles Nat'l Jr Sailing Champs 2026  - Dj's Services",
-              "",
-              "DOLG",
-              "RFQ",
-              "Ovadose Entertainment",
-              "15 Portland Blvd",
-              "Nassau, Bahamas",
-              "12000",
-              "25/02/2026 12:00"
-            ]
-          ],
+          "header_row": null,
+          "parsed_awards": 32,
           "sheet": "Table 2",
-          "status": "unrecognized_columns"
+          "status": "inferred_continuation_sheet"
         }
       ],
       "status": "parsed",
@@ -386,7 +323,8 @@
           },
           "header_row": 2,
           "parsed_awards": 33,
-          "sheet": "January Report 2026"
+          "sheet": "January Report 2026",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
@@ -418,7 +356,8 @@
           },
           "header_row": 2,
           "parsed_awards": 99,
-          "sheet": "December 2025 Report"
+          "sheet": "December 2025 Report",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
@@ -450,7 +389,8 @@
           },
           "header_row": 2,
           "parsed_awards": 177,
-          "sheet": "November Report 2025"
+          "sheet": "November Report 2025",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
@@ -482,75 +422,12 @@
           },
           "header_row": 2,
           "parsed_awards": 224,
-          "sheet": "October Report 2025"
+          "sheet": "October Report 2025",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/12/Bahamas-Public-Procurement-Project-Awards-Report-October-1-31-2025.xlsx"
-    },
-    {
-      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-november-2025/",
-      "period": "2025-09",
-      "report_type": "summary",
-      "status": "discovered",
-      "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/11/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-SEPTEMBER-1-30-2025.xlsx"
-    },
-    {
-      "bytes": 29859,
-      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-november-2025/",
-      "period": "2025-09",
-      "records": 176,
-      "report_type": "project_awards",
-      "sha256": "d23122b7acac0c66cc4627cc032b1a846eb5d5fac79b392795d7cd0ef5ca458b",
-      "sheet_diagnostics": [
-        {
-          "detected_fields": {
-            "agency": 1,
-            "amount": 6,
-            "date": 7,
-            "description": 0,
-            "project_type": 2,
-            "supplier": 3
-          },
-          "header_row": 2,
-          "parsed_awards": 176,
-          "sheet": "September Project Report"
-        }
-      ],
-      "status": "parsed",
-      "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/11/BAHAMAS-PUBLIC-PROCUREMENT-PROJECT-AWARDS-REPORT-SEPTEMBER-1-30-2025.xlsx"
-    },
-    {
-      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-october-2025/",
-      "period": "2025-08",
-      "report_type": "summary",
-      "status": "discovered",
-      "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/10/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-AUGUST-1-31-2025.xlsx"
-    },
-    {
-      "bytes": 20542,
-      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-october-2025/",
-      "period": "2025-08",
-      "records": 77,
-      "report_type": "project_awards",
-      "sha256": "21ee75bfe9030d2169d3abe9aee9257b9d0263cc2f02a5a87a82afccaa3e386b",
-      "sheet_diagnostics": [
-        {
-          "detected_fields": {
-            "agency": 1,
-            "amount": 6,
-            "date": 7,
-            "description": 0,
-            "project_type": 2,
-            "supplier": 3
-          },
-          "header_row": 2,
-          "parsed_awards": 77,
-          "sheet": "August Report 2025"
-        }
-      ],
-      "status": "parsed",
-      "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/10/BAHAMAS-PUBLIC-PROCUREMENT-PROJECT-AWARDS-REPORT-AUGUST-1-31-2025.xlsx"
     },
     {
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-september-2025/",
@@ -578,7 +455,8 @@
           },
           "header_row": 2,
           "parsed_awards": 161,
-          "sheet": "July Report 2025"
+          "sheet": "July Report 2025",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
@@ -610,7 +488,8 @@
           },
           "header_row": 2,
           "parsed_awards": 97,
-          "sheet": "June Report 2025"
+          "sheet": "June Report 2025",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
@@ -642,7 +521,8 @@
           },
           "header_row": 2,
           "parsed_awards": 109,
-          "sheet": "May Report 2025"
+          "sheet": "May Report 2025",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
@@ -656,28 +536,11 @@
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/06/Bahamas-Public-Procurement-Awarded-Contracts-Summary-Report-April-1-30-2025.xlsx"
     },
     {
-      "bytes": 24747,
+      "error": "Fetch failed https://mofvendors.gov.bs/wp-content/uploads/2025/06/Bahamas-Public-Procurement-Project-Awards-Report-April-1-30-2025.xlsx: <urlopen error timed out>",
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-june-2025/",
       "period": "2025-04",
-      "records": 128,
       "report_type": "project_awards",
-      "sha256": "17864ee589d6792cc464eae439dd702aa2e7545a885a4d6acad9fdabd8aa30ad",
-      "sheet_diagnostics": [
-        {
-          "detected_fields": {
-            "agency": 1,
-            "amount": 6,
-            "date": 7,
-            "description": 0,
-            "project_type": 2,
-            "supplier": 3
-          },
-          "header_row": 2,
-          "parsed_awards": 128,
-          "sheet": "April 2025 Report"
-        }
-      ],
-      "status": "parsed",
+      "status": "failed",
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/06/Bahamas-Public-Procurement-Project-Awards-Report-April-1-30-2025.xlsx"
     },
     {
@@ -706,7 +569,8 @@
           },
           "header_row": 2,
           "parsed_awards": 219,
-          "sheet": "March Report 2025"
+          "sheet": "March Report 2025",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
@@ -738,14 +602,15 @@
           },
           "header_row": 2,
           "parsed_awards": 131,
-          "sheet": "February Report 2025"
+          "sheet": "February Report 2025",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/04/Bahamas-Public-Procurement-Project-Awards-Report-February-1-28-2025.xlsx"
     },
     {
-      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-9/",
+      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-february-2025/",
       "period": "2024-12",
       "report_type": "summary",
       "status": "discovered",
@@ -753,7 +618,7 @@
     },
     {
       "bytes": 22688,
-      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-9/",
+      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-february-2025/",
       "period": "2024-12",
       "records": 102,
       "report_type": "project_awards",
@@ -761,6 +626,7 @@
       "sheet_diagnostics": [
         {
           "detected_fields": {
+            "agency": 1,
             "amount": 6,
             "date": 7,
             "description": 0,
@@ -769,18 +635,12 @@
           },
           "header_row": 1,
           "parsed_awards": 102,
-          "sheet": "December Report 2024"
+          "sheet": "December Report 2024",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/02/Bahamas-Project-Award-Report-December-1-31-2024.xlsx"
-    },
-    {
-      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-7/",
-      "period": "2024-11",
-      "report_type": "summary",
-      "status": "discovered",
-      "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/01/Public-Procurement-Awarded-Contracts-Summary-Report-November-1-30-2024.xlsx"
     },
     {
       "bytes": 33066,
@@ -792,6 +652,7 @@
       "sheet_diagnostics": [
         {
           "detected_fields": {
+            "agency": 1,
             "amount": 6,
             "date": 7,
             "description": 0,
@@ -800,7 +661,8 @@
           },
           "header_row": 1,
           "parsed_awards": 235,
-          "sheet": "November Report, 2024"
+          "sheet": "November Report, 2024",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
@@ -823,6 +685,7 @@
       "sheet_diagnostics": [
         {
           "detected_fields": {
+            "agency": 1,
             "amount": 6,
             "date": 7,
             "description": 0,
@@ -831,7 +694,8 @@
           },
           "header_row": 1,
           "parsed_awards": 212,
-          "sheet": " October Report 2024"
+          "sheet": " October Report 2024",
+          "status": "parsed"
         },
         {
           "detected_fields": {},
@@ -900,107 +764,11 @@
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2024/11/Public-Procurement-Awarded-Contracts-Summary-Report-September-1-30-2024.xlsx"
     },
     {
-      "bytes": 33752,
-      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-4/",
-      "period": "2024-09",
-      "records": 222,
-      "report_type": "project_awards",
-      "sha256": "835b7efa02532ba3926b08f72181a79421e9802a0d671ddc678fcf9d4ff3577b",
-      "sheet_diagnostics": [
-        {
-          "detected_fields": {
-            "amount": 6,
-            "date": 7,
-            "description": 0,
-            "project_type": 2,
-            "supplier": 3
-          },
-          "header_row": 1,
-          "parsed_awards": 222,
-          "sheet": "September Report 2024"
-        },
-        {
-          "detected_fields": {},
-          "preview": [
-            [
-              "September Summary 2024",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              "Attorney General's Office",
-              "4434.1000000000004",
-              "",
-              ""
-            ],
-            [
-              "Bahamas Agricultural & Industrial Corporation",
-              "349276"
-            ],
-            [
-              "Bahamas Mortgage Corporation",
-              "200500"
-            ],
-            [
-              "Central Processing Unit",
-              "349803.58"
-            ],
-            [
-              "Department of Agriculture",
-              "91541"
-            ],
-            [
-              "Department of Education",
-              "1383631.74"
-            ],
-            [
-              "Department of Environmental Health Services",
-              "1098451.3999999999"
-            ],
-            [
-              "Department of Marine Resources",
-              "3839"
-            ],
-            [
-              "Department of Public Works",
-              "1297145.56"
-            ],
-            [
-              "Department of Transformation & Digitization",
-              "1089364.48"
-            ],
-            [
-              "Government Printing Department",
-              "16000"
-            ]
-          ],
-          "sheet": "September Summary 2024",
-          "status": "unrecognized_columns"
-        }
-      ],
-      "status": "parsed",
-      "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/01/Bahamas_Project_Award_Report-September-1-30-2024.xlsx"
-    },
-    {
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-5/",
       "period": "2024-08",
       "report_type": "summary",
       "status": "discovered",
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2024/10/Public-Procurement-Awarded-Contracts-Summary-Report-August-1-31-2024.xlsx"
-    },
-    {
-      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-4/",
-      "period": "2024-07",
-      "report_type": "summary",
-      "status": "discovered",
-      "url": "https://mofvendors.gov.bs/wp-content/uploads/2024/09/Public-Procurement-Awarded-Contracts-Summary-Report-June-1-2024-July-31-2024.xlsx"
     },
     {
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-3/",
@@ -1010,54 +778,11 @@
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2024/07/Public-Procurement-Awarded-Contracts-Summary-Report-March-2024-to-May-2024.xlsx"
     },
     {
-      "bytes": 57560,
+      "error": "Fetch failed https://mofvendors.gov.bs/wp-content/uploads/2024/07/Bahamas-Project-Award-Report-Mar-to-May-2024.xlsx: <urlopen error timed out>",
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-3/",
       "period": "2024-03..2024-05",
-      "records": 528,
       "report_type": "project_awards",
-      "sha256": "e51579d0997410f571a81515267572e1ceda48a4a25aee3b4fee05055d845f2e",
-      "sheet_diagnostics": [
-        {
-          "detected_fields": {
-            "agency": 1,
-            "amount": 7,
-            "date": 6,
-            "description": 0,
-            "project_type": 2,
-            "supplier": 3
-          },
-          "header_row": 1,
-          "parsed_awards": 113,
-          "sheet": "Mar., 2024"
-        },
-        {
-          "detected_fields": {
-            "agency": 1,
-            "amount": 7,
-            "date": 6,
-            "description": 0,
-            "project_type": 2,
-            "supplier": 3
-          },
-          "header_row": 1,
-          "parsed_awards": 233,
-          "sheet": "Apr., 2024"
-        },
-        {
-          "detected_fields": {
-            "agency": 1,
-            "amount": 7,
-            "date": 6,
-            "description": 0,
-            "project_type": 2,
-            "supplier": 3
-          },
-          "header_row": 1,
-          "parsed_awards": 182,
-          "sheet": "May, 2024"
-        }
-      ],
-      "status": "parsed",
+      "status": "failed",
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2024/07/Bahamas-Project-Award-Report-Mar-to-May-2024.xlsx"
     },
     {
@@ -1075,9 +800,10 @@
             "description": 0,
             "supplier": 3
           },
-          "header_row": 1,
+          "header_row": 2,
           "parsed_awards": 2295,
-          "sheet": "bahamas-project-awards-report(1"
+          "sheet": "bahamas-project-awards-report(1",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
@@ -1109,7 +835,8 @@
           },
           "header_row": 1,
           "parsed_awards": 162,
-          "sheet": "Dec. 23"
+          "sheet": "Dec. 23",
+          "status": "parsed"
         },
         {
           "detected_fields": {
@@ -1122,7 +849,8 @@
           },
           "header_row": 1,
           "parsed_awards": 98,
-          "sheet": "Jan. 24"
+          "sheet": "Jan. 24",
+          "status": "parsed"
         },
         {
           "detected_fields": {
@@ -1135,7 +863,8 @@
           },
           "header_row": 1,
           "parsed_awards": 151,
-          "sheet": "Feb.24"
+          "sheet": "Feb.24",
+          "status": "parsed"
         }
       ],
       "status": "parsed",
@@ -1144,14 +873,6 @@
   ],
   "source": "https://mofvendors.gov.bs",
   "superseded_variants": [
-    {
-      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-7/",
-      "period": "2024-11",
-      "report_type": "project_awards",
-      "status": "superseded_variant",
-      "superseded_by": "https://mofvendors.gov.bs/wp-content/uploads/2025/01/Bahamas_Project_Award_Report-November-1-30-2024.xlsx",
-      "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/01/Bahamas-Project-Award-Report-November-1-30-2024.xlsx"
-    },
     {
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-8/",
       "period": "2024-10",

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-13T01:49:50.140536+00:00",
-  "total_source_rows": 6456,
-  "distinct_supplier_keys": 2512,
-  "distinct_agency_codes": 102,
-  "possible_duplicate_labelled_rows": 17,
+  "generated_at": "2026-10-13T02:18:27.202859+00:00",
+  "total_source_rows": 2111,
+  "distinct_supplier_keys": 1106,
+  "distinct_agency_codes": 64,
+  "possible_duplicate_labelled_rows": 10,
   "top_suppliers": [
     {
       "key": "abaco caribbean holdings limited",
@@ -15,135 +15,39 @@
       ]
     },
     {
-      "key": "caribbean pavement solutions limited",
-      "nominal_value": "180512497.37",
-      "award_rows": 3,
-      "period_count": 2,
-      "raw_names": [
-        "Caribbean Pavement Solutions Limited"
-      ]
-    },
-    {
-      "key": "electro telecom ltd",
-      "nominal_value": "78364159.959999999897",
-      "award_rows": 70,
-      "period_count": 16,
-      "raw_names": [
-        "Electro Telecom LTD.",
-        "Electro Telecom Ltd",
-        "Electro Telecom Ltd.",
-        "Electro telecom ltd"
-      ]
-    },
-    {
-      "key": "bahamas hot mix company ltd",
-      "nominal_value": "34245083.359999999",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Bahamas Hot Mix Company Ltd"
-      ]
-    },
-    {
-      "key": "ranmar precision development",
-      "nominal_value": "33950395.219999999",
-      "award_rows": 2,
-      "period_count": 1,
-      "raw_names": [
-        "RANMAR PRECISION DEVELOPMENT",
-        "Ranmar Precision Development"
-      ]
-    },
-    {
       "key": "betun bahamas ltd",
-      "nominal_value": "13949907",
-      "award_rows": 15,
-      "period_count": 9,
+      "nominal_value": "11832000",
+      "award_rows": 8,
+      "period_count": 5,
       "raw_names": [
         "Betun Bahamas Ltd"
       ]
     },
     {
-      "key": "marlin enterprises limited",
-      "nominal_value": "13770068.4",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Marlin Enterprises Limited"
-      ]
-    },
-    {
-      "key": "abaco aggregate and cement company ltd",
-      "nominal_value": "13196635",
-      "award_rows": 5,
-      "period_count": 4,
-      "raw_names": [
-        "Abaco Aggregate & Cement Company Ltd"
-      ]
-    },
-    {
       "key": "caribbean industrial technology",
-      "nominal_value": "10331481.75",
-      "award_rows": 6,
-      "period_count": 5,
+      "nominal_value": "10286262.5",
+      "award_rows": 3,
+      "period_count": 3,
       "raw_names": [
         "Caribbean Industrial Technology"
       ]
     },
     {
-      "key": "knowles construction and development company limited",
-      "nominal_value": "9559251.9000000004",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Knowles Construction & Development Company Limited"
-      ]
-    },
-    {
       "key": "24 7 logistics bahamas",
-      "nominal_value": "9207747.169999999996",
-      "award_rows": 47,
-      "period_count": 14,
+      "nominal_value": "7529692.869999999998",
+      "award_rows": 19,
+      "period_count": 7,
       "raw_names": [
-        "24/7 LOGISTICS BAHAMAS",
         "24/7 Logistics Bahamas"
       ]
     },
     {
-      "key": "apex pavers",
-      "nominal_value": "8617678",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Apex Pavers"
-      ]
-    },
-    {
       "key": "v and t renovations",
-      "nominal_value": "8430897.42",
-      "award_rows": 46,
-      "period_count": 14,
+      "nominal_value": "7228519.71",
+      "award_rows": 33,
+      "period_count": 11,
       "raw_names": [
         "V and T Renovations"
-      ]
-    },
-    {
-      "key": "newbold construction",
-      "nominal_value": "8047059",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Newbold Construction"
-      ]
-    },
-    {
-      "key": "apex pavers co ltd",
-      "nominal_value": "7733770.3200000002",
-      "award_rows": 5,
-      "period_count": 2,
-      "raw_names": [
-        "Apex Pavers Co Ltd",
-        "Apex Pavers Co. Ltd."
       ]
     },
     {
@@ -157,52 +61,11 @@
     },
     {
       "key": "row creek co ltd",
-      "nominal_value": "6062917.700000000001",
-      "award_rows": 9,
-      "period_count": 7,
+      "nominal_value": "5229865.99",
+      "award_rows": 3,
+      "period_count": 3,
       "raw_names": [
         "Row Creek Co. Ltd."
-      ]
-    },
-    {
-      "key": "heavy marine and foundations ltd",
-      "nominal_value": "6000000",
-      "award_rows": 2,
-      "period_count": 1,
-      "raw_names": [
-        "Heavy Marine and Foundations Ltd"
-      ]
-    },
-    {
-      "key": "noontide management group ltd",
-      "nominal_value": "5248356.2",
-      "award_rows": 4,
-      "period_count": 2,
-      "raw_names": [
-        "Noontide Management Group, Ltd."
-      ]
-    },
-    {
-      "key": "proficient business services ltd",
-      "nominal_value": "4293795.26999999999",
-      "award_rows": 14,
-      "period_count": 6,
-      "raw_names": [
-        "PROFICIENT BUSINESS SERVICES LTD",
-        "Proficient Business Services Ltd",
-        "Proficient Business Services Ltd.",
-        "Proficient Business Services ltd.",
-        "proficient business services ltd"
-      ]
-    },
-    {
-      "key": "custom computers ltd",
-      "nominal_value": "4228246.3900000000088",
-      "award_rows": 104,
-      "period_count": 15,
-      "raw_names": [
-        "Custom Computers Ltd",
-        "Custom Computers Ltd."
       ]
     },
     {
@@ -215,84 +78,21 @@
       ]
     },
     {
-      "key": "trade winds builders limited",
-      "nominal_value": "4053862.74",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Trade Winds Builders Limited"
-      ]
-    },
-    {
-      "key": "humble hands construction",
-      "nominal_value": "3948674.97999999996",
-      "award_rows": 8,
-      "period_count": 7,
-      "raw_names": [
-        "Humble Hands Construction"
-      ]
-    },
-    {
       "key": "proficient business services",
-      "nominal_value": "3552462.92999999999",
-      "award_rows": 7,
-      "period_count": 5,
+      "nominal_value": "3516462.92999999999",
+      "award_rows": 6,
+      "period_count": 4,
       "raw_names": [
         "PROFICIENT BUSINESS SERVICES"
       ]
     },
     {
-      "key": "digiesoft ltd",
-      "nominal_value": "3355000",
-      "award_rows": 1,
-      "period_count": 1,
+      "key": "humble hands construction",
+      "nominal_value": "3268674.97999999996",
+      "award_rows": 8,
+      "period_count": 6,
       "raw_names": [
-        "DigieSoft Ltd"
-      ]
-    },
-    {
-      "key": "overtime roofing and truss",
-      "nominal_value": "3103993.16",
-      "award_rows": 3,
-      "period_count": 3,
-      "raw_names": [
-        "Overtime Roofing and Truss"
-      ]
-    },
-    {
-      "key": "a and m construction",
-      "nominal_value": "2888846.71",
-      "award_rows": 2,
-      "period_count": 2,
-      "raw_names": [
-        "A & M Construction"
-      ]
-    },
-    {
-      "key": "knowles construction and development company ltd",
-      "nominal_value": "2819713.12",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Knowles Construction & Development Company Ltd."
-      ]
-    },
-    {
-      "key": "mondo america inc",
-      "nominal_value": "2763527.76",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Mondo America Inc"
-      ]
-    },
-    {
-      "key": "g and l construction ltd",
-      "nominal_value": "2501969.13",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "G & L Construction Ltd."
+        "Humble Hands Construction"
       ]
     },
     {
@@ -305,48 +105,12 @@
       ]
     },
     {
-      "key": "skye s construction",
-      "nominal_value": "2458301.27",
-      "award_rows": 7,
-      "period_count": 7,
+      "key": "overtime roofing and truss",
+      "nominal_value": "2290873.16",
+      "award_rows": 2,
+      "period_count": 2,
       "raw_names": [
-        "Skye's Construction"
-      ]
-    },
-    {
-      "key": "kirk thompson building and renovation",
-      "nominal_value": "2343465.64000000006",
-      "award_rows": 6,
-      "period_count": 3,
-      "raw_names": [
-        "Kirk Thompson Building & Renovation"
-      ]
-    },
-    {
-      "key": "sjk engineering and construction services",
-      "nominal_value": "2310000",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "SJK Engineering and Construction Services"
-      ]
-    },
-    {
-      "key": "mondon america inc bahamas hot mix ltd",
-      "nominal_value": "2204275.9900000002",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Mondon America Inc/Bahamas Hot Mix Ltd."
-      ]
-    },
-    {
-      "key": "scorpio construction company",
-      "nominal_value": "2155603.61",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Scorpio Construction Company"
+        "Overtime Roofing and Truss"
       ]
     },
     {
@@ -359,22 +123,12 @@
       ]
     },
     {
-      "key": "walker s industries limited",
-      "nominal_value": "2018993.05",
-      "award_rows": 16,
+      "key": "electro telecom ltd",
+      "nominal_value": "2029507.029999999988",
+      "award_rows": 29,
       "period_count": 11,
       "raw_names": [
-        "Walker's Industries Limited"
-      ]
-    },
-    {
-      "key": "walpole feed and supply co",
-      "nominal_value": "1944408.720000000000",
-      "award_rows": 51,
-      "period_count": 19,
-      "raw_names": [
-        "WALPOLE FEED & SUPPLY CO.",
-        "WALPOLE FEED AND SUPPLY CO."
+        "Electro Telecom Ltd"
       ]
     },
     {
@@ -387,15 +141,6 @@
       ]
     },
     {
-      "key": "a and t europe s p a",
-      "nominal_value": "1900295.00",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "A&T Europe S.p.A"
-      ]
-    },
-    {
       "key": "24 7 asphalt care bahamas",
       "nominal_value": "1789275.31",
       "award_rows": 5,
@@ -405,317 +150,57 @@
       ]
     },
     {
+      "key": "custom computers ltd",
+      "nominal_value": "1785249.04",
+      "award_rows": 14,
+      "period_count": 8,
+      "raw_names": [
+        "Custom Computers Ltd."
+      ]
+    },
+    {
       "key": "lucayan technology bahamas",
-      "nominal_value": "1779051.47",
-      "award_rows": 3,
-      "period_count": 2,
+      "nominal_value": "1643666",
+      "award_rows": 1,
+      "period_count": 1,
       "raw_names": [
         "Lucayan Technology Bahamas"
       ]
     },
     {
-      "key": "rabbie taylor plumbing",
-      "nominal_value": "1769376.160000000001",
-      "award_rows": 17,
-      "period_count": 7,
-      "raw_names": [
-        "Rabbie Taylor Plumbing"
-      ]
-    },
-    {
-      "key": "breezes bahamas",
-      "nominal_value": "1749909.469999999997",
-      "award_rows": 14,
-      "period_count": 9,
-      "raw_names": [
-        "Breezes Bahamas"
-      ]
-    },
-    {
-      "key": "scorpio construction",
-      "nominal_value": "1736472.06",
-      "award_rows": 5,
-      "period_count": 2,
-      "raw_names": [
-        "Scorpio Construction"
-      ]
-    },
-    {
-      "key": "agri solutions bahamas",
-      "nominal_value": "1716575.09999999999",
-      "award_rows": 13,
-      "period_count": 6,
-      "raw_names": [
-        "Agri Solutions Bahamas"
-      ]
-    },
-    {
-      "key": "ibm",
-      "nominal_value": "1710921.88",
-      "award_rows": 3,
-      "period_count": 3,
-      "raw_names": [
-        "IBM"
-      ]
-    },
-    {
-      "key": "big cat equipment ltd",
-      "nominal_value": "1695128.6",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Big Cat Equipment Ltd."
-      ]
-    },
-    {
-      "key": "caribbean renewable energy ltd",
-      "nominal_value": "1670500",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Caribbean Renewable Energy Ltd"
-      ]
-    },
-    {
-      "key": "patrick mcdonald construction company limited",
-      "nominal_value": "1656572.52",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Patrick McDonald Construction Company Limited"
-      ]
-    },
-    {
-      "key": "walcott s construction and maintenance",
-      "nominal_value": "1605768.54000000004",
-      "award_rows": 6,
-      "period_count": 3,
-      "raw_names": [
-        "Walcott's Construction & Maintenance",
-        "Walcott's Construction and Maintenance"
-      ]
-    },
-    {
-      "key": "data torque bahamas limited",
-      "nominal_value": "1601239.66",
-      "award_rows": 5,
-      "period_count": 5,
-      "raw_names": [
-        "Data Torque Bahamas Limited"
-      ]
-    },
-    {
-      "key": "micronet ltd",
-      "nominal_value": "1594368.39000000002625",
-      "award_rows": 71,
-      "period_count": 12,
-      "raw_names": [
-        "Micronet Ltd",
-        "Micronet Ltd."
-      ]
-    },
-    {
-      "key": "poultry technical services inc",
-      "nominal_value": "1589080",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Poultry Technical Services, inc."
-      ]
-    },
-    {
-      "key": "bhm co ltd",
-      "nominal_value": "1580118.31",
-      "award_rows": 6,
-      "period_count": 5,
-      "raw_names": [
-        "BHM Co Ltd",
-        "BHM Co. Ltd."
-      ]
-    },
-    {
-      "key": "axum architecture ltd",
-      "nominal_value": "1566859.93",
-      "award_rows": 6,
-      "period_count": 6,
-      "raw_names": [
-        "AXUM ARCHITECTURE LTD",
-        "Axum Architecture Ltd."
-      ]
-    },
-    {
-      "key": "regnology ireland limited",
-      "nominal_value": "1538980",
-      "award_rows": 2,
-      "period_count": 2,
-      "raw_names": [
-        "Regnology Ireland Limited"
-      ]
-    },
-    {
-      "key": "virgo construction maintenance and landscaping",
-      "nominal_value": "1525028.579999999989",
-      "award_rows": 29,
-      "period_count": 4,
-      "raw_names": [
-        "Virgo Construction Maintenance & Landscaping",
-        "Virgo Construction Maintenance and Landscaping"
-      ]
-    },
-    {
-      "key": "smitty s trucking and hauling services",
-      "nominal_value": "1491086.13",
-      "award_rows": 5,
-      "period_count": 1,
-      "raw_names": [
-        "Smitty‚Äôs Trucking & Hauling Services"
-      ]
-    },
-    {
-      "key": "unit export limited",
-      "nominal_value": "1475550",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "UNIT EXPORT LIMITED"
-      ]
-    },
-    {
       "key": "glinton s trucking and backhoe services",
-      "nominal_value": "1467218.53",
-      "award_rows": 3,
-      "period_count": 2,
+      "nominal_value": "1445470.31",
+      "award_rows": 1,
+      "period_count": 1,
       "raw_names": [
         "Glinton's Trucking & Backhoe Services"
       ]
     },
     {
-      "key": "mastermind construction and general maintenance",
-      "nominal_value": "1455320.35",
+      "key": "kirk thompson building and renovation",
+      "nominal_value": "1325939.82000000006",
       "award_rows": 3,
       "period_count": 2,
       "raw_names": [
-        "Mastermind Construction & General Maintenance"
+        "Kirk Thompson Building & Renovation"
       ]
     },
     {
-      "key": "s and s janitorial services",
-      "nominal_value": "1424797.75",
-      "award_rows": 3,
-      "period_count": 3,
-      "raw_names": [
-        "S&S Janitorial services",
-        "S&S janitorial services"
-      ]
-    },
-    {
-      "key": "infor",
-      "nominal_value": "1406249.29",
-      "award_rows": 3,
-      "period_count": 3,
-      "raw_names": [
-        "Infor"
-      ]
-    },
-    {
-      "key": "multimedia technologies ltd",
-      "nominal_value": "1391003.74",
-      "award_rows": 9,
-      "period_count": 6,
-      "raw_names": [
-        "Multimedia Technologies Ltd",
-        "Multimedia Technologies Ltd."
-      ]
-    },
-    {
-      "key": "carapace infosec services limited",
-      "nominal_value": "1375753.5",
-      "award_rows": 3,
-      "period_count": 3,
-      "raw_names": [
-        "Carapace InfoSec Services Limited"
-      ]
-    },
-    {
-      "key": "custom computers limited",
-      "nominal_value": "1336772.799999999999",
-      "award_rows": 2,
-      "period_count": 1,
-      "raw_names": [
-        "Custom Computers Limited"
-      ]
-    },
-    {
-      "key": "a l bethel enterprises",
-      "nominal_value": "1323473.76999999995",
+      "key": "agri solutions bahamas",
+      "nominal_value": "1319202.29999999999",
       "award_rows": 12,
+      "period_count": 5,
+      "raw_names": [
+        "Agri Solutions Bahamas"
+      ]
+    },
+    {
+      "key": "walker s industries limited",
+      "nominal_value": "1203000.74",
+      "award_rows": 8,
       "period_count": 6,
       "raw_names": [
-        "A L Bethel Enterprises"
-      ]
-    },
-    {
-      "key": "sunrise communications",
-      "nominal_value": "1322860",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "SunRise Communications"
-      ]
-    },
-    {
-      "key": "balfour consumer",
-      "nominal_value": "1315798.7200000000040",
-      "award_rows": 25,
-      "period_count": 10,
-      "raw_names": [
-        "Balfour Consumer"
-      ]
-    },
-    {
-      "key": "cloud carib limited",
-      "nominal_value": "1286887.2100000000017",
-      "award_rows": 15,
-      "period_count": 7,
-      "raw_names": [
-        "Cloud Carib Limited"
-      ]
-    },
-    {
-      "key": "office interior specialist",
-      "nominal_value": "1278860.54",
-      "award_rows": 16,
-      "period_count": 10,
-      "raw_names": [
-        "Office Interior Specialist"
-      ]
-    },
-    {
-      "key": "security plus business solutions limited",
-      "nominal_value": "1269260.400000000001",
-      "award_rows": 3,
-      "period_count": 2,
-      "raw_names": [
-        "Security Plus Business Solutions Limited"
-      ]
-    },
-    {
-      "key": "aee zee construction and general maintenance",
-      "nominal_value": "1225856.39",
-      "award_rows": 3,
-      "period_count": 2,
-      "raw_names": [
-        "Aee-Zee Construction & General Maintenance",
-        "Aee-Zee Construction and General Maintenance"
-      ]
-    },
-    {
-      "key": "main source electrical contracting company ltd",
-      "nominal_value": "1187620.76",
-      "award_rows": 3,
-      "period_count": 1,
-      "raw_names": [
-        "Main Source Electrical Contracting Company ltd."
+        "Walker's Industries Limited"
       ]
     },
     {
@@ -725,15 +210,6 @@
       "period_count": 1,
       "raw_names": [
         "A. D. William & Associates"
-      ]
-    },
-    {
-      "key": "nassau paper company and napco printing",
-      "nominal_value": "1162968.470000000002000007",
-      "award_rows": 77,
-      "period_count": 11,
-      "raw_names": [
-        "Nassau Paper Company & NAPCO Printing"
       ]
     },
     {
@@ -747,556 +223,896 @@
     },
     {
       "key": "bahamas bus and truck",
-      "nominal_value": "1081549.399999999999",
-      "award_rows": 3,
-      "period_count": 2,
+      "nominal_value": "1047893.8",
+      "award_rows": 2,
+      "period_count": 1,
       "raw_names": [
         "Bahamas Bus & Truck"
       ]
     },
     {
-      "key": "jessica general maintenance and landscaping",
-      "nominal_value": "1062702.30",
-      "award_rows": 5,
-      "period_count": 1,
+      "key": "walpole feed and supply co",
+      "nominal_value": "1031935.819999999999",
+      "award_rows": 31,
+      "period_count": 11,
       "raw_names": [
-        "Jessica General Maintenance and Landscaping"
+        "WALPOLE FEED & SUPPLY CO.",
+        "WALPOLE FEED AND SUPPLY CO."
       ]
     },
     {
-      "key": "ctf logistics",
-      "nominal_value": "1055734.7600000000014",
-      "award_rows": 12,
+      "key": "breezes bahamas",
+      "nominal_value": "1030112.519999999997",
+      "award_rows": 9,
+      "period_count": 6,
+      "raw_names": [
+        "Breezes Bahamas"
+      ]
+    },
+    {
+      "key": "office interior specialist",
+      "nominal_value": "994373.12",
+      "award_rows": 7,
       "period_count": 7,
       "raw_names": [
-        "CTF Logistics"
+        "Office Interior Specialist"
       ]
     },
     {
-      "key": "priority security services ltd",
-      "nominal_value": "1052706.16",
+      "key": "rabbie taylor plumbing",
+      "nominal_value": "946270.29",
+      "award_rows": 10,
+      "period_count": 4,
+      "raw_names": [
+        "Rabbie Taylor Plumbing"
+      ]
+    },
+    {
+      "key": "scorpio construction",
+      "nominal_value": "909352.83",
+      "award_rows": 3,
+      "period_count": 1,
+      "raw_names": [
+        "Scorpio Construction"
+      ]
+    },
+    {
+      "key": "multimedia technologies ltd",
+      "nominal_value": "883370.46",
       "award_rows": 4,
       "period_count": 4,
       "raw_names": [
-        "Priority Security Services Ltd"
+        "Multimedia Technologies Ltd",
+        "Multimedia Technologies Ltd."
       ]
     },
     {
-      "key": "a m construction co",
-      "nominal_value": "1049631.97",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "A M CONSTRUCTION CO."
-      ]
-    },
-    {
-      "key": "abcorp na inc",
-      "nominal_value": "1020100",
-      "award_rows": 4,
-      "period_count": 3,
-      "raw_names": [
-        "ABCorp NA Inc."
-      ]
-    },
-    {
-      "key": "supreme security team and co",
-      "nominal_value": "1019559.200000000001",
+      "key": "virgo construction maintenance",
+      "nominal_value": "862187.92",
       "award_rows": 3,
       "period_count": 2,
       "raw_names": [
-        "Supreme Security Team & Co"
+        "Virgo Construction Maintenance"
       ]
     },
     {
-      "key": "acg architects",
-      "nominal_value": "999545",
+      "key": "noontide mgmnt group ltd",
+      "nominal_value": "858556.6",
       "award_rows": 1,
       "period_count": 1,
       "raw_names": [
-        "ACG Architects"
+        "Noontide Mgmnt Group Ltd."
+      ]
+    },
+    {
+      "key": "data torque bahamas limited",
+      "nominal_value": "855006.66",
+      "award_rows": 3,
+      "period_count": 3,
+      "raw_names": [
+        "Data Torque Bahamas Limited"
+      ]
+    },
+    {
+      "key": "inova solutions n v",
+      "nominal_value": "840546.31",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Inova Solutions N.V."
+      ]
+    },
+    {
+      "key": "micronet ltd",
+      "nominal_value": "840448.6700000000337",
+      "award_rows": 10,
+      "period_count": 6,
+      "raw_names": [
+        "Micronet Ltd"
       ]
     },
     {
       "key": "united sanitation services ltd",
-      "nominal_value": "991967.6900000000204",
-      "award_rows": 12,
-      "period_count": 8,
+      "nominal_value": "826403.1900000000204",
+      "award_rows": 8,
+      "period_count": 6,
       "raw_names": [
         "United Sanitation Services Ltd"
       ]
     },
     {
-      "key": "lewis fix it all",
-      "nominal_value": "986879.31",
-      "award_rows": 5,
-      "period_count": 4,
-      "raw_names": [
-        "Lewis Fix It All"
-      ]
-    },
-    {
       "key": "island specialty foods",
-      "nominal_value": "982022.130000000003",
-      "award_rows": 15,
-      "period_count": 4,
+      "nominal_value": "806667.949999999997",
+      "award_rows": 9,
+      "period_count": 2,
       "raw_names": [
         "Island Specialty Foods"
       ]
     },
     {
-      "key": "ppp investment",
-      "nominal_value": "975000",
+      "key": "island j e m construction",
+      "nominal_value": "770100",
       "award_rows": 1,
       "period_count": 1,
       "raw_names": [
-        "PPP Investment"
+        "Island j e m construction"
+      ]
+    },
+    {
+      "key": "regnology ireland limited",
+      "nominal_value": "769490",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Regnology Ireland Limited"
+      ]
+    },
+    {
+      "key": "a l bethel enterprises",
+      "nominal_value": "688554.87",
+      "award_rows": 6,
+      "period_count": 4,
+      "raw_names": [
+        "A L Bethel Enterprises"
+      ]
+    },
+    {
+      "key": "mastermind construction and general maintenance",
+      "nominal_value": "673772.68",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Mastermind Construction & General Maintenance"
+      ]
+    },
+    {
+      "key": "global sun integration management",
+      "nominal_value": "672100",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Global Sun Integration Management"
+      ]
+    },
+    {
+      "key": "creative kids craft and woodwork",
+      "nominal_value": "659000",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Creative Kids Craft and Woodwork"
+      ]
+    },
+    {
+      "key": "germfree laboratories llc",
+      "nominal_value": "651000",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Germfree Laboratories, LLC"
+      ]
+    },
+    {
+      "key": "bahamas mosquito fogging co ltd",
+      "nominal_value": "646381.15",
+      "award_rows": 3,
+      "period_count": 2,
+      "raw_names": [
+        "Bahamas Mosquito Fogging Co Ltd"
+      ]
+    },
+    {
+      "key": "aalo enterprises",
+      "nominal_value": "643200",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "AALO Enterprises"
       ]
     },
     {
       "key": "harbourside marine ltd",
-      "nominal_value": "966305.19",
-      "award_rows": 5,
-      "period_count": 5,
+      "nominal_value": "605445.19",
+      "award_rows": 3,
+      "period_count": 3,
       "raw_names": [
         "HARBOURSIDE MARINE LTD"
       ]
     },
     {
+      "key": "sts contruction",
+      "nominal_value": "585250",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "STS Contruction"
+      ]
+    },
+    {
+      "key": "lynden s construction and renovation",
+      "nominal_value": "566050.0500000000046",
+      "award_rows": 22,
+      "period_count": 6,
+      "raw_names": [
+        "Lynden's Construction & Renovation"
+      ]
+    },
+    {
       "key": "plumbing solution general contractor",
-      "nominal_value": "965309.35",
-      "award_rows": 16,
-      "period_count": 5,
+      "nominal_value": "562404.08",
+      "award_rows": 7,
+      "period_count": 2,
       "raw_names": [
         "Plumbing Solution General Contractor"
       ]
     },
     {
-      "key": "tri brothers construction",
-      "nominal_value": "955430",
-      "award_rows": 5,
-      "period_count": 3,
+      "key": "south nassau co ltd",
+      "nominal_value": "550000",
+      "award_rows": 1,
+      "period_count": 1,
       "raw_names": [
-        "TRI BROTHERS CONSTRUCTION",
-        "Tri Brothers Construction"
+        "south nassau co,ltd"
       ]
     },
     {
-      "key": "sams enterprise and trucking",
-      "nominal_value": "954428.5",
-      "award_rows": 14,
-      "period_count": 8,
+      "key": "omar thurston gen maint and landscape",
+      "nominal_value": "523291.83",
+      "award_rows": 1,
+      "period_count": 1,
       "raw_names": [
-        "SAMS Enterprise & Trucking"
+        "Omar Thurston Gen. Maint & Landscape"
       ]
     },
     {
-      "key": "betun bahamas",
-      "nominal_value": "938715.569999999997",
-      "award_rows": 46,
+      "key": "skye s construction",
+      "nominal_value": "520774.31",
+      "award_rows": 6,
+      "period_count": 6,
+      "raw_names": [
+        "Skye's Construction"
+      ]
+    },
+    {
+      "key": "armchem international",
+      "nominal_value": "518244.48",
+      "award_rows": 2,
       "period_count": 2,
       "raw_names": [
-        "BETUN BAHAMAS",
-        "Betun Bahamas"
+        "ARMCHEM INTERNATIONAL"
       ]
     },
     {
-      "key": "easy car sales",
-      "nominal_value": "927601.359999999994",
+      "key": "amey ow bahamas",
+      "nominal_value": "514926.799999999998",
+      "award_rows": 4,
+      "period_count": 1,
+      "raw_names": [
+        "Amey OW Bahamas",
+        "Amey Ow Bahamas"
+      ]
+    },
+    {
+      "key": "aee zee construction and gen maint",
+      "nominal_value": "513976.09",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Aee-Zee Construction & Gen. Maint."
+      ]
+    },
+    {
+      "key": "rvb sons consrruction",
+      "nominal_value": "509960",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "RVB Sons Consrruction"
+      ]
+    },
+    {
+      "key": "harrison construction and gen maint",
+      "nominal_value": "508339.15",
       "award_rows": 4,
       "period_count": 3,
       "raw_names": [
-        "Easy Car Sales"
+        "Harrison Construction & Gen Maint",
+        "Harrison Construction & Gen. Maint",
+        "Harrison Construction & Gen. Maint.."
       ]
     },
     {
-      "key": "eagle eyes development",
-      "nominal_value": "923801.45",
-      "award_rows": 3,
+      "key": "salenko limited",
+      "nominal_value": "507403.679999999994",
+      "award_rows": 7,
       "period_count": 3,
       "raw_names": [
-        "Eagle Eyes Development"
+        "Salenko Limited"
       ]
     },
     {
-      "key": "basden elevator services ltd",
-      "nominal_value": "891180",
-      "award_rows": 3,
+      "key": "supreme auto sales company ltd",
+      "nominal_value": "486582.25",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Supreme Auto Sales Company Ltd"
+      ]
+    },
+    {
+      "key": "mr sidney clearvil",
+      "nominal_value": "480000",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Mr Sidney Clearvil"
+      ]
+    },
+    {
+      "key": "sysco bahamas",
+      "nominal_value": "466446.75",
+      "award_rows": 11,
+      "period_count": 4,
+      "raw_names": [
+        "SYSCO BAHAMAS",
+        "Sysco Bahamas"
+      ]
+    },
+    {
+      "key": "virgo construction and landscaping",
+      "nominal_value": "462176.44",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Virgo Construction & Landscaping"
+      ]
+    },
+    {
+      "key": "balfour consumer",
+      "nominal_value": "455082.840000000001",
+      "award_rows": 12,
+      "period_count": 5,
+      "raw_names": [
+        "Balfour Consumer"
+      ]
+    },
+    {
+      "key": "a and m construction",
+      "nominal_value": "455014.55",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "A & M Construction"
+      ]
+    },
+    {
+      "key": "woodstar construction",
+      "nominal_value": "453077.05",
+      "award_rows": 2,
       "period_count": 2,
       "raw_names": [
-        "Basden Elevator Services Ltd."
+        "Woodstar Construction"
+      ]
+    },
+    {
+      "key": "sanabell construction landscap and gen maint",
+      "nominal_value": "440183.06",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Sanabell Construction Landscap & Gen.Maint"
+      ]
+    },
+    {
+      "key": "amey ow bahamas limited",
+      "nominal_value": "436946.95",
+      "award_rows": 2,
+      "period_count": 2,
+      "raw_names": [
+        "AMEY OW BAHAMAS LIMITED"
+      ]
+    },
+    {
+      "key": "tripleteammaintenance",
+      "nominal_value": "430285.54",
+      "award_rows": 2,
+      "period_count": 2,
+      "raw_names": [
+        "Tripleteammaintenance"
+      ]
+    },
+    {
+      "key": "west palm beach school supplies llc",
+      "nominal_value": "420065.4499999999978",
+      "award_rows": 8,
+      "period_count": 3,
+      "raw_names": [
+        "West Palm Beach School Supplies LLC"
+      ]
+    },
+    {
+      "key": "alain r boisvert",
+      "nominal_value": "418953",
+      "award_rows": 2,
+      "period_count": 2,
+      "raw_names": [
+        "Alain R Boisvert"
+      ]
+    },
+    {
+      "key": "contractors direct ltd",
+      "nominal_value": "413436.99",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Contractors Direct Ltd."
+      ]
+    },
+    {
+      "key": "liberty paving and striping",
+      "nominal_value": "412000.38",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Liberty Paving & Striping"
+      ]
+    },
+    {
+      "key": "infinity imports",
+      "nominal_value": "410961.6",
+      "award_rows": 2,
+      "period_count": 2,
+      "raw_names": [
+        "Infinity Imports"
+      ]
+    },
+    {
+      "key": "timeless investments trucking services",
+      "nominal_value": "409500",
+      "award_rows": 2,
+      "period_count": 2,
+      "raw_names": [
+        "Timeless Investments Trucking Services"
+      ]
+    },
+    {
+      "key": "abcorp na inc",
+      "nominal_value": "406500",
+      "award_rows": 2,
+      "period_count": 1,
+      "raw_names": [
+        "ABCorp NA Inc."
+      ]
+    },
+    {
+      "key": "athena construction and general maint",
+      "nominal_value": "400000",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Athena Construction and General Maint."
+      ]
+    },
+    {
+      "key": "abaco aggregate and cement company ltd",
+      "nominal_value": "400000",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Abaco Aggregate & Cement Company Ltd"
+      ]
+    },
+    {
+      "key": "blue orchid",
+      "nominal_value": "399000",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "BLUE ORCHID"
+      ]
+    },
+    {
+      "key": "datatorque",
+      "nominal_value": "397800",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "DataTorque"
+      ]
+    },
+    {
+      "key": "ocean crest alliance",
+      "nominal_value": "396000",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Ocean Crest Alliance"
+      ]
+    },
+    {
+      "key": "emery floyde symonette",
+      "nominal_value": "381754.66",
+      "award_rows": 4,
+      "period_count": 2,
+      "raw_names": [
+        "Emery Floyde Symonette"
+      ]
+    },
+    {
+      "key": "bahamas office and school supplies",
+      "nominal_value": "380454.2200000000104",
+      "award_rows": 14,
+      "period_count": 5,
+      "raw_names": [
+        "BAHAMAS OFFICE & SCHOOL SUPPLIES",
+        "Bahamas Office & School Supplies"
+      ]
+    },
+    {
+      "key": "emmanuel renovations and painting",
+      "nominal_value": "379683.3800000000001",
+      "award_rows": 6,
+      "period_count": 5,
+      "raw_names": [
+        "Emmanuel Renovations & Painting",
+        "Emmanuel Renovations and Painting"
+      ]
+    },
+    {
+      "key": "oracle system bahamas ltd",
+      "nominal_value": "378633.1",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Oracle System Bahamas, LTD."
+      ]
+    },
+    {
+      "key": "supplies r us bahamas",
+      "nominal_value": "376320.22",
+      "award_rows": 6,
+      "period_count": 3,
+      "raw_names": [
+        "Supplies R Us, Bahamas"
+      ]
+    },
+    {
+      "key": "ftr ltd",
+      "nominal_value": "371134.70",
+      "award_rows": 5,
+      "period_count": 4,
+      "raw_names": [
+        "FTR LTD"
+      ]
+    },
+    {
+      "key": "hr re design company",
+      "nominal_value": "368999.32999999999",
+      "award_rows": 2,
+      "period_count": 2,
+      "raw_names": [
+        "HR-RE Design Company"
+      ]
+    },
+    {
+      "key": "big bins trucking and maintenance",
+      "nominal_value": "368640",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Big Bins Trucking & Maintenance"
+      ]
+    },
+    {
+      "key": "office products international",
+      "nominal_value": "366974.589999999999",
+      "award_rows": 4,
+      "period_count": 2,
+      "raw_names": [
+        "Office Products International"
+      ]
+    },
+    {
+      "key": "quintessential gen maint and landscape",
+      "nominal_value": "365784.82",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Quintessential Gen Maint. & Landscape"
+      ]
+    },
+    {
+      "key": "cloud carib limited",
+      "nominal_value": "360957.63",
+      "award_rows": 4,
+      "period_count": 4,
+      "raw_names": [
+        "Cloud Carib Limited"
+      ]
+    },
+    {
+      "key": "airport maintenance services limited",
+      "nominal_value": "359920",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Airport Maintenance Services Limited"
+      ]
+    },
+    {
+      "key": "edgewater construction",
+      "nominal_value": "353177.53",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Edgewater Construction"
+      ]
+    },
+    {
+      "key": "reliant general",
+      "nominal_value": "350628.300000000016",
+      "award_rows": 4,
+      "period_count": 3,
+      "raw_names": [
+        "RELIANT GENERAL",
+        "Reliant General"
+      ]
+    },
+    {
+      "key": "sands turner",
+      "nominal_value": "350000",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "sands turner"
+      ]
+    },
+    {
+      "key": "james major construction",
+      "nominal_value": "349000",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "James Major construction"
+      ]
+    },
+    {
+      "key": "dysan investments waste disposal",
+      "nominal_value": "346500",
+      "award_rows": 2,
+      "period_count": 1,
+      "raw_names": [
+        "Dysan Investments Waste Disposal"
+      ]
+    },
+    {
+      "key": "wellington brown contracting",
+      "nominal_value": "343105.45",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Wellington Brown Contracting"
       ]
     }
   ],
   "top_agencies": [
     {
-      "key": "unknown",
-      "nominal_value": "419230476.8800000101495",
-      "award_rows": 931,
-      "period_count": 6,
+      "key": "ministry of finance",
+      "nominal_value": "183856888.31000001",
+      "award_rows": 5,
+      "period_count": 1,
       "raw_names": [
-        "Unknown"
-      ]
-    },
-    {
-      "key": "department of public works",
-      "nominal_value": "187883887.95999999859755",
-      "award_rows": 1020,
-      "period_count": 3,
-      "raw_names": [
-        "Department of Public Works"
-      ]
-    },
-    {
-      "key": "department of education",
-      "nominal_value": "109048564.9399999999188",
-      "award_rows": 773,
-      "period_count": 3,
-      "raw_names": [
-        "Department of Education"
+        "Ministry of Finance"
       ]
     },
     {
       "key": "doe",
-      "nominal_value": "52678979.3200000000429",
-      "award_rows": 838,
-      "period_count": 17,
+      "nominal_value": "47885035.8400000000446",
+      "award_rows": 727,
+      "period_count": 15,
       "raw_names": [
         "DOE"
       ]
     },
     {
       "key": "dopw",
-      "nominal_value": "48152050.7799999999873",
-      "award_rows": 263,
-      "period_count": 17,
+      "nominal_value": "45415781.0699999999883",
+      "award_rows": 222,
+      "period_count": 15,
       "raw_names": [
         "DOPW"
       ]
     },
     {
       "key": "mof",
-      "nominal_value": "24532282.2600000003839",
-      "award_rows": 150,
-      "period_count": 16,
+      "nominal_value": "25932941.4100000004069",
+      "award_rows": 140,
+      "period_count": 15,
       "raw_names": [
         "MOF"
       ]
     },
     {
-      "key": "department of environmental health services",
-      "nominal_value": "18239131.81",
-      "award_rows": 266,
-      "period_count": 3,
-      "raw_names": [
-        "Department of Environmental Health Services"
-      ]
-    },
-    {
-      "key": "ministry of finance",
-      "nominal_value": "18020447.970000000008573007",
-      "award_rows": 224,
-      "period_count": 2,
-      "raw_names": [
-        "Ministry of Finance"
-      ]
-    },
-    {
       "key": "moa",
-      "nominal_value": "10733232.9699999999853",
-      "award_rows": 106,
-      "period_count": 16,
+      "nominal_value": "9742188.3299999999883",
+      "award_rows": 92,
+      "period_count": 14,
       "raw_names": [
         "MOA",
         "MOa"
       ]
     },
     {
-      "key": "port department",
-      "nominal_value": "9531842.31",
-      "award_rows": 5,
-      "period_count": 1,
-      "raw_names": [
-        "Port Department"
-      ]
-    },
-    {
-      "key": "department of transformation and digitization",
-      "nominal_value": "8821710.1200000000070",
-      "award_rows": 67,
-      "period_count": 3,
-      "raw_names": [
-        "Department of Transformation & Digitization"
-      ]
-    },
-    {
       "key": "dehs",
-      "nominal_value": "8420023.0300000000198",
-      "award_rows": 154,
-      "period_count": 17,
+      "nominal_value": "7333734.7200000000204",
+      "award_rows": 124,
+      "period_count": 15,
       "raw_names": [
         "DEHS"
       ]
     },
     {
-      "key": "national sports authority",
-      "nominal_value": "6190641.9499999999",
-      "award_rows": 7,
-      "period_count": 3,
+      "key": "department of education",
+      "nominal_value": "4272670.8899999999673",
+      "award_rows": 35,
+      "period_count": 1,
       "raw_names": [
-        "National Sports Authority"
-      ]
-    },
-    {
-      "key": "central processing unit",
-      "nominal_value": "5200490.97000000001065",
-      "award_rows": 357,
-      "period_count": 3,
-      "raw_names": [
-        "Central Processing Unit"
-      ]
-    },
-    {
-      "key": "dtad",
-      "nominal_value": "4436675.509999999999",
-      "award_rows": 34,
-      "period_count": 10,
-      "raw_names": [
-        "DTAD"
-      ]
-    },
-    {
-      "key": "ministry of agriculture marine resources and family island affairs",
-      "nominal_value": "4326085.1000000000004",
-      "award_rows": 74,
-      "period_count": 2,
-      "raw_names": [
-        "Ministry of Agriculture, Marine Resources & Family Island Affairs"
+        "Department of Education"
       ]
     },
     {
       "key": "rbpf",
-      "nominal_value": "3821782.229999999991",
-      "award_rows": 11,
-      "period_count": 4,
+      "nominal_value": "3416355.80999999999",
+      "award_rows": 7,
+      "period_count": 2,
       "raw_names": [
         "RBPF"
       ]
     },
     {
-      "key": "rtd",
-      "nominal_value": "3769643.670000000001",
-      "award_rows": 23,
-      "period_count": 11,
+      "key": "dtad",
+      "nominal_value": "3176268.589999999999",
+      "award_rows": 24,
+      "period_count": 8,
       "raw_names": [
-        "RTD"
+        "DTAD"
+      ]
+    },
+    {
+      "key": "dolg",
+      "nominal_value": "3067124.679999999999",
+      "award_rows": 102,
+      "period_count": 9,
+      "raw_names": [
+        "DOLG"
       ]
     },
     {
       "key": "cpu",
-      "nominal_value": "3591844.4300000000055",
-      "award_rows": 96,
-      "period_count": 11,
+      "nominal_value": "3054846.0000000000038",
+      "award_rows": 84,
+      "period_count": 9,
       "raw_names": [
         "CPU"
       ]
     },
     {
       "key": "mogb",
-      "nominal_value": "3474355.469999999994",
-      "award_rows": 109,
-      "period_count": 16,
+      "nominal_value": "2899575.819999999994",
+      "award_rows": 93,
+      "period_count": 14,
       "raw_names": [
         "MOGB"
       ]
     },
     {
-      "key": "post office department",
-      "nominal_value": "3389163.649999999994",
-      "award_rows": 12,
-      "period_count": 2,
-      "raw_names": [
-        "Post Office Department"
-      ]
-    },
-    {
-      "key": "department of local government",
-      "nominal_value": "2915976.20",
-      "award_rows": 56,
-      "period_count": 3,
-      "raw_names": [
-        "Department of Local Government"
-      ]
-    },
-    {
-      "key": "bahamas technical and vocational institute",
-      "nominal_value": "2874791.009999999999",
-      "award_rows": 7,
-      "period_count": 3,
-      "raw_names": [
-        "Bahamas Technical & Vocational Institute"
-      ]
-    },
-    {
-      "key": "dolg",
-      "nominal_value": "2709193.729999999999",
-      "award_rows": 81,
-      "period_count": 8,
-      "raw_names": [
-        "DOLG"
-      ]
-    },
-    {
-      "key": "ministry of youth sport and culture",
-      "nominal_value": "2632086.6400000000013",
-      "award_rows": 70,
-      "period_count": 3,
-      "raw_names": [
-        "Ministry of Youth, Sport & Culture"
-      ]
-    },
-    {
-      "key": "ministry of social services and urban development",
-      "nominal_value": "2595566.3499999999964",
-      "award_rows": 39,
-      "period_count": 3,
-      "raw_names": [
-        "Ministry of Social Services & Urban Development"
-      ]
-    },
-    {
-      "key": "mohw",
-      "nominal_value": "2401270.499999999996",
-      "award_rows": 33,
-      "period_count": 8,
-      "raw_names": [
-        "MOHW"
-      ]
-    },
-    {
-      "key": "baic",
-      "nominal_value": "2383671.329999999998",
-      "award_rows": 90,
-      "period_count": 16,
-      "raw_names": [
-        "BAIC"
-      ]
-    },
-    {
-      "key": "jd",
-      "nominal_value": "2354870.039999999980",
-      "award_rows": 51,
-      "period_count": 15,
-      "raw_names": [
-        "JD"
-      ]
-    },
-    {
-      "key": "moysc",
-      "nominal_value": "1794526.739999999979",
-      "award_rows": 43,
-      "period_count": 9,
-      "raw_names": [
-        "MOYSC"
-      ]
-    },
-    {
-      "key": "ministry of agriculture marine resources and family is affairs",
-      "nominal_value": "1792938.799999999994",
-      "award_rows": 12,
-      "period_count": 1,
-      "raw_names": [
-        "Ministry of Agriculture, Marine Resources & Family Is Affairs"
-      ]
-    },
-    {
       "key": "moenr",
-      "nominal_value": "1573913.839999999999",
-      "award_rows": 19,
-      "period_count": 10,
+      "nominal_value": "2723052.109999999999",
+      "award_rows": 21,
+      "period_count": 9,
       "raw_names": [
         "MOENR"
       ]
     },
     {
-      "key": "idb project executing unit moh",
-      "nominal_value": "1517130",
-      "award_rows": 2,
-      "period_count": 2,
+      "key": "rtd",
+      "nominal_value": "2720563.530000000001",
+      "award_rows": 19,
+      "period_count": 10,
       "raw_names": [
-        "IDB - Project Executing Unit - MOH"
+        "RTD"
       ]
     },
     {
-      "key": "road traffic department",
-      "nominal_value": "1494782.16",
-      "award_rows": 10,
-      "period_count": 3,
+      "key": "mohw",
+      "nominal_value": "2400746.109999999996",
+      "award_rows": 30,
+      "period_count": 7,
       "raw_names": [
-        "Road Traffic Department"
+        "MOHW"
       ]
     },
     {
-      "key": "ministry of grand bahama",
-      "nominal_value": "1352801.33",
-      "award_rows": 15,
+      "key": "jd",
+      "nominal_value": "2334917.990000000000",
+      "award_rows": 51,
+      "period_count": 13,
+      "raw_names": [
+        "JD"
+      ]
+    },
+    {
+      "key": "baic",
+      "nominal_value": "2139678.219999999999",
+      "award_rows": 78,
+      "period_count": 14,
+      "raw_names": [
+        "BAIC"
+      ]
+    },
+    {
+      "key": "dols",
+      "nominal_value": "1899788",
+      "award_rows": 1,
       "period_count": 1,
       "raw_names": [
-        "Ministry of Grand Bahama"
+        "DOLS"
+      ]
+    },
+    {
+      "key": "department of environmental health services",
+      "nominal_value": "1642730.740000000005",
+      "award_rows": 17,
+      "period_count": 1,
+      "raw_names": [
+        "Department of Environmental Health Services"
+      ]
+    },
+    {
+      "key": "department of public works",
+      "nominal_value": "1582407.419999999998",
+      "award_rows": 20,
+      "period_count": 1,
+      "raw_names": [
+        "Department of Public Works"
+      ]
+    },
+    {
+      "key": "moysc",
+      "nominal_value": "1077062.739999999979",
+      "award_rows": 22,
+      "period_count": 6,
+      "raw_names": [
+        "MOYSC"
       ]
     },
     {
       "key": "dopo",
-      "nominal_value": "1193137.690000000000",
-      "award_rows": 30,
-      "period_count": 9,
+      "nominal_value": "955115.830000000000",
+      "award_rows": 26,
+      "period_count": 7,
       "raw_names": [
         "DOPO"
-      ]
-    },
-    {
-      "key": "department of inland revenue",
-      "nominal_value": "1021697.66000000001",
-      "award_rows": 6,
-      "period_count": 2,
-      "raw_names": [
-        "Department of Inland Revenue"
-      ]
-    },
-    {
-      "key": "domr",
-      "nominal_value": "1006522.96",
-      "award_rows": 8,
-      "period_count": 5,
-      "raw_names": [
-        "DOMR"
-      ]
-    },
-    {
-      "key": "bahamas department of correctional services",
-      "nominal_value": "998724.680000000003",
-      "award_rows": 24,
-      "period_count": 3,
-      "raw_names": [
-        "Bahamas Department of Correctional Services"
-      ]
-    },
-    {
-      "key": "ministry of the public service",
-      "nominal_value": "975000",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Ministry of the Public Service"
-      ]
-    },
-    {
-      "key": "btvi",
-      "nominal_value": "957510",
-      "award_rows": 6,
-      "period_count": 5,
-      "raw_names": [
-        "BTVI"
       ]
     },
     {
@@ -1309,12 +1125,21 @@
       ]
     },
     {
-      "key": "office of the prime minister",
-      "nominal_value": "885491.31000000001",
-      "award_rows": 23,
-      "period_count": 3,
+      "key": "btvi",
+      "nominal_value": "927460",
+      "award_rows": 5,
+      "period_count": 4,
       "raw_names": [
-        "Office of the Prime Minister"
+        "BTVI"
+      ]
+    },
+    {
+      "key": "domr",
+      "nominal_value": "825266.75",
+      "award_rows": 4,
+      "period_count": 2,
+      "raw_names": [
+        "DOMR"
       ]
     },
     {
@@ -1324,15 +1149,6 @@
       "period_count": 1,
       "raw_names": [
         "PFMPRM"
-      ]
-    },
-    {
-      "key": "reconstruction with resilience in the energy sector of the bahamas",
-      "nominal_value": "791320.1",
-      "award_rows": 4,
-      "period_count": 1,
-      "raw_names": [
-        "Reconstruction with Resilience in the Energy Sector of The Bahamas"
       ]
     },
     {
@@ -1346,92 +1162,38 @@
     },
     {
       "key": "rbdf",
-      "nominal_value": "751011.94",
-      "award_rows": 16,
-      "period_count": 5,
+      "nominal_value": "725566.41",
+      "award_rows": 13,
+      "period_count": 4,
       "raw_names": [
         "RBDF"
       ]
     },
     {
-      "key": "judicial department",
-      "nominal_value": "746851.14",
-      "award_rows": 2,
-      "period_count": 2,
-      "raw_names": [
-        "Judicial Department"
-      ]
-    },
-    {
-      "key": "ministry of the environment and natural resources",
-      "nominal_value": "733069.45",
-      "award_rows": 12,
-      "period_count": 2,
-      "raw_names": [
-        "Ministry of the Environment & Natural Resources"
-      ]
-    },
-    {
-      "key": "ministry of labor and immigration",
-      "nominal_value": "726943.90",
-      "award_rows": 5,
-      "period_count": 3,
-      "raw_names": [
-        "Ministry of Labor & Immigration"
-      ]
-    },
-    {
       "key": "doi",
-      "nominal_value": "691942.33",
-      "award_rows": 10,
-      "period_count": 5,
+      "nominal_value": "676343.23",
+      "award_rows": 9,
+      "period_count": 4,
       "raw_names": [
         "DOI"
       ]
     },
     {
-      "key": "bahamas agriculture and marine science institue",
-      "nominal_value": "661358.36",
-      "award_rows": 5,
-      "period_count": 2,
+      "key": "antiquities monuments and museum corporation",
+      "nominal_value": "585250",
+      "award_rows": 1,
+      "period_count": 1,
       "raw_names": [
-        "Bahamas Agriculture and Marine Science Institue"
-      ]
-    },
-    {
-      "key": "dom",
-      "nominal_value": "634023.6300000000091",
-      "award_rows": 7,
-      "period_count": 5,
-      "raw_names": [
-        "DOM"
+        "Antiquities, Monuments and Museum Corporation."
       ]
     },
     {
       "key": "doag",
-      "nominal_value": "611244.090000000003",
-      "award_rows": 18,
-      "period_count": 10,
+      "nominal_value": "572817.560000000003",
+      "award_rows": 16,
+      "period_count": 9,
       "raw_names": [
         "DOAG"
-      ]
-    },
-    {
-      "key": "ministry of health and wellness",
-      "nominal_value": "518484.82",
-      "award_rows": 16,
-      "period_count": 3,
-      "raw_names": [
-        "Ministry of Health & Wellness"
-      ]
-    },
-    {
-      "key": "department of marine resources",
-      "nominal_value": "492815.5900000000004",
-      "award_rows": 18,
-      "period_count": 3,
-      "raw_names": [
-        "Department of Marine Resources"
       ]
     },
     {
@@ -1444,75 +1206,30 @@
       ]
     },
     {
-      "key": "department of immigration",
-      "nominal_value": "474449.02",
-      "award_rows": 7,
-      "period_count": 3,
+      "key": "dom",
+      "nominal_value": "475016.7099999999991",
+      "award_rows": 5,
+      "period_count": 4,
       "raw_names": [
-        "Department of Immigration"
-      ]
-    },
-    {
-      "key": "department of agriculture",
-      "nominal_value": "412315.4500000000014",
-      "award_rows": 13,
-      "period_count": 3,
-      "raw_names": [
-        "Department of Agriculture"
+        "DOM"
       ]
     },
     {
       "key": "moep",
-      "nominal_value": "401343.220000000013",
-      "award_rows": 8,
-      "period_count": 5,
+      "nominal_value": "472355.220000000013",
+      "award_rows": 10,
+      "period_count": 6,
       "raw_names": [
         "MOEP"
       ]
     },
     {
-      "key": "cabinet office",
-      "nominal_value": "399593.69",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Cabinet Office"
-      ]
-    },
-    {
-      "key": "ministry of foreign affairs",
-      "nominal_value": "394900",
-      "award_rows": 3,
-      "period_count": 2,
-      "raw_names": [
-        "Ministry of Foreign Affairs"
-      ]
-    },
-    {
-      "key": "ministry of economic affairs",
-      "nominal_value": "373817.5300000000010",
-      "award_rows": 14,
-      "period_count": 1,
-      "raw_names": [
-        "Ministry of Economic Affairs"
-      ]
-    },
-    {
       "key": "dop",
-      "nominal_value": "366781.28",
-      "award_rows": 7,
-      "period_count": 2,
+      "nominal_value": "366011.29",
+      "award_rows": 6,
+      "period_count": 1,
       "raw_names": [
         "DOP"
-      ]
-    },
-    {
-      "key": "bamsi",
-      "nominal_value": "363407.209999999998",
-      "award_rows": 9,
-      "period_count": 6,
-      "raw_names": [
-        "BAMSI"
       ]
     },
     {
@@ -1525,21 +1242,30 @@
       ]
     },
     {
-      "key": "royal bahamas defence force",
-      "nominal_value": "333646.53",
-      "award_rows": 9,
-      "period_count": 2,
+      "key": "bamsi",
+      "nominal_value": "343934.95",
+      "award_rows": 8,
+      "period_count": 5,
       "raw_names": [
-        "Royal Bahamas Defence Force"
+        "BAMSI"
       ]
     },
     {
-      "key": "ministry of works and utilities",
-      "nominal_value": "332059.98",
-      "award_rows": 1,
-      "period_count": 1,
+      "key": "ag",
+      "nominal_value": "336742.98",
+      "award_rows": 7,
+      "period_count": 3,
       "raw_names": [
-        "Ministry of Works & Utilities"
+        "AG"
+      ]
+    },
+    {
+      "key": "opm",
+      "nominal_value": "321642.3",
+      "award_rows": 4,
+      "period_count": 3,
+      "raw_names": [
+        "OPM"
       ]
     },
     {
@@ -1552,66 +1278,30 @@
       ]
     },
     {
-      "key": "opm",
-      "nominal_value": "300453.1",
-      "award_rows": 4,
-      "period_count": 3,
-      "raw_names": [
-        "OPM"
-      ]
-    },
-    {
-      "key": "bahamas agricultural health and food safety authority",
-      "nominal_value": "278780.459999999998",
-      "award_rows": 11,
+      "key": "bahamas agriculture and marine science institue",
+      "nominal_value": "249002.6",
+      "award_rows": 1,
       "period_count": 1,
       "raw_names": [
-        "Bahamas Agricultural Health and Food Safety Authority"
+        "Bahamas Agriculture and Marine Science Institue"
       ]
     },
     {
-      "key": "ag",
-      "nominal_value": "276469.2",
-      "award_rows": 4,
-      "period_count": 2,
-      "raw_names": [
-        "AG"
-      ]
-    },
-    {
-      "key": "customs department",
-      "nominal_value": "275119.38",
-      "award_rows": 2,
+      "key": "ministry of agriculture marine resources and family isl affairs",
+      "nominal_value": "242054.35",
+      "award_rows": 5,
       "period_count": 1,
       "raw_names": [
-        "Customs Department"
-      ]
-    },
-    {
-      "key": "idb project executing unit moea",
-      "nominal_value": "231098.32",
-      "award_rows": 4,
-      "period_count": 2,
-      "raw_names": [
-        "IDB Project Executing Unit - MOEA"
+        "Ministry of Agriculture, Marine Resources & Family Isl Affairs"
       ]
     },
     {
       "key": "bdocs",
-      "nominal_value": "228160.8099999999996",
-      "award_rows": 12,
-      "period_count": 10,
+      "nominal_value": "203674.8099999999996",
+      "award_rows": 11,
+      "period_count": 9,
       "raw_names": [
         "BDOCS"
-      ]
-    },
-    {
-      "key": "attorney general s office",
-      "nominal_value": "210938.96",
-      "award_rows": 11,
-      "period_count": 2,
-      "raw_names": [
-        "Attorney General's Office"
       ]
     },
     {
@@ -1633,12 +1323,12 @@
       ]
     },
     {
-      "key": "disaster reconstruction authority",
-      "nominal_value": "150000",
-      "award_rows": 1,
+      "key": "ministry of health and wellness",
+      "nominal_value": "113808.75",
+      "award_rows": 2,
       "period_count": 1,
       "raw_names": [
-        "Disaster Reconstruction Authority"
+        "Ministry of Health & Wellness"
       ]
     },
     {
@@ -1651,40 +1341,57 @@
       ]
     },
     {
+      "key": "central processing unit",
+      "nominal_value": "87276.64",
+      "award_rows": 2,
+      "period_count": 1,
+      "raw_names": [
+        "Central Processing Unit"
+      ]
+    },
+    {
       "key": "dogp",
-      "nominal_value": "100169.1800000000007",
-      "award_rows": 10,
-      "period_count": 7,
+      "nominal_value": "80688.1800000000007",
+      "award_rows": 9,
+      "period_count": 6,
       "raw_names": [
         "DOGP"
       ]
     },
     {
-      "key": "ministry of agriculture marine resources and family isl affairs",
-      "nominal_value": "96105.58",
-      "award_rows": 7,
-      "period_count": 2,
-      "raw_names": [
-        "Ministry of Agriculture, Marine Resources & Family Isl Affairs",
-        "Ministry of Agriculture, Marine Resources & Family Isl. Affairs"
-      ]
-    },
-    {
-      "key": "ministry of agriculture marine resources and fam isl affairs",
-      "nominal_value": "94724",
-      "award_rows": 2,
-      "period_count": 1,
-      "raw_names": [
-        "Ministry of Agriculture, Marine Resources & Fam. Isl. Affairs"
-      ]
-    },
-    {
-      "key": "department of lands and survey",
-      "nominal_value": "74143.08",
+      "key": "bahamas agricultural health and food safety authority",
+      "nominal_value": "80685",
       "award_rows": 1,
       "period_count": 1,
       "raw_names": [
-        "Department of Lands & Survey"
+        "Bahamas Agricultural Health and Food Safety Authority"
+      ]
+    },
+    {
+      "key": "department of transformation and digitization",
+      "nominal_value": "70766.66",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "Department of Transformation & Digitization"
+      ]
+    },
+    {
+      "key": "ministry of youth sport and culture",
+      "nominal_value": "55722",
+      "award_rows": 4,
+      "period_count": 1,
+      "raw_names": [
+        "Ministry of Youth, Sport & Culture"
+      ]
+    },
+    {
+      "key": "department of local government",
+      "nominal_value": "54196.02",
+      "award_rows": 3,
+      "period_count": 1,
+      "raw_names": [
+        "Department of Local Government"
       ]
     },
     {
@@ -1715,30 +1422,12 @@
       ]
     },
     {
-      "key": "government printing department",
-      "nominal_value": "42503.099999999999",
-      "award_rows": 4,
-      "period_count": 2,
-      "raw_names": [
-        "Government Printing Department"
-      ]
-    },
-    {
-      "key": "bahfs",
-      "nominal_value": "39995",
+      "key": "road traffic department",
+      "nominal_value": "39692.400000000001",
       "award_rows": 1,
       "period_count": 1,
       "raw_names": [
-        "BAHFS"
-      ]
-    },
-    {
-      "key": "idb peu",
-      "nominal_value": "37248.089999999997",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "IDB PEU"
+        "Road Traffic Department"
       ]
     },
     {
@@ -1751,12 +1440,12 @@
       ]
     },
     {
-      "key": "airport authority",
-      "nominal_value": "26190",
+      "key": "department of marine resources",
+      "nominal_value": "25495.8",
       "award_rows": 1,
       "period_count": 1,
       "raw_names": [
-        "Airport Authority"
+        "Department of Marine Resources"
       ]
     },
     {
@@ -1778,42 +1467,6 @@
       ]
     },
     {
-      "key": "bahamas agricultural and industrial corporation",
-      "nominal_value": "20398.919999999998",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Bahamas Agricultural & Industrial Corporation"
-      ]
-    },
-    {
-      "key": "royal bahamas police force",
-      "nominal_value": "14420.8",
-      "award_rows": 3,
-      "period_count": 2,
-      "raw_names": [
-        "Royal Bahamas Police Force"
-      ]
-    },
-    {
-      "key": "department of housing",
-      "nominal_value": "12718.75",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Department of Housing"
-      ]
-    },
-    {
-      "key": "bahamas public parks and public beaches",
-      "nominal_value": "12000",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Bahamas Public Parks and Public Beaches"
-      ]
-    },
-    {
       "key": "pd",
       "nominal_value": "11898.67",
       "award_rows": 1,
@@ -1823,113 +1476,73 @@
       ]
     },
     {
-      "key": "national independence secretariat",
-      "nominal_value": "11700",
+      "key": "bahamas agricultural and industrial corporation",
+      "nominal_value": "9900",
+      "award_rows": 2,
+      "period_count": 1,
+      "raw_names": [
+        "Bahamas Agricultural & Industrial Corporation"
+      ]
+    },
+    {
+      "key": "ministry of grand bahama",
+      "nominal_value": "7200",
       "award_rows": 1,
       "period_count": 1,
       "raw_names": [
-        "National Independence Secretariat"
+        "Ministry of Grand Bahama"
       ]
     }
   ],
   "categories": [
     {
       "name": "Infrastructure & Materials",
-      "award_rows": 402,
-      "nominal_value": "491872902.8200000081682"
+      "award_rows": 146,
+      "nominal_value": "231527317.3200000099906"
     },
     {
       "name": "Other / Unclassified",
-      "award_rows": 3428,
-      "nominal_value": "305682437.740000000263343"
+      "award_rows": 1152,
+      "nominal_value": "78347783.7700000003727"
     },
     {
       "name": "Facilities & Maintenance",
-      "award_rows": 1742,
-      "nominal_value": "169597662.890000000595410007"
+      "award_rows": 569,
+      "nominal_value": "44982579.5200000000195"
     },
     {
       "name": "Equipment & Supplies",
-      "award_rows": 536,
-      "nominal_value": "16853631.75999999998192"
+      "award_rows": 103,
+      "nominal_value": "6792342.3900000000128"
     },
     {
       "name": "Software & IT",
-      "award_rows": 97,
-      "nominal_value": "13590937.9900000000467"
+      "award_rows": 32,
+      "nominal_value": "4971263.57000000003"
     },
     {
       "name": "Agriculture",
-      "award_rows": 135,
-      "nominal_value": "7062091.8299999999341"
-    },
-    {
-      "name": "Events & Hospitality",
-      "award_rows": 107,
-      "nominal_value": "3098990.5400000000004"
+      "award_rows": 66,
+      "nominal_value": "3096816.239999999979"
     },
     {
       "name": "Wellness",
-      "award_rows": 9,
-      "nominal_value": "1263869.71"
+      "award_rows": 6,
+      "nominal_value": "1155652.65"
+    },
+    {
+      "name": "Events & Hospitality",
+      "award_rows": 37,
+      "nominal_value": "949695.5000000000014"
     }
   ],
   "monthly": [
-    {
-      "period": "2023-12..2024-02",
-      "award_rows": 411,
-      "nominal_value": "28107245.79000000016280",
-      "supplier_keys": 249,
-      "agency_codes": 31
-    },
-    {
-      "period": "2024-01",
-      "award_rows": 2295,
-      "nominal_value": "348095094.139999998301353007",
-      "supplier_keys": 1163,
-      "agency_codes": 40
-    },
-    {
-      "period": "2024-03..2024-05",
-      "award_rows": 528,
-      "nominal_value": "24456566.69999999998432",
-      "supplier_keys": 301,
-      "agency_codes": 33
-    },
-    {
-      "period": "2024-09",
-      "award_rows": 222,
-      "nominal_value": "7117479.3600000000017",
-      "supplier_keys": 191,
-      "agency_codes": 1
-    },
-    {
-      "period": "2024-10",
-      "award_rows": 212,
-      "nominal_value": "190862938.8299999999855",
-      "supplier_keys": 190,
-      "agency_codes": 1
-    },
-    {
-      "period": "2024-11",
-      "award_rows": 235,
-      "nominal_value": "16848595.480000000200",
-      "supplier_keys": 191,
-      "agency_codes": 1
-    },
     {
       "period": "2024-12",
       "award_rows": 102,
       "nominal_value": "192975747.5800000099713",
       "supplier_keys": 81,
-      "agency_codes": 1
-    },
-    {
-      "period": "2025-01",
-      "award_rows": 93,
-      "nominal_value": "2583593.6999999999910",
-      "supplier_keys": 58,
-      "agency_codes": 1
+      "agency_codes": 17
     },
     {
       "period": "2025-02",
@@ -1944,13 +1557,6 @@
       "nominal_value": "15244613.4899999999964",
       "supplier_keys": 169,
       "agency_codes": 19
-    },
-    {
-      "period": "2025-04",
-      "award_rows": 128,
-      "nominal_value": "8426665.2399999999684",
-      "supplier_keys": 100,
-      "agency_codes": 18
     },
     {
       "period": "2025-05",
@@ -1972,20 +1578,6 @@
       "nominal_value": "12023178.8300000000078",
       "supplier_keys": 103,
       "agency_codes": 19
-    },
-    {
-      "period": "2025-08",
-      "award_rows": 77,
-      "nominal_value": "3615042.629999999991",
-      "supplier_keys": 64,
-      "agency_codes": 19
-    },
-    {
-      "period": "2025-09",
-      "award_rows": 176,
-      "nominal_value": "9252999.269999999998",
-      "supplier_keys": 146,
-      "agency_codes": 20
     },
     {
       "period": "2025-10",
@@ -2017,10 +1609,10 @@
     },
     {
       "period": "2026-02",
-      "award_rows": 67,
-      "nominal_value": "8842121.93",
-      "supplier_keys": 59,
-      "agency_codes": 1
+      "award_rows": 99,
+      "nominal_value": "11009268.75",
+      "supplier_keys": 80,
+      "agency_codes": 18
     },
     {
       "period": "2026-03",
@@ -2062,70 +1654,24 @@
     {
       "agency_code": "doe",
       "project_title_prefix": "h o nash jr high",
-      "award_rows": 9,
+      "award_rows": 8,
       "months_observed": [
         "2025-03",
         "2025-05",
         "2025-07",
-        "2025-09",
         "2025-10",
         "2025-11",
         "2025-12",
         "2026-04",
         "2026-05"
       ],
-      "nominal_value": "2268223.51",
+      "nominal_value": "2078731.86",
       "examples": [
-        "H O NASH JR HIGH 2024 SUMMER REPAIRS",
         "H O NASH JR HIGH SUMMER REPAIRS 2025",
         "H O NASH JR. HIGH PAINTING CONTRACT 2025 - HON 02",
+        "H O Nash Jr High School Summer Repairs 2024 - Boundary Wall",
         "H O Nash Jr High School Summer Repairs 2024 - Boundary Wall - #109",
         "H O Nash Jr High School Summer Repairs 2024 Home Economics - #110"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "s c mcpherson jr high",
-      "award_rows": 9,
-      "months_observed": [
-        "2025-03",
-        "2025-05",
-        "2025-07",
-        "2025-09",
-        "2025-10",
-        "2025-11",
-        "2025-12",
-        "2026-04"
-      ],
-      "nominal_value": "1328717.56000000001",
-      "examples": [
-        "S C MCPHERSON JR HIGH 2024 SUMMER REPAIRS (ELECTRICAL)",
-        "S C MCPHERSON JR HIGH SUMMER REPAIRS 2024",
-        "S C MCPHERSON JR HIGH SUMMER REPAIRS 2025 CONTRACT A",
-        "S C MCPHERSON JR HIGH SUMMER REPAIRS MECHANICAL 2025",
-        "S C McPHERSON JR HIGH SUMMER REPAIRS 2024"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "c i gibson sr high",
-      "award_rows": 12,
-      "months_observed": [
-        "2025-03",
-        "2025-07",
-        "2025-09",
-        "2025-10",
-        "2025-11",
-        "2026-04",
-        "2026-05"
-      ],
-      "nominal_value": "2005306.20",
-      "examples": [
-        "C I GIBSON SR HIGH PAINTING CONTRACT 2025 - CIG 02",
-        "C I GIBSON SR HIGH PAINTING CONTRACT 2025 - CIG 03",
-        "C I GIBSON SR HIGH PAINTING CONTRACT 2025 - CIG 04",
-        "C I GIBSON SR HIGH SUMMER REPAIRS 2025 ELECTRICAL",
-        "C I Gibson Sr High Summer Repairs 2024 Electrical"
       ]
     },
     {
@@ -2152,17 +1698,59 @@
     },
     {
       "agency_code": "doe",
-      "project_title_prefix": "d w davis jr high",
-      "award_rows": 14,
+      "project_title_prefix": "s c mcpherson jr high",
+      "award_rows": 8,
       "months_observed": [
         "2025-03",
         "2025-05",
-        "2025-09",
+        "2025-07",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-04"
+      ],
+      "nominal_value": "1258114.06000000001",
+      "examples": [
+        "S C MCPHERSON JR HIGH 2024 SUMMER REPAIRS (ELECTRICAL)",
+        "S C MCPHERSON JR HIGH SUMMER REPAIRS 2024",
+        "S C MCPHERSON JR HIGH SUMMER REPAIRS 2025 CONTRACT A",
+        "S C MCPHERSON JR HIGH SUMMER REPAIRS MECHANICAL 2025",
+        "S C McPHERSON JR HIGH SUMMER REPAIRS 2024"
+      ]
+    },
+    {
+      "agency_code": "doe",
+      "project_title_prefix": "c i gibson sr high",
+      "award_rows": 11,
+      "months_observed": [
+        "2025-03",
+        "2025-07",
+        "2025-10",
+        "2025-11",
+        "2026-04",
+        "2026-05"
+      ],
+      "nominal_value": "1990042.20",
+      "examples": [
+        "C I GIBSON SR HIGH PAINTING CONTRACT 2025 - CIG 02",
+        "C I GIBSON SR HIGH PAINTING CONTRACT 2025 - CIG 03",
+        "C I GIBSON SR HIGH PAINTING CONTRACT 2025 - CIG 04",
+        "C I GIBSON SR HIGH SUMMER REPAIRS 2025 ELECTRICAL",
+        "C I Gibson Sr High Summer Repairs 2024 Electrical"
+      ]
+    },
+    {
+      "agency_code": "doe",
+      "project_title_prefix": "d w davis jr high",
+      "award_rows": 10,
+      "months_observed": [
+        "2025-03",
+        "2025-05",
         "2025-10",
         "2026-04",
         "2026-07"
       ],
-      "nominal_value": "704626.44",
+      "nominal_value": "518497.16",
       "examples": [
         "D W DAVIS JR HIGH 2024 SUMMER REPAIRS (PLUMBING)",
         "D W DAVIS JR HIGH DEEP CLEANING 2025",
@@ -2174,42 +1762,21 @@
     {
       "agency_code": "doe",
       "project_title_prefix": "l w young jr high",
-      "award_rows": 8,
+      "award_rows": 7,
       "months_observed": [
         "2025-03",
-        "2025-09",
         "2025-10",
         "2025-12",
         "2026-04",
         "2026-05"
       ],
-      "nominal_value": "2784616.95",
+      "nominal_value": "2764348.95",
       "examples": [
         "L W YOUNG JR HIGH - STRUCTURAL 2025",
         "L W YOUNG JR HIGH SUMMER PAINTING CONTRACT 2025 - LWY 03",
         "L W YOUNG JR HIGH SUMMER PAINTING CONTRACT 2025 - LWY 04",
         "L W YOUNG JR HIGH SUMMER REPAIRS 2024",
         "L W YOUNG JR HIGH SUMMER REPAIRS 2025"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "t g glover painting contract",
-      "award_rows": 10,
-      "months_observed": [
-        "2025-09",
-        "2025-10",
-        "2025-11",
-        "2025-12",
-        "2026-04"
-      ],
-      "nominal_value": "146241.6",
-      "examples": [
-        "T G GLOVER PAINTING CONTRACT 2025 - TGG 07",
-        "T G GLOVER PAINTING CONTRACT 2025 -TGG -09",
-        "T G GLOVER PAINTING CONTRACT 2025 TGG 05",
-        "T.G. GLOVER PAINTING CONTRACT 2025 - TGG 04",
-        "T.G. GLOVER PAINTING CONTRACT 2025 -TGG 01"
       ]
     },
     {
@@ -2234,79 +1801,21 @@
     },
     {
       "agency_code": "doe",
-      "project_title_prefix": "tiny tots preschool summer repairs",
-      "award_rows": 5,
-      "months_observed": [
-        "2025-03",
-        "2025-04",
-        "2025-05",
-        "2025-08",
-        "2026-07"
-      ],
-      "nominal_value": "415301.439999999997",
-      "examples": [
-        "TINY TOTS PRESCHOOL 2024 SUMMER REPAIRS (CONTRACT A)",
-        "TINY TOTS PRESCHOOL 2024 SUMMER REPAIRS (MECHANICAL)",
-        "Tiny Tots Preschool 2024 Summer Repairs Contract B",
-        "Tiny Tots Preschool Summer Repairs 2024 Electrical Contract A",
-        "Tiny Tots Preschool Summer Repairs 2025- CONTRACT-A"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "r m bailey painting contract",
-      "award_rows": 16,
-      "months_observed": [
-        "2025-09",
-        "2025-10",
-        "2025-11",
-        "2026-04"
-      ],
-      "nominal_value": "239303.8",
-      "examples": [
-        "R M BAILEY PAINTING CONTRACT 2025 - RMB 01",
-        "R M BAILEY PAINTING CONTRACT 2025 - RMB 03",
-        "R M BAILEY PAINTING CONTRACT 2025 - RMB 06",
-        "R M BAILEY PAINTING CONTRACT 2025 - RMB10",
-        "R M BAILEY PAINTING CONTRACT 2025- RMB 04"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "carlton francis painting contract cf",
+      "project_title_prefix": "t g glover painting contract",
       "award_rows": 9,
       "months_observed": [
-        "2025-09",
         "2025-10",
         "2025-11",
-        "2025-12"
-      ],
-      "nominal_value": "103835.16",
-      "examples": [
-        "CARLTON FRANCIS PAINTING CONTRACT 2025 - CF 01",
-        "CARLTON FRANCIS PAINTING CONTRACT 2025 - CF 03",
-        "CARLTON FRANCIS PAINTING CONTRACT 2025 - CF-07",
-        "CARLTON FRANCIS PAINTING CONTRACT 2025 - CF05",
-        "Carlton Francis Painting Contract 2025-CF 02"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "doris johnson sr high painting",
-      "award_rows": 6,
-      "months_observed": [
-        "2025-09",
-        "2025-10",
-        "2025-11",
+        "2025-12",
         "2026-04"
       ],
-      "nominal_value": "97579.400000000001",
+      "nominal_value": "134935.6",
       "examples": [
-        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2025 - DJ 02",
-        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2025 - DJ 04",
-        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2025 -DJ 05",
-        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2025 DJ-01",
-        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2025- DJ 03"
+        "T G GLOVER PAINTING CONTRACT 2025 - TGG 07",
+        "T G GLOVER PAINTING CONTRACT 2025 -TGG -09",
+        "T G GLOVER PAINTING CONTRACT 2025 TGG 05",
+        "T.G. GLOVER PAINTING CONTRACT 2025 - TGG 04",
+        "T.G. GLOVER PAINTING CONTRACT 2025 -TGG 01"
       ]
     },
     {
@@ -2329,250 +1838,21 @@
       ]
     },
     {
-      "agency_code": "unknown",
-      "project_title_prefix": "t g glover painting contract",
-      "award_rows": 12,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "222278.000000000001",
-      "examples": [
-        "T.G. GLOVER - PAINTING CONTRACT 2024 - P-170TGG",
-        "T.G. GLOVER - PAINTING CONTRACT 2024 - P-174TGG",
-        "T.G. GLOVER - PAINTING CONTRACT 2024 - P-175TGG",
-        "T.G. GLOVER - PAINTING CONTRACT 2024 - P-180TGG",
-        "T.G. GLOVER - PAINTING CONTRACT 2024 - P-182TGG"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "carlton francis primary painting contract",
-      "award_rows": 12,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "163322.2",
-      "examples": [
-        "CARLTON FRANCIS PRIMARY PAINTING CONTRACT P-527 CF",
-        "CARLTON FRANCIS PRIMARY PAINTING CONTRACT P-528 CF",
-        "CARLTON FRANCIS PRIMARY PAINTING CONTRACT P-531 CF",
-        "CARLTON FRANCIS PRIMARY PAINTING CONTRACT P-534 CF",
-        "CARLTON FRANCIS PRIMARY PAINTING CONTRACT P-535 CF"
-      ]
-    },
-    {
-      "agency_code": "dopw",
-      "project_title_prefix": "gallon liquid bitumen pg rate",
-      "award_rows": 11,
-      "months_observed": [
-        "2025-02",
-        "2025-04",
-        "2025-05"
-      ],
-      "nominal_value": "8776500",
-      "examples": [
-        "Gallon of Liquid Bitumen PG76-22 Rate (April 2025) - #2",
-        "Gallon of Liquid Bitumen PG76-22 Rate - BULK 2",
-        "Gallon of Liquid Bitumen PG76-22 Rate - December",
-        "Gallon of Liquid Bitumen PG76-22 Rate - February 2025",
-        "Gallon of Liquid Bitumen PG76-22 Rate - January 2025"
-      ]
-    },
-    {
-      "agency_code": "dopw",
-      "project_title_prefix": "cleaning blowing catch pits drainage",
-      "award_rows": 10,
-      "months_observed": [
-        "2025-09",
-        "2025-12",
-        "2026-05"
-      ],
-      "nominal_value": "700000",
-      "examples": [
-        "Cleaning & Blowing of Catch Pits & Drainage Wells (2026): Zone 14",
-        "Cleaning & Blowing of Catch Pits & Drainage Wells (2026): Zone 3",
-        "Cleaning & Blowing of Catch Pits & Drainage Wells (2026): Zone 8",
-        "Cleaning & Blowing of Catch Pits & Drainage Wells 2026 - Zone 18",
-        "Cleaning & Blowing of Catch Pits & Drainage Wells 2026 - Zone 19"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "c c sweeting painting contract",
-      "award_rows": 10,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "156216.600000000002",
-      "examples": [
-        "C.C. SWEETING - PAINTING CONTRACT 2024 - P-900CC",
-        "C.C. SWEETING - PAINTING CONTRACT 2024 - P-901CS",
-        "C.C. SWEETING - PAINTING CONTRACT 2024 - P-904CS",
-        "C.C. SWEETING - PAINTING CONTRACT 2024 - P-908CS",
-        "C.C. SWEETING - PAINTING CONTRACT 2024 - P-909CS"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "c r walker painting contract",
-      "award_rows": 10,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "170929.600000000001",
-      "examples": [
-        "C.R. WALKER - PAINTING CONTRACT 2024 - P-120CW",
-        "C.R. WALKER - PAINTING CONTRACT 2024 - P-122CW",
-        "C.R. WALKER - PAINTING CONTRACT 2024 - P-123CW",
-        "C.R. WALKER - PAINTING CONTRACT 2024 - P-124CW",
-        "C.R. WALKER - PAINTING CONTRACT 2024 - P-126CW"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "doris johnson sr high painting",
-      "award_rows": 9,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2025-01"
-      ],
-      "nominal_value": "133043.8",
-      "examples": [
-        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2024 P-380 DJ",
-        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2024 P-383 DJ",
-        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2024 P-384 DJ",
-        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2024 P-385 DJ",
-        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2024 P-387 DJ"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "c v bethel sr high",
-      "award_rows": 9,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-12"
-      ],
-      "nominal_value": "584774.399999999998",
-      "examples": [
-        "C V BETHEL SR HIGH 2024 SUMMER REPAIRS (ARCHITECT)",
-        "C V BETHEL SR HIGH PAINTING CONTRACT 2024 P-703 CV",
-        "C V BETHEL SR HIGH PAINTING CONTRACT 2024 P-704 CV",
-        "C V BETHEL SR HIGH PAINTING CONTRACT 2024 P-706 CV",
-        "C V BETHEL SR HIGH PAINTING CONTRACT 2024 P-707 CV"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "r m baliey sr high",
-      "award_rows": 8,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "111866.2",
-      "examples": [
-        "R M BALIEY SR HIGH PAINTING CONTRACT 2024 P-710 RM",
-        "R M BALIEY SR HIGH PAINTING CONTRACT 2024 P-712 RM",
-        "R M BALIEY SR HIGH PAINTING CONTRACT 2024 P-713 RM",
-        "R M BALIEY SR HIGH PAINTING CONTRACT 2024 P-716 RM",
-        "R M BALIEY SR HIGH PAINTING CONTRACT 2024 P-717 RM"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "cleveland eneas primary painting contract",
-      "award_rows": 8,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "103111.000000000001",
-      "examples": [
-        "CLEVELAND ENEAS PRIMARY PAINTING CONTRACT P-550 CE",
-        "CLEVELAND ENEAS PRIMARY PAINTING CONTRACT P-551 CE",
-        "CLEVELAND ENEAS PRIMARY PAINTING CONTRACT P-552 CE",
-        "CLEVELAND ENEAS PRIMARY PAINTING CONTRACT P-554 CE",
-        "CLEVELAND ENEAS PRIMARY PAINTING CONTRACT P-557 CE"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "bulk waste removal july",
-      "award_rows": 7,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "528000",
-      "examples": [
-        "Bulk Waste Removal July 2024"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "yellow elder primary painting contract",
-      "award_rows": 7,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "89458.8",
-      "examples": [
-        "YELLOW ELDER PRIMARY - PAINTING CONTRACT 2024 - P-211YP",
-        "YELLOW ELDER PRIMARY - PAINTING CONTRACT 2024 - P-212YP",
-        "YELLOW ELDER PRIMARY - PAINTING CONTRACT 2024 - P-213YP",
-        "YELLOW ELDER PRIMARY - PAINTING CONTRACT 2024 - P-215YP",
-        "YELLOW ELDER PRIMARY - PAINTING CONTRACT 2024 - P-217YP"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "woodcock primary painting contract p",
-      "award_rows": 7,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "82301.9999999999990",
-      "examples": [
-        "WOODCOCK PRIMARY - PAINTING CONTRACT 2024 - P-101",
-        "WOODCOCK PRIMARY - PAINTING CONTRACT 2024 - P-103",
-        "WOODCOCK PRIMARY - PAINTING CONTRACT 2024 - P-104",
-        "WOODCOCK PRIMARY - PAINTING CONTRACT 2024 - P-105",
-        "WOODCOCK PRIMARY - PAINTING CONTRACT 2024 - P-106WP"
-      ]
-    },
-    {
       "agency_code": "doe",
-      "project_title_prefix": "c h reeves painting contract",
-      "award_rows": 6,
+      "project_title_prefix": "r m bailey painting contract",
+      "award_rows": 15,
       "months_observed": [
-        "2025-09",
         "2025-10",
+        "2025-11",
         "2026-04"
       ],
-      "nominal_value": "82192.4",
+      "nominal_value": "221893.8",
       "examples": [
-        "C H REEVES PAINTING CONTRACT 2025 - CHR 01",
-        "C H REEVES PAINTING CONTRACT 2025 - CHR 02",
-        "C H REEVES PAINTING CONTRACT 2025 - CHR 03",
-        "C H REEVES PAINTING CONTRACT 2025 - CHR 04"
+        "R M BAILEY PAINTING CONTRACT 2025 - RMB 01",
+        "R M BAILEY PAINTING CONTRACT 2025 - RMB 03",
+        "R M BAILEY PAINTING CONTRACT 2025 - RMB 06",
+        "R M BAILEY PAINTING CONTRACT 2025 - RMB10",
+        "R M BAILEY PAINTING CONTRACT 2025- RMB 04"
       ]
     },
     {
@@ -2594,57 +1874,21 @@
       ]
     },
     {
-      "agency_code": "unknown",
-      "project_title_prefix": "gallon liquid bitumen pg rate",
+      "agency_code": "doe",
+      "project_title_prefix": "carlton francis painting contract cf",
       "award_rows": 6,
       "months_observed": [
-        "2024-09",
-        "2024-11",
-        "2024-12"
+        "2025-10",
+        "2025-11",
+        "2025-12"
       ],
-      "nominal_value": "2400000",
+      "nominal_value": "69672",
       "examples": [
-        "Gallon of Liquid Bitumen PG76-22 Rate - November",
-        "Gallon of Liquid Bitumen PG76-22 Rate - November - 1",
-        "Gallon of Liquid Bitumen PG76-22 Rate - November - 2",
-        "Gallon of Liquid Bitumen PG76-22 Rate - October",
-        "Gallon of Liquid Bitumen PG76-22 Rate - September"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "t thompson painting contract p",
-      "award_rows": 6,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "86699.800000000001",
-      "examples": [
-        "T.A. THOMPSON - PAINTING CONTRACT 2024 - P-131TAT",
-        "T.A. THOMPSON - PAINTING CONTRACT 2024 - P-132TAT",
-        "T.A. THOMPSON - PAINTING CONTRACT 2024 - P-133TAT",
-        "T.A. THOMPSON - PAINTING CONTRACT 2024 - P-134TAT",
-        "T.A. THOMPSON - PAINTING CONTRACT 2024 - P-135TAT"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "c i gibson sr high",
-      "award_rows": 6,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "78348.0",
-      "examples": [
-        "C I GIBSON SR HIGH PAINTING CONTRACT 2024 P-330 CI",
-        "C I GIBSON SR HIGH PAINTING CONTRACT 2024 P-331 CI",
-        "C I GIBSON SR HIGH PAINTING CONTRACT 2024 P-332 CI",
-        "C I GIBSON SR HIGH PAINTING CONTRACT 2024 P-334 CI",
-        "C I GIBSON SR HIGH PAINTING CONTRACT 2024 P-335 CI"
+        "CARLTON FRANCIS PAINTING CONTRACT 2025 - CF 01",
+        "CARLTON FRANCIS PAINTING CONTRACT 2025 - CF 03",
+        "CARLTON FRANCIS PAINTING CONTRACT 2025 - CF-07",
+        "CARLTON FRANCIS PAINTING CONTRACT 2025 - CF05",
+        "Carlton Francis Painting Contract 2025-CF 02"
       ]
     },
     {
@@ -2667,89 +1911,6 @@
     },
     {
       "agency_code": "doe",
-      "project_title_prefix": "f adderley painting contract afa",
-      "award_rows": 5,
-      "months_observed": [
-        "2025-09",
-        "2025-10",
-        "2025-11"
-      ],
-      "nominal_value": "52123.6",
-      "examples": [
-        "A F ADDERLEY PAINTING CONTRACT 2025 - AFA 04",
-        "A F ADDERLEY PAINTING CONTRACT 2025 - AFA 05",
-        "A F Adderley Painting Contract 2025 - AFA 01",
-        "A F Adderley Painting Contract 2025 - AFA 02",
-        "A F Adderley Painting Contract 2025 - AFA 03"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "sandilands primary painting contract sp",
-      "award_rows": 5,
-      "months_observed": [
-        "2025-09",
-        "2025-10",
-        "2025-11"
-      ],
-      "nominal_value": "60336.8",
-      "examples": [
-        "SANDILANDS PRIMARY PAINTING CONTRACT 2025 - SP 02",
-        "SANDILANDS PRIMARY PAINTING CONTRACT 2025 - SP 03",
-        "SANDILANDS PRIMARY PAINTING CONTRACT 2025 - SP 04",
-        "SANDILANDS PRIMARY PAINTING CONTRACT 2025 - SP 05",
-        "SANDILANDS PRIMARY PAINTING CONTRACT 2025 - SP 06"
-      ]
-    },
-    {
-      "agency_code": "baic",
-      "project_title_prefix": "custom broker services",
-      "award_rows": 5,
-      "months_observed": [
-        "2025-06",
-        "2025-07",
-        "2025-08"
-      ],
-      "nominal_value": "39600.99",
-      "examples": [
-        "Custom Broker Services"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "d e h s bulkwaste",
-      "award_rows": 5,
-      "months_observed": [
-        "2024-09",
-        "2024-11",
-        "2025-01"
-      ],
-      "nominal_value": "304000",
-      "examples": [
-        "D.E.H.S-BULKWASTE REMOVAL",
-        "D.E.H.S-Bulkwaste Removal"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "l w young junior high",
-      "award_rows": 5,
-      "months_observed": [
-        "2024-09",
-        "2024-11",
-        "2024-12"
-      ],
-      "nominal_value": "126143.960000000001",
-      "examples": [
-        "L W YOUNG JUNIOR HIGH PAINTING CONTRACT 2024 - P 320 LW",
-        "L W YOUNG JUNIOR HIGH PAINTING CONTRACT 2024 - P 321 LW",
-        "L W YOUNG JUNIOR HIGH PAINTING CONTRACT 2024 - P 322 LW",
-        "L W YOUNG JUNIOR HIGH PAINTING CONTRACT 2024 - P 324 LW",
-        "L. W. Young Junior High School - 2024 School Summer Repairs - Electrical - #37"
-      ]
-    },
-    {
-      "agency_code": "doe",
       "project_title_prefix": "stephen dillet primary summer repairs",
       "award_rows": 4,
       "months_observed": [
@@ -2767,165 +1928,19 @@
     },
     {
       "agency_code": "doe",
-      "project_title_prefix": "sybil strachan painting contract ss",
+      "project_title_prefix": "doris johnson sr high painting",
       "award_rows": 4,
       "months_observed": [
-        "2025-09",
         "2025-10",
+        "2025-11",
         "2026-04"
       ],
-      "nominal_value": "41217.2",
+      "nominal_value": "64950.400000000001",
       "examples": [
-        "SYBIL STRACHAN PAINTING CONTRACT 2025 - SS- 02",
-        "SYBIL STRACHAN PAINTING CONTRACT 2025- SS03"
-      ]
-    },
-    {
-      "agency_code": "dehs",
-      "project_title_prefix": "extra ordinary conditions",
-      "award_rows": 4,
-      "months_observed": [
-        "2025-04",
-        "2025-09",
-        "2025-12"
-      ],
-      "nominal_value": "72842.0600000000004",
-      "examples": [
-        "EXTRA ORDINARY CONDITIONS",
-        "Extra Ordinary Conditions"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "claridge primary painting contract cp",
-      "award_rows": 4,
-      "months_observed": [
-        "2025-09",
-        "2025-10",
-        "2025-11"
-      ],
-      "nominal_value": "60907.399999999999",
-      "examples": [
-        "CLARIDGE PRIMARY PAINTING CONTRACT 2025 - CP 01",
-        "CLARIDGE PRIMARY PAINTING CONTRACT 2025 - CP 03",
-        "CLARIDGE PRIMARY PAINTING CONTRACT 2025 - CP 04"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "c v bethel painting contract",
-      "award_rows": 4,
-      "months_observed": [
-        "2025-09",
-        "2025-10",
-        "2025-11"
-      ],
-      "nominal_value": "58489.599999999998",
-      "examples": [
-        "C V BETHEL PAINTING CONTRACT 2025",
-        "C V BETHEL PAINTING CONTRACT 2025 - CVB 01",
-        "C V BETHEL PAINTING CONTRACT 2025 - CVB 03",
-        "C V BETHEL PAINTING CONTRACT 2025 - CVB 05"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "copy paper legal size",
-      "award_rows": 4,
-      "months_observed": [
-        "2025-04",
-        "2025-06",
-        "2025-07"
-      ],
-      "nominal_value": "69740",
-      "examples": [
-        "COPY PAPER LEGAL SIZE- 2025-2026",
-        "Copy Paper legal Size"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "r m bailey sr high",
-      "award_rows": 4,
-      "months_observed": [
-        "2024-10",
-        "2024-11",
-        "2025-01"
-      ],
-      "nominal_value": "119795.840000000002",
-      "examples": [
-        "R M BAILEY SR HIGH SCHOOL INSTRUMENT LIST 2024",
-        "R M Bailey Sr High Summer Repairs 2024 Mechanical",
-        "R.M BAILEY SR HIGH SCHOOL PAINTING CONTRACT 2024 P-719 RM",
-        "R.M BAILEY SR HIGH SCHOOL PAINTING CONTRACT 2024 P-720 RM"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "d w davis jr high",
-      "award_rows": 4,
-      "months_observed": [
-        "2024-10",
-        "2024-11",
-        "2024-12"
-      ],
-      "nominal_value": "87206.8",
-      "examples": [
-        "D W DAVIS JR HIGH 2024 SUMMER REPAIRS",
-        "D W DAVIS JR HIGH PAINTING CONTRACT 2024 P-390 DWD",
-        "D W DAVIS JR HIGH PAINTING CONTRACT 2024 P-391 DWD",
-        "D W DAVIS JR HIGH PAINTING CONTRACT 2024 P-394 DWD"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "sadie curtis primary school painting",
-      "award_rows": 4,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-12"
-      ],
-      "nominal_value": "55332.3999999999993",
-      "examples": [
-        "SADIE CURTIS PRIMARY SCHOOL PAINTING CONTRACT P-680 SC",
-        "SADIE CURTIS PRIMARY SCHOOL PAINTING CONTRACT P-681 SC",
-        "SADIE CURTIS PRIMARY SCHOOL PAINTING CONTRACT P-682 SC",
-        "SADIE CURTIS PRIMARY SCHOOL PAINTING CONTRACT P-683 SC"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "sadie curtis primary painting contract",
-      "award_rows": 4,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "52911.2000000000007",
-      "examples": [
-        "SADIE CURTIS PRIMARY PAINTING CONTRACT 2024 - P 684 SC",
-        "SADIE CURTIS PRIMARY PAINTING CONTRACT 2024 - P 686 SC",
-        "SADIE CURTIS PRIMARY PAINTING CONTRACT 2024 - P 687 SC",
-        "SADIE CURTIS PRIMARY PAINTING CONTRACT 2024 - P 688 SC"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "sandilands primary painting contract p",
-      "award_rows": 4,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "56553.57",
-      "examples": [
-        "SANDILANDS PRIMARY PAINTING CONTRACT 2024 P-360 SP",
-        "SANDILANDS PRIMARY PAINTING CONTRACT 2024 P-361 SP",
-        "SANDILANDS PRIMARY PAINTING CONTRACT 2024 P-362 SP",
-        "SANDILANDS PRIMARY PAINTING CONTRACT 2024 P-363 SP"
+        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2025 - DJ 04",
+        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2025 -DJ 05",
+        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2025 DJ-01",
+        "DORIS JOHNSON SR HIGH PAINTING CONTRACT 2025- DJ 03"
       ]
     },
     {
@@ -2942,6 +1957,22 @@
         "Milling Machine Parts (Cutters -Tooth & Sleeves) - 2026",
         "Milling Machine Parts (Cutters -Tooth & Sleeves) - June 2026",
         "Milling Machine Parts (Cutters -Tooth & Sleeves) - May 2025"
+      ]
+    },
+    {
+      "agency_code": "doe",
+      "project_title_prefix": "tiny tots preschool summer repairs",
+      "award_rows": 3,
+      "months_observed": [
+        "2025-03",
+        "2025-05",
+        "2026-07"
+      ],
+      "nominal_value": "220565.7",
+      "examples": [
+        "TINY TOTS PRESCHOOL 2024 SUMMER REPAIRS (CONTRACT A)",
+        "TINY TOTS PRESCHOOL 2024 SUMMER REPAIRS (MECHANICAL)",
+        "Tiny Tots Preschool Summer Repairs 2024 Electrical Contract A"
       ]
     },
     {
@@ -2990,36 +2021,6 @@
       ]
     },
     {
-      "agency_code": "doe",
-      "project_title_prefix": "buttonwood preschool summer repairs contract",
-      "award_rows": 3,
-      "months_observed": [
-        "2025-08",
-        "2026-04",
-        "2026-05"
-      ],
-      "nominal_value": "168585.13",
-      "examples": [
-        "Buttonwood Preschool - Summer Repairs 2025 - Contract A",
-        "Buttonwood Preschool - Summer Repairs 2025 - Contract B"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "c w sawyer summer repairs",
-      "award_rows": 3,
-      "months_observed": [
-        "2025-09",
-        "2026-04",
-        "2026-05"
-      ],
-      "nominal_value": "2297873.18",
-      "examples": [
-        "C.W Sawyer - Summer Repairs 2025 - Contract A - Mechanical",
-        "C.W Sawyer - Summer Repairs 2025 - Roof Repairs"
-      ]
-    },
-    {
       "agency_code": "dehs",
       "project_title_prefix": "rodent treatment arawak cay",
       "award_rows": 3,
@@ -3031,22 +2032,6 @@
       "nominal_value": "46800",
       "examples": [
         "RODENT TREATMENT (ARAWAK CAY)"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "garvin tynes primary summer repairs",
-      "award_rows": 3,
-      "months_observed": [
-        "2025-03",
-        "2025-04",
-        "2026-05"
-      ],
-      "nominal_value": "634378.31",
-      "examples": [
-        "GARVIN TYNES PRIMARY 2024 SUMMER REPAIRS (CONTRACT C)",
-        "GARVIN TYNES PRIMARY SUMMER REPAIRS - CONTRACT A 2025",
-        "Garvin Tynes Primary Summer repairs contract A"
       ]
     },
     {
@@ -3064,17 +2049,18 @@
       ]
     },
     {
-      "agency_code": "moa",
-      "project_title_prefix": "golden yolk project",
+      "agency_code": "doag",
+      "project_title_prefix": "request purchase small ruminant feed",
       "award_rows": 3,
       "months_observed": [
-        "2025-05",
-        "2025-08",
-        "2026-03"
+        "2025-10",
+        "2025-12",
+        "2026-02"
       ],
-      "nominal_value": "1141808.00000000001",
+      "nominal_value": "74203.97",
       "examples": [
-        "Golden Yolk Project"
+        "Request for Purchase of Small Ruminant Feed (GRAC)",
+        "Request to Purchase Small Ruminant Feed (GRAC)"
       ]
     },
     {
@@ -3093,53 +2079,6 @@
       ]
     },
     {
-      "agency_code": "doe",
-      "project_title_prefix": "c h reeves jr high",
-      "award_rows": 3,
-      "months_observed": [
-        "2025-04",
-        "2025-11",
-        "2025-12"
-      ],
-      "nominal_value": "100825.88",
-      "examples": [
-        "C H REEVES JR HIGH PAINTING CONTRACT 2025",
-        "C H REEVES JR HIGH SUMMER REPAIRS (ELECTRICAL ) 2024"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "c c sweeting sr high",
-      "award_rows": 3,
-      "months_observed": [
-        "2025-03",
-        "2025-09",
-        "2025-11"
-      ],
-      "nominal_value": "58041.900000000001",
-      "examples": [
-        "C C SWEETING SR HIGH EMERGENCY CLEANING 2025",
-        "C C SWEETING SR HIGH PAINTING CONTRACT 2025 - CCS 01",
-        "C. C Sweeting Sr. High Mechanical Summer Schools Repairs II 2024 - #119"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "e p roberts painting contract",
-      "award_rows": 3,
-      "months_observed": [
-        "2025-09",
-        "2025-10",
-        "2025-11"
-      ],
-      "nominal_value": "44258.2",
-      "examples": [
-        "E P ROBERTS PAINTING CONTRACT 2025 - EPR 01",
-        "E P ROBERTS PAINTING CONTRACT 2025 - EPR 03",
-        "E P ROBERTS PAINTING CONTRACT 2025 -EPR 04"
-      ]
-    },
-    {
       "agency_code": "baic",
       "project_title_prefix": "supplies fish farm stores",
       "award_rows": 3,
@@ -3151,22 +2090,6 @@
       "nominal_value": "117402.9",
       "examples": [
         "Supplies -Fish & Farm Stores"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "tiny tot preschool painting contract",
-      "award_rows": 3,
-      "months_observed": [
-        "2024-09",
-        "2024-10",
-        "2024-11"
-      ],
-      "nominal_value": "28977.2",
-      "examples": [
-        "TINY TOT PRESCHOOL - PAINTING CONTRACT 2024 - P-260TT",
-        "TINY TOT PRESCHOOL - PAINTING CONTRACT 2024 - P-261TT",
-        "TINY TOT PRESCHOOL - PAINTING CONTRACT 2024 - P-262TT"
       ]
     },
     {
@@ -3183,71 +2106,37 @@
       ]
     },
     {
-      "agency_code": "unknown",
-      "project_title_prefix": "request ink supplies",
-      "award_rows": 15,
+      "agency_code": "dopw",
+      "project_title_prefix": "gallon liquid bitumen pg rate",
+      "award_rows": 10,
       "months_observed": [
-        "2024-09",
-        "2024-10"
+        "2025-02",
+        "2025-05"
       ],
-      "nominal_value": "59518.3499999999998",
+      "nominal_value": "8395000",
       "examples": [
-        "Request For Ink Supplies # 88",
-        "Request For Ink Supplies # 89",
-        "Request For Ink Supplies # 90",
-        "Request for Ink Supplies # 81",
-        "Request for Ink Supplies # 84"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "bahamix trucker rental month july",
-      "award_rows": 8,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "67392.5",
-      "examples": [
-        "(Bahamix) Trucker Rental for the month of July 2024 - 5226",
-        "(Bahamix) Trucker Rental for the month of July 2024 - 5241",
-        "(Bahamix) Trucker Rental for the month of July 2024 - 5245",
-        "(Bahamix) Trucker Rental for the month of July 2024 - 5247",
-        "(Bahamix) Trucker Rental for the month of July 2024 - 5334"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "c h reeves jr high",
-      "award_rows": 8,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "104835.999999999999",
-      "examples": [
-        "C H REEVES JR HIGH PAINTING CONTRACT 2024 P-690 CH",
-        "C H REEVES JR HIGH PAINTING CONTRACT 2024 P-692 CH",
-        "C H REEVES JR HIGH PAINTING CONTRACT 2024 P-694 CH",
-        "C H REEVES JR HIGH PAINTING CONTRACT 2024 P-695 CH",
-        "C H REEVES JR HIGH PAINTING CONTRACT 2024 P-696 CH"
+        "Gallon of Liquid Bitumen PG76-22 Rate - BULK 2",
+        "Gallon of Liquid Bitumen PG76-22 Rate - December",
+        "Gallon of Liquid Bitumen PG76-22 Rate - February 2025",
+        "Gallon of Liquid Bitumen PG76-22 Rate - January 2025",
+        "Gallon of Liquid Bitumen PG76-22 Rate - March 2025"
       ]
     },
     {
       "agency_code": "dopw",
-      "project_title_prefix": "speed bump installation",
+      "project_title_prefix": "cleaning blowing catch pits drainage",
       "award_rows": 7,
       "months_observed": [
-        "2025-09",
-        "2026-04"
+        "2025-12",
+        "2026-05"
       ],
-      "nominal_value": "688940",
+      "nominal_value": "580000",
       "examples": [
-        "133 Speed Bump Installation #1",
-        "133 Speed Bump Installation #3",
-        "133 Speed Bump Installation #4",
-        "133 Speed Bump Installation #5",
-        "133 Speed Bump Installation #6"
+        "Cleaning & Blowing of Catch Pits & Drainage Wells (2026): Zone 14",
+        "Cleaning & Blowing of Catch Pits & Drainage Wells (2026): Zone 3",
+        "Cleaning & Blowing of Catch Pits & Drainage Wells (2026): Zone 8",
+        "Cleaning & Blowing of Catch Pits & Drainage Wells 2026 - Zone 18",
+        "Cleaning & Blowing of Catch Pits & Drainage Wells 2026 - Zone 19"
       ]
     },
     {
@@ -3264,84 +2153,18 @@
       ]
     },
     {
-      "agency_code": "unknown",
-      "project_title_prefix": "h o nash painting contract",
-      "award_rows": 7,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "92574.6",
-      "examples": [
-        "H.O. NASH - PAINTING CONTRACT 2024 - P-801HN",
-        "H.O. NASH - PAINTING CONTRACT 2024 - P-802HN",
-        "H.O. NASH - PAINTING CONTRACT 2024 - P-803HN",
-        "H.O. NASH - PAINTING CONTRACT 2024 - P-805HN",
-        "H.O. NASH - PAINTING CONTRACT 2024 - P-807HN"
-      ]
-    },
-    {
       "agency_code": "doe",
-      "project_title_prefix": "cleveland eneas painting contract ce",
-      "award_rows": 6,
+      "project_title_prefix": "c h reeves painting contract",
+      "award_rows": 5,
       "months_observed": [
-        "2025-09",
-        "2025-10"
+        "2025-10",
+        "2026-04"
       ],
-      "nominal_value": "66490.000000000001",
+      "nominal_value": "74138.8",
       "examples": [
-        "CLEVELAND ENEAS PAINTING CONTRACT 2025 - CE 01",
-        "CLEVELAND ENEAS PAINTING CONTRACT 2025 - CE 02",
-        "CLEVELAND ENEAS PAINTING CONTRACT 2025 - CE 03",
-        "CLEVELAND ENEAS PAINTING CONTRACT 2025 - CE 04",
-        "CLEVELAND ENEAS PAINTING CONTRACT 2025 - CE 06"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "ridgeland primary school painting contract",
-      "award_rows": 6,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "66352.1999999999986",
-      "examples": [
-        "RIDGELAND PRIMARY SCHOOL PAINTING CONTRACT P-670 RP",
-        "RIDGELAND PRIMARY SCHOOL PAINTING CONTRACT P-671 RP",
-        "RIDGELAND PRIMARY SCHOOL PAINTING CONTRACT P-673 RP",
-        "RIDGELAND PRIMARY SCHOOL PAINTING CONTRACT P-674 RP",
-        "RIDGELAND PRIMARY SCHOOL PAINTING CONTRACT P-675 RP"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "dehs bulk waste removal",
-      "award_rows": 6,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "420000",
-      "examples": [
-        "DEHS Bulk Waste Removal"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "albury sayles painting contract p",
-      "award_rows": 6,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "74072.6",
-      "examples": [
-        "ALBURY SAYLES - PAINTING CONTRACT 2024 - P110AS",
-        "ALBURY SAYLES - PAINTING CONTRACT 2024 - P113AS",
-        "ALBURY SAYLES - PAINTING CONTRACT 2024 - P114AS",
-        "ALBURY SAYLES - PAINTING CONTRACT 2024 - P115AS",
-        "ALBURY SAYLES - PAINTING CONTRACT 2024 - P116AS"
+        "C H REEVES PAINTING CONTRACT 2025 - CHR 01",
+        "C H REEVES PAINTING CONTRACT 2025 - CHR 02",
+        "C H REEVES PAINTING CONTRACT 2025 - CHR 03"
       ]
     },
     {
@@ -3378,20 +2201,6 @@
       ]
     },
     {
-      "agency_code": "cpu",
-      "project_title_prefix": "canned meats tender month commitment",
-      "award_rows": 5,
-      "months_observed": [
-        "2025-04",
-        "2025-07"
-      ],
-      "nominal_value": "165780.65",
-      "examples": [
-        "(Canned meats)Tender 3 Month Commitment Quarter 4 28/2/2025",
-        "CANNED MEATS TENDER 3 MONTH COMMITMENT JUNE (2025) QUARTER 1"
-      ]
-    },
-    {
       "agency_code": "doe",
       "project_title_prefix": "hand sanitizer alcohol base gallon",
       "award_rows": 5,
@@ -3402,74 +2211,6 @@
       "nominal_value": "120261",
       "examples": [
         "Hand Sanitizer Alcohol Base - Gallon Size 2025"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "anatol rodgers school painting contract",
-      "award_rows": 5,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "67066.65",
-      "examples": [
-        "ANATOL RODGERS SCHOOL - PAINTING CONTRACT 2024 - P-272AR",
-        "ANATOL RODGERS SCHOOL - PAINTING CONTRACT 2024 - P-273AR",
-        "ANATOL RODGERS SCHOOL - PAINTING CONTRACT 2024 - P-274AR",
-        "ANATOL RODGERS SCHOOL - PAINTING CONTRACT 2024 - P-275AR",
-        "ANATOL RODGERS SCHOOL - PAINTING CONTRACT 2024 - P-276AR"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "f adderley painting contract p",
-      "award_rows": 5,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "48938.0",
-      "examples": [
-        "A.F. ADDERLEY - PAINTING CONTRACT 2024 - P-220AF",
-        "A.F. ADDERLEY - PAINTING CONTRACT 2024 - P-221AF",
-        "A.F. ADDERLEY - PAINTING CONTRACT 2024 - P-222AF",
-        "A.F. ADDERLEY - PAINTING CONTRACT 2024 - P-223AF",
-        "A.F. ADDERLEY - PAINTING CONTRACT 2024 - P-224AF"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "e p roberts primary painting",
-      "award_rows": 5,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "71050.0",
-      "examples": [
-        "E.P. ROBERTS PRIMARY PAINTING CONTRACT -P 600 EPR",
-        "E.P. ROBERTS PRIMARY PAINTING CONTRACT 2024 - P 661 EPR",
-        "E.P. ROBERTS PRIMARY PAINTING CONTRACT 2024 - P 662 EPR",
-        "E.P. ROBERTS PRIMARY PAINTING CONTRACT 2024 - P 663 EPR",
-        "E.P. ROBERTS PRIMARY PAINTING CONTRACT 2024 - P 665 EPR"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "columbus primary school painting contract",
-      "award_rows": 5,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "70003.8",
-      "examples": [
-        "COLUMBUS PRIMARY SCHOOL PAINTING CONTRACT 2024 P-312 CP",
-        "COLUMBUS PRIMARY SCHOOL PAINTING CONTRACT 2024 P-313 CP",
-        "COLUMBUS PRIMARY SCHOOL PAINTING CONTRACT 2024 P-314 CP",
-        "COLUMBUS PRIMARY SCHOOL PAINTING CONTRACT 2024 P-315 CP",
-        "Columbus Primary School - Painting Contract - P-311"
       ]
     },
     {
@@ -3500,6 +2241,22 @@
         "RIDGELAND PRIMARY PAINTING CONTRACT 2025 - RP 03",
         "RIDGELAND PRIMARY PAINTING CONTRACT 2025 - RP 05",
         "Ridgeland Primary Painting Contract 2025- RP 03"
+      ]
+    },
+    {
+      "agency_code": "doe",
+      "project_title_prefix": "f adderley painting contract afa",
+      "award_rows": 4,
+      "months_observed": [
+        "2025-10",
+        "2025-11"
+      ],
+      "nominal_value": "44485.6",
+      "examples": [
+        "A F ADDERLEY PAINTING CONTRACT 2025 - AFA 04",
+        "A F Adderley Painting Contract 2025 - AFA 01",
+        "A F Adderley Painting Contract 2025 - AFA 02",
+        "A F Adderley Painting Contract 2025 - AFA 03"
       ]
     },
     {
@@ -3535,19 +2292,16 @@
       ]
     },
     {
-      "agency_code": "doe",
-      "project_title_prefix": "uriah mcphee primary summer repairs",
+      "agency_code": "baic",
+      "project_title_prefix": "custom broker services",
       "award_rows": 4,
       "months_observed": [
-        "2025-03",
-        "2025-09"
+        "2025-06",
+        "2025-07"
       ],
-      "nominal_value": "1654506.48",
+      "nominal_value": "33536.44",
       "examples": [
-        "URIAH MCPHEE PRIMARY 2024 SUMMER REPAIRS",
-        "URIAH MCPHEE PRIMARY 2024 SUMMER REPAIRS (CONTRACT A)",
-        "URIAH MCPHEE PRIMARY 2024 SUMMER REPAIRS (CONTRACT B)",
-        "URIAH MCPHEE PRIMARY 2024 SUMMER REPAIRS (MECHANICAL)"
+        "Custom Broker Services"
       ]
     },
     {
@@ -3579,69 +2333,6 @@
       ]
     },
     {
-      "agency_code": "unknown",
-      "project_title_prefix": "thelma gibson primary school painting",
-      "award_rows": 4,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "52352.6",
-      "examples": [
-        "THELMA GIBSON PRIMARY SCHOOL PAINTING CONTRACT 2024 P-370 TG",
-        "THELMA GIBSON PRIMARY SCHOOL PAINTING CONTRACT 2024 P-371 TG",
-        "THELMA GIBSON PRIMARY SCHOOL PAINTING CONTRACT 2024 P-372 TG",
-        "THELMA GIBSON PRIMARY SCHOOL PAINTING CONTRACT 2024 P-373 TG"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "stephen dillet painting contract p",
-      "award_rows": 4,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "58196.199999999999",
-      "examples": [
-        "STEPHEN DILLET - PAINTING CONTRACT 2024 - P-150SD",
-        "STEPHEN DILLET - PAINTING CONTRACT 2024 - P-151SD",
-        "STEPHEN DILLET - PAINTING CONTRACT 2024 - P-152SD",
-        "STEPHEN DILLET - PAINTING CONTRACT 2024 - P-153SD"
-      ]
-    },
-    {
-      "agency_code": "unknown",
-      "project_title_prefix": "claridge primary painting contract p",
-      "award_rows": 4,
-      "months_observed": [
-        "2024-09",
-        "2024-10"
-      ],
-      "nominal_value": "69238.959999999997",
-      "examples": [
-        "CLARIDGE PRIMARY PAINTING CONTRACT P-540 CP",
-        "CLARIDGE PRIMARY PAINTING CONTRACT P-541 CP",
-        "CLARIDGE PRIMARY PAINTING CONTRACT P-542 CP",
-        "CLARIDGE PRIMARY PAINTING CONTRACT P-543 CP"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "c c sweeting summer repairs",
-      "award_rows": 3,
-      "months_observed": [
-        "2025-09",
-        "2026-05"
-      ],
-      "nominal_value": "449080.09",
-      "examples": [
-        "C C SWEETING SUMMER REPAIRS 2024",
-        "C.C Sweeting - Summer Repairs 2025 - Contract A - Mechanical",
-        "C.C Sweeting - Summer Repairs 2025 - Contract A - Plumbing"
-      ]
-    },
-    {
       "agency_code": "doe",
       "project_title_prefix": "naomi blatch preschool summer repairs",
       "award_rows": 3,
@@ -3669,6 +2360,20 @@
         "ALBURY SAYLE PRIMARY PAINTING CONTRACT 2025",
         "ALBURY SAYLE PRIMARY PAINTING CONTRACT 2025 - ASP- 02",
         "ALBURY SAYLE PRIMARY PAINTING CONTRACT 2025- ASP 01"
+      ]
+    },
+    {
+      "agency_code": "doe",
+      "project_title_prefix": "sybil strachan painting contract ss",
+      "award_rows": 3,
+      "months_observed": [
+        "2025-10",
+        "2026-04"
+      ],
+      "nominal_value": "29648.6",
+      "examples": [
+        "SYBIL STRACHAN PAINTING CONTRACT 2025 - SS- 02",
+        "SYBIL STRACHAN PAINTING CONTRACT 2025- SS03"
       ]
     },
     {
@@ -3726,6 +2431,95 @@
       "examples": [
         "Best of the Best 2025 - Boat Rental"
       ]
+    },
+    {
+      "agency_code": "doe",
+      "project_title_prefix": "sandilands primary painting contract sp",
+      "award_rows": 3,
+      "months_observed": [
+        "2025-10",
+        "2025-11"
+      ],
+      "nominal_value": "32715.2",
+      "examples": [
+        "SANDILANDS PRIMARY PAINTING CONTRACT 2025 - SP 02",
+        "SANDILANDS PRIMARY PAINTING CONTRACT 2025 - SP 05",
+        "SANDILANDS PRIMARY PAINTING CONTRACT 2025 - SP 06"
+      ]
+    },
+    {
+      "agency_code": "doe",
+      "project_title_prefix": "gerald cash primary school painting",
+      "award_rows": 3,
+      "months_observed": [
+        "2025-10",
+        "2025-11"
+      ],
+      "nominal_value": "38646.259999999998",
+      "examples": [
+        "Gerald Cash Primary School - Painting Contract 2025 - P-1",
+        "Gerald Cash Primary School - Painting Contract 2025 - P-2",
+        "Gerald Cash Primary School - Painting Contract 2025 - P-7"
+      ]
+    },
+    {
+      "agency_code": "doe",
+      "project_title_prefix": "claridge primary painting contract cp",
+      "award_rows": 3,
+      "months_observed": [
+        "2025-10",
+        "2025-11"
+      ],
+      "nominal_value": "40385.8",
+      "examples": [
+        "CLARIDGE PRIMARY PAINTING CONTRACT 2025 - CP 01",
+        "CLARIDGE PRIMARY PAINTING CONTRACT 2025 - CP 03",
+        "CLARIDGE PRIMARY PAINTING CONTRACT 2025 - CP 04"
+      ]
+    },
+    {
+      "agency_code": "doe",
+      "project_title_prefix": "c v bethel painting contract",
+      "award_rows": 3,
+      "months_observed": [
+        "2025-10",
+        "2025-11"
+      ],
+      "nominal_value": "49807.599999999998",
+      "examples": [
+        "C V BETHEL PAINTING CONTRACT 2025",
+        "C V BETHEL PAINTING CONTRACT 2025 - CVB 01",
+        "C V BETHEL PAINTING CONTRACT 2025 - CVB 03"
+      ]
+    },
+    {
+      "agency_code": "dopw",
+      "project_title_prefix": "bahamix trucker rental month april",
+      "award_rows": 3,
+      "months_observed": [
+        "2025-05",
+        "2025-06"
+      ],
+      "nominal_value": "30787.53",
+      "examples": [
+        "(Bahamix) Trucker Rental for the Month of April 2025 - 5969",
+        "(Bahamix) Trucker Rental for the month of April 2025 - 5964"
+      ]
+    },
+    {
+      "agency_code": "doe",
+      "project_title_prefix": "gerald cash primary summer repairs",
+      "award_rows": 3,
+      "months_observed": [
+        "2025-03",
+        "2025-06"
+      ],
+      "nominal_value": "380607.82",
+      "examples": [
+        "GERALD CASH PRIMARY 2024 SUMMER REPAIRS",
+        "GERALD CASH PRIMARY SUMMER REPAIRS 2024 CONTRACT A",
+        "GERALD CASH PRIMARY SUMMER REPAIRS 2024 PLUMBING"
+      ]
     }
   ],
   "disclosures": [
@@ -3733,6 +2527,18 @@
     "Source workbooks may have overlapping coverage, and titles may contain Duplicate labels.",
     "Supplier name normalization is not proof of legal-entity identity.",
     "Keyword categories and repeat titles are heuristic research signals, not predictions.",
-    "Source currency is not independently confirmed; cross-currency aggregation prohibited."
-  ]
+    "Source currency is not independently confirmed; cross-currency aggregation prohibited.",
+    "Historical supplier and agency rankings exclude undated or unreconciled source rows by default."
+  ],
+  "source_record_count": 6488,
+  "ranked_record_count": 2111,
+  "excluded_from_rankings": 4377,
+  "quality_counts": {
+    "reconciled": 2111,
+    "no_summary": 581,
+    "summary_unavailable": 539,
+    "summary_unmapped": 962,
+    "undated": 2295
+  },
+  "quality_method": "Only records with a parsed award date AND matching official period summary appear in comparative financial rankings."
 }

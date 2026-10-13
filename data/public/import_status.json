@@ -1,7 +1,7 @@
 {
-  "award_count": 6456,
-  "discovered_reports": 47,
-  "generated_at": "2026-10-13T01:46:09.409388+00:00",
-  "parsed_reports_this_run": 23,
+  "award_count": 6488,
+  "discovered_reports": 44,
+  "generated_at": "2026-10-13T02:14:31.751298+00:00",
+  "parsed_reports_this_run": 19,
   "state": "partial_verified"
 }
