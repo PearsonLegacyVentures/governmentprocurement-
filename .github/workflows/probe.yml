@@ -20,7 +20,7 @@ jobs:
         run: |
           python - <<'PY'
           import hashlib, sys
-          from scripts.procurement import fetch, read_xlsx, detect_header
+          from scripts.procurement import fetch, read_xlsx, detect_header, extract_awards
           u='https://mofvendors.gov.bs/wp-content/uploads/2026/09/BAHAMAS-PUBLIC-PROCUREMENT-PROJECT-AWARDS-REPORT-JULY-1-31-2026.xlsx'
           b=fetch(u,retries=0)
           print('NETWORK_DOWNLOAD_OK',len(b),'SHA256',hashlib.sha256(b).hexdigest())
@@ -29,4 +29,17 @@ jobs:
               print('SHEET',name,'rows',len(rows),'detected_header',header,'fields',fields)
               for i,row in enumerate(rows[:18],1):
                   print('PREVIEW_ROW',i,[str(x)[:80] for x in row[:15]])
+          report={'url':u,'notice_url':'https://mofvendors.gov.bs/public-notice-procurement-department-september-2026/','period':'2026-07'}
+          award_rows,diag=extract_awards(b,report)
+          print('EXTRACTED_AWARD_RECORDS',len(award_rows),'DIAGNOSTICS',diag)
+          summary_url='https://mofvendors.gov.bs/wp-content/uploads/2026/09/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-JULY-1-31-2026.xlsx'
+          try:
+              summary=fetch(summary_url,retries=0)
+              print('SUMMARY_DOWNLOAD_OK',len(summary),'SHA256',hashlib.sha256(summary).hexdigest())
+              for sheet, rows in read_xlsx(summary):
+                  print('SUMMARY_SHEET',sheet,'rows',len(rows))
+                  for i,row in enumerate(rows[:20],1):
+                      print('SUMMARY_PREVIEW_ROW',i,[str(x)[:80] for x in row[:15]])
+          except Exception as exc:
+              print('SUMMARY_PROBE_FAILED',type(exc).__name__,str(exc))
           PY
