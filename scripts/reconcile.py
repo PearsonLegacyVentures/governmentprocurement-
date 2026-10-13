@@ -125,7 +125,7 @@ def main():
             summary_links.setdefault(report["period"], []).append(report["url"])
     # Prefer newer official upload versions, fall back to alternatives if offline.
     def version_key(url):
-        m = re.search(r"/uploads/(20\\d{2})/(\\d{2})/", url)
+        m = re.search(r"/uploads/(20\d{2})/(\d{2})/", url)
         return (int(m.group(1)), int(m.group(2)), url) if m else (0, 0, url)
     for period in summary_links:
         summary_links[period] = sorted(set(summary_links[period]),
