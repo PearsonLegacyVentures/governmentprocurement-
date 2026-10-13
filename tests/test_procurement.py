@@ -1,10 +1,11 @@
 import io
 import sys
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 from zipfile import ZipFile
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from procurement import read_xlsx, extract_awards, parse_amount, detect_header, period_from_name, normalize_name
+from procurement import read_xlsx, extract_awards, parse_amount, detect_header, period_from_name, normalize_name, excel_date
 
 def sample_xlsx():
     sheet = '''<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetData>
@@ -48,6 +49,31 @@ class TestProcurement(unittest.TestCase):
         self.assertEqual(parse_amount("B$ 12,500.00"), "12500.00")
         self.assertIsNone(parse_amount("TBD"))
         self.assertIsNone(parse_amount("-100"))
+    def test_bahamian_day_first_dates(self):
+        self.assertEqual(excel_date("25/02/2026 12:00"), "2026-02-25")
+        self.assertEqual(excel_date("02/02/2026 8:30"), "2026-02-02")
+        self.assertIsNone(excel_date("not a date"))
+
+    def test_headerless_continuation_sheet(self):
+        first = [["Project Name", "Procurement Entity", "Project Type",
+                  "Awarded Vendor Name", "Address", "City", "Award Value", "Award Date"],
+                 ["Starter", "DEHS", "RFQ", "First Vendor", "", "", "100", "02/02/2026 12:00"]]
+        second = [
+            ["Sailing - Tent Rental", "", "DOLG", "RFQ", "Events Bahamas", "", "", "21582", "25/02/2026 12:00"],
+            ["Sailing - VIP Tent", "", "DOLG", "RFQ", "Events Bahamas", "", "", "15998", "25/02/2026 12:00"]
+        ]
+        report = {"url": "https://mofvendors.gov.bs/feb2026.xlsx",
+                  "notice_url": "https://mofvendors.gov.bs/notice/", "period": "2026-02"}
+        with patch("procurement.read_xlsx",return_value=[("Table 1", first), ("Table 2", second)]):
+            result, diag = extract_awards(b"fixture", report)
+        self.assertEqual(len(result), 3)
+        self.assertEqual(result[1]["supplier_raw"], "Events Bahamas")
+        self.assertEqual(result[2]["agency_raw"], "DOLG")
+        self.assertEqual(result[1]["amount"], "21582")
+        self.assertEqual(result[1]["award_date_iso"], "2026-02-25")
+        self.assertEqual(diag[1]["status"], "inferred_continuation_sheet")
+        self.assertEqual(diag[1]["header_row"], None)
+
     def test_filename_date_and_name(self):
         self.assertEqual(period_from_name("https://mofvendors.gov.bs/PROJECT-AWARDS-JULY-1-31-2026.xlsx"), "2026-07")
         self.assertEqual(normalize_name(" Mel J’s & Co. "), "mel j s and co")
