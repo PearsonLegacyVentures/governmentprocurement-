@@ -21,21 +21,39 @@ def parse_summary(binary):
     reported_total = None
     audit = []
     for sheet_name, rows in read_xlsx(binary):
+        # The official monthly reports have been observed with values in
+        # columns B, F and G. Never assume a fixed spreadsheet column.
+        header_row = None
+        value_col = None
+        for index, row in enumerate(rows[:15]):
+            for col, value in enumerate(row):
+                if col > 0 and str(value or "").strip().lower() in (
+                    "total", "award total", "total amount", "total awarded"):
+                    header_row, value_col = index, col
+                    break
+            if value_col is not None:
+                break
+        if value_col is None:
+            audit.append({"sheet": sheet_name, "status": "total_column_not_detected",
+                          "summary_rows_found": 0})
+            continue
         parsed = 0
-        for i, row in enumerate(rows, 1):
-            if len(row) < 2:
+        for i, row in enumerate(rows[header_row+1:], header_row+2):
+            if value_col >= len(row):
                 continue
             name = str(row[0] or "").strip()
-            amount = parse_amount(row[1])
-            if not name or amount is None:
+            amount = parse_amount(row[value_col])
+            if amount is None:
                 continue
-            if name.lower() in ("total", "grand total", "total amount", "overall total"):
+            if not name or name.lower() in ("total", "grand total", "total amount", "overall total"):
                 reported_total = Decimal(amount)
             elif ("report" not in name.lower()) and ("summary" not in name.lower()):
                 entries.append({"agency_name": name, "nominal_value": amount,
                                 "sheet": sheet_name, "row": i})
                 parsed += 1
-        audit.append({"sheet": sheet_name, "summary_rows_found": parsed})
+        audit.append({"sheet": sheet_name, "status": "parsed" if parsed else "no_agency_rows",
+                      "total_column_index": value_col,
+                      "header_row": header_row + 1, "summary_rows_found": parsed})
     return entries, reported_total, audit
 
 def reconcile(award_rows, summary_rows):
@@ -43,6 +61,11 @@ def reconcile(award_rows, summary_rows):
     for a in award_rows:
         code = a.get("agency_key") or "not-listed"
         by_code[code] = by_code.get(code, Decimal(0)) + Decimal(a["amount"])
+    if not summary_rows:
+        return {"official_summary_rows": 0, "project_award_rows": len(award_rows),
+                "summary_total_nominal": None, "project_total_nominal": None,
+                "difference": None, "status": "summary_layout_unmapped",
+                "matched_agency_codes_by_amount": [], "unmapped_agency_codes": sorted(by_code)}
     claimed = sum((Decimal(r["nominal_value"]) for r in summary_rows), Decimal(0))
     observed = sum(by_code.values(), Decimal(0))
     mappings = []
