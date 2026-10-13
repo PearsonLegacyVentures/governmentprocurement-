@@ -1,0 +1,25 @@
+name: Provision private Cloudflare D1
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: procurement-d1-provisioning
+  cancel-in-progress: false
+jobs:
+  provision:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate migration code without credentials
+        run: python -m py_compile scripts/provision-cloudflare.py
+      - name: Create and bind private D1 securely
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_PAGES_PROJECT: ${{ vars.CLOUDFLARE_PAGES_PROJECT }}
+        run: python scripts/provision-cloudflare.py
