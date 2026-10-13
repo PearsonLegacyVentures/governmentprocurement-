@@ -1,0 +1,32 @@
+name: Probe official award workbook
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/probe.yml'
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch and inspect official July 2026 workbook
+        run: |
+          python - <<'PY'
+          import hashlib, sys
+          from scripts.procurement import fetch, read_xlsx, detect_header
+          u='https://mofvendors.gov.bs/wp-content/uploads/2026/09/BAHAMAS-PUBLIC-PROCUREMENT-PROJECT-AWARDS-REPORT-JULY-1-31-2026.xlsx'
+          b=fetch(u,retries=0)
+          print('NETWORK_DOWNLOAD_OK',len(b),'SHA256',hashlib.sha256(b).hexdigest())
+          for name, rows in read_xlsx(b):
+              header, fields=detect_header(rows)
+              print('SHEET',name,'rows',len(rows),'detected_header',header,'fields',fields)
+              for i,row in enumerate(rows[:18],1):
+                  print('PREVIEW_ROW',i,[str(x)[:80] for x in row[:15]])
+          PY
