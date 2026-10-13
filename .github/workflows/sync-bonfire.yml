@@ -1,6 +1,11 @@
 name: Refresh public Bahamas Bonfire opportunities
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync-bonfire.mjs'
+      - '.github/workflows/sync-bonfire.yml'
   schedule:
     - cron: '37 12 * * *'
 permissions:
