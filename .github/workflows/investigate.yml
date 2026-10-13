@@ -1,0 +1,47 @@
+name: Investigate anomalous award workbooks
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/investigate.yml'
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Inspect anomalous source schemas and values
+        run: |
+          python - <<'PY'
+          import sys, json
+          from pathlib import Path
+          sys.path.insert(0,'scripts')
+          from procurement import fetch,read_xlsx,detect_header
+          from reconcile import parse_summary
+          manifest=json.loads(Path('data/public/source_manifest.json').read_text())
+          for period in ['2024-01','2026-02','2024-12']:
+              candidates=[x for x in manifest['reports'] if x['period']==period and x['report_type']=='project_awards']
+              for item in candidates[:1]:
+                  print('=== PROJECT',period,item['url'].split('/')[-1])
+                  for name,rows in read_xlsx(fetch(item['url'],retries=0)):
+                      header,fields=detect_header(rows)
+                      print('SHEET',name,'rows',len(rows),'header',header,'fields',fields)
+                      for i,row in enumerate(rows[:12],1):
+                          print('P_ROW',i,[str(x)[:75] for x in row[:18]])
+              candidates=[x for x in manifest['reports'] if x['period']==period and x['report_type']=='summary']
+              for item in candidates[:1]:
+                  print('=== SUMMARY',period,item['url'].split('/')[-1])
+                  blob=fetch(item['url'],retries=0)
+                  out,total,audit=parse_summary(blob)
+                  print('SUMMARY_PARSE',len(out),total,audit)
+                  for name,rows in read_xlsx(blob):
+                      print('SHEET',name,'rows',len(rows))
+                      for i,row in enumerate(rows[:9],1):
+                          print('S_ROW',i,[str(x)[:75] for x in row[:16]])
+          PY
