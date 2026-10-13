@@ -51,6 +51,8 @@ jobs:
           print('SUM_NOMINAL_UNSPECIFIED_CURRENCY',sum((Decimal(x['amount']) for x in rows),Decimal(0)))
           print('SOURCE_FILE_SHA256',hashlib.sha256(binary).hexdigest())
           PY
+      - name: Reconcile against the official agency summary
+        run: python scripts/reconcile.py --output data/public
       - name: Commit public award data
         run: |
           git config user.name 'github-actions[bot]'
