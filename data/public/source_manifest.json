@@ -1,0 +1,33 @@
+{
+  "discovered": 1,
+  "generated_at": "2026-10-13T01:19:25.247134+00:00",
+  "reports": [
+    {
+      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-september-2026/",
+      "period": "2026-07",
+      "report_type": "project_awards",
+      "rows_imported": 170,
+      "sha256": "4bdc1102fb9aebaa477d2439890292cc0db39d3bd161f9d31c6616667f934b93",
+      "sheet_diagnostics": [
+        {
+          "detected_fields": {
+            "agency": 1,
+            "amount": 6,
+            "close_date": 8,
+            "date": 9,
+            "description": 0,
+            "open_date": 7,
+            "project_type": 2,
+            "supplier": 3
+          },
+          "header_row": 2,
+          "parsed_awards": 170,
+          "sheet": "July Report 2026"
+        }
+      ],
+      "status": "parsed",
+      "url": "https://mofvendors.gov.bs/wp-content/uploads/2026/09/BAHAMAS-PUBLIC-PROCUREMENT-PROJECT-AWARDS-REPORT-JULY-1-31-2026.xlsx"
+    }
+  ],
+  "source": "official_workbook"
+}
