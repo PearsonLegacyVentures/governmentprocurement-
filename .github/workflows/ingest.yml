@@ -30,7 +30,7 @@ jobs:
       - name: Run offline tests
         run: python -m unittest discover -s tests -v
       - name: Import official government awards
-        run: python scripts/procurement.py --output data/public --max-pages 45 --max-reports 40
+        run: python scripts/procurement.py --output data/public --max-pages 80 --max-reports 100
       - name: Reconcile against official summary reports
         if: success()
         run: python scripts/reconcile.py --output data/public
