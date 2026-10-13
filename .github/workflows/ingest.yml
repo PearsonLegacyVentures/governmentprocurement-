@@ -9,6 +9,9 @@ on:
       - '.github/workflows/ingest.yml'
   schedule:
     - cron: '21 11 * * 1'
+concurrency:
+  group: procurement-awards-import
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
