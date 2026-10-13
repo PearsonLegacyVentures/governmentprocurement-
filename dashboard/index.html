@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Procurement Intelligence · PLV</title><meta name="description" content="Evidence-based Bahamas public procurement research workspace">
+<link rel="stylesheet" href="./style.css"><script src="./app.js" defer></script></head>
+<body><div class="shell">
+<aside class="sidebar"><div class="brand"><div class="brand-icon">P<span>.</span></div><div><strong>PEARSON LEGACY</strong><small>VENTURES / INTERNAL</small></div></div>
+<div class="side-label">WORKSPACE</div>
+<nav class="nav" aria-label="Main navigation">
+<button class="nav-btn active" data-tab="overview"><span>◫</span> Overview</button>
+<button class="nav-btn" data-tab="awards"><span>▤</span> Contract awards</button>
+<button class="nav-btn" data-tab="suppliers"><span>◎</span> Suppliers</button>
+<button class="nav-btn" data-tab="agencies"><span>▥</span> Government agencies</button>
+<button class="nav-btn" data-tab="sources"><span>◈</span> Data & verification</button>
+</nav>
+<div class="sidebar-bottom"><div class="status-dot"></div><div><strong>Evidence-first</strong><small>Official public records only</small></div></div>
+</aside>
+<main class="main">
+<header class="topbar"><div class="breadcrumb">PLV / OPERATIONS / <span>GOVERNMENT PROCUREMENT</span></div><div class="top-right"><span class="live-indicator">● PUBLIC DATASET</span><a class="outline-link" href="https://bahamas.bonfirehub.com/portal/?tab=openOpportunities" rel="noopener noreferrer" target="_blank">Official tenders ↗</a></div></header>
+<div class="content">
+<div class="headline"><div><div class="eyebrow">INTELLIGENCE WORKSPACE <span class="eyebrow-bar"></span> BAHAMAS</div><h1 id="page-title">Overview<span class="dot">.</span></h1><p id="page-description">See where government awards go, which suppliers appear, and where opportunities may emerge.</p></div><div class="edition"><span>DATA FRESHNESS</span><strong id="last-updated">Checking…</strong></div></div>
+<div id="alert" class="alert" hidden></div>
+<div id="metrics" class="metrics"></div>
+<div class="controls"><label class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="Search suppliers, contracts, departments…" autocomplete="off"></label>
+<label class="sr-only" for="agency-filter">Agency</label><select id="agency-filter"><option value="all">All agencies</option></select>
+<label class="sr-only" for="period-filter">Reporting period</label><select id="period-filter"><option value="all">All periods</option></select>
+<button id="export" class="export-btn">↓ Export filtered CSV</button></div>
+<div id="main-view"></div>
+<footer><span>PEARSON LEGACY VENTURES · PROCUREMENT INTELLIGENCE</span><span>Unreconciled official award rows · Not a government website</span></footer>
+</div></main></div>
+</body></html>
