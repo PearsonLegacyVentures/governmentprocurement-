@@ -31,6 +31,9 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Import official government awards
         run: python scripts/procurement.py --output data/public --max-pages 45 --max-reports 40
+      - name: Reconcile against official summary reports
+        if: success()
+        run: python scripts/reconcile.py --output data/public
       - name: Upload audit and output artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -44,7 +47,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/public/awards.json data/public/import_status.json data/public/source_manifest.json
+          git add data/public/awards.json data/public/import_status.json data/public/source_manifest.json data/public/reconciliation.json
           if ! git diff --cached --quiet; then
             git commit -m 'data: ingest official Bahamas procurement award reports'
             git push
