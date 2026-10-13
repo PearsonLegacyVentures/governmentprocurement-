@@ -8,6 +8,7 @@ on:
       - 'functions/**'
       - 'server/**'
       - 'scripts/build-site.mjs'
+      - 'scripts/provision-cloudflare.py'
       - 'tests/build-site.test.mjs'
       - 'tests/private-security.test.mjs'
       - '.github/workflows/dashboard-check.yml'
@@ -39,6 +40,8 @@ jobs:
           node --check functions/api/private/session.js
           node --check 'functions/api/private/[collection].js'
           node --check scripts/build-site.mjs
+      - name: Validate D1 provisioner syntax (no credentials)
+        run: python -m py_compile scripts/provision-cloudflare.py
       - name: Unit and static build tests
         run: node --test tests/build-site.test.mjs tests/private-security.test.mjs
       - name: Compile actual Cloudflare Pages Functions
