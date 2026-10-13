@@ -7,6 +7,7 @@ Never invent suppliers or amounts. Public records only.
 from __future__ import annotations
 import argparse
 from datetime import datetime, timezone, timedelta
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from decimal import Decimal, InvalidOperation
 import hashlib
 from html.parser import HTMLParser
@@ -83,28 +84,34 @@ def discover(max_pages=45):
     pages = sorted(pages, key=lambda x: ("2026" in x, "2025" in x, "2024" in x), reverse=True)
     output = {}
     loaded_pages = 0
-    for page_url in pages[:max_pages]:
-        try:
-            html = fetch(page_url, max_bytes=2_000_000, retries=0).decode("utf-8", "replace")
-        except (RuntimeError, ValueError) as exc:
-            issues.append({"source": page_url, "error": str(exc)[:260]})
-            continue
-        loaded_pages += 1
-        parser = LinkParser()
-        parser.feed(html)
-        for href in parser.urls:
-            url = urljoin(page_url, href).split("?")[0]
-            if urlparse(url).hostname != "mofvendors.gov.bs" or not url.lower().endswith(".xlsx"):
+    # Most of the 2024-26 month guesses do not exist. Parallelize public
+    # announcement fetches so absent pages cannot stall the scheduled run.
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futures = {pool.submit(fetch, page, max_bytes=2_000_000, retries=0): page
+                   for page in pages[:max_pages]}
+        for future in as_completed(futures):
+            page_url = futures[future]
+            try:
+                html = future.result().decode("utf-8", "replace")
+            except (RuntimeError, ValueError) as exc:
+                issues.append({"source": page_url, "error": str(exc)[:260]})
                 continue
-            upper = url.upper()
-            if "PROJECT" in upper and "AWARD" in upper:
-                kind = "project_awards"
-            elif "SUMMARY" in upper and ("CONTRACT" in upper or "AWARD" in upper):
-                kind = "summary"
-            else:
-                continue
-            output[url] = {"url": url, "notice_url": page_url,
-                           "period": period_from_name(url), "report_type": kind}
+            loaded_pages += 1
+            parser = LinkParser()
+            parser.feed(html)
+            for href in parser.urls:
+                url = urljoin(page_url, href).split("?")[0]
+                if urlparse(url).hostname != "mofvendors.gov.bs" or not url.lower().endswith(".xlsx"):
+                    continue
+                upper = url.upper()
+                if "PROJECT" in upper and "AWARD" in upper:
+                    kind = "project_awards"
+                elif "SUMMARY" in upper and ("CONTRACT" in upper or "AWARD" in upper):
+                    kind = "summary"
+                else:
+                    continue
+                output[url] = {"url": url, "notice_url": page_url,
+                               "period": period_from_name(url), "report_type": kind}
     if not loaded_pages:
         issues.append({"error": "No official notice pages loaded"})
     reports = sorted(output.values(), key=lambda a: (a["period"] or "", a["report_type"]), reverse=True)
