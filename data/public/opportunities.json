@@ -1,11 +1,11 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-10-13",
+    "captured_at": "2026-10-13T17:42:44.575Z",
     "checked_date": "2026-10-13",
-    "method": "public_browser_automation",
+    "method": "github_actions_public_playwright_browser",
     "record_count": 26,
-    "coverage": "26 observed listing entries on October 13, 2026. Not a claim of exhaustive live API coverage.",
+    "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
   "opportunities": [
@@ -79,7 +79,7 @@
       "id": "256568",
       "title": "Bahamas Department of Meteorology ICT Equipment - October 2026",
       "agency": "Department of Transformation & Digitization",
-      "reference": "DTAD-RFQ-10/2026-DP-10811",
+      "reference": "DTAD-RFQ-10/2026-DP-10811 - October 2026",
       "url": "https://bahamas.bonfirehub.com/opportunities/256568",
       "deadline_raw": "Oct 14th 2026, 5:00 PM EDT",
       "deadline_date_local": "2026-10-14",
@@ -299,7 +299,7 @@
     },
     {
       "id": "257881",
-      "title": "CA-50  BILGE PUMPS",
+      "title": "CA-50 BILGE PUMPS",
       "agency": "Royal Bahamas Defence Force",
       "reference": "RBDF-RFQ-10/2026-JF-14127",
       "url": "https://bahamas.bonfirehub.com/opportunities/257881",
