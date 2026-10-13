@@ -1,0 +1,37 @@
+name: Verify February 2026 continuation fix
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/feb-fix-test.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Cross-check both official February workbooks
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0,'scripts')
+          from procurement import fetch,extract_awards
+          from reconcile import parse_summary,reconcile
+          a='https://mofvendors.gov.bs/wp-content/uploads/2026/04/BAHAMAS-PUBLIC-PROCUREMENT-PROJECT-AWARDS-REPORT-FEBRUARY-1-28-2026-1.xlsx'
+          b='https://mofvendors.gov.bs/wp-content/uploads/2026/04/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-FEBRUARY-1-28-2026-1.xlsx'
+          data,diag=extract_awards(fetch(a,retries=0),{'url':a,'notice_url':'https://mofvendors.gov.bs/','period':'2026-02'})
+          summaries,total,audit=parse_summary(fetch(b,retries=0))
+          report=reconcile(data,summaries)
+          print('AWARDS',len(data),'DATES_PARSED',sum(bool(x['award_date_iso']) for x in data))
+          print('WORKSHEETS',diag)
+          print('SUMMARY',report)
+          assert len(data)>=110, 'Headerless continuation records not ingested'
+          assert all(x['award_date_iso'] for x in data), 'February date parser missing records'
+          assert report['status']=='totals_match', 'Official summary does not reconcile'
+          PY
