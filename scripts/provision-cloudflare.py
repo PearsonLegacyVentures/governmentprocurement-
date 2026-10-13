@@ -46,15 +46,16 @@ def api(method, route, token, body=None):
 def main():
     token = os.environ.get("CLOUDFLARE_API_TOKEN", "")
     account = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
-    project = os.environ.get("CLOUDFLARE_PAGES_PROJECT", "").strip()
+    project_input = os.environ.get("CLOUDFLARE_PAGES_PROJECT", "").strip()
     if not token:
         raise RuntimeError("Missing GitHub Actions secret CLOUDFLARE_API_TOKEN")
     if not re.fullmatch(r"[0-9a-fA-F]{32}", account):
         raise RuntimeError("Missing or invalid CLOUDFLARE_ACCOUNT_ID repository variable")
-    if project and not re.fullmatch(r"[a-z0-9][a-z0-9-]{0,62}", project):
-        raise RuntimeError("Invalid CLOUDFLARE_PAGES_PROJECT repository variable")
 
     base = "/accounts/" + account
+    project = project_input if re.fullmatch(r"[a-z0-9][a-z0-9-]{0,62}", project_input) else ""
+    if project_input and not project:
+        print("Pages project variable is not a project slug; will look for the connected GitHub project.")
     matches = api("GET", base + "/d1/database?" +
                   urlencode({"name": DATABASE_NAME, "per_page": 50}), token)
     existing = [d for d in matches if d.get("name") == DATABASE_NAME]
@@ -84,6 +85,34 @@ def main():
     if tables != {"contacts", "bid_opportunities", "bid_tasks"}:
         raise RuntimeError("Private D1 schema verification failed")
     print("Schema verified: contacts, bid_opportunities, bid_tasks.")
+
+    if not project:
+        try:
+            projects = api("GET", base + "/pages/projects?" +
+                           urlencode({"per_page": 100}), token)
+            matches = []
+            for candidate in projects if isinstance(projects, list) else []:
+                cfg = ((candidate.get("source") or {}).get("config") or {})
+                repo_name = str(cfg.get("repo_name") or "")
+                owner = str(cfg.get("owner") or "")
+                repo_url = str(cfg.get("repo_url") or "")
+                if repo_name.lower() != EXPECTED_REPOSITORY.split("/")[1].lower():
+                    continue
+                if owner and owner.lower() != EXPECTED_REPOSITORY.split("/")[0].lower():
+                    continue
+                if repo_url and EXPECTED_REPOSITORY.lower() not in repo_url.lower():
+                    continue
+                matches.append(candidate.get("name"))
+            matches = sorted(set(x for x in matches if x))
+            if len(matches) == 1:
+                project = matches[0]
+                print("Found the unique Pages project connected to the expected GitHub repository.")
+            elif matches:
+                print("More than one Pages project is linked to this repository; skipping the binding.")
+            else:
+                print("No Pages project was uniquely matched to the repository; skipping the binding.")
+        except RuntimeError:
+            print("Pages project discovery unavailable with the current token; skipping the binding.")
 
     if project:
         route = base + "/pages/projects/" + project
