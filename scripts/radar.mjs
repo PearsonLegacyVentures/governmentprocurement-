@@ -76,7 +76,7 @@ export function matchVentures(title){
 export function normalizeSnapshot(snapshot){
   if(!snapshot||!Array.isArray(snapshot.opportunities))throw Error("Missing observed opportunities");
   const checkedAt=String(snapshot.captured_at||"");
-  if(!/^\d{4}-\d{2}-\d{2}T/.test(checkedAt)||!Number.isFinite(Date.parse(checkedAt)))throw Error("Missing real capture date");
+  if(!/^\d{4}-\d{2}-\d{2}(?:T.*)?$/.test(checkedAt)||!Number.isFinite(Date.parse(checkedAt)))throw Error("Missing real capture date");
   if(snapshot.source_url!==OFFICIAL_PORTAL)throw Error("Snapshot source is not the Bahamas official Bonfire portal");
   const ids=new Set(),opportunities=[];
   for(const raw of snapshot.opportunities){
