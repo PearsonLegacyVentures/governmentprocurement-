@@ -6,7 +6,7 @@ Never invent suppliers or amounts. Public records only.
 """
 from __future__ import annotations
 import argparse
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from decimal import Decimal, InvalidOperation
 import hashlib
 from html.parser import HTMLParser
@@ -179,7 +179,7 @@ def read_xlsx(data):
         raise ValueError("Invalid Excel archive: " + str(exc)) from exc
 
 FIELDS = {
-    "supplier": [r"(?i)winning\s+(supplier|bidder)", r"(?i)successful\s+(supplier|bidder)",
+    "supplier": [r"(?i)^awarded?\s+(vendor|supplier|contractor)(\s+name)?$", r"(?i)winning\s+(supplier|bidder)", r"(?i)successful\s+(supplier|bidder)",
                  r"(?i)name\s+of\s+(supplier|vendor|contractor|awardee)",
                  r"(?i)^(supplier|vendor|contractor|awardee)(\s+name)?$"],
     "amount": [r"(?i)(award(ed)?|contract|total)\s+(amount|value|sum|price)",
@@ -189,6 +189,9 @@ FIELDS = {
                r"(?i)^(ministry|department|agency|public\s+body|entity)$"],
     "description": [r"(?i)^(project|description|contract\s+description|name\s+of\s+project|goods/works/services|procurement\s+description|contract\s+title|tender\s+title)(\s+.*)?$"],
     "date": [r"(?i)^(date\s+of\s+award|award\s+date|date\s+awarded)$"],
+    "open_date": [r"(?i)^(open|opening|published|posting)\s+date$"],
+    "close_date": [r"(?i)^(close|closing|submission\s+deadline)\s+date$"],
+    "project_type": [r"(?i)^(project|procurement|tender)\s+type$"],
     "reference": [r"(?i)^(reference|reference\s+no|tender\s+number|procurement\s+reference|contract\s+number|bid\s+number)$"],
 }
 
@@ -227,6 +230,14 @@ def parse_amount(value):
     except InvalidOperation:
         return None
 
+def excel_date(value):
+    """Interpret Excel serials as dates while retaining source raw values."""
+    if isinstance(value, Decimal) and 20000 <= value <= 90000:
+        return (datetime(1899, 12, 30) + timedelta(days=float(value))).date().isoformat()
+    if isinstance(value, str) and re.match(r"^20\d{2}-\d{2}-\d{2}", value.strip()):
+        return value.strip()[:10]
+    return None
+
 def extract_awards(data, report):
     records = []
     diagnostics = []
@@ -256,6 +267,12 @@ def extract_awards(data, report):
                 "agency_raw": agency, "agency_key": normalize_name(agency) if agency else None,
                 "description": canonical(get("description")) or None,
                 "award_date_raw": canonical(get("date")) or None,
+                "award_date_iso": excel_date(get("date")),
+                "open_date_raw": canonical(get("open_date")) or None,
+                "open_date_iso": excel_date(get("open_date")),
+                "close_date_raw": canonical(get("close_date")) or None,
+                "close_date_iso": excel_date(get("close_date")),
+                "project_type_raw": canonical(get("project_type")) or None,
                 "tender_reference_raw": canonical(get("reference")) or None,
                 "report_period": report.get("period"), "source_notice": report["notice_url"],
                 "source_file": report["url"], "source_sha256": sha,
