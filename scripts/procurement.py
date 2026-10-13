@@ -60,13 +60,28 @@ class LinkParser(HTMLParser):
             self.urls.append(dict(attrs)["href"])
 
 def period_from_name(url):
-    filename = urlparse(url).path.split("/")[-1].lower().replace("_", "-")
-    for index, month in enumerate(MONTHS, 1):
-        if month in filename:
-            years = re.findall(r"20(?:2[0-9])", filename)
-            if years:
-                return f"{years[-1]}-{index:02d}"
-    return None
+    """Recognize full/abbreviated month labels and explicit multi-month ranges."""
+    path = urlparse(url).path
+    filename = path.split("/")[-1].lower().replace("_", "-")
+    month_re = r"(?<![a-z])(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)(?![a-z])"
+    hits = list(re.finditer(month_re, filename))
+    if not hits:
+        return None
+    years = re.findall(r"20\d{2}", filename)
+    upload_year = re.search(r"/uploads/(20\d{2})/", path)
+    fallback_year = years[-1] if years else (upload_year.group(1) if upload_year else None)
+    if not fallback_year:
+        return None
+    def month(hit):
+        abbr = hit.group(1)[:3].lower()
+        return next((i for i, m in enumerate(MONTHS, 1) if m[:3] == abbr), None)
+    last_month = month(hits[-1])
+    if last_month is None:
+        return None
+    if len(hits) > 1 and "-to-" in filename:
+        first_year = years[0] if len(years) > 1 else fallback_year
+        return f"{first_year}-{month(hits[0]):02d}..{fallback_year}-{last_month:02d}"
+    return f"{fallback_year}-{last_month:02d}"
 
 def discover(max_pages=45):
     pages = set(SEED_PAGES)
@@ -303,9 +318,32 @@ def run(argv=None):
     parser.add_argument("--discovery-only", action="store_true")
     args = parser.parse_args(argv)
     reports, issues = discover(max_pages=args.max_pages)
+    # Government may upload the same reporting period more than once.
+    # Select only the most recently uploaded variant as the canonical source.
+    # Every superseded URL is preserved in the manifest for audit.
+    grouped = {}
+    for entry in reports:
+        if entry["report_type"] == "project_awards" and entry["period"]:
+            grouped.setdefault(entry["period"], []).append(entry)
+    superseded = set()
+    superseded_entries = []
+    for period, variants in grouped.items():
+        if len(variants) < 2:
+            continue
+        def version_key(v):
+            m = re.search(r"/uploads/(\d{4})/(\d{2})/", v["url"])
+            return (int(m.group(1)), int(m.group(2)), v["url"]) if m else (0, 0, v["url"])
+        newest = max(variants, key=version_key)
+        for item in variants:
+            if item["url"] != newest["url"]:
+                superseded.add(item["url"])
+                superseded_entries.append({**item, "status": "superseded_variant",
+                                           "superseded_by": newest["url"]})
+    reports = [r for r in reports if r["url"] not in superseded]
     stamp = datetime.now(timezone.utc).isoformat()
     manifest = {"generated_at": stamp, "source": BASE, "discovered": len(reports),
-                "reports": [], "discovery_issues": issues[:150]}
+                "reports": [], "superseded_variants": superseded_entries,
+                "discovery_issues": issues[:150]}
     imported = []
     success = 0
     def process_report(report):
@@ -349,9 +387,19 @@ def run(argv=None):
         return 3
     by_id = {r["id"]: r for r in imported}
     old_file = args.output / "awards.json"
+    refreshed_periods = {r["report_period"] for r in imported if r.get("report_period")}
+    refreshed_files = {r["source_file"] for r in imported}
     if old_file.exists():
         try:
             for record in json.loads(old_file.read_text()).get("awards", []):
+                # Do not keep legacy versions of a refreshed reporting period.
+                # Retain older verified months only if this run cannot fetch them.
+                if record.get("source_file") in superseded:
+                    continue
+                if record.get("report_period") in refreshed_periods:
+                    continue
+                if record.get("source_file") in refreshed_files:
+                    continue
                 if record.get("id") and record["id"] not in by_id:
                     by_id[record["id"]] = record
         except (OSError, ValueError):
