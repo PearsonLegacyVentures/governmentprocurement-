@@ -1,39 +1,62 @@
-name: Validate procurement dashboard and public award data
+name: Validate Pages build and private API security
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - 'dashboard/**'
+      - 'functions/**'
+      - 'server/**'
+      - 'scripts/build-site.mjs'
+      - 'tests/build-site.test.mjs'
+      - 'tests/private-security.test.mjs'
       - '.github/workflows/dashboard-check.yml'
   pull_request:
     paths:
       - 'dashboard/**'
+      - 'functions/**'
+      - 'server/**'
+      - 'scripts/build-site.mjs'
+      - 'tests/build-site.test.mjs'
+      - 'tests/private-security.test.mjs'
 permissions:
   contents: read
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
-      - name: Check browser JavaScript syntax
-        run: node --check dashboard/app.js
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript syntax
+        run: |
+          node --check dashboard/app.js
+          node --check dashboard/private.js
+          node --check server/access-auth.js
+          node --check functions/api/private/_middleware.js
+          node --check functions/api/private/session.js
+          node --check 'functions/api/private/[collection].js'
+          node --check scripts/build-site.mjs
+      - name: Unit and static build tests
+        run: node --test tests/build-site.test.mjs tests/private-security.test.mjs
+      - name: Compile actual Cloudflare Pages Functions
+        run: npx --yes wrangler@4 pages functions build functions --outdir=.tmp/functions-bundle --compatibility-date=2026-10-12
       - name: Check committed dataset integrity
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
           f=Path('data/public/awards.json')
-          if not f.exists():
-              print('No data imported yet; empty-state dashboard is supported')
-          else:
-              d=json.loads(f.read_text())
-              awards=d['awards']
-              assert len(awards)>0
-              ids=[a['id'] for a in awards]
-              assert len(ids)==len(set(ids)),'Duplicate row identifiers'
-              for a in awards:
-                  assert a['supplier_raw'] and a['source_file'] and a['source_sha256'] and a['sheet'] and a['row']
-              print('Verified source-backed rows:',len(awards))
+          d=json.loads(f.read_text())
+          awards=d['awards']
+          assert len(awards)>0
+          ids=[a['id'] for a in awards]
+          assert len(ids)==len(set(ids)), 'Duplicate row identifiers'
+          for a in awards:
+              assert a['supplier_raw'] and a['source_file'] and a['source_sha256'] and a['sheet'] and a['row']
+          quality=json.loads(Path('data/public/quality_report.json').read_text())
+          assert quality['source_record_count']==len(awards)
+          print('Verified published source rows:',len(awards))
           PY

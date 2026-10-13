@@ -5,7 +5,7 @@ import { existsSync, readFileSync } from 'node:fs';
 
 test('Pages build generates root index, JS and official JSON', () => {
   execFileSync(process.execPath,['scripts/build-site.mjs'],{stdio:'pipe'});
-  for (const p of ['dist/index.html','dist/app.js','dist/style.css','dist/data/public/awards.json','dist/data/public/quality_report.json']) {
+  for (const p of ['dist/index.html','dist/app.js','dist/style.css','dist/private.js','dist/data/public/awards.json','dist/data/public/quality_report.json']) {
     assert.equal(existsSync(p),true,`Expected ${p}`);
   }
   assert.match(readFileSync('dist/index.html','utf8'),/Procurement Intelligence/);
