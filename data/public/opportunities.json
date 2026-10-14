@@ -1,52 +1,14 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-10-13T17:42:44.575Z",
-    "checked_date": "2026-10-13",
+    "captured_at": "2026-10-14T17:33:21.731Z",
+    "checked_date": "2026-10-14",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 26,
+    "record_count": 24,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
   "opportunities": [
-    {
-      "id": "256628",
-      "title": "ROYAL BAHAMAS DEFENCE FORCE -TATICAL ROCKY BOOTS",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-09/2026-NB-14049",
-      "url": "https://bahamas.bonfirehub.com/opportunities/256628",
-      "deadline_raw": "Oct 14th 2026, 7:00 AM EDT",
-      "deadline_date_local": "2026-10-14",
-      "deadline_time_local": "07:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-14T11:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
-    {
-      "id": "257524",
-      "title": "REQUEST FOR BUILDING SUPPLIES",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-JS-14105",
-      "url": "https://bahamas.bonfirehub.com/opportunities/257524",
-      "deadline_raw": "Oct 14th 2026, 9:00 AM EDT",
-      "deadline_date_local": "2026-10-14",
-      "deadline_time_local": "09:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-14T13:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": [
-        {
-          "venture": "Bahamas Mineral Company",
-          "match_type": "watch",
-          "strength": "weak",
-          "score": 21,
-          "trigger": "BUILDING SUPPLIES",
-          "reason": "Agriculture or material-supply sector; not evidence that BMC's product is required",
-          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
-        }
-      ]
-    },
     {
       "id": "248020",
       "title": "UPGRADES TO THE SOUTH BEACH POOL",
@@ -148,16 +110,16 @@
       ]
     },
     {
-      "id": "257858",
-      "title": "REPAIRS TO BURROWS HOME FOR THE AGED - FREEPORT, GRAND BAHAMA",
-      "agency": "Ministry of Grand Bahama",
-      "reference": "MoGB-RFP-10/2026-PR-14124",
-      "url": "https://bahamas.bonfirehub.com/opportunities/257858",
-      "deadline_raw": "Oct 19th 2026, 12:00 PM EDT",
-      "deadline_date_local": "2026-10-19",
-      "deadline_time_local": "12:00",
+      "id": "255220",
+      "title": "BAHAMAS CORRECTIONS INMATES' UNIFORMS",
+      "agency": "Bahamas Department of Correctional Services",
+      "reference": "BDCS-IFB-09/2026-VB-13936",
+      "url": "https://bahamas.bonfirehub.com/opportunities/255220",
+      "deadline_raw": "Oct 16th 2026, 5:00 PM EDT",
+      "deadline_date_local": "2026-10-16",
+      "deadline_time_local": "17:00",
       "timezone": "EDT",
-      "deadline_utc": "2026-10-19T16:00:00.000Z",
+      "deadline_utc": "2026-10-16T21:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
       "matches": []
     },
