@@ -1,90 +1,14 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-10-14T17:33:21.731Z",
-    "checked_date": "2026-10-14",
+    "captured_at": "2026-10-15T17:18:40.738Z",
+    "checked_date": "2026-10-15",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 24,
+    "record_count": 29,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
   "opportunities": [
-    {
-      "id": "248020",
-      "title": "UPGRADES TO THE SOUTH BEACH POOL",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-08/2026-RT-12927",
-      "url": "https://bahamas.bonfirehub.com/opportunities/248020",
-      "deadline_raw": "Oct 14th 2026, 5:00 PM EDT",
-      "deadline_date_local": "2026-10-14",
-      "deadline_time_local": "17:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-14T21:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
-    {
-      "id": "251055",
-      "title": "PROCUREMENT OF EQUIPMENT & APPARATUS FOR THE UPKEEP OF SPORTING FACILITIES",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-08/2026-RT-13379",
-      "url": "https://bahamas.bonfirehub.com/opportunities/251055",
-      "deadline_raw": "Oct 14th 2026, 5:00 PM EDT",
-      "deadline_date_local": "2026-10-14",
-      "deadline_time_local": "17:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-14T21:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
-    {
-      "id": "256568",
-      "title": "Bahamas Department of Meteorology ICT Equipment - October 2026",
-      "agency": "Department of Transformation & Digitization",
-      "reference": "DTAD-RFQ-10/2026-DP-10811 - October 2026",
-      "url": "https://bahamas.bonfirehub.com/opportunities/256568",
-      "deadline_raw": "Oct 14th 2026, 5:00 PM EDT",
-      "deadline_date_local": "2026-10-14",
-      "deadline_time_local": "17:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-14T21:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": [
-        {
-          "venture": "Bahamas AI Solutions",
-          "match_type": "partner",
-          "strength": "weak",
-          "score": 22,
-          "trigger": "ICT Equipment",
-          "reason": "Hardware procurement; a qualified supply partner would be required",
-          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
-        }
-      ]
-    },
-    {
-      "id": "255579",
-      "title": "DICT Emergency ICT Equipment Bulk Order- October 2026",
-      "agency": "Department of Transformation & Digitization",
-      "reference": "DTAD-RFQ-10/2026-AT-13956",
-      "url": "https://bahamas.bonfirehub.com/opportunities/255579",
-      "deadline_raw": "Oct 15th 2026, 5:00 PM EDT",
-      "deadline_date_local": "2026-10-15",
-      "deadline_time_local": "17:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-15T21:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": [
-        {
-          "venture": "Bahamas AI Solutions",
-          "match_type": "partner",
-          "strength": "weak",
-          "score": 22,
-          "trigger": "ICT Equipment",
-          "reason": "Hardware procurement; a qualified supply partner would be required",
-          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
-        }
-      ]
-    },
     {
       "id": "257517",
       "title": "HOTEL VENUE FOR NATIONAL SPORTS AWARDS",
@@ -288,6 +212,138 @@
       "matches": []
     },
     {
+      "id": "258466",
+      "title": "BAHAMAS CORRECTIONS AIR CONDITION UNITS",
+      "agency": "Bahamas Department of Correctional Services",
+      "reference": "BDCS-ITQ-10/2026-VB-14152",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258466",
+      "deadline_raw": "Oct 28th 2026, 5:00 PM EDT",
+      "deadline_date_local": "2026-10-28",
+      "deadline_time_local": "17:00",
+      "timezone": "EDT",
+      "deadline_utc": "2026-10-28T21:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "258476",
+      "title": "BAHAMAS CORRCTIONS SECURITY RESTRANTS",
+      "agency": "Bahamas Department of Correctional Services",
+      "reference": "BDCS-ITQ-10/2026-VB-14154",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258476",
+      "deadline_raw": "Oct 28th 2026, 5:00 PM EDT",
+      "deadline_date_local": "2026-10-28",
+      "deadline_time_local": "17:00",
+      "timezone": "EDT",
+      "deadline_utc": "2026-10-28T21:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "258687",
+      "title": "(CPU) TENDER FOR THE CATERING OF MEALS FOR THE ROYAL BAHAMAS DEFENCE FORCE OUTPOSTS",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFT-10/2026-JJ-14167",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258687",
+      "deadline_raw": "Oct 29th 2026, 12:00 AM EDT",
+      "deadline_date_local": "2026-10-29",
+      "deadline_time_local": "00:00",
+      "timezone": "EDT",
+      "deadline_utc": "2026-10-29T04:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": [
+        {
+          "venture": "Mel J's Event Rentals",
+          "match_type": "partner",
+          "strength": "moderate",
+          "score": 41,
+          "trigger": "CATERING",
+          "reason": "Possible subcontracting to a qualified venue or event prime",
+          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
+        }
+      ]
+    },
+    {
+      "id": "258691",
+      "title": "(CPU) TENDER FOR THE CATERING OF MEALS FOR THE ROYAL BAHAMAS POLICE FORCE STATIONS",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFT-10/2026-JJ-14168",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258691",
+      "deadline_raw": "Oct 29th 2026, 9:00 AM EDT",
+      "deadline_date_local": "2026-10-29",
+      "deadline_time_local": "09:00",
+      "timezone": "EDT",
+      "deadline_utc": "2026-10-29T13:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": [
+        {
+          "venture": "Mel J's Event Rentals",
+          "match_type": "partner",
+          "strength": "moderate",
+          "score": 41,
+          "trigger": "CATERING",
+          "reason": "Possible subcontracting to a qualified venue or event prime",
+          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
+        }
+      ]
+    },
+    {
+      "id": "258657",
+      "title": "Best of the Best - Officers Services",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14165",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258657",
+      "deadline_raw": "Oct 29th 2026, 5:00 PM EDT",
+      "deadline_date_local": "2026-10-29",
+      "deadline_time_local": "17:00",
+      "timezone": "EDT",
+      "deadline_utc": "2026-10-29T21:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "258697",
+      "title": "Best of the Best - PORTABLE RESTROOM",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14169",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258697",
+      "deadline_raw": "Oct 29th 2026, 5:00 PM EDT",
+      "deadline_date_local": "2026-10-29",
+      "deadline_time_local": "17:00",
+      "timezone": "EDT",
+      "deadline_utc": "2026-10-29T21:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "258702",
+      "title": "Best of the Best ~ HOSPITAL SUITE AND DECOR",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14170",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258702",
+      "deadline_raw": "Oct 29th 2026, 5:00 PM EDT",
+      "deadline_date_local": "2026-10-29",
+      "deadline_time_local": "17:00",
+      "timezone": "EDT",
+      "deadline_utc": "2026-10-29T21:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "258706",
+      "title": "Best of the Best ~ CRANE SERVICES",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14171",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258706",
+      "deadline_raw": "Oct 29th 2026, 5:00 PM EDT",
+      "deadline_date_local": "2026-10-29",
+      "deadline_time_local": "17:00",
+      "timezone": "EDT",
+      "deadline_utc": "2026-10-29T21:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
       "id": "258057",
       "title": "SUPPLY AND DELIVERY OF PATIENT STRETCHERS AND EXMAINATION BEDS",
       "agency": "Ministry of Health & Wellness",
@@ -404,6 +460,30 @@
       "deadline_utc": "2026-11-16T21:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
       "matches": []
+    },
+    {
+      "id": "255579",
+      "title": "DICT Emergency ICT Equipment Bulk Order- October 2026",
+      "agency": "Department of Transformation & Digitization",
+      "reference": "DTAD-RFQ-10/2026-AT-13956",
+      "url": "https://bahamas.bonfirehub.com/opportunities/255579",
+      "deadline_raw": "Nov 20th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-20",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-20T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": [
+        {
+          "venture": "Bahamas AI Solutions",
+          "match_type": "partner",
+          "strength": "weak",
+          "score": 22,
+          "trigger": "ICT Equipment",
+          "reason": "Hardware procurement; a qualified supply partner would be required",
+          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
+        }
+      ]
     }
   ]
 }
