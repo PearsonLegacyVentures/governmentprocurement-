@@ -1,23 +1,9 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-10-16T16:54:05.669Z",
+  "captured_at": "2026-10-17T15:53:38.428Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/257517",
-      "title": "HOTEL VENUE FOR NATIONAL SPORTS AWARDS",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-RT-14104",
-      "deadline": "Oct 16th 2026, 4:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/255220",
-      "title": "BAHAMAS CORRECTIONS INMATES' UNIFORMS",
-      "agency": "Bahamas Department of Correctional Services",
-      "reference": "BDCS-IFB-09/2026-VB-13936",
-      "deadline": "Oct 16th 2026, 5:00 PM EDT"
-    },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/247095",
       "title": "Ministry of Economic Affairs - Evaluation Consultant",
