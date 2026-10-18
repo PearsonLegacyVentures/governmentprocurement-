@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-10-17T15:53:38.428Z",
-    "checked_date": "2026-10-17",
+    "captured_at": "2026-10-18T16:06:03.487Z",
+    "checked_date": "2026-10-18",
     "method": "github_actions_public_playwright_browser",
     "record_count": 48,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
