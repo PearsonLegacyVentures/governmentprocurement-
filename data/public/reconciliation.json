@@ -54,7 +54,7 @@
         "road traffic department",
         "royal bahamas defence force"
       ],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "period": "2024-01",
@@ -116,7 +116,7 @@
         "road traffic department",
         "royal bahamas police force"
       ],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -158,7 +158,7 @@
         "post office department",
         "road traffic department"
       ],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -199,7 +199,7 @@
         "road traffic department",
         "royal bahamas police force"
       ],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -241,7 +241,7 @@
         "office of the prime minister",
         "royal bahamas police force"
       ],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -351,7 +351,7 @@
         "moa",
         "not-listed"
       ],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -479,7 +479,7 @@
       "status": "totals_match",
       "summary_total_nominal": "2583593.699999999954",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -491,6 +491,7 @@
           "total_column_index": 1
         }
       ],
+      "cached_from_verification": "2026-10-13T17:47:16.892095+00:00",
       "difference": "-3.111E-10",
       "matched_agency_codes_by_amount": [
         {
@@ -610,7 +611,7 @@
       "project_total_nominal": "14823438.0200000000129",
       "reported_total_row": "14823438.02",
       "source_sha256": "78166c6a736c80664dd7f89c5e07de1fd199cee3c34188a52903b24af66df12e",
-      "status": "totals_match",
+      "status": "totals_match_cached",
       "summary_total_nominal": "14823438.020000000324",
       "unmapped_agency_codes": [],
       "verified_at": "2026-10-13T17:47:16.892095+00:00"
@@ -753,7 +754,7 @@
       "status": "totals_match",
       "summary_total_nominal": "15244613.48999999949",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -887,7 +888,7 @@
       "status": "totals_match",
       "summary_total_nominal": "8426665.24000000004",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -899,6 +900,7 @@
           "total_column_index": 6
         }
       ],
+      "cached_from_verification": "2026-10-13T17:47:16.892095+00:00",
       "difference": "8.6E-11",
       "matched_agency_codes_by_amount": [
         {
@@ -976,7 +978,7 @@
       "project_total_nominal": "19564759.000000000055",
       "reported_total_row": "19564758.999999996",
       "source_sha256": "a26fd6b99053c02dda5806da4285343a63067b55ee50189c151b791003dc6b70",
-      "status": "totals_match",
+      "status": "totals_match_cached",
       "summary_total_nominal": "19564758.999999999969",
       "unmapped_agency_codes": [
         "dehs",
@@ -1117,7 +1119,7 @@
       "status": "totals_match",
       "summary_total_nominal": "3147785.71",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -1262,7 +1264,7 @@
       "status": "totals_match",
       "summary_total_nominal": "12023178.82999999975",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -1393,7 +1395,7 @@
         "rbdf",
         "rbpf"
       ],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -1539,7 +1541,7 @@
       "status": "totals_match",
       "summary_total_nominal": "9252999.269999999990",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -1702,7 +1704,7 @@
       "status": "totals_match",
       "summary_total_nominal": "8398290.55",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -1830,7 +1832,7 @@
       "status": "totals_match",
       "summary_total_nominal": "7690079.780000000134",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -1976,7 +1978,7 @@
       "status": "totals_match",
       "summary_total_nominal": "9861745.3199999999796",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -1988,6 +1990,7 @@
           "total_column_index": 6
         }
       ],
+      "cached_from_verification": "2026-10-13T17:47:16.892095+00:00",
       "difference": "2.02E-10",
       "matched_agency_codes_by_amount": [
         {
@@ -2047,7 +2050,7 @@
       "project_total_nominal": "6492856.310000000202",
       "reported_total_row": "6492856.3100000005",
       "source_sha256": "2df48166472453f89a7b7c763382884d0bc8af217ad19acc52c6eb892241f81b",
-      "status": "totals_match",
+      "status": "totals_match_cached",
       "summary_total_nominal": "6492856.31",
       "unmapped_agency_codes": [],
       "verified_at": "2026-10-13T17:47:16.892095+00:00"
@@ -2184,7 +2187,7 @@
       "status": "totals_match",
       "summary_total_nominal": "11009268.75",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -2342,7 +2345,7 @@
       "status": "totals_match",
       "summary_total_nominal": "9530616.069999999999",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -2354,6 +2357,7 @@
           "total_column_index": 1
         }
       ],
+      "cached_from_verification": "2026-10-13T17:47:16.892095+00:00",
       "difference": "-3.74E-11",
       "matched_agency_codes_by_amount": [
         {
@@ -2491,7 +2495,7 @@
       "project_total_nominal": "14581458.3899999999717",
       "reported_total_row": "14581458.390000002",
       "source_sha256": "2b13854eecb60cf73dc0dc87c172200a481f237bad394ff6dfe697af28310e46",
-      "status": "totals_match",
+      "status": "totals_match_cached",
       "summary_total_nominal": "14581458.3900000000091",
       "unmapped_agency_codes": [
         "cpu",
@@ -2607,7 +2611,7 @@
       "status": "totals_match",
       "summary_total_nominal": "10997665.59000000003",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -2717,7 +2721,7 @@
       "status": "totals_match",
       "summary_total_nominal": "6079352.330000000004",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     },
     {
       "audit": [
@@ -2875,9 +2879,9 @@
       "status": "totals_match",
       "summary_total_nominal": "29402595.239999998984",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-19T17:37:10.444110+00:00"
     }
   ],
-  "generated_at": "2026-10-13T17:49:46.954922+00:00",
+  "generated_at": "2026-10-19T17:39:52.312460+00:00",
   "method": "Compare extracted source-row totals against the official agency summary for the same reporting period; do not infer payment or currency."
 }
