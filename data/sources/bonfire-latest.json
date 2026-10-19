@@ -1,6 +1,6 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-10-18T16:06:03.487Z",
+  "captured_at": "2026-10-19T18:49:27.240Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
@@ -299,6 +299,13 @@
       "deadline": "Oct 30th 2026, 5:00 PM EDT"
     },
     {
+      "url": "https://bahamas.bonfirehub.com/opportunities/259148",
+      "title": "REQUEST FOR FURNITURE",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-JS-14223",
+      "deadline": "Nov 2nd 2026, 9:00 AM EST"
+    },
+    {
       "url": "https://bahamas.bonfirehub.com/opportunities/253402",
       "title": "Ministry of Finance - Electrical Upgrade of BAIC Nassau Packing House",
       "agency": "Ministry of Finance",
@@ -331,6 +338,13 @@
       "title": "Full Vessel Repair and upgrade P-44",
       "agency": "Royal Bahamas Defence Force",
       "reference": "RBDF-RFP-09/2026-LN-13681",
+      "deadline": "Nov 9th 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/254948",
+      "title": "CONSTRUCTION OF SPECIALIZED COURTS",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-09/2026-RT-13905",
       "deadline": "Nov 9th 2026, 5:00 PM EST"
     },
     {

@@ -1,10 +1,10 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-10-18T16:06:03.487Z",
-    "checked_date": "2026-10-18",
+    "captured_at": "2026-10-19T18:49:27.240Z",
+    "checked_date": "2026-10-19",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 48,
+    "record_count": 50,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
@@ -648,6 +648,20 @@
       "matches": []
     },
     {
+      "id": "259148",
+      "title": "REQUEST FOR FURNITURE",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-JS-14223",
+      "url": "https://bahamas.bonfirehub.com/opportunities/259148",
+      "deadline_raw": "Nov 2nd 2026, 9:00 AM EST",
+      "deadline_date_local": "2026-11-02",
+      "deadline_time_local": "09:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-02T14:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
       "id": "253402",
       "title": "Ministry of Finance - Electrical Upgrade of BAIC Nassau Packing House",
       "agency": "Ministry of Finance",
@@ -729,6 +743,20 @@
       "agency": "Royal Bahamas Defence Force",
       "reference": "RBDF-RFP-09/2026-LN-13681",
       "url": "https://bahamas.bonfirehub.com/opportunities/253148",
+      "deadline_raw": "Nov 9th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-09",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-09T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "254948",
+      "title": "CONSTRUCTION OF SPECIALIZED COURTS",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-09/2026-RT-13905",
+      "url": "https://bahamas.bonfirehub.com/opportunities/254948",
       "deadline_raw": "Nov 9th 2026, 5:00 PM EST",
       "deadline_date_local": "2026-11-09",
       "deadline_time_local": "17:00",
