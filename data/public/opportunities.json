@@ -1,52 +1,14 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-10-19T18:49:27.240Z",
-    "checked_date": "2026-10-19",
+    "captured_at": "2026-10-20T17:28:46.618Z",
+    "checked_date": "2026-10-20",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 50,
+    "record_count": 51,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
   "opportunities": [
-    {
-      "id": "247095",
-      "title": "Ministry of Economic Affairs - Evaluation Consultant",
-      "agency": "Ministry of Economic Affairs",
-      "reference": "MoEA-RFP-07/2026-BP-12838",
-      "url": "https://bahamas.bonfirehub.com/opportunities/247095",
-      "deadline_raw": "Oct 19th 2026, 5:00 PM EDT",
-      "deadline_date_local": "2026-10-19",
-      "deadline_time_local": "17:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-19T21:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": [
-        {
-          "venture": "Bahamas AI Solutions",
-          "match_type": "watch",
-          "strength": "weak",
-          "score": 24,
-          "trigger": "Evaluation Consultant",
-          "reason": "Consulting scope must be reviewed before claiming fit",
-          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
-        }
-      ]
-    },
-    {
-      "id": "250673",
-      "title": "Provision of two 8 MVA Transformers for OPS Substation",
-      "agency": "Reconstruction with Resilience in the Energy Sector of The Bahamas",
-      "reference": "RFB-BH-L1048-P00099",
-      "url": "https://bahamas.bonfirehub.com/opportunities/250673",
-      "deadline_raw": "Oct 19th 2026, 5:00 PM EDT",
-      "deadline_date_local": "2026-10-19",
-      "deadline_time_local": "17:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-19T21:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
     {
       "id": "256389",
       "title": "Ministry of Finance - Purchase and Installation of a 150 kW Emergency Generator for the Police Headquarters, Nassau Street",
@@ -658,6 +620,48 @@
       "deadline_time_local": "09:00",
       "timezone": "EST",
       "deadline_utc": "2026-11-02T14:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "259272",
+      "title": "MOTOTRBO REPEATER SYSTEM AND ACCESSORIES",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-LR-14233",
+      "url": "https://bahamas.bonfirehub.com/opportunities/259272",
+      "deadline_raw": "Nov 3rd 2026, 12:00 PM EST",
+      "deadline_date_local": "2026-11-03",
+      "deadline_time_local": "12:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-03T17:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "259277",
+      "title": "ICOM SATELLITE PUSH-TO-TALK COMMUNICATION RADIOS",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-LR-14234",
+      "url": "https://bahamas.bonfirehub.com/opportunities/259277",
+      "deadline_raw": "Nov 3rd 2026, 12:00 PM EST",
+      "deadline_date_local": "2026-11-03",
+      "deadline_time_local": "12:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-03T17:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "259281",
+      "title": "MOTOTRBO R7 PORTABLE TWO-WAY RADIOS",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-LR-14235",
+      "url": "https://bahamas.bonfirehub.com/opportunities/259281",
+      "deadline_raw": "Nov 3rd 2026, 12:00 PM EST",
+      "deadline_date_local": "2026-11-03",
+      "deadline_time_local": "12:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-03T17:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
       "matches": []
     },

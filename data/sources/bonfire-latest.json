@@ -1,23 +1,9 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-10-19T18:49:27.240Z",
+  "captured_at": "2026-10-20T17:28:46.618Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/247095",
-      "title": "Ministry of Economic Affairs - Evaluation Consultant",
-      "agency": "Ministry of Economic Affairs",
-      "reference": "MoEA-RFP-07/2026-BP-12838",
-      "deadline": "Oct 19th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/250673",
-      "title": "Provision of two 8 MVA Transformers for OPS Substation",
-      "agency": "Reconstruction with Resilience in the Energy Sector of The Bahamas",
-      "reference": "RFB-BH-L1048-P00099",
-      "deadline": "Oct 19th 2026, 5:00 PM EDT"
-    },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/256389",
       "title": "Ministry of Finance - Purchase and Installation of a 150 kW Emergency Generator for the Police Headquarters, Nassau Street",
@@ -304,6 +290,27 @@
       "agency": "Royal Bahamas Defence Force",
       "reference": "RBDF-RFQ-10/2026-JS-14223",
       "deadline": "Nov 2nd 2026, 9:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/259272",
+      "title": "MOTOTRBO REPEATER SYSTEM AND ACCESSORIES",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-LR-14233",
+      "deadline": "Nov 3rd 2026, 12:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/259277",
+      "title": "ICOM SATELLITE PUSH-TO-TALK COMMUNICATION RADIOS",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-LR-14234",
+      "deadline": "Nov 3rd 2026, 12:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/259281",
+      "title": "MOTOTRBO R7 PORTABLE TWO-WAY RADIOS",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-LR-14235",
+      "deadline": "Nov 3rd 2026, 12:00 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/253402",
