@@ -1,30 +1,9 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-10-20T17:28:46.618Z",
+  "captured_at": "2026-10-21T17:36:30.635Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/256389",
-      "title": "Ministry of Finance - Purchase and Installation of a 150 kW Emergency Generator for the Police Headquarters, Nassau Street",
-      "agency": "Ministry of Finance",
-      "reference": "MoF-RFP-09/2026-AA-13770a",
-      "deadline": "Oct 20th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/257472",
-      "title": "The Requisition of Generators",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-LN-14102",
-      "deadline": "Oct 21st 2026, 9:00 AM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/257510",
-      "title": "AIDS TO NAVIGATION MARINE LANTERNS",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-JF-14103",
-      "deadline": "Oct 21st 2026, 10:00 AM EDT"
-    },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258888",
       "title": "GIFT BOXES FOR NATIONAL SPORTS MONTH",
@@ -86,6 +65,13 @@
       "title": "BAHAMAS CORRCTIONS SECURITY RESTRANTS",
       "agency": "Bahamas Department of Correctional Services",
       "reference": "BDCS-ITQ-10/2026-VB-14154",
+      "deadline": "Oct 28th 2026, 5:00 PM EDT"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/259514",
+      "title": "GFNY FOR ROYAL BAHAMAS POLICE FORCE",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-DA-10/2026-RT-14251",
       "deadline": "Oct 28th 2026, 5:00 PM EDT"
     },
     {
@@ -278,11 +264,25 @@
       "deadline": "Oct 29th 2026, 7:00 PM EDT"
     },
     {
+      "url": "https://bahamas.bonfirehub.com/opportunities/257472",
+      "title": "The Requisition of Generators",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-LN-14102",
+      "deadline": "Oct 30th 2026, 9:00 AM EDT"
+    },
+    {
       "url": "https://bahamas.bonfirehub.com/opportunities/258057",
       "title": "SUPPLY AND DELIVERY OF PATIENT STRETCHERS AND EXMAINATION BEDS",
       "agency": "Ministry of Health & Wellness",
       "reference": "MoHW-RFQ-10/2026-TE-14133",
       "deadline": "Oct 30th 2026, 5:00 PM EDT"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/259532",
+      "title": "Best of the Best ~ Tents Tables And Chairs Rental",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14257",
+      "deadline": "Oct 30th 2026, 11:30 PM EDT"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/259148",
