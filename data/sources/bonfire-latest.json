@@ -1,36 +1,15 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-10-21T17:36:30.635Z",
+  "captured_at": "2026-10-22T17:33:48.247Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
     {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258888",
-      "title": "GIFT BOXES FOR NATIONAL SPORTS MONTH",
+      "url": "https://bahamas.bonfirehub.com/opportunities/259660",
+      "title": "HOTEL CONFERENCE VENUE RENTAL WITH AUDIO VISUAL EQUIPMENT & TECHNICAL SUPPORT",
       "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-RT-14202",
-      "deadline": "Oct 21st 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/257711",
-      "title": "ROYAL BAHAMAS DEFENCE FORCE - M-65 FIELD JACKET & DIGITAL WOODLAND PARKA AND TROUSERS",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-NB-14115",
-      "deadline": "Oct 22nd 2026, 7:00 AM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/257597",
-      "title": "Storage Lockers",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-LN-14112",
-      "deadline": "Oct 22nd 2026, 9:00 AM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/255482",
-      "title": "TECHNICAL TRAINING PPE'S",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-09/2026-JF-13978",
-      "deadline": "Oct 22nd 2026, 10:00 AM EDT"
+      "reference": "MoYSC-LB-10/2026-RT-14272",
+      "deadline": "Oct 22nd 2026, 4:00 PM EDT"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/257873",
@@ -332,6 +311,13 @@
       "agency": "Water & Sewage Corporation",
       "reference": "WSC-RFB-07/2026-JP-12780",
       "deadline": "Nov 4th 2026, 4:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/259580",
+      "title": "BUILD-OUT OF TWO EMPTY SHELL OFFICE SPACES",
+      "agency": "Port Department",
+      "reference": "DoP-RFQ-10/2026-CC-14263",
+      "deadline": "Nov 4th 2026, 11:30 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/253142",

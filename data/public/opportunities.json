@@ -1,69 +1,37 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-10-21T17:36:30.635Z",
-    "checked_date": "2026-10-21",
+    "captured_at": "2026-10-22T17:33:48.247Z",
+    "checked_date": "2026-10-22",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 51,
+    "record_count": 49,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
   "opportunities": [
     {
-      "id": "258888",
-      "title": "GIFT BOXES FOR NATIONAL SPORTS MONTH",
+      "id": "259660",
+      "title": "HOTEL CONFERENCE VENUE RENTAL WITH AUDIO VISUAL EQUIPMENT & TECHNICAL SUPPORT",
       "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-RT-14202",
-      "url": "https://bahamas.bonfirehub.com/opportunities/258888",
-      "deadline_raw": "Oct 21st 2026, 5:00 PM EDT",
-      "deadline_date_local": "2026-10-21",
-      "deadline_time_local": "17:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-21T21:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
-    {
-      "id": "257711",
-      "title": "ROYAL BAHAMAS DEFENCE FORCE - M-65 FIELD JACKET & DIGITAL WOODLAND PARKA AND TROUSERS",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-NB-14115",
-      "url": "https://bahamas.bonfirehub.com/opportunities/257711",
-      "deadline_raw": "Oct 22nd 2026, 7:00 AM EDT",
+      "reference": "MoYSC-LB-10/2026-RT-14272",
+      "url": "https://bahamas.bonfirehub.com/opportunities/259660",
+      "deadline_raw": "Oct 22nd 2026, 4:00 PM EDT",
       "deadline_date_local": "2026-10-22",
-      "deadline_time_local": "07:00",
+      "deadline_time_local": "16:00",
       "timezone": "EDT",
-      "deadline_utc": "2026-10-22T11:00:00.000Z",
+      "deadline_utc": "2026-10-22T20:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
-    {
-      "id": "257597",
-      "title": "Storage Lockers",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-LN-14112",
-      "url": "https://bahamas.bonfirehub.com/opportunities/257597",
-      "deadline_raw": "Oct 22nd 2026, 9:00 AM EDT",
-      "deadline_date_local": "2026-10-22",
-      "deadline_time_local": "09:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-22T13:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
-    {
-      "id": "255482",
-      "title": "TECHNICAL TRAINING PPE'S",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-09/2026-JF-13978",
-      "url": "https://bahamas.bonfirehub.com/opportunities/255482",
-      "deadline_raw": "Oct 22nd 2026, 10:00 AM EDT",
-      "deadline_date_local": "2026-10-22",
-      "deadline_time_local": "10:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-22T14:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
+      "matches": [
+        {
+          "venture": "Mel J's Event Rentals",
+          "match_type": "partner",
+          "strength": "moderate",
+          "score": 41,
+          "trigger": "CONFERENCE VENUE",
+          "reason": "Possible subcontracting to a qualified venue or event prime",
+          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
+        }
+      ]
     },
     {
       "id": "257873",
@@ -724,6 +692,20 @@
       "deadline_time_local": "16:00",
       "timezone": "EST",
       "deadline_utc": "2026-11-04T21:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "259580",
+      "title": "BUILD-OUT OF TWO EMPTY SHELL OFFICE SPACES",
+      "agency": "Port Department",
+      "reference": "DoP-RFQ-10/2026-CC-14263",
+      "url": "https://bahamas.bonfirehub.com/opportunities/259580",
+      "deadline_raw": "Nov 4th 2026, 11:30 PM EST",
+      "deadline_date_local": "2026-11-04",
+      "deadline_time_local": "23:30",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-05T04:30:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
       "matches": []
     },
