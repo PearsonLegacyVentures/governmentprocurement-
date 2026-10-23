@@ -1,10 +1,10 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-10-22T17:33:48.247Z",
-    "checked_date": "2026-10-22",
+    "captured_at": "2026-10-23T17:23:47.258Z",
+    "checked_date": "2026-10-23",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 49,
+    "record_count": 52,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
@@ -15,11 +15,11 @@
       "agency": "Ministry of Youth, Sport & Culture",
       "reference": "MoYSC-LB-10/2026-RT-14272",
       "url": "https://bahamas.bonfirehub.com/opportunities/259660",
-      "deadline_raw": "Oct 22nd 2026, 4:00 PM EDT",
-      "deadline_date_local": "2026-10-22",
+      "deadline_raw": "Oct 23rd 2026, 4:00 PM EDT",
+      "deadline_date_local": "2026-10-23",
       "deadline_time_local": "16:00",
       "timezone": "EDT",
-      "deadline_utc": "2026-10-22T20:00:00.000Z",
+      "deadline_utc": "2026-10-23T20:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
       "matches": [
         {
@@ -32,34 +32,6 @@
           "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
         }
       ]
-    },
-    {
-      "id": "257873",
-      "title": "CA-40 COOLING PUMPS",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-JF-14126",
-      "url": "https://bahamas.bonfirehub.com/opportunities/257873",
-      "deadline_raw": "Oct 23rd 2026, 10:00 AM EDT",
-      "deadline_date_local": "2026-10-23",
-      "deadline_time_local": "10:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-23T14:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
-    {
-      "id": "257881",
-      "title": "CA-50 BILGE PUMPS",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-JF-14127",
-      "url": "https://bahamas.bonfirehub.com/opportunities/257881",
-      "deadline_raw": "Oct 23rd 2026, 10:00 AM EDT",
-      "deadline_date_local": "2026-10-23",
-      "deadline_time_local": "10:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-23T14:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
     },
     {
       "id": "258056",
@@ -209,7 +181,7 @@
     },
     {
       "id": "258702",
-      "title": "Best of the Best ~ HOSPITAL SUITE AND DECOR",
+      "title": "Best of the Best ~ HOSPITALITY SUITE AND DECOR",
       "agency": "Ministry of Youth, Sport & Culture",
       "reference": "MoYSC-RFQ-10/2026-TW-14170",
       "url": "https://bahamas.bonfirehub.com/opportunities/258702",
@@ -592,6 +564,34 @@
       "matches": []
     },
     {
+      "id": "259841",
+      "title": "Power Supply",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-LN-14286",
+      "url": "https://bahamas.bonfirehub.com/opportunities/259841",
+      "deadline_raw": "Nov 2nd 2026, 10:00 AM EST",
+      "deadline_date_local": "2026-11-02",
+      "deadline_time_local": "10:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-02T15:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "259893",
+      "title": "Flat Bed Truck",
+      "agency": "Bahamas Agricultural & Industrial Corporation",
+      "reference": "BAIC-RFQ-10/2026-OW-14295",
+      "url": "https://bahamas.bonfirehub.com/opportunities/259893",
+      "deadline_raw": "Nov 2nd 2026, 10:00 AM EST",
+      "deadline_date_local": "2026-11-02",
+      "deadline_time_local": "10:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-02T15:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
       "id": "259272",
       "title": "MOTOTRBO REPEATER SYSTEM AND ACCESSORIES",
       "agency": "Royal Bahamas Defence Force",
@@ -710,6 +710,20 @@
       "matches": []
     },
     {
+      "id": "259738",
+      "title": "SUBTERRANEAN TERMITE TREATMENT – SOUTH GATE BUILDING",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-LR-14277",
+      "url": "https://bahamas.bonfirehub.com/opportunities/259738",
+      "deadline_raw": "Nov 5th 2026, 12:00 PM EST",
+      "deadline_date_local": "2026-11-05",
+      "deadline_time_local": "12:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-05T17:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
       "id": "253142",
       "title": "Full Vessel Repair and upgrade P-49",
       "agency": "Royal Bahamas Defence Force",
@@ -748,6 +762,34 @@
       "deadline_time_local": "17:00",
       "timezone": "EST",
       "deadline_utc": "2026-11-09T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "259864",
+      "title": "Awning Covers for HMBS Bahamas",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFP-10/2026-LN-14293",
+      "url": "https://bahamas.bonfirehub.com/opportunities/259864",
+      "deadline_raw": "Nov 9th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-09",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-09T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "259837",
+      "title": "Ministry of Labor - Professional Consultancy Services",
+      "agency": "Ministry of Labor",
+      "reference": "MOL-RFP-10/2026-RF-14284",
+      "url": "https://bahamas.bonfirehub.com/opportunities/259837",
+      "deadline_raw": "Nov 13th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-13",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-13T22:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
       "matches": []
     },
