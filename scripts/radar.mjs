@@ -42,7 +42,8 @@ const RULES=[
   ]},
   {venture:"Mel J's Event Rentals",patterns:[
     [/tent rental|chair rental|table rental|event rental|event production|event decor|portable stage|event equipment/i,"direct",70,"Event equipment or rentals"],
-    [/hotel venue|awards ceremony|conference venue|national sports awards|banquet|festival|event management|catering/i,"partner",41,"Possible subcontracting to a qualified venue or event prime"]
+    [/hotel venue|awards ceremony|conference venue|national sports awards|banquet|festival|event management|hospitality suite/i,"partner",41,"Potential event setup or rental subcontract; find a qualified prime and check scope"],
+    [/\\bcatering\\b|meal preparation|supply of meals/i,"watch",23,"Catering is outside the confirmed event rental offer; only investigate specified equipment or setup subcontracts"]
   ]},
   {venture:"EasyTap",patterns:[
     [/payment processing|merchant payment|ticketing system|revenue collection software|cashless payments|point of sale|digital payment/i,"watch",45,"Payments-related procurement; licensing and eligibility require review"]
