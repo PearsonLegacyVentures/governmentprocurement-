@@ -26,16 +26,21 @@ jobs:
         run: |
           node --check scripts/radar.mjs
           node --test tests/radar.test.mjs
-      - name: Publish normalized public snapshot
+      - name: Normalize only when official source is not older than published snapshot
         run: |
-          node scripts/radar.mjs data/sources/bonfire-2026-10-13.json data/public/opportunities.json
           node --input-type=module - <<'JS'
-          import {readFileSync} from "node:fs";
-          const data=JSON.parse(readFileSync("data/public/opportunities.json","utf8"));
-          if(data.opportunities.length!==26||new Set(data.opportunities.map(x=>x.id)).size!==26)throw Error("Source snapshot has changed unexpectedly.");
-          if(data.metadata.checked_date!=="2026-10-13")throw Error("Unexpected source capture date");
-          console.log("Published official tender records:",data.opportunities.length);
-          console.log("Observed potential PLV leads:",data.opportunities.filter(x=>x.matches.length).length);
+          import {readFileSync,writeFileSync} from 'node:fs';
+          import {normalizeSnapshot} from './scripts/radar.mjs';
+          const source=JSON.parse(readFileSync('data/sources/bonfire-2026-10-13.json','utf8'));
+          const published=JSON.parse(readFileSync('data/public/opportunities.json','utf8'));
+          if(Date.parse(source.captured_at)<Date.parse(published.metadata.captured_at)){
+            console.log('Skipped historical 2026-10-13 capture: newer',published.metadata.checked_date,'public snapshot is already published.');
+          }else{
+            const data=normalizeSnapshot(source);
+            if(data.opportunities.length!==source.opportunities.length)throw Error('Source count mismatch');
+            writeFileSync('data/public/opportunities.json',JSON.stringify(data,null,2)+'\\n');
+            console.log('Published',data.opportunities.length,'opportunities from',data.metadata.checked_date);
+          }
           JS
       - name: Commit public radar dataset
         run: |
