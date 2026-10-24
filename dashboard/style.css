@@ -85,3 +85,44 @@
 @media(max-width:720px){.radar-capture,.radar-actionline,.radar-section-heading{flex-direction:column;align-items:start}
  .radar-overview{gap:8px}.radar-stat{padding:13px}.radar-record{padding:16px}.radar-record h3{font-size:16px}
  .radar-controls select,.radar-controls input[type="search"]{max-width:100%}.radar-controls label{flex:1;min-width:150px}}
+
+
+/* Opportunity command center: priority at a glance, evidence without overclaiming. */
+.radar-brief{position:relative;overflow:hidden;border:1px solid #355178;border-radius:19px;padding:27px;background:radial-gradient(ellipse 65% 85% at 100% 0%,#24447255 0%,transparent 75%),linear-gradient(135deg,#17243a,#0e182a);margin-bottom:22px}
+.radar-brief:before{content:"";position:absolute;inset:0 auto auto 0;width:100%;height:3px;background:linear-gradient(90deg,#62b7d7,#6499f0 47%,transparent)}
+.radar-brief-top{display:flex;justify-content:space-between;align-items:flex-start;gap:26px}
+.radar-kicker{font-size:10px;font-weight:800;letter-spacing:.17em;color:#8db9ff}
+.radar-brief h2{font-size:clamp(22px,2.8vw,31px);letter-spacing:-.035em;line-height:1.18;margin:11px 0}
+.radar-brief-top p{color:#acc0de;max-width:670px;line-height:1.6;margin:0;font-size:13px}
+.radar-brief-counters{display:flex;gap:5px;flex-shrink:0;border:1px solid #304968;border-radius:12px;background:#0a1528a3;padding:10px}
+.radar-brief-counters>div{min-width:86px;text-align:center;padding:6px 9px}
+.radar-brief-counters>div+div{border-left:1px solid #273b57}
+.radar-brief-counters strong{font-size:25px;font-weight:750;display:block;line-height:1.15}
+.radar-brief-counters span{font-size:10px;color:#9eb4d5;display:block;margin-top:7px}
+.radar-spotlight-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:26px}
+.radar-spotlight-card{min-width:0;display:flex;flex-direction:column;padding:21px;border:1px solid #36475d;background:#101c31d9;border-radius:12px}
+.radar-spotlight-card.direct{border-color:#368a7d;background:#102c32}
+.radar-spotlight-card.partner{border-color:#46638f}
+.radar-spotlight-card.watch{border-color:#675d49}
+.radar-spotlight-label{display:flex;justify-content:space-between;align-items:center;gap:9px;flex-wrap:wrap;font-size:9px;letter-spacing:.06em;font-weight:800;color:#a8d1f6}
+.radar-spotlight-label strong{font-size:10px;color:#ffce85;letter-spacing:0}
+.radar-spotlight-card h3{font-size:15px;line-height:1.4;letter-spacing:-.015em;margin:15px 0 10px;overflow-wrap:anywhere}
+.radar-spotlight-venture{font-size:11px;font-weight:700;color:#e1edff;line-height:1.5;margin:0 0 10px}
+.radar-spotlight-venture span{font-weight:400;color:#9ab0d0}
+.radar-spotlight-reason{color:#a8bad5;font-size:11px;line-height:1.55;margin:0 0 13px}
+.radar-spotlight-next{font-size:11px;line-height:1.55;background:#2034537d;padding:10px;border-radius:8px;margin:auto 0 13px;color:#d1e1f7}
+.radar-spotlight-next b{color:#fff}
+.radar-spotlight-card>a{color:#b9d8ff;text-decoration:none;font-weight:750;font-size:12px;align-self:flex-start;padding:6px 0}
+.radar-spotlight-card>a:hover{text-decoration:underline}
+.radar-clear{padding:23px;margin-top:23px;border:1px dashed #415675;border-radius:10px;color:#c5d8ee}
+.radar-clear p{margin:5px 0 0;color:#97adc9;font-size:12px}
+.radar-brief-bottom{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-top:20px;font-size:10px;color:#90a7c8;line-height:1.5}
+.radar-brief-bottom a{color:#bad8ff;text-decoration:none;white-space:nowrap;font-weight:750}
+.radar-record.direct{border-color:#32756a}
+.radar-record.partner{border-color:#375789}
+.radar-next-move{font-size:11px;margin:15px 0 0;padding:9px 12px;border-radius:7px;background:#23365180;color:#c9d9ed}
+.radar-next-move b{color:#eef5ff}
+#all-tenders{scroll-margin-top:22px}
+@media(max-width:1300px){.radar-spotlight-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:960px){.radar-brief-top{flex-direction:column}.radar-brief-counters{width:100%}.radar-brief-counters>div{flex:1}.radar-spotlight-grid{grid-template-columns:1fr}}
+@media(max-width:520px){.radar-brief{padding:19px 15px}.radar-brief-counters{padding:8px 4px}.radar-brief-counters>div{min-width:0;padding:4px}.radar-brief-counters strong{font-size:21px}.radar-brief-counters span{font-size:9px}.radar-spotlight-card{padding:17px}.radar-brief-bottom{align-items:flex-start;flex-direction:column}.radar-brief-bottom a{white-space:normal}}

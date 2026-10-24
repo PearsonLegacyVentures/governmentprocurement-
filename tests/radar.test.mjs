@@ -18,6 +18,16 @@ test("hotel venue is a Mel J subcontracting lead, not direct rental scope",()=>{
   assert.equal(m.find(x=>x.venture==="Mel J's Event Rentals").match_type,"partner");
   assert.ok(!m.some(x=>x.venture==="Tranquilitas"));
 });
+test("catering alone is only a sector watch for an equipment rental firm",()=>{
+  const m=matchVentures("Best of the Best ~ CATERING SERVICES");
+  const event=m.find(x=>x.venture==="Mel J's Event Rentals");
+  assert.equal(event.match_type,"watch");
+  assert.ok(event.score<35);
+});
+test("hospitality suite requires partnership review, not an assumed direct bid",()=>{
+  const m=matchVentures("Best of the Best ~ HOSPITALITY SUITE AND DECOR");
+  assert.equal(m.find(x=>x.venture==="Mel J's Event Rentals").match_type,"partner");
+});
 test("ICT equipment is not direct software opportunity",()=>{
   const m=matchVentures("DICT Emergency ICT Equipment Bulk Order- October 2026");
   assert.equal(m.find(x=>x.venture==="Bahamas AI Solutions").match_type,"partner");

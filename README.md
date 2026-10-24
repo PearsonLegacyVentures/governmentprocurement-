@@ -11,7 +11,8 @@ A **source-backed, internal-first procurement intelligence workspace** for Pears
 - Import public award records as JSON; reject invalid XLSX responses and quarantine unknown layouts.
 - Compare the Project Awards totals against the official **Awarded Contracts Summary** for each reporting month that has a summary link. Previously verified reconciliations may be reused only when the source-record signature is unchanged; cached periods are explicitly flagged.
 - Explore source records in a read-only dashboard with searches, filters, top suppliers, agencies, agency group totals and CSV exports.
-- Review the source-backed **Opportunity Radar** with published Bonfire references, dates, buyer names, and explainable matches to PLV businesses. This is a **dated capture**, not real-time guaranteed tender availability.
+- Open on a **personalized Opportunity Brief**, which ranks the strongest title-based matches for PLV ventures before displaying historical contract records. It separates direct service signals, realistic partner leads, and weak sector watches; adds due-date urgency, an explicit next action, and an official tender link. This uses a **dated capture**, not real-time guaranteed tender availability.
+- Review the complete source-backed **Opportunity Radar** with published Bonfire references, dates, buyer names, and explainable matches to PLV businesses below the short brief. A weak keyword overlap is not treated as a bid recommendation.
 - Run automated Python tests and dashboard JavaScript checks.
 - Attempt broader historical imports each **Monday**, with audit artifacts saved even if an import fails.
 
@@ -24,6 +25,12 @@ All official records are preserved in `data/public/awards.json`. A separate `qua
 The July 2026 Project Awards workbook yielded **170 award records** and **129 normalized supplier names** across **22 agency codes**. The project-row nominal total (**29,402,595.24**) matches the government's July awarded-contract summary within floating-point tolerance. This is **reported award value, not cash paid**, and some original contract titles contain "Duplicate". Preserve those source rows until the underlying tender and award references are reviewed.
 
 [Source July Project Awards](https://mofvendors.gov.bs/wp-content/uploads/2026/09/BAHAMAS-PUBLIC-PROCUREMENT-PROJECT-AWARDS-REPORT-JULY-1-31-2026.xlsx) · [Source July Summary](https://mofvendors.gov.bs/wp-content/uploads/2026/09/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-JULY-1-31-2026.xlsx)
+
+## Opportunity Brief usage
+
+Open the site and begin with the **Your Opportunity Brief** section. Start with direct service signals; review partner leads only when a qualified prime or subcontracting role is credible. Sector watches are research signals, not actions to bid. The initial shortlist uses only the published tender title, a known business offering and deadline proximity. It does not establish scope, budget, eligibility, margin or likelihood of winning. Open the official tender before making a bid/no-bid decision.
+
+**Proactive outbound notifications are not enabled.** The current branch improves prioritization *inside the app*. Automatic email or WhatsApp alerts will require a verified current listing feed, delivery service, recipient preferences, duplicate suppression and alert thresholds. Never label the snapshot as live. The website remains a public, read-only dataset until the Cloudflare private API is configured.
 
 ## Opportunity Radar without Cloudflare tokens
 
