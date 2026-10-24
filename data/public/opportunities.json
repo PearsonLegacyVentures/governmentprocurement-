@@ -1,38 +1,14 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-10-23T17:23:47.258Z",
-    "checked_date": "2026-10-23",
+    "captured_at": "2026-10-24T16:12:25.320Z",
+    "checked_date": "2026-10-24",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 52,
+    "record_count": 51,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
   "opportunities": [
-    {
-      "id": "259660",
-      "title": "HOTEL CONFERENCE VENUE RENTAL WITH AUDIO VISUAL EQUIPMENT & TECHNICAL SUPPORT",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-LB-10/2026-RT-14272",
-      "url": "https://bahamas.bonfirehub.com/opportunities/259660",
-      "deadline_raw": "Oct 23rd 2026, 4:00 PM EDT",
-      "deadline_date_local": "2026-10-23",
-      "deadline_time_local": "16:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-23T20:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": [
-        {
-          "venture": "Mel J's Event Rentals",
-          "match_type": "partner",
-          "strength": "moderate",
-          "score": 41,
-          "trigger": "CONFERENCE VENUE",
-          "reason": "Possible subcontracting to a qualified venue or event prime",
-          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
-        }
-      ]
-    },
     {
       "id": "258056",
       "title": "SUPPLY AND DELIVERY OF 5 VITAL SIGNS MONITOR",
