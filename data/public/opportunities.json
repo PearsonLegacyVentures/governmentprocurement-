@@ -28,7 +28,7 @@
           "strength": "moderate",
           "score": 41,
           "trigger": "CONFERENCE VENUE",
-          "reason": "Possible subcontracting to a qualified venue or event prime",
+          "reason": "Potential event setup or rental subcontract; find a qualified prime and check scope",
           "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
         }
       ]
@@ -104,11 +104,11 @@
       "matches": [
         {
           "venture": "Mel J's Event Rentals",
-          "match_type": "partner",
-          "strength": "moderate",
-          "score": 41,
+          "match_type": "watch",
+          "strength": "weak",
+          "score": 23,
           "trigger": "CATERING",
-          "reason": "Possible subcontracting to a qualified venue or event prime",
+          "reason": "Catering is outside the confirmed event rental offer; only investigate specified equipment or setup subcontracts",
           "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
         }
       ]
@@ -128,11 +128,11 @@
       "matches": [
         {
           "venture": "Mel J's Event Rentals",
-          "match_type": "partner",
-          "strength": "moderate",
-          "score": 41,
+          "match_type": "watch",
+          "strength": "weak",
+          "score": 23,
           "trigger": "CATERING",
-          "reason": "Possible subcontracting to a qualified venue or event prime",
+          "reason": "Catering is outside the confirmed event rental offer; only investigate specified equipment or setup subcontracts",
           "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
         }
       ]
@@ -191,7 +191,17 @@
       "timezone": "EDT",
       "deadline_utc": "2026-10-29T21:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
+      "matches": [
+        {
+          "venture": "Mel J's Event Rentals",
+          "match_type": "partner",
+          "strength": "moderate",
+          "score": 41,
+          "trigger": "HOSPITALITY SUITE",
+          "reason": "Potential event setup or rental subcontract; find a qualified prime and check scope",
+          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
+        }
+      ]
     },
     {
       "id": "258706",
@@ -460,11 +470,11 @@
       "matches": [
         {
           "venture": "Mel J's Event Rentals",
-          "match_type": "partner",
-          "strength": "moderate",
-          "score": 41,
+          "match_type": "watch",
+          "strength": "weak",
+          "score": 23,
           "trigger": "CATERING",
-          "reason": "Possible subcontracting to a qualified venue or event prime",
+          "reason": "Catering is outside the confirmed event rental offer; only investigate specified equipment or setup subcontracts",
           "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
         }
       ]
@@ -484,11 +494,11 @@
       "matches": [
         {
           "venture": "Mel J's Event Rentals",
-          "match_type": "partner",
-          "strength": "moderate",
-          "score": 41,
+          "match_type": "watch",
+          "strength": "weak",
+          "score": 23,
           "trigger": "CATERING",
-          "reason": "Possible subcontracting to a qualified venue or event prime",
+          "reason": "Catering is outside the confirmed event rental offer; only investigate specified equipment or setup subcontracts",
           "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
         }
       ]
