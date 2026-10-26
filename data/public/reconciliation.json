@@ -54,7 +54,7 @@
         "road traffic department",
         "royal bahamas defence force"
       ],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "period": "2024-01",
@@ -116,7 +116,7 @@
         "road traffic department",
         "royal bahamas police force"
       ],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -158,48 +158,14 @@
         "post office department",
         "road traffic department"
       ],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
-      "audit": [
-        {
-          "sheet": " October Summary Report 2024",
-          "status": "total_column_not_detected",
-          "summary_rows_found": 0
-        }
-      ],
-      "difference": null,
-      "matched_agency_codes_by_amount": [],
-      "official_summary_rows": 0,
+      "error": "Fetch failed https://mofvendors.gov.bs/wp-content/uploads/2024/12/Public-Procurement-Awarded-Contracts-Summary-Report-October-1-31-2024.xlsx: <urlopen error timed out>",
       "official_summary_url": "https://mofvendors.gov.bs/wp-content/uploads/2024/12/Public-Procurement-Awarded-Contracts-Summary-Report-October-1-31-2024.xlsx",
       "period": "2024-10",
-      "project_award_rows": 212,
       "project_signature": "9535b980a6736400216970b930d85d6285e39a82dcd321c42f1af061756f5c14",
-      "project_total_nominal": null,
-      "reported_total_row": null,
-      "source_sha256": "495223151593113d09e241e6975131fe5212a5463952252a3ae03238ef12cffe",
-      "status": "summary_layout_unmapped",
-      "summary_total_nominal": null,
-      "unmapped_agency_codes": [
-        "bahamas agricultural health and food safety authority",
-        "bahamas department of correctional services",
-        "bahamas technical and vocational institute",
-        "central processing unit",
-        "department of education",
-        "department of environmental health services",
-        "department of immigration",
-        "department of local government",
-        "department of marine resources",
-        "department of public works",
-        "department of transformation and digitization",
-        "idb project executing unit moea",
-        "ministry of agriculture marine resources and fam isl affairs",
-        "ministry of finance",
-        "ministry of health and wellness",
-        "road traffic department",
-        "royal bahamas police force"
-      ],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "status": "summary_unavailable"
     },
     {
       "audit": [
@@ -241,7 +207,7 @@
         "office of the prime minister",
         "royal bahamas police force"
       ],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -351,7 +317,7 @@
         "moa",
         "not-listed"
       ],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -479,7 +445,7 @@
       "status": "totals_match",
       "summary_total_nominal": "2583593.699999999954",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -491,7 +457,6 @@
           "total_column_index": 1
         }
       ],
-      "cached_from_verification": "2026-10-13T17:47:16.892095+00:00",
       "difference": "-3.111E-10",
       "matched_agency_codes_by_amount": [
         {
@@ -611,10 +576,10 @@
       "project_total_nominal": "14823438.0200000000129",
       "reported_total_row": "14823438.02",
       "source_sha256": "78166c6a736c80664dd7f89c5e07de1fd199cee3c34188a52903b24af66df12e",
-      "status": "totals_match_cached",
+      "status": "totals_match",
       "summary_total_nominal": "14823438.020000000324",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -754,7 +719,7 @@
       "status": "totals_match",
       "summary_total_nominal": "15244613.48999999949",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -888,7 +853,7 @@
       "status": "totals_match",
       "summary_total_nominal": "8426665.24000000004",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -900,7 +865,6 @@
           "total_column_index": 6
         }
       ],
-      "cached_from_verification": "2026-10-13T17:47:16.892095+00:00",
       "difference": "8.6E-11",
       "matched_agency_codes_by_amount": [
         {
@@ -978,7 +942,7 @@
       "project_total_nominal": "19564759.000000000055",
       "reported_total_row": "19564758.999999996",
       "source_sha256": "a26fd6b99053c02dda5806da4285343a63067b55ee50189c151b791003dc6b70",
-      "status": "totals_match_cached",
+      "status": "totals_match",
       "summary_total_nominal": "19564758.999999999969",
       "unmapped_agency_codes": [
         "dehs",
@@ -991,7 +955,7 @@
         "mohw",
         "rtd"
       ],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -1119,7 +1083,7 @@
       "status": "totals_match",
       "summary_total_nominal": "3147785.71",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -1264,7 +1228,7 @@
       "status": "totals_match",
       "summary_total_nominal": "12023178.82999999975",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -1276,6 +1240,7 @@
           "total_column_index": 6
         }
       ],
+      "cached_from_verification": "2026-10-19T17:37:10.444110+00:00",
       "difference": "-3.6E-11",
       "matched_agency_codes_by_amount": [
         {
@@ -1389,7 +1354,7 @@
       "project_total_nominal": "3615042.629999999991",
       "reported_total_row": "3615042.6300000004",
       "source_sha256": "610be472f0d9497c06cb2237d6385452c057b07ce090d2f6fb5380e1ab4afc6b",
-      "status": "totals_match",
+      "status": "totals_match_cached",
       "summary_total_nominal": "3615042.630000000027",
       "unmapped_agency_codes": [
         "rbdf",
@@ -1541,7 +1506,7 @@
       "status": "totals_match",
       "summary_total_nominal": "9252999.269999999990",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -1704,7 +1669,7 @@
       "status": "totals_match",
       "summary_total_nominal": "8398290.55",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -1832,7 +1797,7 @@
       "status": "totals_match",
       "summary_total_nominal": "7690079.780000000134",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -1978,7 +1943,7 @@
       "status": "totals_match",
       "summary_total_nominal": "9861745.3199999999796",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -1990,7 +1955,6 @@
           "total_column_index": 6
         }
       ],
-      "cached_from_verification": "2026-10-13T17:47:16.892095+00:00",
       "difference": "2.02E-10",
       "matched_agency_codes_by_amount": [
         {
@@ -2050,10 +2014,10 @@
       "project_total_nominal": "6492856.310000000202",
       "reported_total_row": "6492856.3100000005",
       "source_sha256": "2df48166472453f89a7b7c763382884d0bc8af217ad19acc52c6eb892241f81b",
-      "status": "totals_match_cached",
+      "status": "totals_match",
       "summary_total_nominal": "6492856.31",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -2065,6 +2029,7 @@
           "total_column_index": 1
         }
       ],
+      "cached_from_verification": "2026-10-19T17:37:10.444110+00:00",
       "difference": "0.00",
       "matched_agency_codes_by_amount": [
         {
@@ -2184,7 +2149,7 @@
       "project_total_nominal": "11009268.75",
       "reported_total_row": "11009268.75",
       "source_sha256": "65158c7eee4871b1ee54262e0fb94d7bbd2aa377bca0b7b9fef7b6db843bb933",
-      "status": "totals_match",
+      "status": "totals_match_cached",
       "summary_total_nominal": "11009268.75",
       "unmapped_agency_codes": [],
       "verified_at": "2026-10-19T17:37:10.444110+00:00"
@@ -2345,7 +2310,7 @@
       "status": "totals_match",
       "summary_total_nominal": "9530616.069999999999",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -2357,7 +2322,6 @@
           "total_column_index": 1
         }
       ],
-      "cached_from_verification": "2026-10-13T17:47:16.892095+00:00",
       "difference": "-3.74E-11",
       "matched_agency_codes_by_amount": [
         {
@@ -2495,13 +2459,13 @@
       "project_total_nominal": "14581458.3899999999717",
       "reported_total_row": "14581458.390000002",
       "source_sha256": "2b13854eecb60cf73dc0dc87c172200a481f237bad394ff6dfe697af28310e46",
-      "status": "totals_match_cached",
+      "status": "totals_match",
       "summary_total_nominal": "14581458.3900000000091",
       "unmapped_agency_codes": [
         "cpu",
         "doe"
       ],
-      "verified_at": "2026-10-13T17:47:16.892095+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -2611,7 +2575,7 @@
       "status": "totals_match",
       "summary_total_nominal": "10997665.59000000003",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -2721,7 +2685,7 @@
       "status": "totals_match",
       "summary_total_nominal": "6079352.330000000004",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     },
     {
       "audit": [
@@ -2879,9 +2843,173 @@
       "status": "totals_match",
       "summary_total_nominal": "29402595.239999998984",
       "unmapped_agency_codes": [],
-      "verified_at": "2026-10-19T17:37:10.444110+00:00"
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
+    },
+    {
+      "audit": [
+        {
+          "header_row": 2,
+          "sheet": "August Summary",
+          "status": "parsed",
+          "summary_rows_found": 23,
+          "total_column_index": 1
+        }
+      ],
+      "difference": "-3.10E-11",
+      "matched_agency_codes_by_amount": [
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "oag",
+          "reviewed": false,
+          "source_agency_name": "Attorney's General Office"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "baic",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Agricultural & Industrial Corporation"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "bamsi",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Agriculture and Marine Science Institue"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "bcd",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Customs Department"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "bdocs",
+          "reviewed": false,
+          "source_agency_name": "Bahamas Department of Correctional Services"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "doe",
+          "reviewed": false,
+          "source_agency_name": "Department of Education"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dehs",
+          "reviewed": false,
+          "source_agency_name": "Department of Environmental Health Services"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "doi",
+          "reviewed": false,
+          "source_agency_name": "Department of Immigration"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "domr",
+          "reviewed": false,
+          "source_agency_name": "Department of Marine Resource"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dopw",
+          "reviewed": false,
+          "source_agency_name": "Department of Public Works"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dtad",
+          "reviewed": false,
+          "source_agency_name": "Department of Transformation & Digitization"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dogp",
+          "reviewed": false,
+          "source_agency_name": "Government Printing Department"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "jd",
+          "reviewed": false,
+          "source_agency_name": "Judicial Department"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "moa",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Agriculture, Marine Resources & Family Island Affairs"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "moenr",
+          "reviewed": false,
+          "source_agency_name": "Ministry of the Environment & Natural Resources"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mof",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Finance"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "mogb",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Grand Bahama"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "moep",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Energy & Transport"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "moysc",
+          "reviewed": false,
+          "source_agency_name": "Ministry of Youth , Sports & Culture"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "nia",
+          "reviewed": false,
+          "source_agency_name": "National Intelligence Agency"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "opm",
+          "reviewed": false,
+          "source_agency_name": "Office of The Prime Minister"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "dop",
+          "reviewed": false,
+          "source_agency_name": "Port Department"
+        },
+        {
+          "match_type": "unique_equal_award_total",
+          "raw_agency_code": "rbpf",
+          "reviewed": false,
+          "source_agency_name": "Royal Bahamas Police Force"
+        }
+      ],
+      "official_summary_rows": 23,
+      "official_summary_url": "https://mofvendors.gov.bs/wp-content/uploads/2026/10/BAHAMAS-PUBLIC-PROCUREMENT-AWARDED-CONTRACTS-SUMMARY-REPORT-AUGUST-1-31-2026.xlsx",
+      "period": "2026-08",
+      "project_award_rows": 136,
+      "project_signature": "7af3e9a2c82f80fb719652a1b1fbef1d9d966480ab36e9347c4ebf715ad31586",
+      "project_total_nominal": "8810482.9799999999660",
+      "reported_total_row": "8810482.9800000004",
+      "source_sha256": "c3c2c2bc5cb49ed7efd3c46daa76d598de9128a90ac43b31083ba93fa551f37b",
+      "status": "totals_match",
+      "summary_total_nominal": "8810482.979999999997",
+      "unmapped_agency_codes": [],
+      "verified_at": "2026-10-26T17:30:43.621283+00:00"
     }
   ],
-  "generated_at": "2026-10-19T17:39:52.312460+00:00",
+  "generated_at": "2026-10-26T17:32:55.794854+00:00",
   "method": "Compare extracted source-row totals against the official agency summary for the same reporting period; do not infer payment or currency."
 }

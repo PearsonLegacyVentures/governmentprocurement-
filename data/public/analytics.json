@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-19T17:39:52.494208+00:00",
-  "total_source_rows": 2483,
-  "distinct_supplier_keys": 1243,
-  "distinct_agency_codes": 50,
-  "possible_duplicate_labelled_rows": 10,
+  "generated_at": "2026-10-26T17:32:55.980883+00:00",
+  "total_source_rows": 2619,
+  "distinct_supplier_keys": 1309,
+  "distinct_agency_codes": 51,
+  "possible_duplicate_labelled_rows": 11,
   "top_suppliers": [
     {
       "key": "betun bahamas ltd",
@@ -34,9 +34,9 @@
     },
     {
       "key": "v and t renovations",
-      "nominal_value": "6260201.22",
-      "award_rows": 30,
-      "period_count": 10,
+      "nominal_value": "6344187.320000000001",
+      "award_rows": 33,
+      "period_count": 11,
       "raw_names": [
         "V and T Renovations"
       ]
@@ -52,9 +52,9 @@
     },
     {
       "key": "row creek co ltd",
-      "nominal_value": "5611365.99",
-      "award_rows": 4,
-      "period_count": 4,
+      "nominal_value": "5626919.99",
+      "award_rows": 5,
+      "period_count": 5,
       "raw_names": [
         "Row Creek Co. Ltd."
       ]
@@ -79,18 +79,18 @@
     },
     {
       "key": "proficient business services",
-      "nominal_value": "3516462.92999999999",
-      "award_rows": 6,
-      "period_count": 4,
+      "nominal_value": "3524405.76999999999",
+      "award_rows": 7,
+      "period_count": 5,
       "raw_names": [
         "PROFICIENT BUSINESS SERVICES"
       ]
     },
     {
       "key": "custom computers ltd",
-      "nominal_value": "2561874.24",
-      "award_rows": 21,
-      "period_count": 11,
+      "nominal_value": "2577351.24",
+      "award_rows": 23,
+      "period_count": 12,
       "raw_names": [
         "Custom Computers Ltd."
       ]
@@ -186,6 +186,15 @@
       ]
     },
     {
+      "key": "office interior specialist",
+      "nominal_value": "1529770.509999999999",
+      "award_rows": 11,
+      "period_count": 9,
+      "raw_names": [
+        "Office Interior Specialist"
+      ]
+    },
+    {
       "key": "glinton s trucking and backhoe services",
       "nominal_value": "1445470.31",
       "award_rows": 1,
@@ -195,12 +204,30 @@
       ]
     },
     {
+      "key": "bahamas bus and truck",
+      "nominal_value": "1232743.299999999999",
+      "award_rows": 4,
+      "period_count": 3,
+      "raw_names": [
+        "Bahamas Bus & Truck"
+      ]
+    },
+    {
       "key": "a d william and associates",
       "nominal_value": "1171342.47",
       "award_rows": 1,
       "period_count": 1,
       "raw_names": [
         "A. D. William & Associates"
+      ]
+    },
+    {
+      "key": "sams enterprise and trucking",
+      "nominal_value": "1164938.5",
+      "award_rows": 16,
+      "period_count": 8,
+      "raw_names": [
+        "SAMS Enterprise & Trucking"
       ]
     },
     {
@@ -232,24 +259,6 @@
       ]
     },
     {
-      "key": "bahamas bus and truck",
-      "nominal_value": "1081549.399999999999",
-      "award_rows": 3,
-      "period_count": 2,
-      "raw_names": [
-        "Bahamas Bus & Truck"
-      ]
-    },
-    {
-      "key": "office interior specialist",
-      "nominal_value": "1063535.40",
-      "award_rows": 8,
-      "period_count": 8,
-      "raw_names": [
-        "Office Interior Specialist"
-      ]
-    },
-    {
       "key": "breezes bahamas",
       "nominal_value": "1030112.519999999997",
       "award_rows": 9,
@@ -260,9 +269,9 @@
     },
     {
       "key": "micronet ltd",
-      "nominal_value": "1015326.8400000000337",
-      "award_rows": 11,
-      "period_count": 7,
+      "nominal_value": "1017572.1200000000339",
+      "award_rows": 12,
+      "period_count": 8,
       "raw_names": [
         "Micronet Ltd"
       ]
@@ -274,15 +283,6 @@
       "period_count": 4,
       "raw_names": [
         "Rabbie Taylor Plumbing"
-      ]
-    },
-    {
-      "key": "sams enterprise and trucking",
-      "nominal_value": "901928.5",
-      "award_rows": 12,
-      "period_count": 7,
-      "raw_names": [
-        "SAMS Enterprise & Trucking"
       ]
     },
     {
@@ -328,6 +328,15 @@
       "period_count": 2,
       "raw_names": [
         "Island Specialty Foods"
+      ]
+    },
+    {
+      "key": "engineers and consultants ltd",
+      "nominal_value": "797060",
+      "award_rows": 2,
+      "period_count": 2,
+      "raw_names": [
+        "Engineers & Consultants Ltd"
       ]
     },
     {
@@ -401,6 +410,15 @@
       "period_count": 1,
       "raw_names": [
         "Creative Kids Craft and Woodwork"
+      ]
+    },
+    {
+      "key": "lynden s construction and renovation",
+      "nominal_value": "657124.8500000000036",
+      "award_rows": 21,
+      "period_count": 6,
+      "raw_names": [
+        "Lynden's Construction & Renovation"
       ]
     },
     {
@@ -495,6 +513,15 @@
       ]
     },
     {
+      "key": "skye s construction",
+      "nominal_value": "535774.31",
+      "award_rows": 7,
+      "period_count": 7,
+      "raw_names": [
+        "Skye's Construction"
+      ]
+    },
+    {
       "key": "bahama bulk materials ltd",
       "nominal_value": "532730",
       "award_rows": 2,
@@ -520,24 +547,6 @@
       "period_count": 1,
       "raw_names": [
         "Omar Thurston Gen. Maint & Landscape"
-      ]
-    },
-    {
-      "key": "lynden s construction and renovation",
-      "nominal_value": "520804.8500000000036",
-      "award_rows": 20,
-      "period_count": 5,
-      "raw_names": [
-        "Lynden's Construction & Renovation"
-      ]
-    },
-    {
-      "key": "skye s construction",
-      "nominal_value": "520774.31",
-      "award_rows": 6,
-      "period_count": 6,
-      "raw_names": [
-        "Skye's Construction"
       ]
     },
     {
@@ -595,6 +604,15 @@
       "period_count": 1,
       "raw_names": [
         "Supreme Auto Sales Company Ltd"
+      ]
+    },
+    {
+      "key": "top g 229 ltd",
+      "nominal_value": "467658.84",
+      "award_rows": 2,
+      "period_count": 2,
+      "raw_names": [
+        "Top G 229 Ltd"
       ]
     },
     {
@@ -671,6 +689,16 @@
       ]
     },
     {
+      "key": "pinder s customs brokerage ltd",
+      "nominal_value": "431201.389999999999",
+      "award_rows": 54,
+      "period_count": 16,
+      "raw_names": [
+        "Pinder's Customs Brokerage Ltd",
+        "Pinder's Customs Brokerage Ltd."
+      ]
+    },
+    {
       "key": "supplies r us bahamas",
       "nominal_value": "430410.74",
       "award_rows": 8,
@@ -695,6 +723,16 @@
       "period_count": 3,
       "raw_names": [
         "Dkg Imports & Export"
+      ]
+    },
+    {
+      "key": "bahamas athletics advertising",
+      "nominal_value": "419300",
+      "award_rows": 4,
+      "period_count": 3,
+      "raw_names": [
+        "BAHAMAS ATHLETICS ADVERTISING",
+        "Bahamas Athletics Advertising"
       ]
     },
     {
@@ -743,22 +781,31 @@
       ]
     },
     {
+      "key": "bahamas office and school supplies",
+      "nominal_value": "407195.9600000000104",
+      "award_rows": 17,
+      "period_count": 8,
+      "raw_names": [
+        "BAHAMAS OFFICE & SCHOOL SUPPLIES",
+        "Bahamas Office & School Supplies"
+      ]
+    },
+    {
+      "key": "sentinel watch bahamas",
+      "nominal_value": "407071.08",
+      "award_rows": 4,
+      "period_count": 4,
+      "raw_names": [
+        "Sentinel Watch Bahamas"
+      ]
+    },
+    {
       "key": "abcorp na inc",
       "nominal_value": "406500",
       "award_rows": 2,
       "period_count": 1,
       "raw_names": [
         "ABCorp NA Inc."
-      ]
-    },
-    {
-      "key": "pinder s customs brokerage ltd",
-      "nominal_value": "406140.239999999999",
-      "award_rows": 51,
-      "period_count": 15,
-      "raw_names": [
-        "Pinder's Customs Brokerage Ltd",
-        "Pinder's Customs Brokerage Ltd."
       ]
     },
     {
@@ -777,15 +824,6 @@
       "period_count": 1,
       "raw_names": [
         "Bastian Brothers Construction Co.Ltd."
-      ]
-    },
-    {
-      "key": "engineers and consultants ltd",
-      "nominal_value": "399300",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Engineers & Consultants Ltd"
       ]
     },
     {
@@ -816,32 +854,22 @@
       ]
     },
     {
-      "key": "bahamas office and school supplies",
-      "nominal_value": "392504.3600000000104",
-      "award_rows": 16,
-      "period_count": 7,
-      "raw_names": [
-        "BAHAMAS OFFICE & SCHOOL SUPPLIES",
-        "Bahamas Office & School Supplies"
-      ]
-    },
-    {
-      "key": "bahamas athletics advertising",
-      "nominal_value": "387500",
-      "award_rows": 3,
-      "period_count": 2,
-      "raw_names": [
-        "BAHAMAS ATHLETICS ADVERTISING",
-        "Bahamas Athletics Advertising"
-      ]
-    },
-    {
       "key": "emery floyde symonette",
       "nominal_value": "381754.66",
       "award_rows": 4,
       "period_count": 2,
       "raw_names": [
         "Emery Floyde Symonette"
+      ]
+    },
+    {
+      "key": "island advisors",
+      "nominal_value": "379122.5",
+      "award_rows": 11,
+      "period_count": 7,
+      "raw_names": [
+        "ISLAND ADVISORS",
+        "island Advisors"
       ]
     },
     {
@@ -890,89 +918,71 @@
       "raw_names": [
         "Big Bins Trucking & Maintenance"
       ]
-    },
-    {
-      "key": "advance performance exponents inc apex",
-      "nominal_value": "367976",
-      "award_rows": 2,
-      "period_count": 2,
-      "raw_names": [
-        "Advance Performance Exponents Inc. (APEX)"
-      ]
-    },
-    {
-      "key": "office products international",
-      "nominal_value": "366974.589999999999",
-      "award_rows": 4,
-      "period_count": 2,
-      "raw_names": [
-        "Office Products International"
-      ]
-    },
-    {
-      "key": "quintessential gen maint and landscape",
-      "nominal_value": "365784.82",
-      "award_rows": 1,
-      "period_count": 1,
-      "raw_names": [
-        "Quintessential Gen Maint. & Landscape"
-      ]
     }
   ],
   "top_agencies": [
     {
       "key": "doe",
-      "nominal_value": "53543850.4400000000422",
-      "award_rows": 864,
-      "period_count": 19,
+      "nominal_value": "55058298.9700000000334",
+      "award_rows": 895,
+      "period_count": 20,
       "raw_names": [
         "DOE"
       ]
     },
     {
       "key": "dopw",
-      "nominal_value": "48444011.3799999999873",
-      "award_rows": 286,
-      "period_count": 19,
+      "nominal_value": "49246822.3599999999803",
+      "award_rows": 290,
+      "period_count": 20,
       "raw_names": [
         "DOPW"
       ]
     },
     {
       "key": "mof",
-      "nominal_value": "28207936.2300000003839",
-      "award_rows": 162,
-      "period_count": 18,
+      "nominal_value": "29870351.3600000003739",
+      "award_rows": 177,
+      "period_count": 19,
       "raw_names": [
         "MOF"
       ]
     },
     {
+      "key": "dehs",
+      "nominal_value": "13175594.4100000000198",
+      "award_rows": 210,
+      "period_count": 20,
+      "raw_names": [
+        "DEHS"
+      ]
+    },
+    {
       "key": "moa",
-      "nominal_value": "10935402.5599999999853",
-      "award_rows": 114,
-      "period_count": 18,
+      "nominal_value": "11012356.7599999999853",
+      "award_rows": 119,
+      "period_count": 19,
       "raw_names": [
         "MOA",
         "MOa"
       ]
     },
     {
-      "key": "dehs",
-      "nominal_value": "10627547.9500000000198",
-      "award_rows": 179,
-      "period_count": 19,
+      "key": "dtad",
+      "nominal_value": "5529230.599999999999",
+      "award_rows": 42,
+      "period_count": 13,
       "raw_names": [
-        "DEHS"
+        "DTAD"
       ]
     },
     {
-      "key": "dtad",
-      "nominal_value": "5467122.359999999999",
-      "award_rows": 40,
-      "period_count": 12,
+      "key": "rbpf",
+      "nominal_value": "4265576.919999999991",
+      "award_rows": 13,
+      "period_count": 5,
       "raw_names": [
-        "DTAD"
+        "RBPF"
       ]
     },
     {
@@ -985,12 +995,12 @@
       ]
     },
     {
-      "key": "rbpf",
-      "nominal_value": "3821782.229999999991",
-      "award_rows": 11,
-      "period_count": 4,
+      "key": "mogb",
+      "nominal_value": "3907929.519999999994",
+      "award_rows": 125,
+      "period_count": 19,
       "raw_names": [
-        "RBPF"
+        "MOGB"
       ]
     },
     {
@@ -1000,15 +1010,6 @@
       "period_count": 12,
       "raw_names": [
         "RTD"
-      ]
-    },
-    {
-      "key": "mogb",
-      "nominal_value": "3729879.389999999994",
-      "award_rows": 117,
-      "period_count": 18,
-      "raw_names": [
-        "MOGB"
       ]
     },
     {
@@ -1022,18 +1023,18 @@
     },
     {
       "key": "moenr",
-      "nominal_value": "2788994.579999999999",
-      "award_rows": 26,
-      "period_count": 11,
+      "nominal_value": "3000199.209999999998",
+      "award_rows": 30,
+      "period_count": 12,
       "raw_names": [
         "MOENR"
       ]
     },
     {
       "key": "jd",
-      "nominal_value": "2702820.079999999980",
-      "award_rows": 57,
-      "period_count": 17,
+      "nominal_value": "2835180.119999999980",
+      "award_rows": 63,
+      "period_count": 18,
       "raw_names": [
         "JD"
       ]
@@ -1049,11 +1050,20 @@
     },
     {
       "key": "baic",
-      "nominal_value": "2471930.659999999992",
-      "award_rows": 94,
-      "period_count": 18,
+      "nominal_value": "2496991.809999999992",
+      "award_rows": 97,
+      "period_count": 19,
       "raw_names": [
         "BAIC"
+      ]
+    },
+    {
+      "key": "moysc",
+      "nominal_value": "1977597.739999999979",
+      "award_rows": 51,
+      "period_count": 10,
+      "raw_names": [
+        "MOYSC"
       ]
     },
     {
@@ -1066,12 +1076,12 @@
       ]
     },
     {
-      "key": "moysc",
-      "nominal_value": "1794526.739999999979",
-      "award_rows": 43,
-      "period_count": 9,
+      "key": "domr",
+      "nominal_value": "1203619.76",
+      "award_rows": 10,
+      "period_count": 7,
       "raw_names": [
-        "MOYSC"
+        "DOMR"
       ]
     },
     {
@@ -1081,15 +1091,6 @@
       "period_count": 9,
       "raw_names": [
         "DOPO"
-      ]
-    },
-    {
-      "key": "domr",
-      "nominal_value": "1051005.76",
-      "award_rows": 9,
-      "period_count": 6,
-      "raw_names": [
-        "DOMR"
       ]
     },
     {
@@ -1120,6 +1121,15 @@
       ]
     },
     {
+      "key": "doi",
+      "nominal_value": "777096.4400000000028",
+      "award_rows": 14,
+      "period_count": 7,
+      "raw_names": [
+        "DOI"
+      ]
+    },
+    {
       "key": "bahfsa",
       "nominal_value": "761392.24",
       "award_rows": 2,
@@ -1135,15 +1145,6 @@
       "period_count": 5,
       "raw_names": [
         "RBDF"
-      ]
-    },
-    {
-      "key": "doi",
-      "nominal_value": "724942.33",
-      "award_rows": 11,
-      "period_count": 6,
-      "raw_names": [
-        "DOI"
       ]
     },
     {
@@ -1165,6 +1166,33 @@
       ]
     },
     {
+      "key": "bamsi",
+      "nominal_value": "584602.209999999998",
+      "award_rows": 12,
+      "period_count": 8,
+      "raw_names": [
+        "BAMSI"
+      ]
+    },
+    {
+      "key": "opm",
+      "nominal_value": "564896.75",
+      "award_rows": 7,
+      "period_count": 5,
+      "raw_names": [
+        "OPM"
+      ]
+    },
+    {
+      "key": "moep",
+      "nominal_value": "490355.220000000013",
+      "award_rows": 11,
+      "period_count": 7,
+      "raw_names": [
+        "MOEP"
+      ]
+    },
+    {
       "key": "moea",
       "nominal_value": "481885.41000000003",
       "award_rows": 4,
@@ -1174,39 +1202,12 @@
       ]
     },
     {
-      "key": "moep",
-      "nominal_value": "472355.220000000013",
-      "award_rows": 10,
-      "period_count": 6,
-      "raw_names": [
-        "MOEP"
-      ]
-    },
-    {
-      "key": "bamsi",
-      "nominal_value": "406402.209999999998",
-      "award_rows": 10,
-      "period_count": 7,
-      "raw_names": [
-        "BAMSI"
-      ]
-    },
-    {
       "key": "dop",
-      "nominal_value": "366781.28",
-      "award_rows": 7,
-      "period_count": 2,
+      "nominal_value": "389781.28",
+      "award_rows": 8,
+      "period_count": 3,
       "raw_names": [
         "DOP"
-      ]
-    },
-    {
-      "key": "opm",
-      "nominal_value": "349127.9",
-      "award_rows": 6,
-      "period_count": 4,
-      "raw_names": [
-        "OPM"
       ]
     },
     {
@@ -1238,29 +1239,38 @@
     },
     {
       "key": "bdocs",
-      "nominal_value": "245540.8099999999996",
-      "award_rows": 13,
-      "period_count": 11,
+      "nominal_value": "290480.6499999999996",
+      "award_rows": 15,
+      "period_count": 12,
       "raw_names": [
         "BDOCS"
       ]
     },
     {
-      "key": "oag",
-      "nominal_value": "190091.92",
-      "award_rows": 9,
-      "period_count": 4,
+      "key": "dogp",
+      "nominal_value": "283493.5799999999907",
+      "award_rows": 12,
+      "period_count": 8,
       "raw_names": [
-        "OAG"
+        "DOGP"
       ]
     },
     {
       "key": "bcd",
-      "nominal_value": "167465.46",
-      "award_rows": 4,
-      "period_count": 3,
+      "nominal_value": "238315.46",
+      "award_rows": 5,
+      "period_count": 4,
       "raw_names": [
         "BCD"
+      ]
+    },
+    {
+      "key": "oag",
+      "nominal_value": "206706.92",
+      "award_rows": 11,
+      "period_count": 5,
+      "raw_names": [
+        "OAG"
       ]
     },
     {
@@ -1279,15 +1289,6 @@
       "period_count": 1,
       "raw_names": [
         "DORG"
-      ]
-    },
-    {
-      "key": "dogp",
-      "nominal_value": "100169.1800000000007",
-      "award_rows": 10,
-      "period_count": 7,
-      "raw_names": [
-        "DOGP"
       ]
     },
     {
@@ -1354,6 +1355,15 @@
       ]
     },
     {
+      "key": "nia",
+      "nominal_value": "14691.6",
+      "award_rows": 1,
+      "period_count": 1,
+      "raw_names": [
+        "NIA"
+      ]
+    },
+    {
       "key": "ago",
       "nominal_value": "13300",
       "award_rows": 1,
@@ -1375,33 +1385,33 @@
   "categories": [
     {
       "name": "Other / Unclassified",
-      "award_rows": 1393,
-      "nominal_value": "86582541.9700000003405"
-    },
-    {
-      "name": "Infrastructure & Materials",
-      "award_rows": 161,
-      "nominal_value": "48216861.6099999999689"
+      "award_rows": 1481,
+      "nominal_value": "92117160.6100000003175"
     },
     {
       "name": "Facilities & Maintenance",
-      "award_rows": 638,
-      "nominal_value": "48136146.8300000000455"
+      "award_rows": 667,
+      "nominal_value": "49591324.9700000000355"
+    },
+    {
+      "name": "Infrastructure & Materials",
+      "award_rows": 166,
+      "nominal_value": "48739051.4499999999689"
     },
     {
       "name": "Equipment & Supplies",
-      "award_rows": 119,
-      "nominal_value": "7322732.2100000000208"
+      "award_rows": 128,
+      "nominal_value": "8349178.5700000000198"
     },
     {
       "name": "Software & IT",
-      "award_rows": 42,
-      "nominal_value": "6819783.140000000033"
+      "award_rows": 43,
+      "nominal_value": "7014983.140000000033"
     },
     {
       "name": "Agriculture",
-      "award_rows": 76,
-      "nominal_value": "3558980.539999999973"
+      "award_rows": 77,
+      "nominal_value": "3610680.539999999973"
     },
     {
       "name": "Wellness",
@@ -1410,8 +1420,8 @@
     },
     {
       "name": "Events & Hospitality",
-      "award_rows": 48,
-      "nominal_value": "1010011.5200000000014"
+      "award_rows": 51,
+      "nominal_value": "1035161.5200000000014"
     }
   ],
   "monthly": [
@@ -1547,6 +1557,13 @@
       "nominal_value": "29402595.2400000000182",
       "supplier_keys": 129,
       "agency_codes": 22
+    },
+    {
+      "period": "2026-08",
+      "award_rows": 136,
+      "nominal_value": "8810482.9799999999660",
+      "supplier_keys": 116,
+      "agency_codes": 23
     }
   ],
   "repeat_title_prefix_candidates": [
@@ -1857,6 +1874,24 @@
       ]
     },
     {
+      "agency_code": "doe",
+      "project_title_prefix": "garvin tynes primary summer repairs",
+      "award_rows": 4,
+      "months_observed": [
+        "2025-03",
+        "2025-04",
+        "2026-05",
+        "2026-08"
+      ],
+      "nominal_value": "696033.31",
+      "examples": [
+        "GARVIN TYNES PRIMARY 2024 SUMMER REPAIRS (CONTRACT C)",
+        "GARVIN TYNES PRIMARY 2024 SUMMER REPAIRS (MECHANICAL)",
+        "GARVIN TYNES PRIMARY SUMMER REPAIRS - CONTRACT A 2025",
+        "Garvin Tynes Primary Summer repairs contract A"
+      ]
+    },
+    {
       "agency_code": "dopw",
       "project_title_prefix": "gallon liquid bitumen pg rate",
       "award_rows": 11,
@@ -2075,6 +2110,20 @@
       ]
     },
     {
+      "agency_code": "doe",
+      "project_title_prefix": "woodcock primary summer repairs contract",
+      "award_rows": 3,
+      "months_observed": [
+        "2026-04",
+        "2026-05",
+        "2026-08"
+      ],
+      "nominal_value": "690079.71",
+      "examples": [
+        "WOODCOCK PRIMARY SUMMER REPAIRS CONTRACT B 2025"
+      ]
+    },
+    {
       "agency_code": "dopw",
       "project_title_prefix": "milling machine parts cutters tooth",
       "award_rows": 3,
@@ -2192,22 +2241,6 @@
       "nominal_value": "46800",
       "examples": [
         "RODENT TREATMENT (ARAWAK CAY)"
-      ]
-    },
-    {
-      "agency_code": "doe",
-      "project_title_prefix": "garvin tynes primary summer repairs",
-      "award_rows": 3,
-      "months_observed": [
-        "2025-03",
-        "2025-04",
-        "2026-05"
-      ],
-      "nominal_value": "634378.31",
-      "examples": [
-        "GARVIN TYNES PRIMARY 2024 SUMMER REPAIRS (CONTRACT C)",
-        "GARVIN TYNES PRIMARY SUMMER REPAIRS - CONTRACT A 2025",
-        "Garvin Tynes Primary Summer repairs contract A"
       ]
     },
     {
@@ -2403,6 +2436,19 @@
         "CLEVELAND ENEAS PAINTING CONTRACT 2025 - CE 03",
         "CLEVELAND ENEAS PAINTING CONTRACT 2025 - CE 04",
         "CLEVELAND ENEAS PAINTING CONTRACT 2025 - CE 06"
+      ]
+    },
+    {
+      "agency_code": "doe",
+      "project_title_prefix": "ministry education ink request",
+      "award_rows": 5,
+      "months_observed": [
+        "2026-07",
+        "2026-08"
+      ],
+      "nominal_value": "28472.9300000000002",
+      "examples": [
+        "MINISTRY OF EDUCATION INK REQUEST 2026-2027"
       ]
     },
     {
@@ -2783,20 +2829,19 @@
     "Historical supplier and agency rankings exclude undated or unreconciled source rows by default.",
     "Previously reconciled rows may be included only when their source-record signature remains unchanged; cached periods are disclosed."
   ],
-  "source_record_count": 6489,
-  "ranked_record_count": 2483,
+  "source_record_count": 6625,
+  "ranked_record_count": 2619,
   "excluded_from_rankings": 4006,
   "quality_counts": {
-    "reconciled": 2483,
+    "reconciled": 2619,
     "summary_mismatch": 102,
     "undated": 2296,
-    "summary_unmapped": 1608
+    "summary_unmapped": 1396,
+    "summary_unavailable": 212
   },
   "cached_summary_periods": [
-    "2025-02",
-    "2025-05",
-    "2026-01",
-    "2026-04"
+    "2025-08",
+    "2026-02"
   ],
   "quality_method": "Only records with a parsed award date AND matching official period summary appear in comparative financial rankings."
 }
