@@ -1,6 +1,6 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-10-25T16:45:03.318Z",
+  "captured_at": "2026-10-26T18:50:45.045Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
@@ -34,14 +34,14 @@
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258687",
-      "title": "(CPU) TENDER FOR THE CATERING OF MEALS FOR THE ROYAL BAHAMAS DEFENCE FORCE OUTPOSTS",
+      "title": "(CPU) THE ROYAL BAHAMAS DEFENCE FORCE OUTPOSTS TENDER FOR THE CATERING OF MEALS",
       "agency": "Central Processing Unit",
       "reference": "CPU-RFT-10/2026-JJ-14167",
       "deadline": "Oct 29th 2026, 12:00 AM EDT"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258691",
-      "title": "(CPU) TENDER FOR THE CATERING OF MEALS FOR THE ROYAL BAHAMAS POLICE FORCE STATIONS",
+      "title": "(CPU) THE ROYAL BAHAMAS POLICE FORCE STATIONS TENDER FOR THE CATERING OF MEALS",
       "agency": "Central Processing Unit",
       "reference": "CPU-RFT-10/2026-JJ-14168",
       "deadline": "Oct 29th 2026, 9:00 AM EDT"
@@ -227,6 +227,13 @@
       "agency": "Royal Bahamas Defence Force",
       "reference": "RBDF-RFQ-10/2026-LN-14102",
       "deadline": "Oct 30th 2026, 9:00 AM EDT"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/260072",
+      "title": "LIVE BROADCAST",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-DA-10/2026-RT-14301",
+      "deadline": "Oct 30th 2026, 12:00 PM EDT"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258057",
