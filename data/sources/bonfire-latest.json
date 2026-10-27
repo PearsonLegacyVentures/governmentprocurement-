@@ -1,16 +1,9 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-10-26T18:50:45.045Z",
+  "captured_at": "2026-10-27T18:12:07.875Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258056",
-      "title": "SUPPLY AND DELIVERY OF 5 VITAL SIGNS MONITOR",
-      "agency": "Ministry of Health & Wellness",
-      "reference": "MoHW-RFQ-10/2026-TE-14132",
-      "deadline": "Oct 26th 2026, 5:00 PM EDT"
-    },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258466",
       "title": "BAHAMAS CORRECTIONS AIR CONDITION UNITS",
@@ -229,6 +222,13 @@
       "deadline": "Oct 30th 2026, 9:00 AM EDT"
     },
     {
+      "url": "https://bahamas.bonfirehub.com/opportunities/257510",
+      "title": "AIDS TO NAVIGATION MARINE LANTERNS",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-JF-14103",
+      "deadline": "Oct 30th 2026, 10:00 AM EDT"
+    },
+    {
       "url": "https://bahamas.bonfirehub.com/opportunities/260072",
       "title": "LIVE BROADCAST",
       "agency": "Ministry of Youth, Sport & Culture",
@@ -325,6 +325,13 @@
       "agency": "Royal Bahamas Defence Force",
       "reference": "RBDF-RFQ-10/2026-LR-14277",
       "deadline": "Nov 5th 2026, 12:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/258899",
+      "title": "AUTEL EVO MAX 4T XE QUADCOPTER DRONE",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-SH-14204",
+      "deadline": "Nov 9th 2026, 9:00 AM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/253142",
