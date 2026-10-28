@@ -1,10 +1,10 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-10-27T18:12:07.875Z",
-    "checked_date": "2026-10-27",
+    "captured_at": "2026-10-28T18:28:34.610Z",
+    "checked_date": "2026-10-28",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 53,
+    "record_count": 54,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
@@ -808,6 +808,20 @@
       "deadline_time_local": "16:00",
       "timezone": "EST",
       "deadline_utc": "2026-11-16T21:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "258335",
+      "title": "CDB BWSIP II - Request for Expression of Interest - Consulting Engineering Firm",
+      "agency": "Water & Sewage Corporation",
+      "reference": "WSC-EOI-10/2026-JP-14148",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258335",
+      "deadline_raw": "Nov 19th 2026, 4:00 PM EST",
+      "deadline_date_local": "2026-11-19",
+      "deadline_time_local": "16:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-19T21:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
       "matches": []
     }
