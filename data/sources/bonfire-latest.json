@@ -1,51 +1,9 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-10-28T18:28:34.610Z",
+  "captured_at": "2026-10-29T18:38:04.514Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258466",
-      "title": "BAHAMAS CORRECTIONS AIR CONDITION UNITS",
-      "agency": "Bahamas Department of Correctional Services",
-      "reference": "BDCS-ITQ-10/2026-VB-14152",
-      "deadline": "Oct 28th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258476",
-      "title": "BAHAMAS CORRCTIONS SECURITY RESTRANTS",
-      "agency": "Bahamas Department of Correctional Services",
-      "reference": "BDCS-ITQ-10/2026-VB-14154",
-      "deadline": "Oct 28th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/259514",
-      "title": "GFNY FOR ROYAL BAHAMAS POLICE FORCE",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-DA-10/2026-RT-14251",
-      "deadline": "Oct 28th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258687",
-      "title": "(CPU) THE ROYAL BAHAMAS DEFENCE FORCE OUTPOSTS TENDER FOR THE CATERING OF MEALS",
-      "agency": "Central Processing Unit",
-      "reference": "CPU-RFT-10/2026-JJ-14167",
-      "deadline": "Oct 29th 2026, 12:00 AM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258691",
-      "title": "(CPU) THE ROYAL BAHAMAS POLICE FORCE STATIONS TENDER FOR THE CATERING OF MEALS",
-      "agency": "Central Processing Unit",
-      "reference": "CPU-RFT-10/2026-JJ-14168",
-      "deadline": "Oct 29th 2026, 9:00 AM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258825",
-      "title": "Best of the Best ~ GENERATORS AND GROUND LIGHTING SUPPORT",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14192",
-      "deadline": "Oct 29th 2026, 12:00 PM EDT"
-    },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258657",
       "title": "Best of the Best - Officers Services",
@@ -334,6 +292,13 @@
       "deadline": "Nov 9th 2026, 9:00 AM EST"
     },
     {
+      "url": "https://bahamas.bonfirehub.com/opportunities/260687",
+      "title": "Small Home Repair - #41 ROBINS NEST, IMPERIAL PARK",
+      "agency": "Ministry of Grand Bahama",
+      "reference": "MoGB-RFP-10/2026-PR-14334",
+      "deadline": "Nov 9th 2026, 12:00 PM EST"
+    },
+    {
       "url": "https://bahamas.bonfirehub.com/opportunities/253142",
       "title": "Full Vessel Repair and upgrade P-49",
       "agency": "Royal Bahamas Defence Force",
@@ -362,6 +327,13 @@
       "deadline": "Nov 9th 2026, 5:00 PM EST"
     },
     {
+      "url": "https://bahamas.bonfirehub.com/opportunities/260666",
+      "title": "Paving of the Ministry for Grand Bahama (Harold DeGregory Complex) Parking Lot",
+      "agency": "Ministry of Grand Bahama",
+      "reference": "MoGB-RFP-10/2026-PR-14333",
+      "deadline": "Nov 12th 2026, 12:00 PM EST"
+    },
+    {
       "url": "https://bahamas.bonfirehub.com/opportunities/259837",
       "title": "Ministry of Labor - Professional Consultancy Services",
       "agency": "Ministry of Labor",
@@ -381,6 +353,13 @@
       "agency": "Water & Sewage Corporation",
       "reference": "WSC-EOI-10/2026-JP-14148",
       "deadline": "Nov 19th 2026, 4:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/260440",
+      "title": "PROCUREMENT OF THE DESIGN, MANUFACTURE, DELIVERY AND CONSTRUCTION (INSTALLATION AND COMMISSIONING) OF MODULAR PREFABRICATED HEALTHCARE UNIT “CLINIC IN A CAN” FOR LONG CAY, THE COMMONWEALTH OF THE BAHAMAS",
+      "agency": "Project Execution Unit - Ministry of Health & Wellness",
+      "reference": "PEU - MOHW-RFB-10/2026-EM-14310",
+      "deadline": "Dec 3rd 2026, 5:00 PM EST"
     }
   ]
 }

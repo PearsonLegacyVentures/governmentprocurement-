@@ -1,118 +1,14 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-10-28T18:28:34.610Z",
-    "checked_date": "2026-10-28",
+    "captured_at": "2026-10-29T18:38:04.514Z",
+    "checked_date": "2026-10-29",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 54,
+    "record_count": 51,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
   "opportunities": [
-    {
-      "id": "258466",
-      "title": "BAHAMAS CORRECTIONS AIR CONDITION UNITS",
-      "agency": "Bahamas Department of Correctional Services",
-      "reference": "BDCS-ITQ-10/2026-VB-14152",
-      "url": "https://bahamas.bonfirehub.com/opportunities/258466",
-      "deadline_raw": "Oct 28th 2026, 5:00 PM EDT",
-      "deadline_date_local": "2026-10-28",
-      "deadline_time_local": "17:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-28T21:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
-    {
-      "id": "258476",
-      "title": "BAHAMAS CORRCTIONS SECURITY RESTRANTS",
-      "agency": "Bahamas Department of Correctional Services",
-      "reference": "BDCS-ITQ-10/2026-VB-14154",
-      "url": "https://bahamas.bonfirehub.com/opportunities/258476",
-      "deadline_raw": "Oct 28th 2026, 5:00 PM EDT",
-      "deadline_date_local": "2026-10-28",
-      "deadline_time_local": "17:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-28T21:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
-    {
-      "id": "259514",
-      "title": "GFNY FOR ROYAL BAHAMAS POLICE FORCE",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-DA-10/2026-RT-14251",
-      "url": "https://bahamas.bonfirehub.com/opportunities/259514",
-      "deadline_raw": "Oct 28th 2026, 5:00 PM EDT",
-      "deadline_date_local": "2026-10-28",
-      "deadline_time_local": "17:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-28T21:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
-    {
-      "id": "258687",
-      "title": "(CPU) THE ROYAL BAHAMAS DEFENCE FORCE OUTPOSTS TENDER FOR THE CATERING OF MEALS",
-      "agency": "Central Processing Unit",
-      "reference": "CPU-RFT-10/2026-JJ-14167",
-      "url": "https://bahamas.bonfirehub.com/opportunities/258687",
-      "deadline_raw": "Oct 29th 2026, 12:00 AM EDT",
-      "deadline_date_local": "2026-10-29",
-      "deadline_time_local": "00:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-29T04:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": [
-        {
-          "venture": "Mel J's Event Rentals",
-          "match_type": "partner",
-          "strength": "moderate",
-          "score": 41,
-          "trigger": "CATERING",
-          "reason": "Possible subcontracting to a qualified venue or event prime",
-          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
-        }
-      ]
-    },
-    {
-      "id": "258691",
-      "title": "(CPU) THE ROYAL BAHAMAS POLICE FORCE STATIONS TENDER FOR THE CATERING OF MEALS",
-      "agency": "Central Processing Unit",
-      "reference": "CPU-RFT-10/2026-JJ-14168",
-      "url": "https://bahamas.bonfirehub.com/opportunities/258691",
-      "deadline_raw": "Oct 29th 2026, 9:00 AM EDT",
-      "deadline_date_local": "2026-10-29",
-      "deadline_time_local": "09:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-29T13:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": [
-        {
-          "venture": "Mel J's Event Rentals",
-          "match_type": "partner",
-          "strength": "moderate",
-          "score": 41,
-          "trigger": "CATERING",
-          "reason": "Possible subcontracting to a qualified venue or event prime",
-          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
-        }
-      ]
-    },
-    {
-      "id": "258825",
-      "title": "Best of the Best ~ GENERATORS AND GROUND LIGHTING SUPPORT",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14192",
-      "url": "https://bahamas.bonfirehub.com/opportunities/258825",
-      "deadline_raw": "Oct 29th 2026, 12:00 PM EDT",
-      "deadline_date_local": "2026-10-29",
-      "deadline_time_local": "12:00",
-      "timezone": "EDT",
-      "deadline_utc": "2026-10-29T16:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
     {
       "id": "258657",
       "title": "Best of the Best - Officers Services",
@@ -728,6 +624,20 @@
       "matches": []
     },
     {
+      "id": "260687",
+      "title": "Small Home Repair - #41 ROBINS NEST, IMPERIAL PARK",
+      "agency": "Ministry of Grand Bahama",
+      "reference": "MoGB-RFP-10/2026-PR-14334",
+      "url": "https://bahamas.bonfirehub.com/opportunities/260687",
+      "deadline_raw": "Nov 9th 2026, 12:00 PM EST",
+      "deadline_date_local": "2026-11-09",
+      "deadline_time_local": "12:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-09T17:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
       "id": "253142",
       "title": "Full Vessel Repair and upgrade P-49",
       "agency": "Royal Bahamas Defence Force",
@@ -784,6 +694,20 @@
       "matches": []
     },
     {
+      "id": "260666",
+      "title": "Paving of the Ministry for Grand Bahama (Harold DeGregory Complex) Parking Lot",
+      "agency": "Ministry of Grand Bahama",
+      "reference": "MoGB-RFP-10/2026-PR-14333",
+      "url": "https://bahamas.bonfirehub.com/opportunities/260666",
+      "deadline_raw": "Nov 12th 2026, 12:00 PM EST",
+      "deadline_date_local": "2026-11-12",
+      "deadline_time_local": "12:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-12T17:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
       "id": "259837",
       "title": "Ministry of Labor - Professional Consultancy Services",
       "agency": "Ministry of Labor",
@@ -822,6 +746,20 @@
       "deadline_time_local": "16:00",
       "timezone": "EST",
       "deadline_utc": "2026-11-19T21:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "260440",
+      "title": "PROCUREMENT OF THE DESIGN, MANUFACTURE, DELIVERY AND CONSTRUCTION (INSTALLATION AND COMMISSIONING) OF MODULAR PREFABRICATED HEALTHCARE UNIT “CLINIC IN A CAN” FOR LONG CAY, THE COMMONWEALTH OF THE BAHAMAS",
+      "agency": "Project Execution Unit - Ministry of Health & Wellness",
+      "reference": "PEU - MOHW-RFB-10/2026-EM-14310",
+      "url": "https://bahamas.bonfirehub.com/opportunities/260440",
+      "deadline_raw": "Dec 3rd 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-12-03",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-12-03T22:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
       "matches": []
     }
