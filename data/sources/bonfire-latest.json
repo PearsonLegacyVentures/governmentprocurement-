@@ -1,198 +1,9 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-10-29T18:38:04.514Z",
+  "captured_at": "2026-10-30T18:10:36.855Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258657",
-      "title": "Best of the Best - Officers Services",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14165",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258697",
-      "title": "Best of the Best - PORTABLE RESTROOM",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14169",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258702",
-      "title": "Best of the Best ~ HOSPITALITY SUITE AND DECOR",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14170",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258706",
-      "title": "Best of the Best ~ CRANE SERVICES",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14171",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258709",
-      "title": "Best of the Best ~ PLATFORM RENTAL",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14172",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258713",
-      "title": "Best of the Best ~ FENCING",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14173",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258719",
-      "title": "Best of the best ~ BROADCASTING PLATFORM",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14174",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258764",
-      "title": "Best of the Best ~ PLATFORM, TABLES & CHAIRS 2026",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14176",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258770",
-      "title": "Best of the Best ~ BOAT RENTAL",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14177",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258779",
-      "title": "Best of the Best ~HEALTH SERVICE",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14178",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258789",
-      "title": "Best of the Best ~ SECURITY SERVICES",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14179",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258795",
-      "title": "Best of the Best ~ TALENTS",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14180",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258799",
-      "title": "Best of the Best ~ BANNER AND BILLBOARDS",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14181",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258803",
-      "title": "Best of the Best ~ TRUCKING AND LOGISTICAL SUPPORT",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14182",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258817",
-      "title": "Best of the Best ~TREE TRIMMING",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14185",
-      "deadline": "Oct 29th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258818",
-      "title": "Best of the Best ~ T-SHIRTS",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14186",
-      "deadline": "Oct 29th 2026, 6:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258820",
-      "title": "Best of the Best ~ LED SCREEN WALL",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14187",
-      "deadline": "Oct 29th 2026, 6:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258821",
-      "title": "Best of the Best ~ TECHNICAL/ LOGISTICS & PRODUCTION",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14188",
-      "deadline": "Oct 29th 2026, 6:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258822",
-      "title": "Best of the Best ~PARAPHERNALIA",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14189",
-      "deadline": "Oct 29th 2026, 6:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258823",
-      "title": "Best of the Best ~ SHIRT & JACKETS",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14190",
-      "deadline": "Oct 29th 2026, 7:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258824",
-      "title": "Best of the Best ~ STAGE, SOUND AND LIGHTING",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14191",
-      "deadline": "Oct 29th 2026, 7:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258827",
-      "title": "Best of the Best ~ CATERING SERVICES",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14194",
-      "deadline": "Oct 29th 2026, 7:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258828",
-      "title": "Best of the Best ~ CATERING SERVICES/ SKIPPERS PARTY",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14195",
-      "deadline": "Oct 29th 2026, 7:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258831",
-      "title": "Best of the Best ~ FLAGS",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14196",
-      "deadline": "Oct 29th 2026, 7:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/257472",
-      "title": "The Requisition of Generators",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-LN-14102",
-      "deadline": "Oct 30th 2026, 9:00 AM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/257510",
-      "title": "AIDS TO NAVIGATION MARINE LANTERNS",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-JF-14103",
-      "deadline": "Oct 30th 2026, 10:00 AM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/260072",
-      "title": "LIVE BROADCAST",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-DA-10/2026-RT-14301",
-      "deadline": "Oct 30th 2026, 12:00 PM EDT"
-    },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258057",
       "title": "SUPPLY AND DELIVERY OF PATIENT STRETCHERS AND EXMAINATION BEDS",
@@ -278,13 +89,6 @@
       "deadline": "Nov 4th 2026, 11:30 PM EST"
     },
     {
-      "url": "https://bahamas.bonfirehub.com/opportunities/259738",
-      "title": "SUBTERRANEAN TERMITE TREATMENT – SOUTH GATE BUILDING",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-LR-14277",
-      "deadline": "Nov 5th 2026, 12:00 PM EST"
-    },
-    {
       "url": "https://bahamas.bonfirehub.com/opportunities/258899",
       "title": "AUTEL EVO MAX 4T XE QUADCOPTER DRONE",
       "agency": "Royal Bahamas Defence Force",
@@ -346,6 +150,13 @@
       "agency": "Water & Sewage Corporation",
       "reference": "WSC-RFP-09/2026-JP-14019",
       "deadline": "Nov 16th 2026, 4:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/259738",
+      "title": "SUBTERRANEAN TERMITE TREATMENT – SOUTH GATE BUILDING",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-10/2026-LR-14277",
+      "deadline": "Nov 19th 2026, 12:00 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258335",
