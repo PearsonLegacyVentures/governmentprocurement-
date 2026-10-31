@@ -1,23 +1,9 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-10-30T18:10:36.855Z",
+  "captured_at": "2026-10-31T17:20:54.929Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258057",
-      "title": "SUPPLY AND DELIVERY OF PATIENT STRETCHERS AND EXMAINATION BEDS",
-      "agency": "Ministry of Health & Wellness",
-      "reference": "MoHW-RFQ-10/2026-TE-14133",
-      "deadline": "Oct 30th 2026, 5:00 PM EDT"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/259532",
-      "title": "Best of the Best ~ Tents Tables And Chairs Rental",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14257",
-      "deadline": "Oct 30th 2026, 11:30 PM EDT"
-    },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/259148",
       "title": "REQUEST FOR FURNITURE",
@@ -72,6 +58,27 @@
       "title": "Ministry of Finance - Electrical Upgrade of BAIC ANDROS PACKING HOUSE – NORTH ANDROS, THE BAHAMAS",
       "agency": "Ministry of Finance",
       "reference": "MoF-ITT-09/2026-AA-13714a",
+      "deadline": "Nov 3rd 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/258818",
+      "title": "Best of the Best ~ T-SHIRTS",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14186",
+      "deadline": "Nov 3rd 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/258822",
+      "title": "Best of the Best ~PARAPHERNALIA",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14189",
+      "deadline": "Nov 3rd 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/258823",
+      "title": "Best of the Best ~ SHIRT & JACKETS",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14190",
       "deadline": "Nov 3rd 2026, 5:00 PM EST"
     },
     {
