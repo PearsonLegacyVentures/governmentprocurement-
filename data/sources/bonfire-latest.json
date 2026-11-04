@@ -1,57 +1,29 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-11-03T19:45:30.677Z",
+  "captured_at": "2026-11-04T19:59:33.494Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/253402",
-      "title": "Ministry of Finance - Electrical Upgrade of BAIC Nassau Packing House",
-      "agency": "Ministry of Finance",
-      "reference": "MoF-ITT-09/2026-AA-13714",
-      "deadline": "Nov 3rd 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/257362",
-      "title": "Ministry of Finance - Electrical Upgrade of BAIC ANDROS PACKING HOUSE – NORTH ANDROS, THE BAHAMAS",
-      "agency": "Ministry of Finance",
-      "reference": "MoF-ITT-09/2026-AA-13714a",
-      "deadline": "Nov 3rd 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258818",
-      "title": "Best of the Best ~ T-SHIRTS",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14186",
-      "deadline": "Nov 3rd 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258822",
-      "title": "Best of the Best ~PARAPHERNALIA",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14189",
-      "deadline": "Nov 3rd 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258823",
-      "title": "Best of the Best ~ SHIRT & JACKETS",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14190",
-      "deadline": "Nov 3rd 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/259580",
-      "title": "BUILD-OUT OF TWO EMPTY SHELL OFFICE SPACES",
-      "agency": "Port Department",
-      "reference": "DoP-RFQ-10/2026-CC-14263",
-      "deadline": "Nov 4th 2026, 11:30 PM EST"
-    },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258789",
       "title": "Best of the Best ~ SECURITY SERVICES",
       "agency": "Ministry of Youth, Sport & Culture",
       "reference": "MoYSC-RFQ-10/2026-TW-14179",
       "deadline": "Nov 5th 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/258657",
+      "title": "Best of the Best - Officers Services",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14165",
+      "deadline": "Nov 6th 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/259580",
+      "title": "BUILD-OUT OF TWO EMPTY SHELL OFFICE SPACES",
+      "agency": "Port Department",
+      "reference": "DoP-RFQ-10/2026-CC-14263",
+      "deadline": "Nov 6th 2026, 11:30 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258899",
@@ -110,18 +82,25 @@
       "deadline": "Nov 12th 2026, 12:00 PM EST"
     },
     {
-      "url": "https://bahamas.bonfirehub.com/opportunities/259837",
-      "title": "Ministry of Labor - Professional Consultancy Services",
-      "agency": "Ministry of Labor",
-      "reference": "MOL-RFP-10/2026-RF-14284",
-      "deadline": "Nov 13th 2026, 5:00 PM EST"
-    },
-    {
       "url": "https://bahamas.bonfirehub.com/opportunities/256075",
       "title": "WSC - IDB Program - Airport Road/Port Royal, South Bimini - Access to Potable Water Supply",
       "agency": "Water & Sewage Corporation",
       "reference": "WSC-RFP-09/2026-JP-14019",
       "deadline": "Nov 16th 2026, 4:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/258838",
+      "title": "Repairs and Refurbishment of the Road Traffic Department Bimini Office",
+      "agency": "Ministry of Transport",
+      "reference": "MoT-DA-10/2026-kh-14197",
+      "deadline": "Nov 17th 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/258409",
+      "title": "Renovation and Rehabilitation of the San Salvador Post Office Facility",
+      "agency": "Ministry of Transport",
+      "reference": "MoT-DA-10/2026-kh-14149",
+      "deadline": "Nov 18th 2026, 5:00 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/259738",
@@ -136,6 +115,13 @@
       "agency": "Water & Sewage Corporation",
       "reference": "WSC-EOI-10/2026-JP-14148",
       "deadline": "Nov 19th 2026, 4:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/259837",
+      "title": "Ministry of Labor - Professional Consultancy Services",
+      "agency": "Ministry of Labor",
+      "reference": "MOL-RFP-10/2026-RF-14284",
+      "deadline": "Nov 20th 2026, 5:00 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/246346",
