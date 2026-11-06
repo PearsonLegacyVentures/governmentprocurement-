@@ -1,10 +1,10 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-11-05T20:13:49.822Z",
-    "checked_date": "2026-11-05",
+    "captured_at": "2026-11-06T19:39:05.433Z",
+    "checked_date": "2026-11-06",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 21,
+    "record_count": 22,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
@@ -164,10 +164,24 @@
       "matches": []
     },
     {
+      "id": "261840",
+      "title": "Small Home Repair - 159 Zachary Lane - Freeport, Grand Bahama",
+      "agency": "Ministry of Grand Bahama",
+      "reference": "MoGB-RFP-11/2026-PR-14403",
+      "url": "https://bahamas.bonfirehub.com/opportunities/261840",
+      "deadline_raw": "Nov 12th 2026, 11:00 PM EST",
+      "deadline_date_local": "2026-11-12",
+      "deadline_time_local": "23:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-13T04:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
       "id": "256075",
       "title": "WSC - IDB Program - Airport Road/Port Royal, South Bimini - Access to Potable Water Supply",
       "agency": "Water & Sewage Corporation",
-      "reference": "WSC-RFP-09/2026-JP-14019",
+      "reference": "WSC-RFP-09/2026-FA-14019",
       "url": "https://bahamas.bonfirehub.com/opportunities/256075",
       "deadline_raw": "Nov 16th 2026, 4:00 PM EST",
       "deadline_date_local": "2026-11-16",
@@ -279,7 +293,7 @@
       "id": "246346",
       "title": "WSC - IDB Program - New Providence - Access to Potable Water Supply",
       "agency": "Water & Sewage Corporation",
-      "reference": "WSC-RFB-07/2026-JP-12780",
+      "reference": "WSC-RFB-07/2026-FA-12780",
       "url": "https://bahamas.bonfirehub.com/opportunities/246346",
       "deadline_raw": "Nov 25th 2026, 4:00 PM EST",
       "deadline_date_local": "2026-11-25",

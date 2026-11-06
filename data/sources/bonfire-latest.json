@@ -1,6 +1,6 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-11-05T20:13:49.822Z",
+  "captured_at": "2026-11-06T19:39:05.433Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
@@ -82,10 +82,17 @@
       "deadline": "Nov 12th 2026, 5:00 PM EST"
     },
     {
+      "url": "https://bahamas.bonfirehub.com/opportunities/261840",
+      "title": "Small Home Repair - 159 Zachary Lane - Freeport, Grand Bahama",
+      "agency": "Ministry of Grand Bahama",
+      "reference": "MoGB-RFP-11/2026-PR-14403",
+      "deadline": "Nov 12th 2026, 11:00 PM EST"
+    },
+    {
       "url": "https://bahamas.bonfirehub.com/opportunities/256075",
       "title": "WSC - IDB Program - Airport Road/Port Royal, South Bimini - Access to Potable Water Supply",
       "agency": "Water & Sewage Corporation",
-      "reference": "WSC-RFP-09/2026-JP-14019",
+      "reference": "WSC-RFP-09/2026-FA-14019",
       "deadline": "Nov 16th 2026, 4:00 PM EST"
     },
     {
@@ -141,7 +148,7 @@
       "url": "https://bahamas.bonfirehub.com/opportunities/246346",
       "title": "WSC - IDB Program - New Providence - Access to Potable Water Supply",
       "agency": "Water & Sewage Corporation",
-      "reference": "WSC-RFB-07/2026-JP-12780",
+      "reference": "WSC-RFB-07/2026-FA-12780",
       "deadline": "Nov 25th 2026, 4:00 PM EST"
     },
     {
