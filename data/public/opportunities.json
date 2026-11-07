@@ -1,42 +1,14 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-11-06T19:39:05.433Z",
-    "checked_date": "2026-11-06",
+    "captured_at": "2026-11-07T17:50:37.580Z",
+    "checked_date": "2026-11-07",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 22,
+    "record_count": 21,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
   "opportunities": [
-    {
-      "id": "258657",
-      "title": "Best of the Best - Officers Services",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14165",
-      "url": "https://bahamas.bonfirehub.com/opportunities/258657",
-      "deadline_raw": "Nov 6th 2026, 5:00 PM EST",
-      "deadline_date_local": "2026-11-06",
-      "deadline_time_local": "17:00",
-      "timezone": "EST",
-      "deadline_utc": "2026-11-06T22:00:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
-    {
-      "id": "259580",
-      "title": "BUILD-OUT OF TWO EMPTY SHELL OFFICE SPACES",
-      "agency": "Port Department",
-      "reference": "DoP-RFQ-10/2026-CC-14263",
-      "url": "https://bahamas.bonfirehub.com/opportunities/259580",
-      "deadline_raw": "Nov 6th 2026, 11:30 PM EST",
-      "deadline_date_local": "2026-11-06",
-      "deadline_time_local": "23:30",
-      "timezone": "EST",
-      "deadline_utc": "2026-11-07T04:30:00.000Z",
-      "status_at_capture": "Listed under Open Opportunities",
-      "matches": []
-    },
     {
       "id": "258899",
       "title": "AUTEL EVO MAX 4T XE QUADCOPTER DRONE",
@@ -281,6 +253,20 @@
       "agency": "Ministry of Labor",
       "reference": "MOL-RFP-10/2026-RF-14284",
       "url": "https://bahamas.bonfirehub.com/opportunities/259837",
+      "deadline_raw": "Nov 20th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-20",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-20T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "261965",
+      "title": "Road Traffic Department Carmichael Road Infrastructure and Facility Upgrade Project",
+      "agency": "Ministry of Transport",
+      "reference": "MoT-RFP-11/2026-VC-14419",
+      "url": "https://bahamas.bonfirehub.com/opportunities/261965",
       "deadline_raw": "Nov 20th 2026, 5:00 PM EST",
       "deadline_date_local": "2026-11-20",
       "deadline_time_local": "17:00",

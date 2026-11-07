@@ -1,23 +1,9 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-11-06T19:39:05.433Z",
+  "captured_at": "2026-11-07T17:50:37.580Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258657",
-      "title": "Best of the Best - Officers Services",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14165",
-      "deadline": "Nov 6th 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/259580",
-      "title": "BUILD-OUT OF TWO EMPTY SHELL OFFICE SPACES",
-      "agency": "Port Department",
-      "reference": "DoP-RFQ-10/2026-CC-14263",
-      "deadline": "Nov 6th 2026, 11:30 PM EST"
-    },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258899",
       "title": "AUTEL EVO MAX 4T XE QUADCOPTER DRONE",
@@ -142,6 +128,13 @@
       "title": "Ministry of Labor - Professional Consultancy Services",
       "agency": "Ministry of Labor",
       "reference": "MOL-RFP-10/2026-RF-14284",
+      "deadline": "Nov 20th 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/261965",
+      "title": "Road Traffic Department Carmichael Road Infrastructure and Facility Upgrade Project",
+      "agency": "Ministry of Transport",
+      "reference": "MoT-RFP-11/2026-VC-14419",
       "deadline": "Nov 20th 2026, 5:00 PM EST"
     },
     {
