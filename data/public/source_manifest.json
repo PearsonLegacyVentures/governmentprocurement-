@@ -1,5 +1,5 @@
 {
-  "carried_forward_official_links": 4,
+  "carried_forward_official_links": 0,
   "discovered": 56,
   "discovery_issues": [
     {
@@ -7,28 +7,40 @@
       "source": "https://mofvendors.gov.bs/wp-sitemap-posts-post-3.xml"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-december-2026/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-december-2026/"
-    },
-    {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-november-2026/: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-november-2026/"
-    },
-    {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-march-2025/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-march-2025/"
     },
     {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-january-2025/: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-january-2025/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-march-2024/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-march-2024/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-march-2025/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-march-2025/"
+    },
+    {
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-december-2026/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-december-2026/"
+    },
+    {
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-february-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-february-2024/"
+    },
+    {
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-july-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-july-2024/"
     },
     {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-november-2024/: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-november-2024/"
+    },
+    {
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-march-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-march-2024/"
+    },
+    {
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-august-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-august-2024/"
     },
     {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-june-2024/: HTTP Error 404: Not Found",
@@ -39,44 +51,28 @@
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-april-2024/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-february-2024/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-february-2024/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-january-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-january-2024/"
     },
     {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-may-2024/: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-may-2024/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-october-2024/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-october-2024/"
-    },
-    {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-july-2024/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-july-2024/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-september-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-september-2024/"
     },
     {
       "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-december-2024/: HTTP Error 404: Not Found",
       "source": "https://mofvendors.gov.bs/public-notice-procurement-department-december-2024/"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-september-2024/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-september-2024/"
-    },
-    {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-august-2024/: HTTP Error 404: Not Found",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-august-2024/"
-    },
-    {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-january-2024/: <urlopen error timed out>",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-january-2024/"
-    },
-    {
-      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department/: <urlopen error timed out>",
-      "source": "https://mofvendors.gov.bs/public-notice-procurement-department/"
+      "error": "Fetch failed https://mofvendors.gov.bs/public-notice-procurement-department-october-2024/: HTTP Error 404: Not Found",
+      "source": "https://mofvendors.gov.bs/public-notice-procurement-department-october-2024/"
     }
   ],
-  "generated_at": "2026-11-02T20:51:02.955048+00:00",
-  "newly_discovered_links": 55,
+  "generated_at": "2026-11-09T21:30:14.552217+00:00",
+  "newly_discovered_links": 59,
   "reports": [
     {
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-october-2026/",
@@ -697,11 +693,29 @@
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/04/Bahamas-Public-Procurement-Awarded-Contracts-Summary-Report-February-1-28-2025.xlsx"
     },
     {
-      "error": "Fetch failed https://mofvendors.gov.bs/wp-content/uploads/2025/04/Bahamas-Public-Procurement-Project-Awards-Report-February-1-28-2025.xlsx: <urlopen error timed out>",
+      "bytes": 25533,
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-april-2025/",
       "period": "2025-02",
+      "records": 131,
       "report_type": "project_awards",
-      "status": "failed",
+      "sha256": "a52cff3b11fdda88fccd4b39d46c80561d84df7ef5e2c31d477f02d35b1255ed",
+      "sheet_diagnostics": [
+        {
+          "detected_fields": {
+            "agency": 1,
+            "amount": 6,
+            "date": 7,
+            "description": 0,
+            "project_type": 2,
+            "supplier": 3
+          },
+          "header_row": 2,
+          "parsed_awards": 131,
+          "sheet": "February Report 2025",
+          "status": "parsed"
+        }
+      ],
+      "status": "parsed",
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/04/Bahamas-Public-Procurement-Project-Awards-Report-February-1-28-2025.xlsx"
     },
     {
@@ -738,18 +752,18 @@
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/03/Bahamas-Public-Procurement-Project-Awards-Report-January-1-31-2025.xlsx"
     },
     {
-      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-9/",
-      "period": "2024-12",
-      "report_type": "summary",
-      "status": "discovered",
-      "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/02/Public-Procurement-Awarded-Contracts-Summary-Report-December-1-31-2024.xlsx"
-    },
-    {
       "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department/",
       "period": "2024-12",
       "report_type": "summary",
       "status": "discovered",
       "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/03/Bahamas-Public-Procurement-Awarded-Contracts-Summary-Report-December-1-31-2024.xlsx"
+    },
+    {
+      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-february-2025/",
+      "period": "2024-12",
+      "report_type": "summary",
+      "status": "discovered",
+      "url": "https://mofvendors.gov.bs/wp-content/uploads/2025/02/Public-Procurement-Awarded-Contracts-Summary-Report-December-1-31-2024.xlsx"
     },
     {
       "bytes": 23137,
@@ -1160,7 +1174,7 @@
   "source": "https://mofvendors.gov.bs",
   "superseded_variants": [
     {
-      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-9/",
+      "notice_url": "https://mofvendors.gov.bs/public-notice-procurement-department-february-2025/",
       "period": "2024-12",
       "report_type": "project_awards",
       "status": "superseded_variant",
