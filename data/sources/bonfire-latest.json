@@ -1,57 +1,15 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-11-08T18:03:13.698Z",
+  "captured_at": "2026-11-09T22:39:26.863Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
     {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258899",
-      "title": "AUTEL EVO MAX 4T XE QUADCOPTER DRONE",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFQ-10/2026-SH-14204",
-      "deadline": "Nov 9th 2026, 9:00 AM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/260687",
-      "title": "Small Home Repair - #41 ROBINS NEST, IMPERIAL PARK",
-      "agency": "Ministry of Grand Bahama",
-      "reference": "MoGB-RFP-10/2026-PR-14334",
-      "deadline": "Nov 9th 2026, 12:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/261016",
-      "title": "QUARTER 3 CLEANING SUPPLIES",
-      "agency": "Central Processing Unit",
-      "reference": "CPU-RFQ-11/2026-CM-14350",
-      "deadline": "Nov 9th 2026, 12:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/253142",
-      "title": "Full Vessel Repair and upgrade P-49",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFP-09/2026-LN-13680",
-      "deadline": "Nov 9th 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/253148",
-      "title": "Full Vessel Repair and upgrade P-44",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFP-09/2026-LN-13681",
-      "deadline": "Nov 9th 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/254948",
-      "title": "CONSTRUCTION OF SPECIALIZED COURTS",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-09/2026-RT-13905",
-      "deadline": "Nov 9th 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/259864",
-      "title": "Awning Covers for HMBS Bahamas",
-      "agency": "Royal Bahamas Defence Force",
-      "reference": "RBDF-RFP-10/2026-LN-14293",
-      "deadline": "Nov 9th 2026, 5:00 PM EST"
+      "url": "https://bahamas.bonfirehub.com/opportunities/257565",
+      "title": "Bain and Grants Town Post Office",
+      "agency": "Ministry of Transport",
+      "reference": "MoT-DA-10/2026-kh-14110",
+      "deadline": "Nov 10th 2026, 5:00 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/260666",
@@ -73,6 +31,27 @@
       "agency": "Ministry of Grand Bahama",
       "reference": "MoGB-RFP-11/2026-PR-14403",
       "deadline": "Nov 12th 2026, 11:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/258825",
+      "title": "Best of the Best ~ GENERATORS AND GROUND LIGHTING SUPPORT",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14192",
+      "deadline": "Nov 13th 2026, 12:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/258657",
+      "title": "Best of the Best - Officers Services",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14165",
+      "deadline": "Nov 13th 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/258803",
+      "title": "Best of the Best ~ TRUCKING AND LOGISTICAL SUPPORT",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14182",
+      "deadline": "Nov 13th 2026, 5:00 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/256075",
@@ -138,11 +117,25 @@
       "deadline": "Nov 20th 2026, 5:00 PM EST"
     },
     {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262077",
+      "title": "SUPPLY AND DELIVERY OF WHITE BI-FOLD TABLES AND FOLDING CHAIRS",
+      "agency": "Ministry of Health & Wellness",
+      "reference": "MoHW-RFQ-11/2026-TE-14425",
+      "deadline": "Nov 23rd 2026, 5:00 PM EST"
+    },
+    {
       "url": "https://bahamas.bonfirehub.com/opportunities/246346",
       "title": "WSC - IDB Program - New Providence - Access to Potable Water Supply",
       "agency": "Water & Sewage Corporation",
       "reference": "WSC-RFB-07/2026-FA-12780",
       "deadline": "Nov 25th 2026, 4:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262078",
+      "title": "Refurbishment of Paradise Island East Bridge Fenders, New Providence",
+      "agency": "Department of Public Works",
+      "reference": "DoPW-ITB-11/2026-AT-14426",
+      "deadline": "Nov 30th 2026, 2:00 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/260440",
