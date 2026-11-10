@@ -1,6 +1,6 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-11-09T22:39:26.863Z",
+  "captured_at": "2026-11-10T19:57:57.171Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
@@ -10,13 +10,6 @@
       "agency": "Ministry of Transport",
       "reference": "MoT-DA-10/2026-kh-14110",
       "deadline": "Nov 10th 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/260666",
-      "title": "Paving of the Ministry for Grand Bahama (Harold DeGregory Complex) Parking Lot",
-      "agency": "Ministry of Grand Bahama",
-      "reference": "MoGB-RFP-10/2026-PR-14333",
-      "deadline": "Nov 12th 2026, 12:00 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258476",
@@ -52,6 +45,41 @@
       "agency": "Ministry of Youth, Sport & Culture",
       "reference": "MoYSC-RFQ-10/2026-TW-14182",
       "deadline": "Nov 13th 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/260666",
+      "title": "Paving of the Ministry for Grand Bahama (Harold DeGregory Complex) Parking Lot",
+      "agency": "Ministry of Grand Bahama",
+      "reference": "MoGB-RFP-10/2026-PR-14333",
+      "deadline": "Nov 16th 2026, 12:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262268",
+      "title": "GARABGE BAGS QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-CM-14441",
+      "deadline": "Nov 16th 2026, 12:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262269",
+      "title": "PAPER PRODUCTS QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-CM-14442",
+      "deadline": "Nov 16th 2026, 12:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262272",
+      "title": "QUARTER 3 CLEANING SUPPLIES",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-CM-14443",
+      "deadline": "Nov 16th 2026, 12:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262275",
+      "title": "STATIONARY QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-CM-14444",
+      "deadline": "Nov 16th 2026, 12:00 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/256075",
