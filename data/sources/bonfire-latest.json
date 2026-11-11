@@ -1,16 +1,9 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-11-10T19:57:57.171Z",
+  "captured_at": "2026-11-11T19:49:49.217Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/257565",
-      "title": "Bain and Grants Town Post Office",
-      "agency": "Ministry of Transport",
-      "reference": "MoT-DA-10/2026-kh-14110",
-      "deadline": "Nov 10th 2026, 5:00 PM EST"
-    },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258476",
       "title": "BAHAMAS CORRCTIONS SECURITY RESTRANTS",
