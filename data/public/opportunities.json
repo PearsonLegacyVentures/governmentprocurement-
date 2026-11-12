@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-11-11T19:49:49.217Z",
-    "checked_date": "2026-11-11",
+    "captured_at": "2026-11-12T20:21:34.738Z",
+    "checked_date": "2026-11-12",
     "method": "github_actions_public_playwright_browser",
     "record_count": 23,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
@@ -24,16 +24,16 @@
       "matches": []
     },
     {
-      "id": "261840",
-      "title": "Small Home Repair - 159 Zachary Lane - Freeport, Grand Bahama",
-      "agency": "Ministry of Grand Bahama",
-      "reference": "MoGB-RFP-11/2026-PR-14403",
-      "url": "https://bahamas.bonfirehub.com/opportunities/261840",
-      "deadline_raw": "Nov 12th 2026, 11:00 PM EST",
+      "id": "262540",
+      "title": "OFFICE SUPPLIES FOR STAFF",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-11/2026-RT-14458",
+      "url": "https://bahamas.bonfirehub.com/opportunities/262540",
+      "deadline_raw": "Nov 12th 2026, 5:00 PM EST",
       "deadline_date_local": "2026-11-12",
-      "deadline_time_local": "23:00",
+      "deadline_time_local": "17:00",
       "timezone": "EST",
-      "deadline_utc": "2026-11-13T04:00:00.000Z",
+      "deadline_utc": "2026-11-12T22:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
       "matches": []
     },
