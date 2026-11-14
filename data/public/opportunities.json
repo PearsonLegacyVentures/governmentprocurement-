@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-11-13T19:58:37.351Z",
-    "checked_date": "2026-11-13",
+    "captured_at": "2026-11-14T18:27:21.556Z",
+    "checked_date": "2026-11-14",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 21,
+    "record_count": 27,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
   "opportunities": [
     {
-      "id": "258657",
-      "title": "Best of the Best - Officers Services",
+      "id": "262807",
+      "title": "The Hall of Fame Induction Ceremony – Production & Venue",
       "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14165",
-      "url": "https://bahamas.bonfirehub.com/opportunities/258657",
-      "deadline_raw": "Nov 13th 2026, 5:00 PM EST",
-      "deadline_date_local": "2026-11-13",
-      "deadline_time_local": "17:00",
+      "reference": "MoYSC-RFQ-11/2026-RT-14471",
+      "url": "https://bahamas.bonfirehub.com/opportunities/262807",
+      "deadline_raw": "Nov 16th 2026, 5:00 AM EST",
+      "deadline_date_local": "2026-11-16",
+      "deadline_time_local": "05:00",
       "timezone": "EST",
-      "deadline_utc": "2026-11-13T22:00:00.000Z",
+      "deadline_utc": "2026-11-16T10:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
       "matches": []
     },
@@ -120,6 +120,110 @@
       "deadline_utc": "2026-11-16T21:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
       "matches": []
+    },
+    {
+      "id": "258697",
+      "title": "Best of the Best - PORTABLE RESTROOM",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14169",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258697",
+      "deadline_raw": "Nov 16th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-16",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-16T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "258702",
+      "title": "Best of the Best ~ HOSPITALITY SUITE AND DECOR",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14170",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258702",
+      "deadline_raw": "Nov 16th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-16",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-16T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "258706",
+      "title": "Best of the Best ~ CRANE SERVICES",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14171",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258706",
+      "deadline_raw": "Nov 16th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-16",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-16T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "258795",
+      "title": "Best of the Best ~ TALENTS",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14180",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258795",
+      "deadline_raw": "Nov 16th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-16",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-16T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "258827",
+      "title": "Best of the Best ~ CATERING SERVICES",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14194",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258827",
+      "deadline_raw": "Nov 16th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-16",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-16T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": [
+        {
+          "venture": "Mel J's Event Rentals",
+          "match_type": "partner",
+          "strength": "moderate",
+          "score": 41,
+          "trigger": "CATERING",
+          "reason": "Possible subcontracting to a qualified venue or event prime",
+          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
+        }
+      ]
+    },
+    {
+      "id": "258828",
+      "title": "Best of the Best ~ CATERING SERVICES/ SKIPPERS PARTY",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14195",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258828",
+      "deadline_raw": "Nov 16th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-16",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-16T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": [
+        {
+          "venture": "Mel J's Event Rentals",
+          "match_type": "partner",
+          "strength": "moderate",
+          "score": 41,
+          "trigger": "CATERING",
+          "reason": "Possible subcontracting to a qualified venue or event prime",
+          "qualification": "Not assessed — verify the official tender documents and statutory eligibility."
+        }
+      ]
     },
     {
       "id": "258838",
