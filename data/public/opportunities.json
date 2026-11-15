@@ -1,10 +1,10 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-11-14T18:27:21.556Z",
-    "checked_date": "2026-11-14",
+    "captured_at": "2026-11-15T19:03:50.543Z",
+    "checked_date": "2026-11-15",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 27,
+    "record_count": 28,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
@@ -329,6 +329,20 @@
       "agency": "Ministry of Transport",
       "reference": "MoT-RFP-11/2026-VC-14419",
       "url": "https://bahamas.bonfirehub.com/opportunities/261965",
+      "deadline_raw": "Nov 20th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-20",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-20T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "262877",
+      "title": "PRODUCTION OF MAGAZINE FOR SPORTS HERITAGE MONTH",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-11/2026-RT-14478",
+      "url": "https://bahamas.bonfirehub.com/opportunities/262877",
       "deadline_raw": "Nov 20th 2026, 5:00 PM EST",
       "deadline_date_local": "2026-11-20",
       "deadline_time_local": "17:00",

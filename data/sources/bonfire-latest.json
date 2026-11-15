@@ -1,6 +1,6 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-11-14T18:27:21.556Z",
+  "captured_at": "2026-11-15T19:03:50.543Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
@@ -156,6 +156,13 @@
       "title": "Road Traffic Department Carmichael Road Infrastructure and Facility Upgrade Project",
       "agency": "Ministry of Transport",
       "reference": "MoT-RFP-11/2026-VC-14419",
+      "deadline": "Nov 20th 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262877",
+      "title": "PRODUCTION OF MAGAZINE FOR SPORTS HERITAGE MONTH",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-11/2026-RT-14478",
       "deadline": "Nov 20th 2026, 5:00 PM EST"
     },
     {
