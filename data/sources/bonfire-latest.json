@@ -1,113 +1,36 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-11-15T19:03:50.543Z",
+  "captured_at": "2026-11-16T22:28:22.040Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/262807",
-      "title": "The Hall of Fame Induction Ceremony – Production & Venue",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-11/2026-RT-14471",
-      "deadline": "Nov 16th 2026, 5:00 AM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/260666",
-      "title": "Paving of the Ministry for Grand Bahama (Harold DeGregory Complex) Parking Lot",
-      "agency": "Ministry of Grand Bahama",
-      "reference": "MoGB-RFP-10/2026-PR-14333",
-      "deadline": "Nov 16th 2026, 12:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/262268",
-      "title": "GARABGE BAGS QUARTER 3",
-      "agency": "Central Processing Unit",
-      "reference": "CPU-RFQ-11/2026-CM-14441",
-      "deadline": "Nov 16th 2026, 12:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/262269",
-      "title": "PAPER PRODUCTS QUARTER 3",
-      "agency": "Central Processing Unit",
-      "reference": "CPU-RFQ-11/2026-CM-14442",
-      "deadline": "Nov 16th 2026, 12:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/262272",
-      "title": "QUARTER 3 CLEANING SUPPLIES",
-      "agency": "Central Processing Unit",
-      "reference": "CPU-RFQ-11/2026-CM-14443",
-      "deadline": "Nov 16th 2026, 12:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/262275",
-      "title": "STATIONARY QUARTER 3",
-      "agency": "Central Processing Unit",
-      "reference": "CPU-RFQ-11/2026-CM-14444",
-      "deadline": "Nov 16th 2026, 12:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258803",
-      "title": "Best of the Best ~ TRUCKING AND LOGISTICAL SUPPORT",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14182",
-      "deadline": "Nov 16th 2026, 1:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/256075",
-      "title": "WSC - IDB Program - Airport Road/Port Royal, South Bimini - Access to Potable Water Supply",
-      "agency": "Water & Sewage Corporation",
-      "reference": "WSC-RFP-09/2026-FA-14019",
-      "deadline": "Nov 16th 2026, 4:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258697",
-      "title": "Best of the Best - PORTABLE RESTROOM",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14169",
-      "deadline": "Nov 16th 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258702",
-      "title": "Best of the Best ~ HOSPITALITY SUITE AND DECOR",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14170",
-      "deadline": "Nov 16th 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258706",
-      "title": "Best of the Best ~ CRANE SERVICES",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14171",
-      "deadline": "Nov 16th 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258795",
-      "title": "Best of the Best ~ TALENTS",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14180",
-      "deadline": "Nov 16th 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258827",
-      "title": "Best of the Best ~ CATERING SERVICES",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14194",
-      "deadline": "Nov 16th 2026, 5:00 PM EST"
-    },
-    {
-      "url": "https://bahamas.bonfirehub.com/opportunities/258828",
-      "title": "Best of the Best ~ CATERING SERVICES/ SKIPPERS PARTY",
-      "agency": "Ministry of Youth, Sport & Culture",
-      "reference": "MoYSC-RFQ-10/2026-TW-14195",
-      "deadline": "Nov 16th 2026, 5:00 PM EST"
-    },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258838",
       "title": "Repairs and Refurbishment of the Road Traffic Department Bimini Office",
       "agency": "Ministry of Transport",
       "reference": "MoT-DA-10/2026-kh-14197",
       "deadline": "Nov 17th 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262268",
+      "title": "GARABGE BAGS QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-CM-14441",
+      "deadline": "Nov 18th 2026, 12:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262269",
+      "title": "PAPER PRODUCTS QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-CM-14442",
+      "deadline": "Nov 18th 2026, 12:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262272",
+      "title": "QUARTER 3 CLEANING SUPPLIES",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-CM-14443",
+      "deadline": "Nov 18th 2026, 12:00 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/261544",
@@ -145,6 +68,20 @@
       "deadline": "Nov 19th 2026, 4:00 PM EST"
     },
     {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262600",
+      "title": "NATIONAL YOUTH AWARDS 2026 - DINNER VENUE",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-DA-11/2026-RT-14465",
+      "deadline": "Nov 19th 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262973",
+      "title": "Hydraulic Oil and Diesel Engine Oil - 55 Gallon Drums",
+      "agency": "Department of Public Works",
+      "reference": "DoPW-RFQ-11/2026-DH-14479",
+      "deadline": "Nov 20th 2026, 10:00 AM EST"
+    },
+    {
       "url": "https://bahamas.bonfirehub.com/opportunities/259837",
       "title": "Ministry of Labor - Professional Consultancy Services",
       "agency": "Ministry of Labor",
@@ -164,6 +101,20 @@
       "agency": "Ministry of Youth, Sport & Culture",
       "reference": "MoYSC-RFQ-11/2026-RT-14478",
       "deadline": "Nov 20th 2026, 5:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263081",
+      "title": "Best of the Best ~ Aerial Drone Coverage",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-11/2026-TW-14503",
+      "deadline": "Nov 23rd 2026, 12:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263063",
+      "title": "Supply and Delivery of Acrylic Polyurethane Paint",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-11/2026-LR-14501",
+      "deadline": "Nov 23rd 2026, 2:00 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/262077",
@@ -187,11 +138,102 @@
       "deadline": "Nov 27th 2026, 1:00 PM EST"
     },
     {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263103",
+      "title": "International Code Signal Flags",
+      "agency": "Royal Bahamas Defence Force",
+      "reference": "RBDF-RFQ-11/2026-LN-14506",
+      "deadline": "Nov 30th 2026, 10:00 AM EST"
+    },
+    {
       "url": "https://bahamas.bonfirehub.com/opportunities/262078",
       "title": "Refurbishment of Paradise Island East Bridge Fenders, New Providence",
       "agency": "Department of Public Works",
       "reference": "DoPW-ITB-11/2026-AT-14426",
       "deadline": "Nov 30th 2026, 2:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262989",
+      "title": "CUTLERY TENDER 3 MONTH COMMITMENT JANUARY (2027) QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-JS-14486",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262996",
+      "title": "SUGAR AND SWEETNERS TENDER 3 MONTH COMMITMENT JANUARY (2027) QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-JS-14488",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262998",
+      "title": "COLD BEVERAGE TENDER 3 MONTH COMMITMENT JANUARY (2027) QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-JS-14489",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/262999",
+      "title": "GRAINS TENDER 3 MONTH COMMITMENT JANUARY (2027) QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-JS-14490",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263002",
+      "title": "CONDIMENTS TENDER 3 MONTH COMMITMENT JANUARY (2027) QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-JS-14491",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263017",
+      "title": "DRY PASTA TENDER 3 MONTH COMMITMENT JANUARY (2027) QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-JS-14493",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263020",
+      "title": "HOT BEVERAGE TENDER 3 MONTH COMMITMENTJANUARY (2027) QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-JS-14494",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263025",
+      "title": "OATS TENDER 3 MONTH COMMITMENT JANUARY (2027) QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-JS-14495",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263027",
+      "title": "CANNED ITEMS TENDER 3 MONTH COMMITMENT JANUARY (2027) QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-JS-14496",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263032",
+      "title": "SEASONINGS TENDER 3 MONTH COMMITMENT JANUARY (2027) QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-JS-14497",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263035",
+      "title": "PERISHABLES TENDER 3 MONTH COMMITMENT JANUARY (2027) QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-JS-14498",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263037",
+      "title": "CANNED MEATS TENDER 3 MONTH COMMITMENT JANUARY (2027) QUARTER 3",
+      "agency": "Central Processing Unit",
+      "reference": "CPU-RFQ-11/2026-JS-14499",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/260440",
