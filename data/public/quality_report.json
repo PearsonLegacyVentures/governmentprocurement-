@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T21:34:28.329888+00:00",
+  "generated_at": "2026-11-16T21:07:02.837927+00:00",
   "source_record_count": 6625,
   "ranked_record_count": 2619,
   "quality_counts": {
@@ -6656,18 +6656,15 @@
     "2025-11": "totals_match",
     "2025-12": "totals_match",
     "2026-01": "totals_match",
-    "2026-02": "totals_match_cached",
+    "2026-02": "totals_match",
     "2026-03": "totals_match",
     "2026-04": "totals_match",
-    "2026-05": "totals_match_cached",
+    "2026-05": "totals_match",
     "2026-06": "totals_match",
     "2026-07": "totals_match",
     "2026-08": "totals_match"
   },
-  "cached_summary_periods": [
-    "2026-02",
-    "2026-05"
-  ],
+  "cached_summary_periods": [],
   "quality_method": "Only records with a parsed award date AND matching official period summary appear in comparative financial rankings.",
   "cautions": [
     "Source-backed does not mean summary-reconciled.",
