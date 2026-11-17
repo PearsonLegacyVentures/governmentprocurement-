@@ -1,14 +1,28 @@
 {
   "metadata": {
     "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-    "captured_at": "2026-11-16T22:28:22.040Z",
-    "checked_date": "2026-11-16",
+    "captured_at": "2026-11-17T21:16:54.685Z",
+    "checked_date": "2026-11-17",
     "method": "github_actions_public_playwright_browser",
-    "record_count": 34,
+    "record_count": 39,
     "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
     "caveat": "Snapshot only: opportunities may be amended, cancelled, expired, or changed after capture. No bid eligibility or scope verified."
   },
   "opportunities": [
+    {
+      "id": "258706",
+      "title": "Best of the Best ~ CRANE SERVICES",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14171",
+      "url": "https://bahamas.bonfirehub.com/opportunities/258706",
+      "deadline_raw": "Nov 17th 2026, 5:00 PM EST",
+      "deadline_date_local": "2026-11-17",
+      "deadline_time_local": "17:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-17T22:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
     {
       "id": "258838",
       "title": "Repairs and Refurbishment of the Road Traffic Department Bimini Office",
@@ -150,6 +164,20 @@
       "matches": []
     },
     {
+      "id": "263324",
+      "title": "Best of the Best ~ Transporting of Sloop (Exuma)",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-11/2026-TW-14518",
+      "url": "https://bahamas.bonfirehub.com/opportunities/263324",
+      "deadline_raw": "Nov 20th 2026, 12:00 AM EST",
+      "deadline_date_local": "2026-11-20",
+      "deadline_time_local": "00:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-20T05:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
       "id": "262973",
       "title": "Hydraulic Oil and Diesel Engine Oil - 55 Gallon Drums",
       "agency": "Department of Public Works",
@@ -258,6 +286,34 @@
       "deadline_time_local": "16:00",
       "timezone": "EST",
       "deadline_utc": "2026-11-25T21:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "263151",
+      "title": "Small Home Repair - John Wentworth Avenue - Freeport, Grand Bahama",
+      "agency": "Ministry of Grand Bahama",
+      "reference": "MoGB-RFP-11/2026-PR-14509",
+      "url": "https://bahamas.bonfirehub.com/opportunities/263151",
+      "deadline_raw": "Nov 27th 2026, 12:00 PM EST",
+      "deadline_date_local": "2026-11-27",
+      "deadline_time_local": "12:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-27T17:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "263155",
+      "title": "Small Home Repair - 312 Halibut Street, Caravel Beach - Central Grand Bahama",
+      "agency": "Ministry of Grand Bahama",
+      "reference": "MoGB-RFP-11/2026-PR-14510",
+      "url": "https://bahamas.bonfirehub.com/opportunities/263155",
+      "deadline_raw": "Nov 27th 2026, 12:00 PM EST",
+      "deadline_date_local": "2026-11-27",
+      "deadline_time_local": "12:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-11-27T17:00:00.000Z",
       "status_at_capture": "Listed under Open Opportunities",
       "matches": []
     },
@@ -463,6 +519,20 @@
       "agency": "Central Processing Unit",
       "reference": "CPU-RFQ-11/2026-JS-14499",
       "url": "https://bahamas.bonfirehub.com/opportunities/263037",
+      "deadline_raw": "Dec 1st 2026, 10:00 AM EST",
+      "deadline_date_local": "2026-12-01",
+      "deadline_time_local": "10:00",
+      "timezone": "EST",
+      "deadline_utc": "2026-12-01T15:00:00.000Z",
+      "status_at_capture": "Listed under Open Opportunities",
+      "matches": []
+    },
+    {
+      "id": "263178",
+      "title": "Grading Machine",
+      "agency": "Ministry of Agriculture, Marine Resources & Family Island Affairs",
+      "reference": "MoA-RFQ-11/2026-ST-14511",
+      "url": "https://bahamas.bonfirehub.com/opportunities/263178",
       "deadline_raw": "Dec 1st 2026, 10:00 AM EST",
       "deadline_date_local": "2026-12-01",
       "deadline_time_local": "10:00",

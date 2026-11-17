@@ -1,9 +1,16 @@
 {
   "source_url": "https://bahamas.bonfirehub.com/portal/?tab=openOpportunities",
-  "captured_at": "2026-11-16T22:28:22.040Z",
+  "captured_at": "2026-11-17T21:16:54.685Z",
   "capture_method": "github_actions_public_playwright_browser",
   "coverage": "All accessible open-listing table pages traversed (1 pages). No claim of continuous availability.",
   "opportunities": [
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/258706",
+      "title": "Best of the Best ~ CRANE SERVICES",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-10/2026-TW-14171",
+      "deadline": "Nov 17th 2026, 5:00 PM EST"
+    },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/258838",
       "title": "Repairs and Refurbishment of the Road Traffic Department Bimini Office",
@@ -75,6 +82,13 @@
       "deadline": "Nov 19th 2026, 5:00 PM EST"
     },
     {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263324",
+      "title": "Best of the Best ~ Transporting of Sloop (Exuma)",
+      "agency": "Ministry of Youth, Sport & Culture",
+      "reference": "MoYSC-RFQ-11/2026-TW-14518",
+      "deadline": "Nov 20th 2026, 12:00 AM EST"
+    },
+    {
       "url": "https://bahamas.bonfirehub.com/opportunities/262973",
       "title": "Hydraulic Oil and Diesel Engine Oil - 55 Gallon Drums",
       "agency": "Department of Public Works",
@@ -129,6 +143,20 @@
       "agency": "Water & Sewage Corporation",
       "reference": "WSC-RFB-07/2026-FA-12780",
       "deadline": "Nov 25th 2026, 4:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263151",
+      "title": "Small Home Repair - John Wentworth Avenue - Freeport, Grand Bahama",
+      "agency": "Ministry of Grand Bahama",
+      "reference": "MoGB-RFP-11/2026-PR-14509",
+      "deadline": "Nov 27th 2026, 12:00 PM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263155",
+      "title": "Small Home Repair - 312 Halibut Street, Caravel Beach - Central Grand Bahama",
+      "agency": "Ministry of Grand Bahama",
+      "reference": "MoGB-RFP-11/2026-PR-14510",
+      "deadline": "Nov 27th 2026, 12:00 PM EST"
     },
     {
       "url": "https://bahamas.bonfirehub.com/opportunities/262857",
@@ -233,6 +261,13 @@
       "title": "CANNED MEATS TENDER 3 MONTH COMMITMENT JANUARY (2027) QUARTER 3",
       "agency": "Central Processing Unit",
       "reference": "CPU-RFQ-11/2026-JS-14499",
+      "deadline": "Dec 1st 2026, 10:00 AM EST"
+    },
+    {
+      "url": "https://bahamas.bonfirehub.com/opportunities/263178",
+      "title": "Grading Machine",
+      "agency": "Ministry of Agriculture, Marine Resources & Family Island Affairs",
+      "reference": "MoA-RFQ-11/2026-ST-14511",
       "deadline": "Dec 1st 2026, 10:00 AM EST"
     },
     {
